@@ -1,0 +1,5 @@
+{
+  "RELIANCE.NS": { "up_target": 3200.0, "down_stop": 2800.0 },
+  "HDFCBANK.NS": { "up_target": 1800.0, "down_stop": 1500.0 },
+  "INFY.NS": { "up_target": 2000.0, "down_stop": 1700.0 }
+}

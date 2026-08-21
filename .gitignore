@@ -1,0 +1,7 @@
+*.tmp
+*.log
+public_url.txt
+__pycache__/
+.venv/
+.idea/
+.vscode/

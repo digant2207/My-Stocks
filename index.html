@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Spark Stock">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <title>Antigravity Watchlist - Indian Stock Analyzer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="analysis_data.js"></script>
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="brand">
+        <span class="brand-icon">📈</span>
+        <div class="brand-text">
+          <h1>Antigravity WatchlistIt</h1>
+          <p>Indian Equities Daily Screener & Swing Radar</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="timestamp-badge" id="lastUpdatedBadge">Loading analysis...</div>
+        <button class="btn btn-primary" id="btnRefresh">
+          <span id="refreshIcon">🔄</span>
+          <span>Refresh Analysis</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Welcome Banner -->
+  <section class="welcome-banner">
+    <div class="banner-card">
+      <div>
+        <div class="banner-title">Welcome to Antigravity Stock Watchlist 👋</div>
+        <div class="banner-subtitle">Synced with Google Sheet <strong>"Spark Stock List"</strong> • Daily 3:00 AM Auto Scan & 7:30 AM Email Briefing</div>
+      </div>
+      <div class="banner-meta">
+        <div class="meta-pill" id="totalScannedPill">📊 Scanned: -- Stocks</div>
+        <div class="meta-pill" id="swingPicksPill">🎯 20 Best Swing Picks</div>
+        <button class="btn btn-outline btn-sm" id="btnGoogleSheetModal">📊 Google Sheet</button>
+        <button class="btn btn-outline btn-sm" id="btnEmailModal">✉️ Email Settings</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nav Tabs -->
+  <nav class="tabs-nav">
+    <button class="tab-btn active" data-tab="tab-swing">🚀 20 Best Swing Trading Stocks (1-15 Days)</button>
+    <button class="tab-btn" data-tab="tab-watchlist">📊 Antigravity Watchlist</button>
+    <button class="tab-btn" data-tab="tab-swot">💪 Strength & Weakness</button>
+    <button class="tab-btn" data-tab="tab-info">ℹ️ System Information</button>
+  </nav>
+
+  <!-- Main Layout Container -->
+  <main class="main-container">
+    
+    <!-- Tab 1: 20 Best Swing Trading Stocks -->
+    <section id="tab-swing" class="tab-content">
+      <div style="margin-bottom:12px;">
+        <h2 style="font-size:18px; font-weight:800;">20 Best Stocks for Today's Movement (1 - 15 Days Swing)</h2>
+        <p style="font-size:13px; color:var(--text-muted);">Filtered for high volume expansion, 20D/52W breakouts, positive MACD, and fundamental support.</p>
+      </div>
+
+      <div class="cards-grid" id="swingCardsGrid">
+        <!-- Dynamically populated -->
+      </div>
+    </section>
+
+    <!-- Tab 2: Antigravity Watchlist -->
+    <section id="tab-watchlist" class="tab-content" style="display:none;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; flex-wrap:wrap; gap:10px;">
+        <div>
+          <h2 style="font-size:18px; font-weight:800;">All Watchlist Equities</h2>
+          <p style="font-size:13px; color:var(--text-muted);">Stock list synced exclusively from Google Sheet <strong>"Spark Stock List"</strong>.</p>
+        </div>
+        <div>
+          <input type="text" id="searchInput" placeholder="Search stock or symbol..." style="padding:8px 12px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:14px; width:220px;">
+        </div>
+      </div>
+
+      <div class="table-container">
+        <table class="data-table" id="watchlistTable">
+          <thead>
+            <tr>
+              <th>Symbol & Stock Name</th>
+              <th>Current Price</th>
+              <th>Day Change</th>
+              <th>RVOL</th>
+              <th>Composite Score</th>
+              <th>Corporate Events (3D / Past Week)</th>
+              <th>Opinion & Pattern</th>
+            </tr>
+          </thead>
+          <tbody id="watchlistTableBody">
+            <!-- Dynamically populated -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Tab 3: Dedicated Strength & Weakness View -->
+    <section id="tab-swot" class="tab-content" style="display:none;">
+      <div style="margin-bottom:16px;">
+        <h2 style="font-size:18px; font-weight:800;">Strength & Weakness Deep Analysis (SWOT)</h2>
+        <p style="font-size:13px; color:var(--text-muted);">Select any stock to inspect its fundamental health, technical strengths, bearish red flags, corporate events, and recent news.</p>
+      </div>
+
+      <div class="widget-card" style="margin-bottom:20px;">
+        <label style="font-size:13px; font-weight:700; color:var(--text-secondary); display:block; margin-bottom:6px;">Select Stock for Full SWOT Analysis:</label>
+        <select id="swotTabStockSelect" style="width:100%; max-width:480px; padding:10px 14px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:15px; font-weight:600;">
+          <option value="">Select a Stock from Watchlist...</option>
+        </select>
+      </div>
+
+      <div id="swotTabContentDisplay" style="display:none;">
+        <div id="swotPatternAiContainer"></div>
+
+        <!-- 4 Separate Dedicated Boxes -->
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px;">
+          
+          <!-- Box 1: Bullish Strengths -->
+          <div class="widget-card" style="border-top:4px solid var(--success);">
+            <h3 style="font-size:16px; font-weight:700; color:var(--success); margin-bottom:10px;">💪 Bullish Strengths & Positives</h3>
+            <ul class="swot-list" id="swotTabStrengths"></ul>
+          </div>
+
+          <!-- Box 2: Bearish Weaknesses -->
+          <div class="widget-card" style="border-top:4px solid var(--danger);">
+            <h3 style="font-size:16px; font-weight:700; color:var(--danger); margin-bottom:10px;">⚠️ Bearish Weaknesses & Red Flags</h3>
+            <ul class="swot-list" id="swotTabWeaknesses"></ul>
+          </div>
+
+          <!-- Box 3: Corporate Events -->
+          <div class="widget-card" style="border-top:4px solid var(--primary);">
+            <h3 style="font-size:16px; font-weight:700; color:var(--primary); margin-bottom:10px;">📅 Corporate & Upcoming Events</h3>
+            <ul class="swot-list" id="swotTabEvents"></ul>
+          </div>
+
+          <!-- Box 4: Recent News & Research -->
+          <div class="widget-card" style="border-top:4px solid var(--purple);">
+            <h3 style="font-size:16px; font-weight:700; color:var(--purple); margin-bottom:10px;">📰 Recent News & Recommendations</h3>
+            <ul class="swot-list" id="swotTabNews"></ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 4: System Information -->
+    <section id="tab-info" class="tab-content" style="display:none;">
+      <div style="margin-bottom:16px;">
+        <h2 style="font-size:18px; font-weight:800;">ℹ️ System Methodology & Calculation Rules</h2>
+        <p style="font-size:13px; color:var(--text-muted);">Detailed guide explaining how the composite score is evaluated and how Price Action logic determines Targets & Stop Loss levels.</p>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+        
+        <!-- Score Calculation Card -->
+        <div class="widget-card">
+          <h3 style="font-size:16px; font-weight:700; color:var(--primary); margin-bottom:12px;">📊 How Company Composite Score (0 - 100) is Calculated</h3>
+          
+          <div class="info-section">
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">1. Fundamental Health (35 Points)</h4>
+            <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.6;">
+              <li><strong>Revenue Growth YoY</strong> (+10 pts for &gt;15%, +6 pts for &gt;5%).</li>
+              <li><strong>Net Profit Growth YoY</strong> (+10 pts for &gt;15%, +6 pts for &gt;5%).</li>
+              <li><strong>Return on Equity (ROE)</strong> (+10 pts for &gt;18%, +7 pts for &gt;12%).</li>
+              <li><strong>Sector-Adjusted Debt Rule</strong>: Deducts up to 15 pts if Debt-to-Equity &gt; 1.0 (Exempts Banks, NBFCs, Power & Infra).</li>
+              <li><strong>Promoter Pledge Penalty</strong>: Deducts score if promoter pledged shares &gt; 5%.</li>
+            </ul>
+          </div>
+
+          <div class="info-section" style="margin-top:14px;">
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">2. Technical Oscillators & Trend (35 Points)</h4>
+            <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.6;">
+              <li><strong>Moving Average Alignment</strong> (+8 pts above 20 EMA, +8 pts above 50 EMA, +7 pts above 200 EMA).</li>
+              <li><strong>RSI Momentum (14)</strong> (+6 pts for sweet spot 50–68 RSI).</li>
+              <li><strong>MACD Expansion</strong> (+6 pts for positive histogram expansion).</li>
+            </ul>
+          </div>
+
+          <div class="info-section" style="margin-top:14px;">
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">3. Chart Pattern & Volume Surge (15 Points)</h4>
+            <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.6;">
+              <li><strong>Classic Chart Patterns</strong> (+10 pts for Cup & Handle, Ascending Triangle, Bull Flag, VCP, W-Pattern).</li>
+              <li><strong>Multi-Horizon Breakouts</strong> (+6 pts for 20D/50D Box Breakout, +8 pts for 52W High Breakout).</li>
+              <li><strong>Volume Accumulation (RVOL)</strong> (+6 pts if Volume &gt; 1.5x of 1-Month Avg Volume).</li>
+            </ul>
+          </div>
+
+          <div class="info-section" style="margin-top:14px;">
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">4. Valuation & Analyst Upside (15 Points)</h4>
+            <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.6;">
+              <li><strong>Analyst Consensus Target</strong> (+8 pts for &gt;20% upside potential).</li>
+              <li><strong>P/E Valuation Ratio</strong> (+7 pts for reasonable P/E between 0 and 35).</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Price Action Target & Stop Loss Logic Card -->
+        <div class="widget-card">
+          <h3 style="font-size:16px; font-weight:700; color:var(--success); margin-bottom:12px;">🎯 Price Action Logic for Targets & Stop Loss</h3>
+
+          <div class="info-section">
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">1. 52-Week High Breakout Logic</h4>
+            <p style="font-size:13px; color:var(--text-secondary); line-height:1.5;">
+              When price breaks past or trades near 52-Week High:
+            </p>
+            <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.5; margin-top:4px;">
+              <li><strong>Target 1 (1-7D)</strong>: 52W High + 1.5× ATR Volatility Expansion.</li>
+              <li><strong>Target 2 (7-15D)</strong>: 52W High + 3.2× ATR Volatility Expansion.</li>
+              <li><strong>Stop Loss</strong>: Placed 1.5% below 20 DMA or 10-day swing bottom.</li>
+            </ul>
+          </div>
+
+          <div class="info-section" style="margin-top:14px;">
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">2. 20-Day & 50-Day Range Box Breakout Logic</h4>
+            <p style="font-size:13px; color:var(--text-secondary); line-height:1.5;">
+              When price closes above the 20-day or 50-day resistance ceiling:
+            </p>
+            <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.5; margin-top:4px;">
+              <li><strong>Target 1 (1-7D)</strong>: Breakout Price + Range Box Height (Measured Move).</li>
+              <li><strong>Target 2 (7-15D)</strong>: 52-Week High or 1.8x Range Box Height.</li>
+              <li><strong>Stop Loss</strong>: Anchored 1% below Previous 20-day Swing Bottom.</li>
+            </ul>
+          </div>
+
+          <div class="info-section" style="margin-top:14px;">
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">3. 20 DMA Breakout / Rebound Logic</h4>
+            <p style="font-size:13px; color:var(--text-secondary); line-height:1.5;">
+              When price crosses above or bounces from 20-day Moving Average:
+            </p>
+            <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.5; margin-top:4px;">
+              <li><strong>Target 1 (1-7D)</strong>: Previous 20-day Swing High (Ceiling).</li>
+              <li><strong>Target 2 (7-15D)</strong>: 52-Week High level.</li>
+              <li><strong>Stop Loss</strong>: Placed 1.5% below 20 DMA level.</li>
+            </ul>
+          </div>
+
+          <div class="info-section" style="margin-top:14px;">
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">4. Previous Bottom Reversal (Double Bottom W-Pattern)</h4>
+            <p style="font-size:13px; color:var(--text-secondary); line-height:1.5;">
+              When price bounces from support creating a double bottom W-reversal:
+            </p>
+            <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.5; margin-top:4px;">
+              <li><strong>Target 1 & 2</strong>: W-Neckline + Depth of Double Bottom (Measured Move).</li>
+              <li><strong>Stop Loss</strong>: Anchored right below the second bottom low pivot.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:16px; background:var(--purple-bg); border-left:4px solid var(--purple); padding:10px; border-radius:var(--radius-sm); font-size:12px; color:#4c1d95;">
+            <strong>Risk-to-Reward Ratio:</strong> Ensures every level calculation achieves a disciplined <strong>1 : 2.2+ Risk-to-Reward ratio</strong>.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Google Sheet Modal -->
+  <div class="modal-overlay" id="gsheetModal">
+    <div class="modal-box">
+      <h3 style="margin-bottom:12px;">Google Sheet Configuration</h3>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">Connect to Google Sheet <strong>"Spark Stock List"</strong> in your Google Drive:</p>
+      <div style="margin-bottom:16px;">
+        <label style="font-size:12px; font-weight:600; color:var(--text-secondary);">Google Sheet URL</label>
+        <input type="text" id="gsheetUrlInput" placeholder="https://docs.google.com/spreadsheets/d/..." style="width:100%; padding:10px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:13px; margin-top:4px;">
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:8px;">
+        <button class="btn btn-outline btn-sm" id="btnCloseGsheetModal">Cancel</button>
+        <button class="btn btn-primary btn-sm" id="btnSaveGsheet">Save & Sync</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Email Config Modal -->
+  <div class="modal-overlay" id="emailModal">
+    <div class="modal-box">
+      <h3 style="margin-bottom:12px;">Daily 7:30 AM Email Settings</h3>
+      <div style="margin-bottom:10px;">
+        <label style="font-size:12px; font-weight:600; color:var(--text-secondary);">Recipient Email</label>
+        <input type="email" id="emailRecipientInput" value="digant73@gmail.com" style="width:100%; padding:8px 10px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:14px; margin-top:4px;">
+      </div>
+      <div style="margin-bottom:10px;">
+        <label style="font-size:12px; font-weight:600; color:var(--text-secondary);">Sender Gmail Address</label>
+        <input type="email" id="emailSenderInput" value="digant73@gmail.com" style="width:100%; padding:8px 10px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:14px; margin-top:4px;">
+      </div>
+      <div style="margin-bottom:14px;">
+        <label style="font-size:12px; font-weight:600; color:var(--text-secondary);">Gmail App Password</label>
+        <input type="password" id="emailPasswordInput" placeholder="16-character App Password" style="width:100%; padding:8px 10px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:14px; margin-top:4px;">
+      </div>
+      <div style="display:flex; justify-content:space-between; gap:8px;">
+        <button class="btn btn-outline btn-sm" id="btnTestEmail">✉️ Send Test Email Now</button>
+        <div style="display:flex; gap:8px;">
+          <button class="btn btn-outline btn-sm" id="btnCloseEmailModal">Cancel</button>
+          <button class="btn btn-primary btn-sm" id="btnSaveEmail">Save Settings</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
