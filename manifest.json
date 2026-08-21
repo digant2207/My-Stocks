@@ -1,9 +1,9 @@
 {
   "name": "My Watchlist",
-
   "short_name": "Spark Stock",
   "description": "Indian Equities Daily Screener & Live Swing Radar",
-  "start_url": "/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
