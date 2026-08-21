@@ -109,13 +109,14 @@ def generate_email_html(analysis_data):
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Antigravity Watchlist - Daily Stock Watch</title>
+        <title>My Watchlist - Daily Stock Watch</title>
     </head>
     <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color:#f1f5f9; margin:0; padding:16px;">
         <div style="max-width:680px; margin:0 auto; background:#ffffff; border-radius:16px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.06); border:1px solid #e2e8f0;">
             <!-- Header -->
             <div style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); padding:24px; text-align:center; color:#ffffff;">
-                <h1 style="margin:0; font-size:22px; font-weight:800; letter-spacing:-0.5px;">📈 Antigravity WatchlistIt</h1>
+                <h1 style="margin:0; font-size:22px; font-weight:800; letter-spacing:-0.5px;">📈 My Watchlist</h1>
+
                 <p style="margin:6px 0 0 0; font-size:13px; color:#94a3b8;">Chart Patterns • Volume Accumulation • Daily Stock Watch • {today_str}</p>
                 <div style="margin-top:14px;">
                     <a href="{public_url}" target="_blank" style="background:#2563eb; color:#ffffff; padding:10px 20px; border-radius:20px; text-decoration:none; font-size:13px; font-weight:bold; display:inline-block;">📱 Open Dashboard on iPhone</a>

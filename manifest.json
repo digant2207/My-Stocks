@@ -1,5 +1,6 @@
 {
-  "name": "Antigravity Watchlist",
+  "name": "My Watchlist",
+
   "short_name": "Spark Stock",
   "description": "Indian Equities Daily Screener & Live Swing Radar",
   "start_url": "/",
