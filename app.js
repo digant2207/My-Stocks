@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  function formatPrice(val, decimals = 2) {
+    if (val === null || val === undefined || isNaN(val)) return '0.00';
+    return Number(val).toLocaleString('en-IN', {
+      minimumFractionDigits: decimals,
+      maximumFractionDigits: decimals
+    });
+  }
+
   let currentData = window.stockData || null;
 
   // UI Elements
@@ -119,17 +127,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     stocks.forEach((s, idx) => {
-      const changeClass = s.day_change_pct >= 0 ? 'positive' : 'negative';
-      const changeSign = s.day_change_pct >= 0 ? '+' : '';
+      const changePct = s.day_change_pct || 0;
+      const changeClass = changePct >= 0 ? 'positive' : 'negative';
+      const changeSign = changePct >= 0 ? '+' : '';
       const pattern = s.primary_pattern || 'Breakout Setup';
       const aiSug = s.ai_suggestion || s.swing_reason || '';
       const accStatus = s.accumulation_status || 'Neutral';
       const buyTrig = s.buy_trigger_price || s.current_price;
       const sellTrig = s.sell_trigger_price || s.swing_stoploss;
       const distPct = s.breakout_proximity_pct || 0;
+      const currPrice = s.current_price || 0;
 
       let brkBadge = `<span class="badge badge-warning">⚡ ${distPct}% to Breakout</span>`;
-      if (s.current_price >= s.breakout_level) {
+      if (currPrice >= (s.breakout_level || currPrice)) {
         brkBadge = `<span class="badge badge-success">🔥 BREAKOUT TRIGGERED</span>`;
       }
 
@@ -143,8 +153,8 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="stock-symbol">${s.clean_symbol} • ${s.sector}</div>
             </div>
             <div class="stock-price-block">
-              <div class="stock-price">₹${s.current_price.toLocaleString('en-IN', {minimumFractionDigits: 2})}</div>
-              <div class="stock-change ${changeClass}">${changeSign}${s.day_change_pct}%</div>
+              <div class="stock-price">₹${formatPrice(currPrice)}</div>
+              <div class="stock-change ${changeClass}">${changeSign}${changePct}%</div>
             </div>
           </div>
 
@@ -155,22 +165,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
           <div style="background:#ecfdf5; border-left:4px solid var(--success); padding:10px; border-radius:var(--radius-sm); margin-bottom:10px;">
             <div style="font-size:11px; font-weight:700; color:#047857; text-transform:uppercase;">🟢 BUY TRIGGER POINT (ENTRY)</div>
-            <div style="font-size:16px; font-weight:800; color:#065f46; margin-top:2px;">BUY ABOVE ₹${buyTrig.toLocaleString('en-IN', {minimumFractionDigits:2})}</div>
+            <div style="font-size:16px; font-weight:800; color:#065f46; margin-top:2px;">BUY ABOVE ₹${formatPrice(buyTrig)}</div>
           </div>
 
           <div style="background:#fef2f2; border-left:4px solid var(--danger); padding:10px; border-radius:var(--radius-sm); margin-bottom:10px;">
             <div style="font-size:11px; font-weight:700; color:#b91c1c; text-transform:uppercase;">🔴 SELL TRIGGER POINT (STOP LOSS)</div>
-            <div style="font-size:16px; font-weight:800; color:#991b1b; margin-top:2px;">SELL BELOW ₹${sellTrig.toLocaleString('en-IN', {minimumFractionDigits:2})}</div>
+            <div style="font-size:16px; font-weight:800; color:#991b1b; margin-top:2px;">SELL BELOW ₹${formatPrice(sellTrig)}</div>
           </div>
 
           <div class="card-levels">
             <div class="level-box target">
               <div class="level-label">Target 1 (1-7D)</div>
-              <div class="level-value" style="color:var(--success);">₹${s.swing_target_1.toLocaleString('en-IN')}</div>
+              <div class="level-value" style="color:var(--success);">₹${formatPrice(s.swing_target_1, 0)}</div>
             </div>
             <div class="level-box target">
               <div class="level-label">Target 2 (7-15D)</div>
-              <div class="level-value" style="color:var(--success);">₹${s.swing_target_2.toLocaleString('en-IN')}</div>
+              <div class="level-value" style="color:var(--success);">₹${formatPrice(s.swing_target_2, 0)}</div>
             </div>
           </div>
 
@@ -181,8 +191,8 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
 
         <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border-color); padding-top:10px; margin-top:8px; font-size:12px;">
-          <div>RVOL: <strong style="color:var(--primary);">${s.vol_surge_ratio}x</strong> (${accStatus})</div>
-          <div class="badge badge-success">Score: ${s.composite_score}/100</div>
+          <div>RVOL: <strong style="color:var(--primary);">${s.vol_surge_ratio || 1}x</strong> (${accStatus})</div>
+          <div class="badge badge-success">Score: ${s.composite_score || 0}/100</div>
         </div>
       `;
 
@@ -207,15 +217,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const term = searchInput.value.toLowerCase().trim();
     const filtered = stocks.filter(s => 
-      s.symbol.toLowerCase().includes(term) || 
-      s.name.toLowerCase().includes(term) ||
-      s.sector.toLowerCase().includes(term) ||
+      (s.symbol && s.symbol.toLowerCase().includes(term)) || 
+      (s.name && s.name.toLowerCase().includes(term)) ||
+      (s.sector && s.sector.toLowerCase().includes(term)) ||
       (s.primary_pattern && s.primary_pattern.toLowerCase().includes(term))
     );
 
     filtered.forEach(s => {
-      const changeClass = s.day_change_pct >= 0 ? 'color:var(--success); font-weight:700;' : 'color:var(--danger); font-weight:700;';
-      const changeSign = s.day_change_pct >= 0 ? '+' : '';
+      const changePct = s.day_change_pct || 0;
+      const changeClass = changePct >= 0 ? 'color:var(--success); font-weight:700;' : 'color:var(--danger); font-weight:700;';
+      const changeSign = changePct >= 0 ? '+' : '';
       const pattern = s.primary_pattern || s.swing_signal || 'Consolidation';
 
       let eventsHtml = '<span style="color:var(--text-muted); font-size:12px;">No major event</span>';
@@ -224,10 +235,11 @@ document.addEventListener('DOMContentLoaded', () => {
         eventsHtml = `<strong style="font-size:12px; color:var(--primary);">${topEvent.type || 'Event'}:</strong> <span style="font-size:12px; color:var(--text-secondary);">${topEvent.title || ''}</span>`;
       }
 
-      let rvolBadgeClass = s.vol_surge_ratio >= 1.5 ? 'badge-success' : (s.vol_surge_ratio >= 1.2 ? 'badge-warning' : 'badge-neutral');
-      let scoreBadgeClass = s.composite_score >= 70 ? 'badge-success' : (s.composite_score >= 50 ? 'badge-warning' : 'badge-neutral');
+      let rvolBadgeClass = (s.vol_surge_ratio || 0) >= 1.5 ? 'badge-success' : ((s.vol_surge_ratio || 0) >= 1.2 ? 'badge-warning' : 'badge-neutral');
+      let scoreBadgeClass = (s.composite_score || 0) >= 70 ? 'badge-success' : ((s.composite_score || 0) >= 50 ? 'badge-warning' : 'badge-neutral');
 
-      const buyTrigFormatted = (s.buy_trigger_price || s.current_price).toLocaleString('en-IN', {minimumFractionDigits: 2});
+      const buyTrigFormatted = formatPrice(s.buy_trigger_price || s.current_price);
+      const currPriceFormatted = formatPrice(s.current_price);
 
       const tr = document.createElement('tr');
       tr.innerHTML = `
@@ -235,10 +247,10 @@ document.addEventListener('DOMContentLoaded', () => {
           <strong style="color:var(--text-primary);">${s.name}</strong><br/>
           <span style="font-size:12px; color:var(--text-muted);">${s.clean_symbol} • ${s.sector}</span>
         </td>
-        <td style="font-weight:700;">₹${s.current_price.toLocaleString('en-IN', {minimumFractionDigits: 2})}</td>
-        <td style="${changeClass}">${changeSign}${s.day_change_pct}%</td>
-        <td><span class="badge ${rvolBadgeClass}">${s.vol_surge_ratio}x RVOL</span></td>
-        <td><span class="badge ${scoreBadgeClass}">${s.composite_score} / 100</span></td>
+        <td style="font-weight:700;">₹${currPriceFormatted}</td>
+        <td style="${changeClass}">${changeSign}${changePct}%</td>
+        <td><span class="badge ${rvolBadgeClass}">${s.vol_surge_ratio || 1}x RVOL</span></td>
+        <td><span class="badge ${scoreBadgeClass}">${s.composite_score || 0} / 100</span></td>
         <td style="max-width:250px;">${eventsHtml}</td>
         <td>
           <span class="badge badge-purple">${pattern}</span><br/>
@@ -263,8 +275,8 @@ document.addEventListener('DOMContentLoaded', () => {
     stocks.forEach(s => {
       const opt = document.createElement('option');
       opt.value = s.symbol;
-      const bTrig = (s.buy_trigger_price || s.current_price).toLocaleString('en-IN', {minimumFractionDigits: 2});
-      opt.textContent = `${s.name} (${s.clean_symbol}) - Score: ${s.composite_score}/100 - Buy Trigger: ₹${bTrig}`;
+      const bTrig = formatPrice(s.buy_trigger_price || s.current_price);
+      opt.textContent = `${s.name} (${s.clean_symbol}) - Score: ${s.composite_score || 0}/100 - Buy Trigger: ₹${bTrig}`;
 
       swotTabStockSelect.appendChild(opt);
     });
@@ -278,8 +290,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const stock = stocks.find(s => s.symbol === selectedSym);
       if (stock) {
-        const buyTrigFormatted = (stock.buy_trigger_price || stock.current_price).toLocaleString('en-IN', {minimumFractionDigits: 2});
-        const sellTrigFormatted = (stock.sell_trigger_price || stock.swing_stoploss).toLocaleString('en-IN', {minimumFractionDigits: 2});
+        const buyTrigFormatted = formatPrice(stock.buy_trigger_price || stock.current_price);
+        const sellTrigFormatted = formatPrice(stock.sell_trigger_price || stock.swing_stoploss);
+        const currPriceFormatted = formatPrice(stock.current_price);
+        const changePct = stock.day_change_pct || 0;
 
         swotPatternAiContainer.innerHTML = `
           <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-lg); padding:20px; margin-bottom:20px; box-shadow:var(--shadow-sm);">
@@ -289,9 +303,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p style="font-size:13px; color:var(--text-muted);">${stock.sector} • ${stock.cap_type}</p>
               </div>
               <div style="text-align:right;">
-                <div style="font-size:22px; font-weight:800; color:var(--text-primary);">₹${stock.current_price.toLocaleString('en-IN', {minimumFractionDigits:2})}</div>
-                <div style="font-size:13px; font-weight:700; color:${stock.day_change_pct >= 0 ? 'var(--success)' : 'var(--danger)'};">
-                  ${stock.day_change_pct >= 0 ? '+' : ''}${stock.day_change_pct}%
+                <div style="font-size:22px; font-weight:800; color:var(--text-primary);">₹${currPriceFormatted}</div>
+                <div style="font-size:13px; font-weight:700; color:${changePct >= 0 ? 'var(--success)' : 'var(--danger)'};">
+                  ${changePct >= 0 ? '+' : ''}${changePct}%
                 </div>
               </div>
             </div>
