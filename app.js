@@ -59,23 +59,32 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchData();
 
   function fetchData() {
-    return fetch('analysis_data.json?t=' + Date.now(), {
-
-      cache: 'no-store',
-      headers: {
-        'Bypass-Tunnel-Reminder': 'true',
-        'ngrok-skip-browser-warning': 'true',
-        'Pragma': 'no-cache',
-        'Cache-Control': 'no-cache'
-      }
-    })
-      .then(res => res.json())
-      .then(data => {
-        currentData = data;
-        renderDashboard(data);
+    return fetch('analysis_data.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(res => {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
       })
-      .catch(err => console.warn('Failed to load analysis_data.json:', err));
+      .then(data => {
+        if (data) {
+          currentData = data;
+          renderDashboard(data);
+        }
+      })
+      .catch(err => {
+        console.warn('Failed to load analysis_data.json:', err);
+        // Fallback fetch without cache option
+        return fetch('analysis_data.json?t=' + Date.now())
+          .then(res => res.json())
+          .then(data => {
+            if (data) {
+              currentData = data;
+              renderDashboard(data);
+            }
+          })
+          .catch(() => {});
+      });
   }
+
 
   // Auto-refresh when tab becomes visible on iPhone/Desktop
   document.addEventListener('visibilitychange', () => {
@@ -363,23 +372,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  function fetchData() {
-    return fetch('analysis_data.json?t=' + Date.now(), {
-      cache: 'no-store',
-      headers: {
-        'Bypass-Tunnel-Reminder': 'true',
-        'ngrok-skip-browser-warning': 'true',
-        'Pragma': 'no-cache',
-        'Cache-Control': 'no-cache'
-      }
-    })
-      .then(res => res.json())
-      .then(data => {
-        currentData = data;
-        renderDashboard(data);
-      })
-      .catch(err => console.warn('Failed to load analysis_data.json:', err));
-  }
+
 
   btnRefresh.addEventListener('click', () => {
     refreshIcon.classList.add('spin');
