@@ -63,6 +63,24 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.getElementById('btnCloseEmailModal')?.addEventListener('click', () => emailModal.classList.remove('active'));
 
+  // Reset iPhone / Browser Cache Button
+  document.getElementById('btnClearCache')?.addEventListener('click', () => {
+    if ('caches' in window) {
+      caches.keys().then(names => {
+        names.forEach(name => caches.delete(name));
+      });
+    }
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(regs => {
+        regs.forEach(r => r.unregister());
+      });
+    }
+    localStorage.clear();
+    sessionStorage.clear();
+    window.location.reload(true);
+  });
+
+
   // Load Initial Data: Render window.stockData immediately if available
   if (window.stockData) {
     currentData = window.stockData;
