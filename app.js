@@ -55,12 +55,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.getElementById('btnCloseEmailModal')?.addEventListener('click', () => emailModal.classList.remove('active'));
 
-  // Load Initial Data: Instant render from window.stockData + background fresh fetch
-  if (window.stockData) {
-    currentData = window.stockData;
-    renderDashboard(window.stockData);
-  }
-  fetchData();
+  // Always fetch fresh network analysis_data.json first for GitHub Pages
+  fetchData().catch(() => {
+    if (window.stockData) {
+      currentData = window.stockData;
+      renderDashboard(window.stockData);
+    }
+  });
+
 
 
   function fetchData() {
