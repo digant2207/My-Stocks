@@ -55,42 +55,32 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.getElementById('btnCloseEmailModal')?.addEventListener('click', () => emailModal.classList.remove('active'));
 
-  // Always fetch fresh network analysis_data.json first for GitHub Pages
-  fetchData().catch(() => {
-    if (window.stockData) {
-      currentData = window.stockData;
-      renderDashboard(window.stockData);
-    }
-  });
-
-
+  // Load Initial Data: Render window.stockData immediately if available
+  if (window.stockData) {
+    currentData = window.stockData;
+    renderDashboard(window.stockData);
+  }
+  
+  // Background fetch for fresh analysis_data.json
+  fetchData();
 
   function fetchData() {
-    return fetch('analysis_data.json?t=' + Date.now(), { cache: 'no-store' })
+    return fetch('analysis_data.json?t=' + Date.now())
       .then(res => {
         if (!res.ok) throw new Error('HTTP ' + res.status);
         return res.json();
       })
       .then(data => {
-        if (data) {
+        if (data && data.summary) {
           currentData = data;
           renderDashboard(data);
         }
       })
       .catch(err => {
         console.warn('Failed to load analysis_data.json:', err);
-        // Fallback fetch without cache option
-        return fetch('analysis_data.json?t=' + Date.now())
-          .then(res => res.json())
-          .then(data => {
-            if (data) {
-              currentData = data;
-              renderDashboard(data);
-            }
-          })
-          .catch(() => {});
       });
   }
+
 
 
   // Auto-refresh when tab becomes visible on iPhone/Desktop
