@@ -117,7 +117,19 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
 
     update_status(False, 100, f"Analysis Complete in {elapsed}s!")
     print(f"Fast runner complete! Scanned {len(analyzed)} stocks in {elapsed}s.")
+
+    # Auto-push updated analysis data to GitHub Pages
+    try:
+        print("[GITHUB AUTO-SYNC] Pushing deep analysis data to GitHub Pages...")
+        os.system('git add analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
+        os.system('git commit -m "Auto-update deep analysis data [skip ci]"')
+        os.system('git push origin main')
+        print("[GITHUB AUTO-SYNC] Published deep analysis data to GitHub Pages!")
+    except Exception as push_err:
+        print(f"[GITHUB AUTO-SYNC] Warning: {push_err}")
+
     return output_payload
+
 
 if __name__ == "__main__":
     run_fast_analysis()

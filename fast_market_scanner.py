@@ -142,10 +142,22 @@ def run_market_hours_ticker_scan():
         with open(ANALYSIS_JS, 'w', encoding='utf-8') as f:
             f.write("window.stockData = " + json.dumps(payload, indent=2) + ";")
         print(f"[MARKET SCANNER] Live scan completed in {elapsed}s! Updated {updated_count} prices, {breakout_alerts_count} active breakouts.")
+        
+        # Auto-push updated data to GitHub Pages
+        try:
+            print("[GITHUB AUTO-SYNC] Pushing live market data to GitHub Pages...")
+            os.system('git add analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
+            os.system('git commit -m "Auto-update live market analysis data [skip ci]"')
+            os.system('git push origin main')
+            print("[GITHUB AUTO-SYNC] Published live data to GitHub Pages!")
+        except Exception as push_err:
+            print(f"[GITHUB AUTO-SYNC] Warning: {push_err}")
+
     except Exception as e:
         print(f"[MARKET SCANNER] Save error: {e}")
 
     return payload
+
 
 if __name__ == "__main__":
     run_market_hours_ticker_scan()

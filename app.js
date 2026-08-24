@@ -62,14 +62,10 @@ document.addEventListener('DOMContentLoaded', () => {
     fetchData();
   }
 
-  function fetchData() {
-    if (window.stockData) {
-      currentData = window.stockData;
-      renderDashboard(window.stockData);
-    }
-    fetch('analysis_data.json?t=' + Date.now(), {
-      headers: { 'Bypass-Tunnel-Reminder': 'true', 'ngrok-skip-browser-warning': 'true' }
-    })
+  function fetchData(forceFresh = false) {
+    const fetchOptions = forceFresh ? { cache: 'no-store', headers: { 'Bypass-Tunnel-Reminder': 'true', 'ngrok-skip-browser-warning': 'true' } } : { headers: { 'Bypass-Tunnel-Reminder': 'true', 'ngrok-skip-browser-warning': 'true' } };
+    
+    fetch('analysis_data.json?t=' + Date.now(), fetchOptions)
       .then(res => res.json())
       .then(data => {
         currentData = data;
@@ -78,6 +74,14 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .catch(err => console.warn('Failed to load analysis_data.json:', err));
   }
+
+  // Auto-refresh when tab becomes visible on iPhone/Desktop
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') {
+      fetchData(true);
+    }
+  });
+
 
 
   function renderDashboard(data) {
@@ -360,6 +364,9 @@ document.addEventListener('DOMContentLoaded', () => {
     refreshIcon.classList.add('spin');
     btnRefresh.disabled = true;
 
+    // Force fresh data fetch from GitHub Pages immediately
+    fetchData(true);
+
     const requestHeaders = {
       'Bypass-Tunnel-Reminder': 'true',
       'ngrok-skip-browser-warning': 'true',
@@ -369,13 +376,16 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('/api/refresh', { method: 'POST', headers: requestHeaders })
       .then(res => res.json())
       .then(() => pollStatus())
-      .catch(err => {
-        // Fallback to GET method if POST is blocked by localtunnel
+      .catch(() => {
         fetch('/api/refresh?t=' + Date.now(), { headers: requestHeaders })
           .then(() => pollStatus())
           .catch(() => {
-            // Even if fetch is blocked by browser security, proceed to poll status
-            pollStatus();
+            // If on GitHub Pages without active local backend, complete refresh gracefully in 1 second
+            setTimeout(() => {
+              refreshIcon.classList.remove('spin');
+              btnRefresh.disabled = false;
+              fetchData(true);
+            }, 1000);
           });
       });
   });
@@ -393,19 +403,20 @@ document.addEventListener('DOMContentLoaded', () => {
             clearInterval(interval);
             refreshIcon.classList.remove('spin');
             btnRefresh.disabled = false;
-            fetchData();
+            fetchData(true);
           }
         })
         .catch(() => {
-          if (attempts > 15) {
+          if (attempts > 6) {
             clearInterval(interval);
             refreshIcon.classList.remove('spin');
             btnRefresh.disabled = false;
-            fetchData();
+            fetchData(true);
           }
         });
     }, 2000);
   }
+
 
 
   document.getElementById('btnSaveGsheet').addEventListener('click', () => {
