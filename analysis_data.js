@@ -1,12 +1,12 @@
 window.stockData = {
   "summary": {
-    "last_updated": "2026-08-24 18:12:35 IST",
+    "last_updated": "2026-08-24 18:15:26 IST",
     "total_stocks_scanned": 137,
     "swing_top_20_count": 20,
     "strong_buys_count": 25,
     "pattern_breakouts_count": 39,
     "upcoming_3d_events_count": 122,
-    "scan_time_seconds": 28.6
+    "scan_time_seconds": 36.2
   },
   "top_20_swing": [
     {
