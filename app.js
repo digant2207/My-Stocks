@@ -55,8 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   document.getElementById('btnCloseEmailModal')?.addEventListener('click', () => emailModal.classList.remove('active'));
 
-  // Always fetch fresh data on page load
+  // Load Initial Data: Instant render from window.stockData + background fresh fetch
+  if (window.stockData) {
+    currentData = window.stockData;
+    renderDashboard(window.stockData);
+  }
   fetchData();
+
 
   function fetchData() {
     return fetch('analysis_data.json?t=' + Date.now(), { cache: 'no-store' })
