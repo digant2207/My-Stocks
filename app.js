@@ -59,7 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchData();
 
   function fetchData() {
-    fetch('analysis_data.json?t=' + Date.now(), {
+    return fetch('analysis_data.json?t=' + Date.now(), {
+
       cache: 'no-store',
       headers: {
         'Bypass-Tunnel-Reminder': 'true',
@@ -362,62 +363,41 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  function fetchData() {
+    return fetch('analysis_data.json?t=' + Date.now(), {
+      cache: 'no-store',
+      headers: {
+        'Bypass-Tunnel-Reminder': 'true',
+        'ngrok-skip-browser-warning': 'true',
+        'Pragma': 'no-cache',
+        'Cache-Control': 'no-cache'
+      }
+    })
+      .then(res => res.json())
+      .then(data => {
+        currentData = data;
+        renderDashboard(data);
+      })
+      .catch(err => console.warn('Failed to load analysis_data.json:', err));
+  }
+
   btnRefresh.addEventListener('click', () => {
     refreshIcon.classList.add('spin');
     btnRefresh.disabled = true;
 
-    // Force fresh data fetch from GitHub Pages immediately
-    fetchData();
+    // Fast instant refresh from network
+    fetchData().finally(() => {
+      refreshIcon.classList.remove('spin');
+      btnRefresh.disabled = false;
+    });
 
-    const requestHeaders = {
-      'Bypass-Tunnel-Reminder': 'true',
-      'ngrok-skip-browser-warning': 'true',
-      'Content-Type': 'application/json'
-    };
-
-    fetch('/api/refresh', { method: 'POST', headers: requestHeaders })
-      .then(res => res.json())
-      .then(() => pollStatus())
-      .catch(() => {
-        fetch('/api/refresh?t=' + Date.now(), { headers: requestHeaders })
-          .then(() => pollStatus())
-          .catch(() => {
-            // If on GitHub Pages, complete refresh gracefully in 800ms
-            setTimeout(() => {
-              refreshIcon.classList.remove('spin');
-              btnRefresh.disabled = false;
-              fetchData();
-            }, 800);
-          });
-      });
+    // Background trigger for local server if running
+    fetch('/api/refresh', {
+      method: 'POST',
+      headers: { 'Bypass-Tunnel-Reminder': 'true', 'Content-Type': 'application/json' }
+    }).catch(() => {});
   });
 
-  function pollStatus() {
-    let attempts = 0;
-    const interval = setInterval(() => {
-      attempts++;
-      fetch('/api/scan_status?t=' + Date.now(), {
-        headers: { 'Bypass-Tunnel-Reminder': 'true', 'ngrok-skip-browser-warning': 'true' }
-      })
-        .then(res => res.json())
-        .then(st => {
-          if (!st.is_running || attempts > 30) {
-            clearInterval(interval);
-            refreshIcon.classList.remove('spin');
-            btnRefresh.disabled = false;
-            fetchData();
-          }
-        })
-        .catch(() => {
-          if (attempts > 5) {
-            clearInterval(interval);
-            refreshIcon.classList.remove('spin');
-            btnRefresh.disabled = false;
-            fetchData();
-          }
-        });
-    }, 2000);
-  }
 
 
 
