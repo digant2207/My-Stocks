@@ -55,24 +55,29 @@ def start_public_tunnel():
 
     threading.Thread(target=tunnel_thread, daemon=True).start()
 
-def run_analysis_tasks():
+def run_analysis_tasks(force_full=False):
     with LOCK:
-        print(f"[{datetime.datetime.now()}] Triggering Re-analysis & Google Sheet Sync...")
+        now = datetime.datetime.now()
+        weekday = now.weekday()
+        hour = now.hour
+        is_market_hours = (weekday < 5) and (9 <= hour < 16) and not force_full
+
+        print(f"[{now}] Triggering Analysis Update (Fast Market Mode: {is_market_hours})...")
         py_exe = get_python_exe()
         try:
-            runner_script = os.path.join(os.path.dirname(__file__), "fast_runner.py")
-            if os.path.exists(runner_script):
-                subprocess.run([py_exe, runner_script], check=True)
+            if is_market_hours:
+                script = os.path.join(os.path.dirname(__file__), "fast_market_scanner.py")
             else:
-                analyzer_script = os.path.join(os.path.dirname(__file__), "analyzer.py")
-                subprocess.run([py_exe, analyzer_script], check=True)
+                script = os.path.join(os.path.dirname(__file__), "fast_runner.py")
 
+            subprocess.run([py_exe, script], check=True)
             print(f"[{datetime.datetime.now()}] Analysis completed successfully!")
             return True, "Analysis updated successfully!"
         except Exception as e:
             err_msg = f"Analysis error: {e}"
             print(f"[{datetime.datetime.now()}] {err_msg}")
             return False, err_msg
+
 
 def start_background_scheduler():
     import scheduler

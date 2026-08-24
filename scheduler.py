@@ -14,39 +14,39 @@ import fast_runner
 import fast_market_scanner
 import email_notifier
 
-def run_deep_scan_job(label):
-    print(f"[SCHEDULER] {label} Deep Analysis Scan Triggered...")
+def run_9am_full_scan_job():
+    print("[SCHEDULER] 9:00 AM Full Deep Analysis & Google Sheet Sync Triggered...")
     try:
         fast_runner.run_fast_analysis()
-        print(f"[SCHEDULER] {label} Deep Scan Completed Successfully.")
+        print("[SCHEDULER] 9:00 AM Full Deep Scan Completed Successfully.")
     except Exception as e:
-        print(f"[SCHEDULER] {label} Deep Scan Error: {e}")
+        print(f"[SCHEDULER] 9:00 AM Full Scan Error: {e}")
 
-def run_8am_email_job():
-    print("[SCHEDULER] 8:00 AM Morning Email Job Triggered...")
     try:
+        print("[SCHEDULER] Dispatching 9:00 AM Daily Email Briefing...")
         email_notifier.send_daily_email()
-        print("[SCHEDULER] 8:00 AM Email Dispatched Successfully.")
+        print("[SCHEDULER] 9:00 AM Email Dispatched Successfully.")
     except Exception as e:
-        print(f"[SCHEDULER] 8:00 AM Email Error: {e}")
+        print(f"[SCHEDULER] 9:00 AM Email Error: {e}")
 
-def run_market_hours_ticker_job():
+def run_market_hours_fast_ticker_job():
+    """
+    Lightweight price, volume surge (RVOL), and breakout update (< 10 seconds).
+    Does NOT refetch slow fundamentals or historical data during trading hours.
+    """
     try:
         fast_market_scanner.run_market_hours_ticker_scan()
     except Exception as e:
-        print(f"[SCHEDULER] Market Ticker Scan Error: {e}")
+        print(f"[SCHEDULER] Fast Market Ticker Scan Error: {e}")
 
 def schedule_loop():
     print("=======================================================================")
-    print("🚀 DUAL-TIER MARKET SCHEDULER ACTIVE:")
-    print(" 1. Deep Scan (Google Sheet Sync + Full SWOT + Patterns): 8:00 AM & 6:00 PM IST")
-    print(" 2. Daily Email Digest: 8:00 AM IST")
-    print(" 3. Fast Market-Hours Breakout Scanner: 9:00 AM - 4:00 PM IST (Mon-Fri)")
+    print("🚀 OPTIMIZED DAILY MARKET SCHEDULER ACTIVE:")
+    print(" 1. 9:00 AM IST: Full Deep Scan (Google Sheet Sync + Fundamentals + Patterns + Email)")
+    print(" 2. 9:05 AM - 4:00 PM IST (Mon-Fri): Ultra-Fast Price & Breakout Scanner (< 10s)")
     print("=======================================================================")
 
-    last_8am_date = None
-    last_6pm_date = None
-    last_8am_email_date = None
+    last_9am_date = None
     last_market_scan_min = -1
 
     while True:
@@ -56,25 +56,19 @@ def schedule_loop():
         hour = now.hour
         minute = now.minute
 
-        # 1. 8:00 AM Deep Scan & Email Dispatch
-        if hour == 8 and minute == 0 and last_8am_date != today_str:
-            last_8am_date = today_str
-            run_deep_scan_job("8:00 AM")
-            if last_8am_email_date != today_str:
-                last_8am_email_date = today_str
-                run_8am_email_job()
+        # 1. Daily 9:00 AM IST Full Deep Scan & Email Dispatch
+        if hour == 9 and minute == 0 and last_9am_date != today_str:
+            last_9am_date = today_str
+            run_9am_full_scan_job()
 
-        # 2. 6:00 PM Deep Scan (After Market Close Sync & Review)
-        if hour == 18 and minute == 0 and last_6pm_date != today_str:
-            last_6pm_date = today_str
-            run_deep_scan_job("6:00 PM")
-
-        # 3. Market Hours Fast Ticker Scan (9:00 AM - 4:00 PM IST, Mon-Fri, Every 5 minutes)
+        # 2. Market Hours Ultra-Fast Price & Breakout Ticker Scan (9:05 AM - 4:00 PM IST, Mon-Fri, Every 5 minutes)
         is_market_hours = (weekday < 5) and (9 <= hour < 16)
         if is_market_hours:
-            if minute % 5 == 0 and minute != last_market_scan_min:
-                last_market_scan_min = minute
-                run_market_hours_ticker_job()
+            # Skip at 9:00 AM sharp since full scan runs at 9:00 AM
+            if not (hour == 9 and minute == 0):
+                if minute % 5 == 0 and minute != last_market_scan_min:
+                    last_market_scan_min = minute
+                    run_market_hours_fast_ticker_job()
 
         time.sleep(20)
 
