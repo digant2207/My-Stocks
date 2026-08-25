@@ -2,8 +2,10 @@ name: Daily Stock Screener & Live Market Scanner
 
 on:
   schedule:
-    - cron: '30 3 * * *'
-    - cron: '0,30 4-10 * * 1-5'
+    # 9:45 AM IST (4:15 AM UTC) - Full Daily Deep Scan & Google Sheet Sync
+    - cron: '15 4 * * *'
+    # Market hours scans (every 30 mins 9:45 AM to 3:45 PM IST, Mon-Fri)
+    - cron: '15,45 4-10 * * 1-5'
   workflow_dispatch:
 
 jobs:

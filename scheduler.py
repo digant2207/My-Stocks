@@ -15,19 +15,19 @@ import fast_market_scanner
 import email_notifier
 
 def run_9am_full_scan_job():
-    print("[SCHEDULER] 9:00 AM Full Deep Analysis & Google Sheet Sync Triggered...")
+    print("[SCHEDULER] 9:45 AM Full Deep Analysis & Google Sheet Sync Triggered...")
     try:
         fast_runner.run_fast_analysis()
-        print("[SCHEDULER] 9:00 AM Full Deep Scan Completed Successfully.")
+        print("[SCHEDULER] 9:45 AM Full Deep Scan Completed Successfully.")
     except Exception as e:
-        print(f"[SCHEDULER] 9:00 AM Full Scan Error: {e}")
+        print(f"[SCHEDULER] 9:45 AM Full Scan Error: {e}")
 
     try:
-        print("[SCHEDULER] Dispatching 9:00 AM Daily Email Briefing...")
+        print("[SCHEDULER] Dispatching 9:45 AM Daily Email Briefing...")
         email_notifier.send_daily_email()
-        print("[SCHEDULER] 9:00 AM Email Dispatched Successfully.")
+        print("[SCHEDULER] 9:45 AM Email Dispatched Successfully.")
     except Exception as e:
-        print(f"[SCHEDULER] 9:00 AM Email Error: {e}")
+        print(f"[SCHEDULER] 9:45 AM Email Error: {e}")
 
 def run_market_hours_fast_ticker_job():
     """
@@ -42,8 +42,8 @@ def run_market_hours_fast_ticker_job():
 def schedule_loop():
     print("=======================================================================")
     print("🚀 OPTIMIZED DAILY MARKET SCHEDULER ACTIVE:")
-    print(" 1. 9:00 AM IST: Full Deep Scan (Google Sheet Sync + Fundamentals + Patterns + Email)")
-    print(" 2. 9:05 AM - 4:00 PM IST (Mon-Fri): Ultra-Fast Price & Breakout Scanner (< 10s)")
+    print(" 1. 9:45 AM IST: Full Deep Scan (Google Sheet Sync + Fundamentals + Patterns + Email)")
+    print(" 2. 9:50 AM - 4:00 PM IST (Mon-Fri): Ultra-Fast Price & Breakout Scanner (< 10s)")
     print("=======================================================================")
 
     last_9am_date = None
@@ -56,10 +56,11 @@ def schedule_loop():
         hour = now.hour
         minute = now.minute
 
-        # 1. Daily 9:00 AM IST Full Deep Scan & Email Dispatch
-        if hour == 9 and minute == 0 and last_9am_date != today_str:
+        # 1. Daily 9:45 AM IST Full Deep Scan & Email Dispatch
+        if hour == 9 and minute == 45 and last_9am_date != today_str:
             last_9am_date = today_str
             run_9am_full_scan_job()
+
 
         # 2. Market Hours Ultra-Fast Price & Breakout Ticker Scan (9:05 AM - 4:00 PM IST, Mon-Fri, Every 5 minutes)
         is_market_hours = (weekday < 5) and (9 <= hour < 16)
