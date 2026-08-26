@@ -125,7 +125,8 @@ def run_market_hours_ticker_scan():
     all_stocks.sort(key=lambda x: (x.get('composite_score', 0), x.get('vol_surge_ratio', 0)), reverse=True)
 
     elapsed = round(time.time() - start_t, 2)
-    now_str = datetime.datetime.now().strftime("%d-%b-%Y %I:%M:%S %p IST")
+    now_str = datetime.datetime.now().strftime("%d-%b-%Y at %I:%M %p")
+
 
 
     summary_stats = payload.get('summary', {})

@@ -93,7 +93,8 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
     elapsed = round(time.time() - start_time, 1)
 
     summary_stats = {
-        "last_updated": datetime.datetime.now().strftime("%d-%b-%Y %I:%M:%S %p IST"),
+        "last_updated": datetime.datetime.now().strftime("%d-%b-%Y at %I:%M %p"),
+
 
         "total_stocks_scanned": len(analyzed),
         "swing_top_20_count": len(top_20_swing),
