@@ -11,6 +11,8 @@ on:
 jobs:
   scan-and-update:
     runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Kolkata'
     permissions:
       contents: write
 

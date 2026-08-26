@@ -3,7 +3,13 @@ import sys
 import json
 import time
 import datetime
+
+def get_ist_now():
+    ist_tz = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+    return datetime.datetime.now(datetime.timezone.utc).astimezone(ist_tz)
+
 import yfinance as yf
+
 import pandas as pd
 import numpy as np
 
@@ -125,7 +131,8 @@ def run_market_hours_ticker_scan():
     all_stocks.sort(key=lambda x: (x.get('composite_score', 0), x.get('vol_surge_ratio', 0)), reverse=True)
 
     elapsed = round(time.time() - start_t, 2)
-    now_str = datetime.datetime.now().strftime("%d-%b-%Y %I:%M:%S %p IST (Indian Standard Time)")
+    now_str = get_ist_now().strftime("%d-%b-%Y %I:%M:%S %p IST (Indian Standard Time)")
+
 
 
 

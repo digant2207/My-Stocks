@@ -4,6 +4,11 @@ import csv
 import sys
 import time
 import datetime
+
+def get_ist_now():
+    ist_tz = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+    return datetime.datetime.now(datetime.timezone.utc).astimezone(ist_tz)
+
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import analyzer
 import google_sheet_manager
@@ -15,8 +20,9 @@ def update_status(is_running, progress_pct, message):
         "is_running": is_running,
         "progress_pct": progress_pct,
         "status_message": message,
-        "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S IST")
+        "timestamp": get_ist_now().strftime("%d-%b-%Y %I:%M:%S %p IST")
     }
+
     try:
         with open(STATUS_FILE, 'w', encoding='utf-8') as f:
             json.dump(payload, f, indent=2)
@@ -93,7 +99,8 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
     elapsed = round(time.time() - start_time, 1)
 
     summary_stats = {
-        "last_updated": datetime.datetime.now().strftime("%d-%b-%Y %I:%M:%S %p IST (Indian Standard Time)"),
+        "last_updated": get_ist_now().strftime("%d-%b-%Y %I:%M:%S %p IST (Indian Standard Time)"),
+
 
 
 

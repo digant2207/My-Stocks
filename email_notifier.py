@@ -2,7 +2,13 @@ import os
 import json
 import smtplib
 import datetime
+
+def get_ist_now():
+    ist_tz = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+    return datetime.datetime.now(datetime.timezone.utc).astimezone(ist_tz)
+
 from email.mime.text import MIMEText
+
 from email.mime.multipart import MIMEMultipart
 
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), "email_config.json")
@@ -44,7 +50,8 @@ def generate_email_html(analysis_data):
     upcoming_events = analysis_data.get('upcoming_3d_events', [])
     public_url = get_public_url()
 
-    today_str = datetime.datetime.now().strftime("%A, %d-%b-%Y at %I:%M %p IST (Indian Standard Time)")
+    today_str = get_ist_now().strftime("%A, %d-%b-%Y at %I:%M %p IST (Indian Standard Time)")
+
 
 
 

@@ -4,7 +4,13 @@ import csv
 import math
 import datetime
 from datetime import timedelta
+
+def get_ist_now():
+    ist_tz = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
+    return datetime.datetime.now(datetime.timezone.utc).astimezone(ist_tz)
+
 import pandas as pd
+
 import numpy as np
 import yfinance as yf
 import requests
@@ -598,7 +604,8 @@ def run_analysis(csv_path="stocks.csv", output_json="analysis_data.json", output
                 })
 
     summary_stats = {
-        "last_updated": datetime.datetime.now().strftime("%d-%b-%Y %I:%M:%S %p IST (Indian Standard Time)"),
+        "last_updated": get_ist_now().strftime("%d-%b-%Y %I:%M:%S %p IST (Indian Standard Time)"),
+
 
 
 
