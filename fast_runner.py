@@ -93,7 +93,8 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
     elapsed = round(time.time() - start_time, 1)
 
     summary_stats = {
-        "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S IST"),
+        "last_updated": datetime.datetime.now().strftime("%d-%b-%Y %I:%M:%S %p IST"),
+
         "total_stocks_scanned": len(analyzed),
         "swing_top_20_count": len(top_20_swing),
         "strong_buys_count": sum(1 for s in analyzed if s['long_term_signal'] in ['STRONG BUY', 'ACCUMULATE']),
@@ -118,17 +119,37 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
     update_status(False, 100, f"Analysis Complete in {elapsed}s!")
     print(f"Fast runner complete! Scanned {len(analyzed)} stocks in {elapsed}s.")
 
+    # Update index.html asset version for instant browser & iOS PWA cache busting
+    try:
+        index_path = os.path.join(os.path.dirname(__file__), "index.html")
+        if os.path.exists(index_path):
+            ver_str = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+            with open(index_path, 'r', encoding='utf-8') as f:
+                html_c = f.read()
+            import re
+            html_c = re.sub(r'styles\.css(?:\?v=\d+)?', f'styles.css?v={ver_str}', html_c)
+            html_c = re.sub(r'analysis_data\.js(?:\?v=\d+)?', f'analysis_data.js?v={ver_str}', html_c)
+            html_c = re.sub(r'app\.js(?:\?v=\d+)?', f'app.js?v={ver_str}', html_c)
+            with open(index_path, 'w', encoding='utf-8') as f:
+                f.write(html_c)
+    except Exception:
+        pass
+
     # Auto-push updated analysis data to GitHub Pages
     try:
-        print("[GITHUB AUTO-SYNC] Pushing deep analysis data to GitHub Pages...")
-        os.system('git add analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
-        os.system('git commit -m "Auto-update deep analysis data [skip ci]"')
+        print("[GITHUB AUTO-SYNC] Pushing deep analysis data & index.html cache version to GitHub Pages...")
+        os.system('git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
+        os.system('git commit -m "Auto-update deep analysis data and trigger deployment"')
+        os.system('git pull --rebase origin main')
         os.system('git push origin main')
+
         print("[GITHUB AUTO-SYNC] Published deep analysis data to GitHub Pages!")
     except Exception as push_err:
         print(f"[GITHUB AUTO-SYNC] Warning: {push_err}")
 
+
     return output_payload
+
 
 
 if __name__ == "__main__":

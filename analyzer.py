@@ -598,7 +598,8 @@ def run_analysis(csv_path="stocks.csv", output_json="analysis_data.json", output
                 })
 
     summary_stats = {
-        "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S IST"),
+        "last_updated": datetime.datetime.now().strftime("%d-%b-%Y %I:%M:%S %p IST"),
+
         "total_stocks_scanned": len(analyzed),
         "swing_top_20_count": len(top_20_swing),
         "strong_buys_count": sum(1 for s in analyzed if s['long_term_signal'] in ['STRONG BUY', 'ACCUMULATE']),

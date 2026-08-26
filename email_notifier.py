@@ -44,7 +44,8 @@ def generate_email_html(analysis_data):
     upcoming_events = analysis_data.get('upcoming_3d_events', [])
     public_url = get_public_url()
 
-    today_str = datetime.datetime.now().strftime("%A, %d %B %Y")
+    today_str = datetime.datetime.now().strftime("%A, %d-%b-%Y at %I:%M %p IST")
+
 
     # Render Swing Picks Rows with Chart Pattern & AI Suggestion
     swing_rows = ""

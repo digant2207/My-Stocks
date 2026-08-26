@@ -125,7 +125,8 @@ def run_market_hours_ticker_scan():
     all_stocks.sort(key=lambda x: (x.get('composite_score', 0), x.get('vol_surge_ratio', 0)), reverse=True)
 
     elapsed = round(time.time() - start_t, 2)
-    now_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S IST")
+    now_str = datetime.datetime.now().strftime("%d-%b-%Y %I:%M:%S %p IST")
+
 
     summary_stats = payload.get('summary', {})
     summary_stats['last_updated'] = now_str + " (Market Live)"
@@ -143,20 +144,40 @@ def run_market_hours_ticker_scan():
             f.write("window.stockData = " + json.dumps(payload, indent=2) + ";")
         print(f"[MARKET SCANNER] Live scan completed in {elapsed}s! Updated {updated_count} prices, {breakout_alerts_count} active breakouts.")
         
+        # Update index.html asset version for instant browser & iOS PWA cache busting
+        try:
+            index_path = os.path.join(os.path.dirname(__file__), "index.html")
+            if os.path.exists(index_path):
+                ver_str = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+                with open(index_path, 'r', encoding='utf-8') as f:
+                    html_c = f.read()
+                import re
+                html_c = re.sub(r'styles\.css(?:\?v=\d+)?', f'styles.css?v={ver_str}', html_c)
+                html_c = re.sub(r'analysis_data\.js(?:\?v=\d+)?', f'analysis_data.js?v={ver_str}', html_c)
+                html_c = re.sub(r'app\.js(?:\?v=\d+)?', f'app.js?v={ver_str}', html_c)
+                with open(index_path, 'w', encoding='utf-8') as f:
+                    f.write(html_c)
+        except Exception:
+            pass
+
         # Auto-push updated data to GitHub Pages
         try:
-            print("[GITHUB AUTO-SYNC] Pushing live market data to GitHub Pages...")
-            os.system('git add analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
-            os.system('git commit -m "Auto-update live market analysis data [skip ci]"')
+            print("[GITHUB AUTO-SYNC] Pushing live market data & index.html cache version to GitHub Pages...")
+            os.system('git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
+            os.system('git commit -m "Auto-update live market analysis data and trigger deployment"')
+            os.system('git pull --rebase origin main')
             os.system('git push origin main')
+
             print("[GITHUB AUTO-SYNC] Published live data to GitHub Pages!")
         except Exception as push_err:
             print(f"[GITHUB AUTO-SYNC] Warning: {push_err}")
+
 
     except Exception as e:
         print(f"[MARKET SCANNER] Save error: {e}")
 
     return payload
+
 
 
 if __name__ == "__main__":
