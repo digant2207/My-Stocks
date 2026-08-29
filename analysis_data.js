@@ -1,12 +1,12 @@
 window.stockData = {
   "summary": {
-    "last_updated": "29-Aug-2026 12:00:00 PM IST (Indian Standard Time)",
-    "total_stocks_scanned": 137,
+    "last_updated": "29-Aug-2026 12:41:57 PM IST (Indian Standard Time)",
+    "total_stocks_scanned": 136,
     "swing_top_20_count": 20,
     "strong_buys_count": 24,
-    "pattern_breakouts_count": 37,
-    "upcoming_3d_events_count": 124,
-    "scan_time_seconds": 22.8
+    "pattern_breakouts_count": 36,
+    "upcoming_3d_events_count": 123,
+    "scan_time_seconds": 7.8
   },
   "top_20_swing": [
     {
@@ -6000,88 +6000,6 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.5% YoY)"
-      ]
-    },
-    {
-      "symbol": "500325.BO",
-      "clean_symbol": "500325",
-      "name": "Reliance Industries Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 1326.5,
-      "prev_close": 1293.0,
-      "day_change_pct": 2.59,
-      "volume": 848885,
-      "vol_1m_avg": 913820,
-      "vol_surge_ratio": 0.93,
-      "52w_high": 1603.79,
-      "52w_low": 1253.65,
-      "sma_20": 1305.78,
-      "sma_50": 1321.38,
-      "sma_200": 1406.48,
-      "rsi_14": 55.8,
-      "macd_val": -4.34,
-      "macd_signal": -6.69,
-      "macd_hist": 2.35,
-      "pe_ratio": 0.0,
-      "roe": 0.0,
-      "debt_to_equity": 0.0,
-      "debt_status": "Zero Debt",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 0.0,
-      "earnings_growth_yoy": 0.0,
-      "dividend_yield": 0.0,
-      "promoter_holding": 50.0,
-      "institutional_holding": 30.0,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Double Bottom (W-Pattern) \ud83d\udd04",
-      "pattern_bias": "Bullish Reversal \ud83d\udfe2",
-      "pattern_confidence": 82,
-      "breakout_level": 1345.45,
-      "pattern_description": "Double Bottom W-reversal pattern formed around \u20b91255.50 support zone with neckline at \u20b91345.45.",
-      "accumulation_status": "Neutral Balance \u2696\ufe0f",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 1346.8,
-      "sell_trigger_price": 1286.19,
-      "buy_status": "\u26a1 BUY ABOVE \u20b91,346.80 (1.5% away)",
-      "swing_target_1": 1345.45,
-      "swing_target_2": 1603.79,
-      "swing_stoploss": 1286.19,
-      "breakout_proximity_pct": 1.4,
-      "is_near_breakout_zone": true,
-      "breakout_readiness_score": 112.5,
-      "composite_score": 43,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEAR BREAKOUT ZONE \u26a1",
-      "swing_reason": "Double Bottom W-reversal pattern formed around \u20b91255.50 support zone with neckline at \u20b91345.45.",
-      "events": [
-        {
-          "date": "2026-08-29",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Trading Monitoring",
-          "title": "Normal Volume & Price Watch",
-          "summary": "Stock trading smoothly at \u20b91326.50.",
-          "impact": "Neutral \u2696\ufe0f",
-          "impact_reason": "Standard price discovery."
-        }
-      ],
-      "ai_suggestion": "**\u26a1 WATCHLIST BREAKOUT ZONE - BUY TRIGGER: \u20b91,346.80** \u2022 Coiling **1.4% away** from breakout level (\u20b91,345.45) in **Double Bottom (W-Pattern) \ud83d\udd04** setup. \u2022 **Sell/Stop Loss Trigger:** \u20b91,286.19 \u2022 **Target 1:** \u20b91,345.45 \u2022 **Target 2:** \u20b91,603.79",
-      "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Today): Trading Monitoring - Normal Volume & Price Watch",
-        "\ud83d\udcc8 Chart Pattern: Double Bottom (W-Pattern) \ud83d\udd04 (Bullish Reversal \ud83d\udfe2)",
-        "\u26a1 Breakout Zone: Only 1.4% away from breakout trigger (\u20b91,346.80)",
-        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet",
-        "\ud83c\udfaf RSI Bullish Momentum Zone: 55.8"
-      ],
-      "weaknesses": [
-        "No major red flags detected"
       ]
     },
     {
@@ -13517,19 +13435,6 @@ window.stockData = {
       "symbol": "TARIL.NS",
       "clean_symbol": "TARIL",
       "name": "Transformers and Rectifiers (India) Ltd"
-    },
-    {
-      "date": "2026-08-29",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Trading Monitoring",
-      "title": "Normal Volume & Price Watch",
-      "summary": "Stock trading smoothly at \u20b91326.50.",
-      "impact": "Neutral \u2696\ufe0f",
-      "impact_reason": "Standard price discovery.",
-      "symbol": "500325.BO",
-      "clean_symbol": "500325",
-      "name": "Reliance Industries Ltd"
     },
     {
       "date": "2026-08-29",
