@@ -356,16 +356,45 @@ def fetch_stock_data(symbol, metadata):
     low_prices = hist['Low'].values
     volumes = hist['Volume'].values if 'Volume' in hist else np.ones(len(close_prices))
 
-    current_price = round(clean_val(close_prices[-1]), 2)
+    # Real-time / Latest price extraction via fast_info
+    fast_info = {}
+    try:
+        fast_info = dict(ticker.fast_info)
+    except Exception:
+        pass
+
+    live_price = clean_val(fast_info.get('lastPrice'))
+    live_prev_close = clean_val(fast_info.get('previousClose') or fast_info.get('regularMarketPreviousClose'))
+    live_vol = clean_val(fast_info.get('lastVolume'))
+    live_high = clean_val(fast_info.get('dayHigh'))
+    live_low = clean_val(fast_info.get('dayLow'))
+    live_52w_high = clean_val(fast_info.get('yearHigh'))
+    live_52w_low = clean_val(fast_info.get('yearLow'))
+
+    if live_price > 0:
+        current_price = round(live_price, 2)
+        prev_close = round(live_prev_close if live_prev_close > 0 else clean_val(close_prices[-1]), 2)
+        day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
+        
+        # Append live price so moving averages, RSI, MACD, and breakout levels use the real latest price
+        close_prices = np.append(close_prices, current_price)
+        if live_high > 0:
+            high_prices = np.append(high_prices, max(live_high, current_price))
+        if live_low > 0:
+            low_prices = np.append(low_prices, min(live_low, current_price))
+        if live_vol > 0:
+            volumes = np.append(volumes, live_vol)
+    else:
+        current_price = round(clean_val(close_prices[-1]), 2)
+        prev_close = round(clean_val(close_prices[-2]), 2) if len(close_prices) > 1 else current_price
+        day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
+
     if current_price <= 0:
         print(f"Invalid current price for {clean_sym}")
         return None
 
-    prev_close = round(clean_val(close_prices[-2]), 2) if len(close_prices) > 1 else current_price
-    day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
-
-    high_52w = round(float(np.max(high_prices)), 2)
-    low_52w = round(float(np.min(low_prices)), 2)
+    high_52w = round(max(float(np.max(high_prices)), live_52w_high if live_52w_high > 0 else 0), 2)
+    low_52w = round(min(float(np.min(low_prices)), live_52w_low if live_52w_low > 0 else 999999), 2)
     pct_from_52w_high = round(((current_price - high_52w) / high_52w) * 100.0, 2) if high_52w > 0 else 0.0
     pct_from_52w_low = round(((current_price - low_52w) / low_52w) * 100.0, 2) if low_52w > 0 else 0.0
 

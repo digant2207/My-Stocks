@@ -61,6 +61,10 @@ def run_market_hours_ticker_scan():
     for s in all_stocks:
         sym = s['symbol']
         try:
+            cp = None
+            vol_today = None
+            prev_cp = s.get('prev_close', 0)
+
             if data is not None and not data.empty:
                 stock_df = None
                 if len(symbols) == 1:
@@ -73,46 +77,65 @@ def run_market_hours_ticker_scan():
                     vol_series = stock_df['Volume'].dropna()
                     if not close_series.empty:
                         cp = round(float(close_series.iloc[-1]), 2)
-                        prev_cp = s['prev_close']
-                        chg_pct = round(((cp - prev_cp) / prev_cp) * 100.0, 2) if prev_cp else 0.0
+                        vol_today = float(vol_series.sum()) if not vol_series.empty else s.get('volume', 0)
 
-                        s['current_price'] = cp
-                        s['day_change_pct'] = chg_pct
+            # Fallback to fast_info if batch df was empty or missing
+            if cp is None or cp <= 0:
+                try:
+                    t = yf.Ticker(sym)
+                    fi = dict(t.fast_info)
+                    lp = fi.get('lastPrice')
+                    if lp and float(lp) > 0:
+                        cp = round(float(lp), 2)
+                        p_close = fi.get('previousClose') or fi.get('regularMarketPreviousClose')
+                        if p_close and float(p_close) > 0:
+                            prev_cp = round(float(p_close), 2)
+                        vol_today = float(fi.get('lastVolume') or s.get('volume', 0))
+                except Exception:
+                    pass
 
-                        # Live RVOL update
-                        vol_1m = s.get('vol_1m_avg', 1)
-                        today_vol = float(vol_series.sum()) if not vol_series.empty else s.get('volume', 0)
-                        s['volume'] = int(today_vol)
-                        s['vol_surge_ratio'] = round(today_vol / vol_1m, 1) if vol_1m > 0 else 1.0
+            if cp is not None and cp > 0:
+                chg_pct = round(((cp - prev_cp) / prev_cp) * 100.0, 2) if prev_cp and prev_cp > 0 else 0.0
 
-                        # Re-evaluate Live Breakout Triggers
-                        brk_lvl = s.get('breakout_level', cp)
-                        buy_trig = s.get('buy_trigger_price', brk_lvl)
-                        dist_pct = round(abs((brk_lvl - cp) / cp) * 100.0, 1)
-                        s['breakout_proximity_pct'] = dist_pct
+                s['current_price'] = cp
+                s['prev_close'] = prev_cp if prev_cp > 0 else s.get('prev_close', cp)
+                s['day_change_pct'] = chg_pct
 
-                        if cp >= buy_trig:
-                            s['swing_signal'] = "BREAKOUT CONFIRMED 🔥"
-                            s['buy_status'] = f"🔥 BREAKOUT TRIGGERED - BUY ABOVE ₹{buy_trig:,.2f}"
-                            s['is_near_breakout_zone'] = True
-                            breakout_alerts_count += 1
-                        elif dist_pct <= 3.5:
-                            s['swing_signal'] = "NEAR BREAKOUT ZONE ⚡"
-                            s['buy_status'] = f"⚡ BUY ABOVE ₹{buy_trig:,.2f} ({dist_pct}% away)"
-                            s['is_near_breakout_zone'] = True
-                        else:
-                            s['swing_signal'] = "RANGE CONSOLIDATION ⚖️"
-                            s['is_near_breakout_zone'] = False
+                # Live RVOL update
+                vol_1m = s.get('vol_1m_avg', 1)
+                today_vol = vol_today if vol_today is not None else s.get('volume', 0)
+                s['volume'] = int(today_vol)
+                s['vol_surge_ratio'] = round(today_vol / vol_1m, 1) if vol_1m > 0 else 1.0
 
-                        # Recalculate breakout readiness score
-                        s['breakout_readiness_score'] = round(
-                            (s['vol_surge_ratio'] * 25.0) +
-                            (max(0, 100 - (dist_pct * 20.0))) +
-                            (s['composite_score'] * 0.4),
-                            1
-                        )
-                        updated_count += 1
+                # Re-evaluate Live Breakout Triggers
+                brk_lvl = s.get('breakout_level', cp)
+                buy_trig = s.get('buy_trigger_price', brk_lvl)
+                dist_pct = round(abs((brk_lvl - cp) / cp) * 100.0, 1) if cp > 0 else 0.0
+                s['breakout_proximity_pct'] = dist_pct
+
+                if cp >= buy_trig:
+                    s['swing_signal'] = "BREAKOUT CONFIRMED 🔥"
+                    s['buy_status'] = f"🔥 BREAKOUT TRIGGERED - BUY ABOVE ₹{buy_trig:,.2f}"
+                    s['is_near_breakout_zone'] = True
+                    breakout_alerts_count += 1
+                elif dist_pct <= 3.5:
+                    s['swing_signal'] = "NEAR BREAKOUT ZONE ⚡"
+                    s['buy_status'] = f"⚡ BUY ABOVE ₹{buy_trig:,.2f} ({dist_pct}% away)"
+                    s['is_near_breakout_zone'] = True
+                else:
+                    s['swing_signal'] = "RANGE CONSOLIDATION ⚖️"
+                    s['is_near_breakout_zone'] = False
+
+                # Recalculate breakout readiness score
+                s['breakout_readiness_score'] = round(
+                    (s['vol_surge_ratio'] * 25.0) +
+                    (max(0, 100 - (dist_pct * 20.0))) +
+                    (s.get('composite_score', 50) * 0.4),
+                    1
+                )
+                updated_count += 1
         except Exception:
+            pass
             pass
 
     # Sort & pick Top 20 Swing candidates by live market readiness
