@@ -36,17 +36,27 @@ def clean_symbol(sym):
 
 
 def clean_val(val, default=0.0):
-    if val is None or (isinstance(val, float) and math.isnan(val)):
+    if val is None:
         return default
     try:
-        return float(val)
+        f_val = float(val)
+        if math.isnan(f_val) or math.isinf(f_val):
+            return default
+        return f_val
     except Exception:
         return default
 
 def safe_pct_change(current, previous):
-    if previous is None or current is None or previous == 0 or math.isnan(previous) or math.isnan(current):
+    if previous is None or current is None or previous == 0:
         return 0.0
-    return ((current - previous) / abs(previous)) * 100.0
+    try:
+        c = float(current)
+        p = float(previous)
+        if math.isnan(c) or math.isnan(p) or p == 0:
+            return 0.0
+        return ((c - p) / abs(p)) * 100.0
+    except Exception:
+        return 0.0
 
 def calculate_rsi(prices, period=14):
     if len(prices) < period + 1:
@@ -55,20 +65,19 @@ def calculate_rsi(prices, period=14):
     gains = np.where(deltas > 0, deltas, 0)
     losses = np.where(deltas < 0, -deltas, 0)
     
-    avg_gain = np.mean(gains[:period])
-    avg_loss = np.mean(losses[:period])
-    
-    if avg_loss == 0:
-        return 100.0
+    avg_gain = float(np.mean(gains[:period]))
+    avg_loss = float(np.mean(losses[:period]))
     
     for i in range(period, len(deltas)):
         avg_gain = (avg_gain * (period - 1) + gains[i]) / period
         avg_loss = (avg_loss * (period - 1) + losses[i]) / period
         
     if avg_loss == 0:
-        return 100.0
+        return 100.0 if avg_gain > 0 else 50.0
     
     rs = avg_gain / avg_loss
+    if math.isnan(rs) or math.isinf(rs) or rs < 0:
+        return 50.0
     return float(100.0 - (100.0 / (1.0 + rs)))
 
 def calculate_macd(prices):
@@ -166,14 +175,18 @@ def fetch_events_and_news(ticker, symbol, current_price, rev_growth_yoy, earning
     return events_list
 
 def calculate_price_action_levels(cp, close_prices, high_prices, low_prices, sma_20, sma_50, sma_200, high_52w, range_brk, pattern_res):
+    if cp <= 0:
+        cp = 1.0
     atr = np.std(close_prices[-14:]) * 1.5 if len(close_prices) >= 14 else cp * 0.02
 
     prev_20d_high = float(np.max(high_prices[-21:-1])) if len(high_prices) >= 21 else float(np.max(high_prices[:-1]))
     prev_20d_low = float(np.min(low_prices[-21:-1])) if len(low_prices) >= 21 else float(np.min(low_prices[:-1]))
     prev_10d_low = float(np.min(low_prices[-11:-1])) if len(low_prices) >= 11 else float(np.min(low_prices[:-1]))
 
-    box_range_height = prev_20d_high - prev_20d_low
-    breakout_lvl = pattern_res['breakout_level']
+    box_range_height = max(0.1, prev_20d_high - prev_20d_low)
+    breakout_lvl = pattern_res.get('breakout_level', cp)
+    if breakout_lvl <= 0:
+        breakout_lvl = cp
 
     # BUY TRIGGER LEVEL (Entry triggered on breakout confirmation)
     if cp >= breakout_lvl:
@@ -181,7 +194,7 @@ def calculate_price_action_levels(cp, close_prices, high_prices, low_prices, sma
         buy_status = "🔥 BREAKOUT TRIGGERED - ENTER NOW"
     else:
         buy_trigger = round(max(breakout_lvl * 1.001, cp * 1.002), 2)
-        dist_pct = round(((buy_trigger - cp) / cp) * 100.0, 1)
+        dist_pct = round(((buy_trigger - cp) / cp) * 100.0, 1) if cp > 0 else 0.0
         buy_status = f"⚡ BUY ABOVE ₹{buy_trigger:,.2f} ({dist_pct}% away)"
 
     # SELL / STOP LOSS TRIGGER LEVEL
@@ -198,10 +211,10 @@ def calculate_price_action_levels(cp, close_prices, high_prices, low_prices, sma
     sell_trigger = stop_loss
 
     # TARGET 1 & TARGET 2
-    if range_brk['is_52w_high_breakout']:
+    if range_brk.get('is_52w_high_breakout'):
         t1 = round(high_52w + (atr * 1.5), 2)
         t2 = round(high_52w + (atr * 3.2), 2)
-    elif range_brk['is_20d_breakout'] or range_brk['is_50d_box_breakout']:
+    elif range_brk.get('is_20d_breakout') or range_brk.get('is_50d_box_breakout'):
         t1 = round(cp + max(box_range_height, atr * 2.0), 2)
         if high_52w > cp and high_52w > t1:
             t2 = round(high_52w, 2)
@@ -215,7 +228,7 @@ def calculate_price_action_levels(cp, close_prices, high_prices, low_prices, sma
         t2 = round(cp + (atr * 4.0), 2)
 
     # Breakout Proximity %
-    dist_to_brk_pct = round(abs((breakout_lvl - cp) / cp) * 100.0, 1)
+    dist_to_brk_pct = round(abs((breakout_lvl - cp) / cp) * 100.0, 1) if cp > 0 else 0.0
     is_near_breakout_zone = dist_to_brk_pct <= 4.0 or cp >= breakout_lvl
 
     return {
@@ -326,23 +339,35 @@ def fetch_stock_data(symbol, metadata):
         print(f"History error for {clean_sym}: {e}")
         hist = pd.DataFrame()
 
-    if hist.empty or len(hist) < 20:
+    if hist is None or hist.empty:
+        print(f"Insufficient data for {clean_sym}")
+        return None
+
+    # Drop NaNs and non-positive prices from yfinance data
+    hist = hist.dropna(subset=['Close', 'High', 'Low']).copy()
+    hist = hist[hist['Close'] > 0]
+
+    if len(hist) < 20:
         print(f"Insufficient data for {clean_sym}")
         return None
 
     close_prices = hist['Close'].values
     high_prices = hist['High'].values
     low_prices = hist['Low'].values
-    volumes = hist['Volume'].values
+    volumes = hist['Volume'].values if 'Volume' in hist else np.ones(len(close_prices))
 
     current_price = round(clean_val(close_prices[-1]), 2)
+    if current_price <= 0:
+        print(f"Invalid current price for {clean_sym}")
+        return None
+
     prev_close = round(clean_val(close_prices[-2]), 2) if len(close_prices) > 1 else current_price
     day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
 
     high_52w = round(float(np.max(high_prices)), 2)
     low_52w = round(float(np.min(low_prices)), 2)
-    pct_from_52w_high = round(((current_price - high_52w) / high_52w) * 100.0, 2)
-    pct_from_52w_low = round(((current_price - low_52w) / low_52w) * 100.0, 2)
+    pct_from_52w_high = round(((current_price - high_52w) / high_52w) * 100.0, 2) if high_52w > 0 else 0.0
+    pct_from_52w_low = round(((current_price - low_52w) / low_52w) * 100.0, 2) if low_52w > 0 else 0.0
 
     sma_20 = round(float(np.mean(close_prices[-20:])), 2)
     sma_50 = round(float(np.mean(close_prices[-50:])), 2) if len(close_prices) >= 50 else sma_20

@@ -142,25 +142,30 @@ def detect_chart_patterns(close_prices, high_prices, low_prices, volumes):
         right_rim = float(np.max(h_90[60:80]))
         handle_low = float(np.min(l_90[80:]))
 
-        # Check U-shape structure depth and handle tightness
-        depth_pct = ((left_rim - cup_bottom) / left_rim) * 100.0
-        handle_depth_pct = ((right_rim - handle_low) / right_rim) * 100.0
+        if left_rim > 0 and right_rim > 0:
+            # Check U-shape structure depth and handle tightness
+            depth_pct = ((left_rim - cup_bottom) / left_rim) * 100.0
+            handle_depth_pct = ((right_rim - handle_low) / right_rim) * 100.0
 
-        if 10 <= depth_pct <= 35 and 2 <= handle_depth_pct <= 12 and abs(left_rim - right_rim) / left_rim <= 0.08:
-            if cp >= right_rim * 0.98 and vol_dyn['vol_surge_ratio'] >= 1.2:
-                pattern_name = "Cup and Handle 🍵"
-                bias = "Bullish Breakout 🚀"
-                confidence = 90
-                breakout_lvl = round(right_rim, 2)
-                desc = f"Classic Cup & Handle pattern. Rounded base ({depth_pct:.1f}% depth) with tight handle consolidation and {vol_dyn['vol_surge_ratio']}x volume breakout."
-                return format_pattern_result(pattern_name, bias, confidence, breakout_lvl, desc, vol_dyn, range_brk)
+            if 10 <= depth_pct <= 35 and 2 <= handle_depth_pct <= 12 and (abs(left_rim - right_rim) / left_rim) <= 0.08:
+                if cp >= right_rim * 0.98 and vol_dyn['vol_surge_ratio'] >= 1.2:
+                    pattern_name = "Cup and Handle 🍵"
+                    bias = "Bullish Breakout 🚀"
+                    confidence = 90
+                    breakout_lvl = round(right_rim, 2)
+                    desc = f"Classic Cup & Handle pattern. Rounded base ({depth_pct:.1f}% depth) with tight handle consolidation and {vol_dyn['vol_surge_ratio']}x volume breakout."
+                    return format_pattern_result(pattern_name, bias, confidence, breakout_lvl, desc, vol_dyn, range_brk)
 
     # 2. Volatility Contraction Pattern (VCP) - Mark Minervini
     # Requirements: Series of contracting price waves (T1 > T2 > T3) with volume drying up prior to expansion
     if len(close_prices) >= 60:
-        range_1 = (np.max(highs[-60:-40]) - np.min(lows[-60:-40])) / np.mean(close_prices[-60:-40]) * 100.0
-        range_2 = (np.max(highs[-40:-20]) - np.min(lows[-40:-20])) / np.mean(close_prices[-40:-20]) * 100.0
-        range_3 = (np.max(highs[-20:]) - np.min(lows[-20:])) / np.mean(close_prices[-20:]) * 100.0
+        m1 = float(np.mean(close_prices[-60:-40])) if np.mean(close_prices[-60:-40]) > 0 else 1.0
+        m2 = float(np.mean(close_prices[-40:-20])) if np.mean(close_prices[-40:-20]) > 0 else 1.0
+        m3 = float(np.mean(close_prices[-20:])) if np.mean(close_prices[-20:]) > 0 else 1.0
+
+        range_1 = (np.max(highs[-60:-40]) - np.min(lows[-60:-40])) / m1 * 100.0
+        range_2 = (np.max(highs[-40:-20]) - np.min(lows[-40:-20])) / m2 * 100.0
+        range_3 = (np.max(highs[-20:]) - np.min(lows[-20:])) / m3 * 100.0
 
         if range_1 > range_2 > range_3 and range_3 <= 8.0:
             if vol_dyn['is_volume_dryup'] or vol_dyn['vol_surge_ratio'] >= 1.3:
@@ -181,7 +186,7 @@ def detect_chart_patterns(close_prices, high_prices, low_prices, volumes):
         low_2 = float(np.min(lows_40[15:30]))
         low_3 = float(np.min(lows_40[30:]))
 
-        if low_3 > low_2 > low_1 and (top_res - cp) / top_res <= 0.04:
+        if top_res > 0 and low_3 > low_2 > low_1 and ((top_res - cp) / top_res) <= 0.04:
             pattern_name = "Ascending Triangle 📐"
             bias = "Bullish Accumulation 🟢"
             confidence = 85
@@ -191,7 +196,7 @@ def detect_chart_patterns(close_prices, high_prices, low_prices, volumes):
 
     # 4. Bull Flag / Pennant
     # Requirements: Sharp pole rally (+8% in 5-10 days) followed by tight downward sloping channel (3-10 days)
-    if len(close_prices) >= 25:
+    if len(close_prices) >= 25 and cp > 0:
         pole_gain = safe_pct_change(close_prices[-10], close_prices[-25])
         flag_range = (np.max(highs[-10:]) - np.min(lows[-10:])) / cp * 100.0
 
@@ -211,7 +216,7 @@ def detect_chart_patterns(close_prices, high_prices, low_prices, volumes):
         b2 = float(np.min(l_45[25:]))
         neckline = float(np.max(h_45[15:30]))
 
-        if abs(b1 - b2) / b1 <= 0.035 and cp >= neckline * 0.97:
+        if b1 > 0 and (abs(b1 - b2) / b1) <= 0.035 and cp >= neckline * 0.97:
             pattern_name = "Double Bottom (W-Pattern) 🔄"
             bias = "Bullish Reversal 🟢"
             confidence = 82

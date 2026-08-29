@@ -169,17 +169,17 @@ def run_market_hours_ticker_scan():
         except Exception:
             pass
 
-        # Auto-push updated data to GitHub Pages
-        try:
-            print("[GITHUB AUTO-SYNC] Pushing live market data & index.html cache version to GitHub Pages...")
-            os.system('git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
-            os.system('git commit -m "Auto-update live market analysis data and trigger deployment"')
-            os.system('git pull --rebase origin main')
-            os.system('git push origin main')
-
-            print("[GITHUB AUTO-SYNC] Published live data to GitHub Pages!")
-        except Exception as push_err:
-            print(f"[GITHUB AUTO-SYNC] Warning: {push_err}")
+        # Auto-push updated data to GitHub Pages (Skip if running in GitHub Actions CI)
+        if not os.environ.get("GITHUB_ACTIONS") and not os.environ.get("CI"):
+            try:
+                print("[GITHUB AUTO-SYNC] Pushing live market data & index.html cache version to GitHub Pages...")
+                os.system('git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
+                os.system('git commit -m "Auto-update live market analysis data and trigger deployment"')
+                os.system('git pull --rebase origin main')
+                os.system('git push origin main')
+                print("[GITHUB AUTO-SYNC] Published live data to GitHub Pages!")
+            except Exception as push_err:
+                print(f"[GITHUB AUTO-SYNC] Warning: {push_err}")
 
 
     except Exception as e:

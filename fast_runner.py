@@ -144,17 +144,17 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
     except Exception:
         pass
 
-    # Auto-push updated analysis data to GitHub Pages
-    try:
-        print("[GITHUB AUTO-SYNC] Pushing deep analysis data & index.html cache version to GitHub Pages...")
-        os.system('git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
-        os.system('git commit -m "Auto-update deep analysis data and trigger deployment"')
-        os.system('git pull --rebase origin main')
-        os.system('git push origin main')
-
-        print("[GITHUB AUTO-SYNC] Published deep analysis data to GitHub Pages!")
-    except Exception as push_err:
-        print(f"[GITHUB AUTO-SYNC] Warning: {push_err}")
+    # Auto-push updated analysis data to GitHub Pages (Skip if running in GitHub Actions CI)
+    if not os.environ.get("GITHUB_ACTIONS") and not os.environ.get("CI"):
+        try:
+            print("[GITHUB AUTO-SYNC] Pushing deep analysis data & index.html cache version to GitHub Pages...")
+            os.system('git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
+            os.system('git commit -m "Auto-update deep analysis data and trigger deployment"')
+            os.system('git pull --rebase origin main')
+            os.system('git push origin main')
+            print("[GITHUB AUTO-SYNC] Published deep analysis data to GitHub Pages!")
+        except Exception as push_err:
+            print(f"[GITHUB AUTO-SYNC] Warning: {push_err}")
 
 
     return output_payload

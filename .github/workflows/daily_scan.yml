@@ -2,8 +2,11 @@ name: Daily Stock Screener & Live Market Scanner
 
 on:
   schedule:
+    # 9:45 AM IST (4:15 AM UTC) - Full Daily Deep Scan & Google Sheet Sync
     - cron: '15 4 * * *'
-    - cron: '0,15,30,45 4-10 * * 1-5'
+    # Market hours scans (every 30 mins 9:30 AM to 3:30 PM IST, Mon-Fri)
+    - cron: '*/30 4-10 * * 1-5'
+    # 6:00 PM IST (12:30 PM UTC) - Post-Market Evening Close Scan
     - cron: '30 12 * * *'
   workflow_dispatch:
 
@@ -14,7 +17,7 @@ permissions:
 
 concurrency:
   group: 'pages'
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   scan-and-deploy:
@@ -25,11 +28,14 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install Dependencies
         run: |
@@ -39,6 +45,8 @@ jobs:
       - name: Execute Stock Scanner
         env:
           TZ: 'Asia/Kolkata'
+          CI: 'true'
+          GITHUB_ACTIONS: 'true'
         run: |
           python fast_runner.py
 
@@ -47,8 +55,13 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv
-          git diff --staged --quiet || git commit -m 'Automated Market Scanner Cloud Update'
-          git push
+          if ! git diff --staged --quiet; then
+            git commit -m 'Automated Market Scanner Cloud Update [skip ci]'
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
