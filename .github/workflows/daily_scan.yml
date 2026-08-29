@@ -2,12 +2,12 @@ name: Daily Stock Screener & Live Market Scanner
 
 on:
   schedule:
-    # 9:45 AM IST (4:15 AM UTC) - Full Daily Deep Scan & Google Sheet Sync
-    - cron: '15 4 * * *'
-    # Market hours scans (every 30 mins 9:30 AM to 3:30 PM IST, Mon-Fri)
+    # 09:15 AM IST (03:45 AM UTC) - Market Opening Bell Scan (Mon-Fri)
+    - cron: '45 3 * * 1-5'
+    # Market Hours Scans (Every 30 mins: 09:30 AM to 03:30 PM IST / 04:00 AM to 10:00 AM UTC, Mon-Fri)
     - cron: '*/30 4-10 * * 1-5'
-    # 6:00 PM IST (12:30 PM UTC) - Post-Market Evening Close Scan
-    - cron: '30 12 * * *'
+    # 06:00 PM IST (12:30 PM UTC) - Post-Market Evening Close Scan (Mon-Fri)
+    - cron: '30 12 * * 1-5'
   workflow_dispatch:
 
 permissions:
@@ -54,7 +54,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv
+          git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv scan_status.json
           if ! git diff --staged --quiet; then
             git commit -m 'Automated Market Scanner Cloud Update [skip ci]'
             git pull --rebase origin main
