@@ -2,12 +2,15 @@ import os
 import json
 import csv
 import math
+import time
+import random
 import datetime
 from datetime import timedelta
 
 def get_ist_now():
     ist_tz = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
     return datetime.datetime.now(datetime.timezone.utc).astimezone(ist_tz)
+
 
 import pandas as pd
 
@@ -24,15 +27,32 @@ HIGH_DEBT_SECTORS = [
     "Ports & Logistics", "Conglomerate", "Mining & Energy", "Power Finance", "Rail Finance", "Banking"
 ]
 
+KNOWN_ALIASES = {
+    "500325.BO": "RELIANCE.NS",
+    "544783.BO": "E2E.NS",
+    "GSPL.NS": "532540.BO"
+}
+
+INVALID_OR_DELISTED = {
+    "MANPASAND.NS", "JCTLTD.NS", "544467.BO"
+}
+
 def clean_symbol(sym):
     sym = sym.strip().upper()
     if not sym: return ""
+    if any(ch in sym for ch in ['[', ']', '(', ')', '{', '}', ';', ':']) or len(sym) > 18 or len(sym) < 2:
+        return ""
     sym = sym.replace(" ", "").replace("&", "%26")
     if not sym.endswith(".NS") and not sym.endswith(".BO"):
         if sym.isdigit():
-            return sym + ".BO"
-        return sym + ".NS"
+            sym = sym + ".BO"
+        else:
+            sym = sym + ".NS"
+    sym = KNOWN_ALIASES.get(sym, sym)
+    if sym in INVALID_OR_DELISTED:
+        return ""
     return sym
+
 
 
 def clean_val(val, default=0.0):
@@ -330,14 +350,25 @@ def generate_swot_analysis(s_data):
 
 def fetch_stock_data(symbol, metadata):
     clean_sym = clean_symbol(symbol)
+    if not clean_sym:
+        return None
     print(f"Analyzing {clean_sym}...")
     ticker = yf.Ticker(clean_sym)
 
-    try:
-        hist = ticker.history(period="1y", interval="1d")
-    except Exception as e:
-        print(f"History error for {clean_sym}: {e}")
-        hist = pd.DataFrame()
+    hist = pd.DataFrame()
+    for attempt in range(3):
+        try:
+            hist = ticker.history(period="1y", interval="1d")
+            if hist is not None and not hist.empty:
+                break
+        except Exception as e:
+            if "Too Many Requests" in str(e) or "Rate limited" in str(e):
+                time.sleep(1.0 + attempt * 1.5 + random.uniform(0.1, 0.5))
+            else:
+                print(f"History error for {clean_sym}: {e}")
+                break
+        if attempt < 2 and (hist is None or hist.empty):
+            time.sleep(0.5 + random.uniform(0.1, 0.3))
 
     if hist is None or hist.empty:
         print(f"Insufficient data for {clean_sym}")
@@ -351,10 +382,14 @@ def fetch_stock_data(symbol, metadata):
         print(f"Insufficient data for {clean_sym}")
         return None
 
-    close_prices = hist['Close'].values
-    high_prices = hist['High'].values
-    low_prices = hist['Low'].values
-    volumes = hist['Volume'].values if 'Volume' in hist else np.ones(len(close_prices))
+
+    close_prices = np.array(hist['Close'].values, dtype=float, copy=True)
+    high_prices = np.array(hist['High'].values, dtype=float, copy=True)
+    low_prices = np.array(hist['Low'].values, dtype=float, copy=True)
+    volumes = np.array(hist['Volume'].values, dtype=float, copy=True) if 'Volume' in hist else np.ones(len(close_prices), dtype=float)
+
+    hist_last_close = clean_val(close_prices[-1])
+    hist_prev_close = clean_val(close_prices[-2]) if len(close_prices) > 1 else hist_last_close
 
     # Real-time / Latest price extraction via fast_info
     fast_info = {}
@@ -370,28 +405,44 @@ def fetch_stock_data(symbol, metadata):
     live_low = clean_val(fast_info.get('dayLow'))
     live_52w_high = clean_val(fast_info.get('yearHigh'))
     live_52w_low = clean_val(fast_info.get('yearLow'))
+    quote_type = str(fast_info.get('quoteType', '')).upper()
 
-    if live_price > 0:
-        current_price = round(live_price, 2)
-        prev_close = round(live_prev_close if live_prev_close > 0 else clean_val(close_prices[-1]), 2)
-        day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
-        
-        # Append live price so moving averages, RSI, MACD, and breakout levels use the real latest price
-        close_prices = np.append(close_prices, current_price)
+    # Discard corrupted/glitch fast_info prices (e.g. mutual fund NAV collisions or extreme anomalies > 25% with 0 dayHigh)
+    if live_price > 0 and hist_last_close > 0:
+        discrepancy = abs(live_price - hist_last_close) / hist_last_close
+        if discrepancy > 0.25 and (quote_type == 'MUTUALFUND' or live_high == 0):
+            print(f"[{clean_sym}] Discarding glitch fast_info price ({live_price}) -> Using legitimate hist close ({hist_last_close})")
+            live_price = hist_last_close
+
+    today_date = get_ist_now().date()
+    hist_end_date = hist.index[-1].date()
+
+    if hist_end_date >= today_date:
+        # Today's session is already represented in the historical dataframe
+        current_price = round(live_price if live_price > 0 else hist_last_close, 2)
+        prev_close = round(live_prev_close if (live_prev_close > 0 and abs(live_prev_close - hist_prev_close) / (hist_prev_close or 1.0) < 0.20) else hist_prev_close, 2)
+        close_prices[-1] = current_price
         if live_high > 0:
-            high_prices = np.append(high_prices, max(live_high, current_price))
+            high_prices[-1] = max(high_prices[-1], live_high, current_price)
         if live_low > 0:
-            low_prices = np.append(low_prices, min(live_low, current_price))
+            low_prices[-1] = min(low_prices[-1], live_low, current_price)
         if live_vol > 0:
-            volumes = np.append(volumes, live_vol)
+            volumes[-1] = max(volumes[-1], live_vol)
     else:
-        current_price = round(clean_val(close_prices[-1]), 2)
-        prev_close = round(clean_val(close_prices[-2]), 2) if len(close_prices) > 1 else current_price
-        day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
+        # Latest bar in hist is from previous session; append current intraday bar
+        current_price = round(live_price if live_price > 0 else hist_last_close, 2)
+        prev_close = round(live_prev_close if (live_prev_close > 0 and abs(live_prev_close - hist_last_close) / (hist_last_close or 1.0) < 0.20) else hist_last_close, 2)
+        close_prices = np.append(close_prices, current_price)
+        high_prices = np.append(high_prices, max(live_high if live_high > 0 else current_price, current_price))
+        low_prices = np.append(low_prices, min(live_low if live_low > 0 else current_price, current_price))
+        volumes = np.append(volumes, live_vol if live_vol > 0 else 1.0)
+
+    day_change_pct = round(safe_pct_change(current_price, prev_close), 2)
 
     if current_price <= 0:
         print(f"Invalid current price for {clean_sym}")
         return None
+
 
     high_52w = round(max(float(np.max(high_prices)), live_52w_high if live_52w_high > 0 else 0), 2)
     low_52w = round(min(float(np.min(low_prices)), live_52w_low if live_52w_low > 0 else 999999), 2)

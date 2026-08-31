@@ -85,14 +85,21 @@ def run_market_hours_ticker_scan():
                     t = yf.Ticker(sym)
                     fi = dict(t.fast_info)
                     lp = fi.get('lastPrice')
+                    p_close = fi.get('previousClose') or fi.get('regularMarketPreviousClose')
+                    quote_type = str(fi.get('quoteType', '')).upper()
                     if lp and float(lp) > 0:
-                        cp = round(float(lp), 2)
-                        p_close = fi.get('previousClose') or fi.get('regularMarketPreviousClose')
+                        cand_cp = round(float(lp), 2)
+                        if prev_cp > 0 and abs(cand_cp - prev_cp) / prev_cp > 0.25 and (quote_type == 'MUTUALFUND' or not fi.get('dayHigh')):
+                            cand_cp = s.get('current_price', prev_cp)
+                        cp = cand_cp
                         if p_close and float(p_close) > 0:
-                            prev_cp = round(float(p_close), 2)
+                            cand_prev = round(float(p_close), 2)
+                            if prev_cp <= 0 or abs(cand_prev - prev_cp) / (prev_cp or 1.0) < 0.20:
+                                prev_cp = cand_prev
                         vol_today = float(fi.get('lastVolume') or s.get('volume', 0))
                 except Exception:
                     pass
+
 
             if cp is not None and cp > 0:
                 chg_pct = round(((cp - prev_cp) / prev_cp) * 100.0, 2) if prev_cp and prev_cp > 0 else 0.0

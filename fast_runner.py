@@ -61,7 +61,7 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
     analyzed = []
     completed_count = 0
 
-    with ThreadPoolExecutor(max_workers=12) as executor:
+    with ThreadPoolExecutor(max_workers=6) as executor:
         future_map = {executor.submit(analyzer.fetch_stock_data, s['symbol'], s): s for s in stocks}
         for future in as_completed(future_map):
             completed_count += 1

@@ -27,15 +27,35 @@ def load_sheet_config():
         "auto_sync": True
     }
 
+KNOWN_ALIASES = {
+    "500325.BO": "RELIANCE.NS",
+    "544783.BO": "E2E.NS",
+    "GSPL.NS": "532540.BO"  # GSPL BSE ticker fallback
+}
+
+INVALID_OR_DELISTED = {
+    "MANPASAND.NS", "JCTLTD.NS", "544467.BO"
+}
+
 def clean_symbol(sym):
     sym = sym.strip().upper()
     if not sym: return ""
+    # Filter out malformed strings (e.g. descriptions pasted in ticker column)
+    if any(ch in sym for ch in ['[', ']', '(', ')', '{', '}', ';', ':']) or len(sym) > 18 or len(sym) < 2:
+        return ""
     sym = sym.replace(" ", "").replace("&", "%26")
     if not sym.endswith(".NS") and not sym.endswith(".BO"):
         if sym.isdigit():
-            return sym + ".BO"
-        return sym + ".NS"
+            sym = sym + ".BO"
+        else:
+            sym = sym + ".NS"
+    
+    # Map alias if available
+    sym = KNOWN_ALIASES.get(sym, sym)
+    if sym in INVALID_OR_DELISTED:
+        return ""
     return sym
+
 
 
 def sync_from_google_sheet():
