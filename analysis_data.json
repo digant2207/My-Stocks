@@ -1,12 +1,12 @@
 {
   "summary": {
-    "last_updated": "31-Aug-2026 07:38:58 PM IST (Indian Standard Time)",
-    "total_stocks_scanned": 136,
+    "last_updated": "31-Aug-2026 07:47:54 PM IST (Indian Standard Time)",
+    "total_stocks_scanned": 135,
     "swing_top_20_count": 20,
     "strong_buys_count": 21,
     "pattern_breakouts_count": 34,
-    "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 35.0
+    "upcoming_3d_events_count": 123,
+    "scan_time_seconds": 20.1
   },
   "top_20_swing": [
     {
@@ -4031,98 +4031,6 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 3.93"
-      ]
-    },
-    {
-      "symbol": "ACE.NS",
-      "clean_symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 1110.5,
-      "prev_close": 1140.6,
-      "day_change_pct": -2.64,
-      "volume": 325642,
-      "vol_1m_avg": 414248,
-      "vol_surge_ratio": 0.79,
-      "52w_high": 1196.0,
-      "52w_low": 745.1,
-      "sma_20": 1127.53,
-      "sma_50": 1056.41,
-      "sma_200": 938.09,
-      "rsi_14": 50.7,
-      "macd_val": 28.31,
-      "macd_signal": 33.81,
-      "macd_hist": -5.49,
-      "pe_ratio": 30.23,
-      "roe": 0.0,
-      "debt_to_equity": 0.0,
-      "debt_status": "Zero Debt",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 20.5,
-      "earnings_growth_yoy": 22.3,
-      "dividend_yield": 18.0,
-      "promoter_holding": 66.8,
-      "institutional_holding": 7.1,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 1196.0,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Moderate Buying Interest \ud83d\udfe2",
-      "is_volume_dryup": true,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 1197.2,
-      "sell_trigger_price": 1037.2,
-      "buy_status": "\u26a1 BUY ABOVE \u20b91,197.20 (7.8% away)",
-      "swing_target_1": 1240.54,
-      "swing_target_2": 1346.94,
-      "swing_stoploss": 1037.2,
-      "breakout_proximity_pct": 7.7,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 41.4,
-      "composite_score": 54,
-      "long_term_signal": "HOLD",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-09-03",
-          "date_tag": "03 Sep 2026",
-          "is_upcoming_3_days": true,
-          "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (18.00% Yield)",
-          "summary": "Ex-dividend date for payout.",
-          "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (18.00%) attracts income investors."
-        },
-        {
-          "date": "2026-08-31",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +22.3%)",
-          "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,197.20** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.79x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,037.20 \u2022 **Target 1:** \u20b91,240.54 \u2022 **Target 2:** \u20b91,346.94",
-      "strengths": [
-        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+22.3%) & Revenue (+20.5%)",
-        "\ud83d\udcc5 Upcoming Event (03 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (18.00% Yield)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +22.3%)",
-        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet",
-        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
-      ],
-      "weaknesses": [
-        "No major red flags detected"
       ]
     },
     {
@@ -13198,32 +13106,6 @@
       "symbol": "LTF.NS",
       "clean_symbol": "LTF",
       "name": "L&T Finance Ltd"
-    },
-    {
-      "date": "2026-09-03",
-      "date_tag": "03 Sep 2026",
-      "is_upcoming_3_days": true,
-      "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (18.00% Yield)",
-      "summary": "Ex-dividend date for payout.",
-      "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (18.00%) attracts income investors.",
-      "symbol": "ACE.NS",
-      "clean_symbol": "ACE",
-      "name": "Action Construction Equipment Ltd"
-    },
-    {
-      "date": "2026-08-31",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Quarterly Earnings Growth",
-      "title": "Strong Earnings Growth (YoY Profit +22.3%)",
-      "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
-      "impact": "Bullish Re-rating \ud83d\ude80",
-      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
-      "symbol": "ACE.NS",
-      "clean_symbol": "ACE",
-      "name": "Action Construction Equipment Ltd"
     },
     {
       "date": "2026-08-31",
