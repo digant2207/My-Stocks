@@ -1,6 +1,9 @@
 name: Daily Stock Screener & Live Market Scanner
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # 09:15 AM IST (03:45 AM UTC) - Market Opening Bell Scan (Mon-Fri)
     - cron: '45 3 * * 1-5'

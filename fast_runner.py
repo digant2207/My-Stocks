@@ -148,7 +148,7 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
     if not os.environ.get("GITHUB_ACTIONS") and not os.environ.get("CI"):
         try:
             print("[GITHUB AUTO-SYNC] Pushing deep analysis data & index.html cache version to GitHub Pages...")
-            os.system('git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv')
+            os.system('git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv scan_status.json')
             os.system('git commit -m "Auto-update deep analysis data and trigger deployment"')
             os.system('git pull --rebase origin main')
             os.system('git push origin main')
