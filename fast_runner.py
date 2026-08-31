@@ -148,11 +148,25 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
     if not os.environ.get("GITHUB_ACTIONS") and not os.environ.get("CI"):
         try:
             print("[GITHUB AUTO-SYNC] Pushing deep analysis data & index.html cache version to GitHub Pages...")
-            os.system('git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv scan_status.json')
-            os.system('git commit -m "Auto-update deep analysis data and trigger deployment"')
-            os.system('git pull --rebase origin main')
-            os.system('git push origin main')
-            print("[GITHUB AUTO-SYNC] Published deep analysis data to GitHub Pages!")
+            import subprocess
+            subprocess.run(["git", "add", "index.html", "app.js", "analysis_data.json", "analysis_data.js", "stocks_active.csv", "stocks.csv", "scan_status.json"], check=False)
+            diff_res = subprocess.run(["git", "diff", "--staged", "--quiet"], check=False)
+            if diff_res.returncode != 0:
+                subprocess.run(["git", "commit", "-m", "Auto-update deep analysis data and trigger deployment [skip ci]"], check=False)
+                push_res = subprocess.run(["git", "push", "origin", "main"], check=False)
+                if push_res.returncode != 0:
+                    print("[GITHUB AUTO-SYNC] Remote has newer commits. Syncing cleanly with origin/main...")
+                    subprocess.run(["git", "fetch", "origin", "main"], check=False)
+                    rebase_res = subprocess.run(["git", "rebase", "-X", "theirs", "origin/main"], check=False)
+                    if rebase_res.returncode != 0:
+                        subprocess.run(["git", "rebase", "--abort"], check=False)
+                        subprocess.run(["git", "reset", "origin/main"], check=False)
+                        subprocess.run(["git", "add", "index.html", "app.js", "analysis_data.json", "analysis_data.js", "stocks_active.csv", "stocks.csv", "scan_status.json"], check=False)
+                        subprocess.run(["git", "commit", "-m", "Auto-update deep analysis data and trigger deployment [skip ci]"], check=False)
+                    subprocess.run(["git", "push", "origin", "main"], check=False)
+                print("[GITHUB AUTO-SYNC] Published deep analysis data to GitHub Pages!")
+            else:
+                print("[GITHUB AUTO-SYNC] No changes to commit.")
         except Exception as push_err:
             print(f"[GITHUB AUTO-SYNC] Warning: {push_err}")
 

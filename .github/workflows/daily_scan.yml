@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'analysis_data.json'
+      - 'analysis_data.js'
+      - 'scan_status.json'
   schedule:
     # 09:15 AM IST (03:45 AM UTC) - Market Opening Bell Scan (Mon-Fri)
     - cron: '45 3 * * 1-5'
@@ -32,6 +36,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python
@@ -60,8 +65,18 @@ jobs:
           git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv scan_status.json
           if ! git diff --staged --quiet; then
             git commit -m 'Automated Market Scanner Cloud Update [skip ci]'
-            git pull --rebase origin main
-            git push origin main
+            if ! git push origin main; then
+              echo "Remote branch has newer commits. Fetching and rebasing..."
+              git fetch origin main
+              if ! git rebase -X theirs origin/main; then
+                echo "Rebase conflict occurred. Overwriting with latest scanner data on top of origin/main..."
+                git rebase --abort || true
+                git reset origin/main
+                git add index.html app.js analysis_data.json analysis_data.js stocks_active.csv stocks.csv scan_status.json
+                git commit -m 'Automated Market Scanner Cloud Update [skip ci]'
+              fi
+              git push origin main
+            fi
           else
             echo "No changes to commit."
           fi
