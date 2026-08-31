@@ -5,5 +5,4 @@ __pycache__/
 .venv/
 .idea/
 .vscode/
-scan_status.json
 targets.json
