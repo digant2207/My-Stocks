@@ -1,12 +1,12 @@
 window.stockData = {
   "summary": {
-    "last_updated": "07-Sep-2026 08:40:35 PM IST (Indian Standard Time)",
+    "last_updated": "07-Sep-2026 11:22:14 PM IST (Indian Standard Time)",
     "total_stocks_scanned": 139,
     "swing_top_20_count": 20,
     "strong_buys_count": 21,
     "pattern_breakouts_count": 27,
     "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 17.8
+    "scan_time_seconds": 23.5
   },
   "top_20_swing": [
     {
@@ -918,7 +918,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 45.1,
       "earnings_growth_yoy": 1.2,
-      "dividend_yield": 500.0,
+      "dividend_yield": 506.0,
       "promoter_holding": 61.1,
       "institutional_holding": 26.4,
       "pledged_pct": 0.0,
@@ -953,10 +953,10 @@ window.stockData = {
           "date_tag": "04 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (500.00% Yield)",
+          "title": "Ex-Dividend Event (506.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (500.00%) attracts income investors."
+          "impact_reason": "High dividend yield (506.00%) attracts income investors."
         },
         {
           "date": "2026-09-07",
@@ -972,7 +972,7 @@ window.stockData = {
       "ai_suggestion": "**\ud83d\udd25 BREAKOUT ACTIVE - BUY NOW ABOVE \u20b9418.85** \u2022 Breakout triggered on **Double Bottom (W-Pattern) \ud83d\udd04** with **1.32x** volume surge and Institutional Accumulation \ud83d\udd25. \u2022 **Sell/Stop Loss Trigger:** \u20b9397.05 \u2022 **Target 1:** \u20b9423.14 \u2022 **Target 2:** \u20b9491.25",
       "strengths": [
         "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+1.2%) & Revenue (+45.1%)",
-        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (500.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (506.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +1.2%)",
         "\ud83d\udcc8 Chart Pattern: Double Bottom (W-Pattern) \ud83d\udd04 (Bullish Reversal \ud83d\udfe2)",
         "\u26a1 Breakout Zone: Only 1.4% away from breakout trigger (\u20b9418.85)",
@@ -2669,7 +2669,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 45.1,
       "earnings_growth_yoy": 1.2,
-      "dividend_yield": 500.0,
+      "dividend_yield": 506.0,
       "promoter_holding": 61.1,
       "institutional_holding": 26.4,
       "pledged_pct": 0.0,
@@ -2704,10 +2704,10 @@ window.stockData = {
           "date_tag": "04 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (500.00% Yield)",
+          "title": "Ex-Dividend Event (506.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (500.00%) attracts income investors."
+          "impact_reason": "High dividend yield (506.00%) attracts income investors."
         },
         {
           "date": "2026-09-07",
@@ -2723,7 +2723,7 @@ window.stockData = {
       "ai_suggestion": "**\ud83d\udd25 BREAKOUT ACTIVE - BUY NOW ABOVE \u20b9418.85** \u2022 Breakout triggered on **Double Bottom (W-Pattern) \ud83d\udd04** with **1.32x** volume surge and Institutional Accumulation \ud83d\udd25. \u2022 **Sell/Stop Loss Trigger:** \u20b9397.05 \u2022 **Target 1:** \u20b9423.14 \u2022 **Target 2:** \u20b9491.25",
       "strengths": [
         "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+1.2%) & Revenue (+45.1%)",
-        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (500.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (506.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +1.2%)",
         "\ud83d\udcc8 Chart Pattern: Double Bottom (W-Pattern) \ud83d\udd04 (Bullish Reversal \ud83d\udfe2)",
         "\u26a1 Breakout Zone: Only 1.4% away from breakout trigger (\u20b9418.85)",
@@ -3787,7 +3787,7 @@ window.stockData = {
       "rev_growth_yoy": 9.2,
       "earnings_growth_yoy": -4.9,
       "dividend_yield": 9.0,
-      "promoter_holding": 75.0,
+      "promoter_holding": 74.9,
       "institutional_holding": 10.2,
       "pledged_pct": 0.0,
       "primary_pattern": "Ascending Triangle \ud83d\udcd0",
@@ -4202,7 +4202,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 20.5,
       "earnings_growth_yoy": 22.3,
-      "dividend_yield": 17.0,
+      "dividend_yield": 18.0,
       "promoter_holding": 66.8,
       "institutional_holding": 7.1,
       "pledged_pct": 0.0,
@@ -4237,10 +4237,10 @@ window.stockData = {
           "date_tag": "03 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (17.00% Yield)",
+          "title": "Ex-Dividend Event (18.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (17.00%) attracts income investors."
+          "impact_reason": "High dividend yield (18.00%) attracts income investors."
         },
         {
           "date": "2026-09-07",
@@ -4256,7 +4256,7 @@ window.stockData = {
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,195.00** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.31x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,044.45 \u2022 **Target 1:** \u20b91,208.20 \u2022 **Target 2:** \u20b91,285.92",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+22.3%) & Revenue (+20.5%)",
-        "\ud83d\udcc5 Upcoming Event (03 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (17.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (03 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (18.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +22.3%)",
         "\ud83d\udee1\ufe0f Zero Debt Balance Sheet",
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
@@ -5855,7 +5855,7 @@ window.stockData = {
       "earnings_growth_yoy": 250.0,
       "dividend_yield": 0.0,
       "promoter_holding": 56.1,
-      "institutional_holding": 31.7,
+      "institutional_holding": 31.8,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -6100,7 +6100,7 @@ window.stockData = {
       "earnings_growth_yoy": 91.1,
       "dividend_yield": 107.0,
       "promoter_holding": 51.3,
-      "institutional_holding": 22.2,
+      "institutional_holding": 22.1,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -8471,9 +8471,9 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 11.9,
       "earnings_growth_yoy": 27.9,
-      "dividend_yield": 98.0,
+      "dividend_yield": 99.0,
       "promoter_holding": 34.4,
-      "institutional_holding": 34.3,
+      "institutional_holding": 34.4,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
