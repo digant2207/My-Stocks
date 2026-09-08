@@ -14,8 +14,8 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <title>My Watchlist - Indian Stock Analyzer</title>
-  <link rel="stylesheet" href="styles.css?v=20260908120054">
-  <script src="analysis_data.js?v=20260908120054"></script>
+  <link rel="stylesheet" href="styles.css?v=20260908120519">
+  <script src="analysis_data.js?v=20260908120519"></script>
 </head>
 
 <body>
@@ -32,6 +32,9 @@
       </div>
       <div class="header-actions">
         <div class="timestamp-badge" id="lastUpdatedBadge">Loading analysis...</div>
+        <button class="btn btn-success" id="btnAddStockHeader" title="Add BSE or NSE Stock to Watchlist">
+          <span>➕ Add Stock</span>
+        </button>
         <button class="btn btn-primary" id="btnRefresh">
           <span id="refreshIcon">🔄</span>
           <span>Refresh Analysis</span>
@@ -92,8 +95,11 @@
           <h2 style="font-size:18px; font-weight:800;">All Watchlist Equities</h2>
           <p style="font-size:13px; color:var(--text-muted);">Stock list synced exclusively from Google Sheet <strong>"Spark Stock List"</strong>.</p>
         </div>
-        <div>
+        <div style="display:flex; gap:8px; align-items:center;">
           <input type="text" id="searchInput" placeholder="Search stock or symbol..." style="padding:8px 12px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:14px; width:220px;">
+          <button class="btn btn-success btn-sm" id="btnAddStockWatchlist">
+            <span>➕ Add Stock</span>
+          </button>
         </div>
       </div>
 
@@ -277,18 +283,150 @@
 
   </main>
 
+  <!-- Add Stock Modal -->
+  <div class="modal-overlay" id="addStockModal">
+    <div class="modal-box" style="max-width:480px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <h3 style="margin:0; font-size:18px; display:flex; align-items:center; gap:8px;">
+          <span>📈</span> Add Stock to Watchlist
+        </h3>
+        <button id="btnCloseAddStockX" style="background:transparent; border:none; color:var(--text-muted); font-size:22px; cursor:pointer; line-height:1;">&times;</button>
+      </div>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">
+        Enter any Indian equity (NSE / BSE). When connected via Google Apps Script, it appends directly to <strong>"Spark Stock List"</strong> in Google Sheets and triggers a live scan!
+      </p>
+
+      <div style="margin-bottom:14px;">
+        <label style="font-size:12px; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">
+          Stock Ticker / Scrip Code <span style="color:var(--danger)">*</span>
+        </label>
+        <input type="text" id="addStockSymbolInput" placeholder="e.g. RELIANCE, TCS, or BSE 500325" style="width:100%; padding:10px 12px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:14px; text-transform:uppercase; font-weight:600;" required>
+        <div style="font-size:11px; color:var(--text-muted); margin-top:4px;">
+          NSE examples: <code>TCS</code>, <code>RELIANCE</code>, <code>TATAMOTORS</code> • BSE examples: <code>500325</code>, <code>544783</code>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:14px;">
+        <div>
+          <label style="font-size:12px; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">
+            Exchange
+          </label>
+          <select id="addStockExchangeSelect" style="width:100%; padding:10px 12px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:13px; background:var(--bg-main); color:var(--text-primary); cursor:pointer;">
+            <option value="AUTO" selected>Auto-Detect (.NS / .BO)</option>
+            <option value="NSE">NSE (.NS)</option>
+            <option value="BSE">BSE (.BO)</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size:12px; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">
+            Sector / Category (Optional)
+          </label>
+          <input type="text" id="addStockSectorInput" placeholder="e.g. Auto, IT, Energy" style="width:100%; padding:10px 12px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:13px;">
+        </div>
+      </div>
+
+      <div style="margin-bottom:16px;">
+        <label style="font-size:12px; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">
+          Company Name (Optional)
+        </label>
+        <input type="text" id="addStockNameInput" placeholder="e.g. Tata Motors Ltd (Optional)" style="width:100%; padding:10px 12px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:13px;">
+      </div>
+
+      <div id="addStockFeedback" style="display:none; font-size:13px; padding:10px 12px; border-radius:var(--radius-sm); margin-bottom:14px;"></div>
+
+      <div style="display:flex; justify-content:flex-end; gap:8px;">
+        <button class="btn btn-outline btn-sm" id="btnCloseAddStockModal">Cancel</button>
+        <button class="btn btn-success btn-sm" id="btnSubmitAddStock">
+          <span id="addStockBtnIcon">➕</span>
+          <span id="addStockBtnText">Add to Sheet & Watchlist</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
   <!-- Google Sheet Modal -->
   <div class="modal-overlay" id="gsheetModal">
-    <div class="modal-box">
-      <h3 style="margin-bottom:12px;">Google Sheet Configuration</h3>
-      <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">Connect to Google Sheet <strong>"Spark Stock List"</strong> in your Google Drive:</p>
-      <div style="margin-bottom:16px;">
-        <label style="font-size:12px; font-weight:600; color:var(--text-secondary);">Google Sheet URL</label>
-        <input type="text" id="gsheetUrlInput" placeholder="https://docs.google.com/spreadsheets/d/..." style="width:100%; padding:10px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:13px; margin-top:4px;">
+    <div class="modal-box" style="max-width:540px; max-height:85vh; overflow-y:auto;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+        <h3 style="margin:0; font-size:18px;">Google Sheet Configuration</h3>
+        <button id="btnCloseGsheetModalX" style="background:transparent; border:none; color:var(--text-muted); font-size:22px; cursor:pointer; line-height:1;">&times;</button>
       </div>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:16px;">Connect with Google Sheet <strong>"Spark Stock List"</strong>:</p>
+      
+      <div style="margin-bottom:14px;">
+        <label style="font-size:12px; font-weight:600; color:var(--text-secondary);">1. Google Sheet Read/Sync URL</label>
+        <input type="text" id="gsheetUrlInput" placeholder="https://docs.google.com/spreadsheets/d/..." style="width:100%; padding:9px 10px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:13px; margin-top:4px;">
+      </div>
+
+      <div style="margin-bottom:14px;">
+        <label style="font-size:12px; font-weight:600; color:var(--text-secondary); display:flex; justify-content:space-between; align-items:center;">
+          <span>2. Apps Script Webhook URL (Direct Sheet Adding)</span>
+          <span style="font-size:11px; color:#10b981; font-weight:700;">Direct Write</span>
+        </label>
+        <input type="text" id="gsheetWebhookUrlInput" placeholder="https://script.google.com/macros/s/.../exec" style="width:100%; padding:9px 10px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:13px; margin-top:4px;">
+        <div style="font-size:11px; color:var(--text-muted); margin-top:4px;">
+          When provided, adding stocks on this page directly inserts new rows into your Google Sheet!
+        </div>
+      </div>
+
+      <!-- Collapsible Apps Script Guide -->
+      <details style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:10px 14px; margin-bottom:16px; font-size:12px;">
+        <summary style="cursor:pointer; font-weight:700; color:var(--primary);">
+          ⚡ How to enable Direct Sheet Adding (1-Minute Setup)
+        </summary>
+        <div style="margin-top:10px; color:var(--text-secondary); line-height:1.6;">
+          <ol style="padding-left:18px; margin:0 0 10px 0;">
+            <li>Open your Google Sheet (<strong>Spark Stock List</strong>).</li>
+            <li>In the top menu, click <strong>Extensions &gt; Apps Script</strong>.</li>
+            <li>Paste the script below and click <strong>Save (💾)</strong>:</li>
+          </ol>
+          <div style="position:relative; margin-bottom:10px;">
+            <pre id="appsScriptCodeBlock" style="background:#0f172a; color:#f8fafc; padding:10px; border-radius:6px; font-size:11px; overflow-x:auto; line-height:1.4; user-select:all; border:1px solid #334155;">function doGet(e) {
+  return handleStockRequest(e.parameter || {});
+}
+
+function doPost(e) {
+  var data = {};
+  try {
+    data = JSON.parse(e.postData ? e.postData.contents : "{}");
+  } catch(err) {
+    data = e.parameter || {};
+  }
+  return handleStockRequest(data);
+}
+
+function handleStockRequest(data) {
+  try {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+    var sym = (data.symbol || "").trim();
+    var name = (data.name || sym).trim();
+    if (!sym) return ContentService.createTextOutput(JSON.stringify({status: "error", message: "Symbol empty"})).setMimeType(ContentService.MimeType.JSON);
+    
+    var values = sheet.getRange(1, 1, Math.max(sheet.getLastRow(), 1), 1).getValues();
+    for (var i = 0; i < values.length; i++) {
+      if (values[i][0].toString().trim().toUpperCase() === sym.toUpperCase()) {
+        return ContentService.createTextOutput(JSON.stringify({status: "warning", message: "Stock already in sheet"})).setMimeType(ContentService.MimeType.JSON);
+      }
+    }
+    sheet.appendRow([sym, name]);
+    return ContentService.createTextOutput(JSON.stringify({status: "success", message: "Added " + sym + " to Google Sheet!"})).setMimeType(ContentService.MimeType.JSON);
+  } catch (err) {
+    return ContentService.createTextOutput(JSON.stringify({status: "error", message: err.toString()})).setMimeType(ContentService.MimeType.JSON);
+  }
+}</pre>
+            <button class="btn btn-outline btn-sm" id="btnCopyAppsScript" type="button" style="position:absolute; top:6px; right:6px; padding:3px 8px; font-size:11px; background:#1e293b; color:#fff; border-color:#475569;">📋 Copy</button>
+          </div>
+          <ol start="4" style="padding-left:18px; margin:0;">
+            <li>Click <strong>Deploy &gt; New deployment</strong> (Select type: <strong>Web app</strong>).</li>
+            <li>Set <strong>"Who has access"</strong> to <strong>"Anyone"</strong>.</li>
+            <li>Click <strong>Deploy</strong> and paste the generated <strong>Web app URL</strong> into Box #2 above!</li>
+          </ol>
+        </div>
+      </details>
+
       <div style="display:flex; justify-content:flex-end; gap:8px;">
         <button class="btn btn-outline btn-sm" id="btnCloseGsheetModal">Cancel</button>
-        <button class="btn btn-primary btn-sm" id="btnSaveGsheet">Save & Sync</button>
+        <button class="btn btn-primary btn-sm" id="btnSaveGsheet">Save Settings & Sync</button>
       </div>
     </div>
   </div>
@@ -319,7 +457,7 @@
     </div>
   </div>
 
-  <script src="app.js?v=20260908120054"></script>
+  <script src="app.js?v=20260908120519"></script>
 </body>
 </html>
 

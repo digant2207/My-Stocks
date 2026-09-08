@@ -424,11 +424,246 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+  // Add Stock Modal elements
+  const addStockModal = document.getElementById('addStockModal');
+  const btnAddStockHeader = document.getElementById('btnAddStockHeader');
+  const btnAddStockWatchlist = document.getElementById('btnAddStockWatchlist');
+  const btnCloseAddStockModal = document.getElementById('btnCloseAddStockModal');
+  const btnCloseAddStockX = document.getElementById('btnCloseAddStockX');
+  const btnSubmitAddStock = document.getElementById('btnSubmitAddStock');
+  const addStockSymbolInput = document.getElementById('addStockSymbolInput');
+  const addStockExchangeSelect = document.getElementById('addStockExchangeSelect');
+  const addStockSectorInput = document.getElementById('addStockSectorInput');
+  const addStockNameInput = document.getElementById('addStockNameInput');
+  const addStockFeedback = document.getElementById('addStockFeedback');
+  const addStockBtnIcon = document.getElementById('addStockBtnIcon');
+  const addStockBtnText = document.getElementById('addStockBtnText');
+
+  function openAddStockModal() {
+    if (!addStockModal) return;
+    addStockFeedback.style.display = 'none';
+    addStockFeedback.innerHTML = '';
+    addStockSymbolInput.value = '';
+    addStockNameInput.value = '';
+    addStockSectorInput.value = '';
+    addStockExchangeSelect.value = 'AUTO';
+    btnSubmitAddStock.disabled = false;
+    addStockBtnIcon.textContent = '➕';
+    addStockBtnText.textContent = 'Add to Sheet & Watchlist';
+    addStockModal.classList.add('active');
+    setTimeout(() => addStockSymbolInput.focus(), 100);
+  }
+
+  function closeAddStockModal() {
+    if (addStockModal) addStockModal.classList.remove('active');
+  }
+
+  if (btnAddStockHeader) btnAddStockHeader.addEventListener('click', openAddStockModal);
+  if (btnAddStockWatchlist) btnAddStockWatchlist.addEventListener('click', openAddStockModal);
+  if (btnCloseAddStockModal) btnCloseAddStockModal.addEventListener('click', closeAddStockModal);
+  if (btnCloseAddStockX) btnCloseAddStockX.addEventListener('click', closeAddStockModal);
+
+  if (addStockModal) {
+    addStockModal.addEventListener('click', (e) => {
+      if (e.target === addStockModal) closeAddStockModal();
+    });
+  }
+
+  // Handle enter key in Add Stock input
+  if (addStockSymbolInput) {
+    addStockSymbolInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        btnSubmitAddStock.click();
+      }
+    });
+  }
+
+  function cleanClientSymbol(sym, exchange) {
+    sym = (sym || '').trim().toUpperCase();
+    if (!sym) return '';
+    if (sym.startsWith('BSE:') || sym.startsWith('BOM:')) {
+      exchange = 'BSE';
+      sym = sym.split(':', 2)[1].trim();
+    } else if (sym.startsWith('NSE:')) {
+      exchange = 'NSE';
+      sym = sym.split(':', 2)[1].trim();
+    }
+    if (exchange === 'BSE' || exchange === 'BO') {
+      if (sym.endsWith('.NS')) sym = sym.slice(0, -3);
+      if (!sym.endsWith('.BO')) sym = sym + '.BO';
+    } else if (exchange === 'NSE' || exchange === 'NS') {
+      if (sym.endsWith('.BO')) sym = sym.slice(0, -3);
+      if (!sym.endsWith('.NS')) sym = sym + '.NS';
+    }
+    if (!sym.endsWith('.NS') && !sym.endsWith('.BO')) {
+      if (/^\d+$/.test(sym)) {
+        sym = sym + '.BO';
+      } else {
+        sym = sym + '.NS';
+      }
+    }
+    return sym;
+  }
+
+  if (btnSubmitAddStock) {
+    btnSubmitAddStock.addEventListener('click', () => {
+      const rawSymbol = addStockSymbolInput.value.trim();
+      const exchange = addStockExchangeSelect.value;
+      const cleanSym = cleanClientSymbol(rawSymbol, exchange === 'AUTO' ? '' : exchange);
+      const name = addStockNameInput.value.trim();
+      const sector = addStockSectorInput.value.trim() || 'User Added';
+
+      if (!cleanSym) {
+        addStockFeedback.style.display = 'block';
+        addStockFeedback.style.background = 'var(--danger-bg)';
+        addStockFeedback.style.color = 'var(--danger)';
+        addStockFeedback.textContent = 'Please enter a valid stock ticker or BSE code!';
+        addStockSymbolInput.focus();
+        return;
+      }
+
+      btnSubmitAddStock.disabled = true;
+      addStockBtnIcon.textContent = '⏳';
+      addStockBtnText.textContent = 'Adding...';
+      addStockFeedback.style.display = 'block';
+      addStockFeedback.style.background = 'var(--bg-subtle)';
+      addStockFeedback.style.color = 'var(--text-secondary)';
+      addStockFeedback.textContent = `Connecting & adding ${cleanSym} to Google Sheet and watchlist...`;
+
+      // Helper for UI success
+      function handleSuccess(msg) {
+        btnSubmitAddStock.disabled = false;
+        addStockBtnIcon.textContent = '➕';
+        addStockBtnText.textContent = 'Add to Sheet & Watchlist';
+        addStockFeedback.style.background = 'var(--success-bg)';
+        addStockFeedback.style.color = 'var(--success)';
+        addStockFeedback.innerHTML = msg;
+
+        setTimeout(() => {
+          closeAddStockModal();
+          refreshIcon.classList.add('spin');
+          pollStatus();
+          // Also trigger instant UI table refresh if possible
+          if (typeof fetchData === 'function') fetchData();
+        }, 2200);
+      }
+
+      // Helper for UI error
+      function handleError(msg) {
+        btnSubmitAddStock.disabled = false;
+        addStockBtnIcon.textContent = '➕';
+        addStockBtnText.textContent = 'Add to Sheet & Watchlist';
+        addStockFeedback.style.background = 'var(--danger-bg)';
+        addStockFeedback.style.color = 'var(--danger)';
+        addStockFeedback.innerHTML = msg;
+      }
+
+      // Attempt 1: Call backend API if running
+      fetch('/api/add_stock', {
+        method: 'POST',
+        headers: {
+          'Bypass-Tunnel-Reminder': 'true',
+          'ngrok-skip-browser-warning': 'true',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          symbol: cleanSym,
+          exchange: exchange === 'AUTO' ? '' : exchange,
+          name: name,
+          sector: sector
+        })
+      })
+      .then(res => {
+        if (!res.ok && res.status >= 500) {
+          throw new Error('Server error ' + res.status);
+        }
+        return res.json();
+      })
+      .then(data => {
+        if (data.status === 'success' || data.status === 'warning') {
+          handleSuccess(data.message || `Added ${cleanSym}`);
+        } else {
+          handleError(data.message || 'Failed to add stock.');
+        }
+      })
+      .catch(err => {
+        // Attempt 2: If server is offline (Failed to fetch), send directly from browser to Google Apps Script Webhook!
+        const webhookUrl = (document.getElementById('gsheetWebhookUrlInput') ? document.getElementById('gsheetWebhookUrlInput').value.trim() : '') ||
+                           localStorage.getItem('gsheet_webhook_url') || '';
+
+        if (webhookUrl && webhookUrl.startsWith('http')) {
+          addStockFeedback.innerHTML = `Local server offline. Sending <strong>${cleanSym}</strong> directly to Google Sheet Webhook...`;
+
+          const targetUrl = webhookUrl + (webhookUrl.includes('?') ? '&' : '?') +
+            'symbol=' + encodeURIComponent(cleanSym) +
+            '&name=' + encodeURIComponent(name || cleanSym) +
+            '&sector=' + encodeURIComponent(sector) +
+            '&t=' + Date.now();
+
+          // Try GET first with no-cors (works reliably across origins from browser to Apps Script)
+          fetch(targetUrl, { method: 'GET', mode: 'no-cors' })
+            .then(() => {
+              handleSuccess(`✅ Successfully added <strong>${cleanSym}</strong> directly to Google Sheet <em>"Spark Stock List"</em>!`);
+            })
+            .catch(() => {
+              // Fallback to POST with no-cors
+              fetch(webhookUrl, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'text/plain' },
+                body: JSON.stringify({ symbol: cleanSym, name: name || cleanSym, sector: sector })
+              })
+              .then(() => {
+                handleSuccess(`✅ Sent <strong>${cleanSym}</strong> directly to Google Sheet <em>"Spark Stock List"</em>!`);
+              })
+              .catch(postErr => {
+                handleError(`Could not reach Google Sheet Webhook: ${postErr.message}`);
+              });
+            });
+        } else {
+          // Neither local server is running nor webhook URL is saved
+          handleError(`⚠️ <strong>Connection Error (Local server is not running)</strong><br><br>
+            Please choose one of the following to add stocks:<br>
+            • <strong>Option A (Local):</strong> Double-click <code>Start_App.bat</code> on your PC to start the server.<br>
+            • <strong>Option B (Cloud/Browser):</strong> Click <strong>📊 Google Sheet</strong> above, set up the 1-minute Apps Script Webhook, and paste the URL. This allows adding stocks directly from any browser or phone without running the local server!`);
+        }
+      });
+    });
+  }
+
+  // Google Sheet Modal Extra controls
+  const btnCloseGsheetModalX = document.getElementById('btnCloseGsheetModalX');
+  if (btnCloseGsheetModalX) {
+    btnCloseGsheetModalX.addEventListener('click', () => gsheetModal.classList.remove('active'));
+  }
+
+  const btnCopyAppsScript = document.getElementById('btnCopyAppsScript');
+  if (btnCopyAppsScript) {
+    btnCopyAppsScript.addEventListener('click', () => {
+      const codeBlock = document.getElementById('appsScriptCodeBlock');
+      if (codeBlock) {
+        navigator.clipboard.writeText(codeBlock.innerText).then(() => {
+          btnCopyAppsScript.textContent = '✅ Copied!';
+          setTimeout(() => { btnCopyAppsScript.textContent = '📋 Copy'; }, 2000);
+        }).catch(() => {
+          alert('Failed to copy. Please select and copy the text manually.');
+        });
+      }
+    });
+  }
+
   document.getElementById('btnSaveGsheet').addEventListener('click', () => {
     const url = document.getElementById('gsheetUrlInput').value.trim();
+    const webhookUrl = document.getElementById('gsheetWebhookUrlInput') ? document.getElementById('gsheetWebhookUrlInput').value.trim() : '';
     if (!url) {
       alert('Please paste a Google Sheet URL!');
       return;
+    }
+
+    // Always remember in browser localStorage
+    localStorage.setItem('gsheet_url', url);
+    if (webhookUrl) {
+      localStorage.setItem('gsheet_webhook_url', webhookUrl);
     }
 
     const requestHeaders = {
@@ -442,32 +677,33 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('/api/save_gsheet', {
       method: 'POST',
       headers: requestHeaders,
-      body: JSON.stringify({ google_sheet_url: url })
+      body: JSON.stringify({ google_sheet_url: url, google_apps_script_url: webhookUrl })
     })
     .then(res => res.json())
     .then(d => {
-      alert(d.message || 'Google Sheet URL saved & syncing...');
+      alert(d.message || 'Google Sheet configuration saved & syncing...');
       gsheetModal.classList.remove('active');
       pollStatus();
     })
     .catch(() => {
-      // Fallback if POST is blocked over tunnel
-      fetch('/api/save_gsheet?url=' + encodeURIComponent(url) + '&t=' + Date.now(), { headers: requestHeaders })
-        .then(res => res.json())
-        .then(d => {
-          alert(d.message || 'Google Sheet URL saved & syncing...');
-          gsheetModal.classList.remove('active');
-          pollStatus();
-        })
-        .catch(() => {
-          alert('Google Sheet saved! Triggering background stock scan...');
-          gsheetModal.classList.remove('active');
-          pollStatus();
-        });
+      alert('Google Sheet settings saved in browser! If you have configured the Webhook URL, you can now add stocks directly from the page.');
+      gsheetModal.classList.remove('active');
+      pollStatus();
     });
   });
 
   function fetchGsheetConfig() {
+    // 1. Load from localStorage immediately for fast UI response
+    const savedUrl = localStorage.getItem('gsheet_url');
+    const savedWebhook = localStorage.getItem('gsheet_webhook_url');
+    if (savedUrl && document.getElementById('gsheetUrlInput')) {
+      document.getElementById('gsheetUrlInput').value = savedUrl;
+    }
+    if (savedWebhook && document.getElementById('gsheetWebhookUrlInput')) {
+      document.getElementById('gsheetWebhookUrlInput').value = savedWebhook;
+    }
+
+    // 2. Fetch from backend if available
     fetch('/api/get_gsheet_config?t=' + Date.now(), {
       headers: { 'Bypass-Tunnel-Reminder': 'true', 'ngrok-skip-browser-warning': 'true' }
     })
@@ -475,9 +711,28 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(d => {
         if (d.google_sheet_url) {
           document.getElementById('gsheetUrlInput').value = d.google_sheet_url;
+          localStorage.setItem('gsheet_url', d.google_sheet_url);
+        }
+        if (d.google_apps_script_url && document.getElementById('gsheetWebhookUrlInput')) {
+          document.getElementById('gsheetWebhookUrlInput').value = d.google_apps_script_url;
+          localStorage.setItem('gsheet_webhook_url', d.google_apps_script_url);
         }
       })
-      .catch(() => {});
+      .catch(() => {
+        // 3. Fallback: fetch static google_sheet_config.json (works on GitHub Pages!)
+        fetch('google_sheet_config.json?t=' + Date.now())
+          .then(res => res.json())
+          .then(d => {
+            if (d.google_sheet_url && !document.getElementById('gsheetUrlInput').value) {
+              document.getElementById('gsheetUrlInput').value = d.google_sheet_url;
+            }
+            if (d.google_apps_script_url && document.getElementById('gsheetWebhookUrlInput') && !document.getElementById('gsheetWebhookUrlInput').value) {
+              document.getElementById('gsheetWebhookUrlInput').value = d.google_apps_script_url;
+              localStorage.setItem('gsheet_webhook_url', d.google_apps_script_url);
+            }
+          })
+          .catch(() => {});
+      });
   }
 
 
