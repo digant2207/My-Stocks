@@ -8,6 +8,10 @@ on:
       - 'analysis_data.json'
       - 'analysis_data.js'
       - 'scan_status.json'
+      - 'stocks.csv'
+      - 'stocks_active.csv'
+      - 'public_url.txt'
+      - 'README.md'
   schedule:
     # 09:15 AM IST (03:45 AM UTC) - Market Opening Bell Scan (Mon-Fri)
     - cron: '45 3 * * 1-5'
@@ -24,11 +28,12 @@ permissions:
 
 concurrency:
   group: 'pages'
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-and-scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -91,6 +96,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     needs: build-and-scan
     steps:
       - name: Deploy to GitHub Pages

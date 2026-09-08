@@ -57,8 +57,6 @@
       <div class="banner-meta">
         <div class="meta-pill" id="totalScannedPill">📊 Scanned: -- Stocks</div>
         <div class="meta-pill" id="swingPicksPill">🎯 20 Best Swing Picks</div>
-        <button class="btn btn-outline btn-sm" id="btnGoogleSheetModal">📊 Google Sheet</button>
-        <button class="btn btn-outline btn-sm" id="btnEmailModal">✉️ Email Settings</button>
       </div>
     </div>
   </section>
@@ -174,8 +172,58 @@
     <!-- Tab 4: System Information -->
     <section id="tab-info" class="tab-content" style="display:none;">
       <div style="margin-bottom:16px;">
-        <h2 style="font-size:18px; font-weight:800;">ℹ️ System Methodology & Calculation Rules</h2>
-        <p style="font-size:13px; color:var(--text-muted);">Detailed guide explaining how the composite score is evaluated and how Price Action logic determines Targets & Stop Loss levels.</p>
+        <h2 style="font-size:18px; font-weight:800;">ℹ️ System Information & Integrations</h2>
+        <p style="font-size:13px; color:var(--text-muted);">Manage external data sync, configure automated morning email briefings, and review calculation rules.</p>
+      </div>
+
+      <!-- Integrations & Configuration Cards -->
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:16px; margin-bottom:24px;">
+        
+        <!-- Google Sheet Integration Card -->
+        <div class="widget-card" style="border-top:4px solid var(--success); display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+              <h3 style="font-size:15px; font-weight:700; color:var(--text-primary); display:flex; align-items:center; gap:8px;">
+                <span>📊</span> Google Sheet Synchronization
+              </h3>
+              <span class="badge" style="font-size:11px; padding:3px 8px; background:var(--success-bg); color:var(--success); font-weight:700; border-radius:var(--radius-sm);">Active Sync</span>
+            </div>
+            <p style="font-size:13px; color:var(--text-secondary); line-height:1.5; margin-bottom:14px;">
+              Directly connected to Google Sheet <strong>"Spark Stock List"</strong>. Automatically pulls tickers into the watchlist and syncs additions.
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-outline btn-sm" id="btnGoogleSheetModal" style="width:100%; justify-content:center;">
+              ⚙️ Manage Google Sheet Settings
+            </button>
+          </div>
+        </div>
+
+        <!-- Email Briefing Settings Card -->
+        <div class="widget-card" style="border-top:4px solid var(--primary); display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+              <h3 style="font-size:15px; font-weight:700; color:var(--text-primary); display:flex; align-items:center; gap:8px;">
+                <span>✉️</span> Daily Email Briefing
+              </h3>
+              <span class="badge" style="font-size:11px; padding:3px 8px; background:var(--primary-light); color:var(--primary); font-weight:700; border-radius:var(--radius-sm);">8:00 AM IST</span>
+            </div>
+            <p style="font-size:13px; color:var(--text-secondary); line-height:1.5; margin-bottom:14px;">
+              Scheduled morning briefing service delivering the 20 Best Swing Trading picks and technical breakout alerts to your inbox.
+            </p>
+          </div>
+          <div>
+            <button class="btn btn-outline btn-sm" id="btnEmailModal" style="width:100%; justify-content:center;">
+              ⚙️ Manage Email Settings
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="margin-bottom:12px;">
+        <h3 style="font-size:16px; font-weight:800; color:var(--text-primary);">📐 Scoring Methodology & Trading Rules</h3>
+        <p style="font-size:13px; color:var(--text-muted);">How composite ranking and price action levels are determined.</p>
       </div>
 
       <div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
