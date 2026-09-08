@@ -14,8 +14,8 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <title>My Watchlist - Indian Stock Analyzer</title>
-  <link rel="stylesheet" href="styles.css?v=20260908124028">
-  <script src="analysis_data.js?v=20260908124028"></script>
+  <link rel="stylesheet" href="styles.css?v=20260908124521">
+  <script src="analysis_data.js?v=20260908124521"></script>
 </head>
 
 <body>
@@ -296,13 +296,14 @@
         Enter any Indian equity (NSE / BSE). When connected via Google Apps Script, it appends directly to <strong>"Spark Stock List"</strong> in Google Sheets and triggers a live scan!
       </p>
 
-      <div style="margin-bottom:14px;">
+      <div style="margin-bottom:14px; position:relative;">
         <label style="font-size:12px; font-weight:600; color:var(--text-secondary); display:block; margin-bottom:4px;">
-          Stock Ticker / Scrip Code <span style="color:var(--danger)">*</span>
+          Stock Ticker / Company Name <span style="color:var(--danger)">*</span>
         </label>
-        <input type="text" id="addStockSymbolInput" placeholder="e.g. RELIANCE, TCS, or BSE 500325" style="width:100%; padding:10px 12px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:14px; text-transform:uppercase; font-weight:600;" required>
+        <input type="text" id="addStockSymbolInput" autocomplete="off" placeholder="Type stock name or ticker (e.g. Exicom, Tata, 500325)..." style="width:100%; padding:10px 12px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:14px; font-weight:600;" required>
+        <div id="stockSuggestionsDropdown" class="suggestions-dropdown" style="display:none;"></div>
         <div style="font-size:11px; color:var(--text-muted); margin-top:4px;">
-          NSE examples: <code>TCS</code>, <code>RELIANCE</code>, <code>TATAMOTORS</code> • BSE examples: <code>500325</code>, <code>544783</code>
+          🔍 Type any name or ticker above to pick from 2,500+ NSE & BSE stocks.
         </div>
       </div>
 
@@ -514,7 +515,8 @@ function fillFormulasForAllRows() {
     </div>
   </div>
 
-  <script src="app.js?v=20260908124028"></script>
+  <script src="stocks_directory.js?v=202609081245"></script>
+  <script src="app.js?v=20260908124521"></script>
 </body>
 </html>
 

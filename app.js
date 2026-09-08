@@ -438,6 +438,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const addStockFeedback = document.getElementById('addStockFeedback');
   const addStockBtnIcon = document.getElementById('addStockBtnIcon');
   const addStockBtnText = document.getElementById('addStockBtnText');
+  const stockSuggestionsDropdown = document.getElementById('stockSuggestionsDropdown');
+
+  let selectedSuggestionIndex = -1;
 
   function openAddStockModal() {
     if (!addStockModal) return;
@@ -447,6 +450,10 @@ document.addEventListener('DOMContentLoaded', () => {
     addStockNameInput.value = '';
     addStockSectorInput.value = '';
     addStockExchangeSelect.value = 'AUTO';
+    if (stockSuggestionsDropdown) {
+      stockSuggestionsDropdown.style.display = 'none';
+      stockSuggestionsDropdown.innerHTML = '';
+    }
     btnSubmitAddStock.disabled = false;
     addStockBtnIcon.textContent = '➕';
     addStockBtnText.textContent = 'Add to Sheet & Watchlist';
@@ -456,6 +463,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function closeAddStockModal() {
     if (addStockModal) addStockModal.classList.remove('active');
+    if (stockSuggestionsDropdown) stockSuggestionsDropdown.style.display = 'none';
   }
 
   if (btnAddStockHeader) btnAddStockHeader.addEventListener('click', openAddStockModal);
@@ -469,14 +477,159 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Handle enter key in Add Stock input
+  // --- Autocomplete Suggestions ---
+  function renderSuggestions(query) {
+    if (!stockSuggestionsDropdown) return;
+    const q = (query || '').trim().toUpperCase();
+    if (q.length < 1) {
+      stockSuggestionsDropdown.style.display = 'none';
+      stockSuggestionsDropdown.innerHTML = '';
+      return;
+    }
+
+    const dir = window.STOCKS_DIRECTORY || [];
+    const results = [];
+    const seen = new Set();
+
+    // 1. Symbol prefix or exact match
+    for (let i = 0; i < dir.length && results.length < 12; i++) {
+      const item = dir[i];
+      const s = item.s.toUpperCase();
+      if (s === q || s.startsWith(q)) {
+        seen.add(s);
+        results.push(item);
+      }
+    }
+
+    // 2. Company name match or symbol contains match
+    for (let i = 0; i < dir.length && results.length < 12; i++) {
+      const item = dir[i];
+      const s = item.s.toUpperCase();
+      const n = (item.n || '').toUpperCase();
+      if (!seen.has(s) && (s.includes(q) || n.includes(q))) {
+        seen.add(s);
+        results.push(item);
+      }
+    }
+
+    // 3. Fallback from current watchlist items
+    if (results.length < 6 && currentData && currentData.all_stocks) {
+      for (const st of currentData.all_stocks) {
+        const cleanS = (st.symbol || '').replace(/\.(NS|BO)$/i, '').toUpperCase();
+        const stName = (st.name || '').toUpperCase();
+        if (!seen.has(cleanS) && (cleanS.includes(q) || stName.includes(q))) {
+          seen.add(cleanS);
+          results.push({
+            s: cleanS,
+            n: st.name || cleanS,
+            e: (st.symbol || '').endsWith('.BO') || /^\d+$/.test(cleanS) ? 'BSE' : 'NSE'
+          });
+          if (results.length >= 12) break;
+        }
+      }
+    }
+
+    if (results.length === 0) {
+      stockSuggestionsDropdown.style.display = 'none';
+      stockSuggestionsDropdown.innerHTML = '';
+      return;
+    }
+
+    selectedSuggestionIndex = -1;
+    let html = '';
+    results.forEach((item, idx) => {
+      const badgeClass = item.e === 'BSE' ? 'bse' : 'nse';
+      html += `
+        <div class="suggestion-item" data-idx="${idx}" data-symbol="${item.s}" data-name="${encodeURIComponent(item.n)}" data-exchange="${item.e}">
+          <div class="suggestion-info">
+            <div class="suggestion-symbol-row">
+              <span class="suggestion-ticker">${item.s}</span>
+              <span class="suggestion-badge ${badgeClass}">${item.e}</span>
+            </div>
+            <div class="suggestion-name">${item.n}</div>
+          </div>
+          <span style="color:var(--primary); font-size:12px; font-weight:700;">Select ➔</span>
+        </div>
+      `;
+    });
+
+    stockSuggestionsDropdown.innerHTML = html;
+    stockSuggestionsDropdown.style.display = 'block';
+
+    stockSuggestionsDropdown.querySelectorAll('.suggestion-item').forEach(el => {
+      el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        selectSuggestion(el);
+      });
+    });
+  }
+
+  function selectSuggestion(el) {
+    const sym = el.getAttribute('data-symbol');
+    const name = decodeURIComponent(el.getAttribute('data-name') || '');
+    const exch = el.getAttribute('data-exchange');
+
+    addStockSymbolInput.value = sym;
+    if (name) addStockNameInput.value = name;
+    if (exch) addStockExchangeSelect.value = exch;
+
+    stockSuggestionsDropdown.style.display = 'none';
+    stockSuggestionsDropdown.innerHTML = '';
+  }
+
+  function highlightSuggestion(items) {
+    items.forEach((item, idx) => {
+      if (idx === selectedSuggestionIndex) {
+        item.classList.add('active');
+        item.scrollIntoView({ block: 'nearest' });
+      } else {
+        item.classList.remove('active');
+      }
+    });
+  }
+
   if (addStockSymbolInput) {
+    addStockSymbolInput.addEventListener('input', (e) => {
+      renderSuggestions(e.target.value);
+    });
+
     addStockSymbolInput.addEventListener('keydown', (e) => {
+      const items = stockSuggestionsDropdown ? stockSuggestionsDropdown.querySelectorAll('.suggestion-item') : [];
+      if (items.length > 0 && stockSuggestionsDropdown.style.display !== 'none') {
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          selectedSuggestionIndex = (selectedSuggestionIndex + 1) % items.length;
+          highlightSuggestion(items);
+          return;
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          selectedSuggestionIndex = (selectedSuggestionIndex - 1 + items.length) % items.length;
+          highlightSuggestion(items);
+          return;
+        } else if (e.key === 'Enter') {
+          if (selectedSuggestionIndex >= 0 && selectedSuggestionIndex < items.length) {
+            e.preventDefault();
+            selectSuggestion(items[selectedSuggestionIndex]);
+            return;
+          }
+        } else if (e.key === 'Escape') {
+          stockSuggestionsDropdown.style.display = 'none';
+          return;
+        }
+      }
+
       if (e.key === 'Enter') {
         btnSubmitAddStock.click();
       }
     });
   }
+
+  // Close suggestions dropdown on outside click
+  document.addEventListener('click', (e) => {
+    if (stockSuggestionsDropdown && !stockSuggestionsDropdown.contains(e.target) && e.target !== addStockSymbolInput) {
+      stockSuggestionsDropdown.style.display = 'none';
+    }
+  });
 
   function cleanClientSymbol(sym, exchange) {
     sym = (sym || '').trim().toUpperCase();
@@ -510,6 +663,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const rawSymbol = addStockSymbolInput.value.trim();
       const exchange = addStockExchangeSelect.value;
       const cleanSym = cleanClientSymbol(rawSymbol, exchange === 'AUTO' ? '' : exchange);
+      // Clean symbol without .NS/.BO for Google Sheet column A so Google Finance formulas work
+      const sheetSymbol = cleanSym.replace(/\.(NS|BO)$/i, '').trim().toUpperCase();
       const name = addStockNameInput.value.trim();
       const sector = addStockSectorInput.value.trim() || 'User Added';
 
@@ -522,13 +677,15 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
+      if (stockSuggestionsDropdown) stockSuggestionsDropdown.style.display = 'none';
+
       btnSubmitAddStock.disabled = true;
       addStockBtnIcon.textContent = '⏳';
       addStockBtnText.textContent = 'Adding...';
       addStockFeedback.style.display = 'block';
       addStockFeedback.style.background = 'var(--bg-subtle)';
       addStockFeedback.style.color = 'var(--text-secondary)';
-      addStockFeedback.textContent = `Connecting & adding ${cleanSym} to Google Sheet and watchlist...`;
+      addStockFeedback.textContent = `Connecting & adding ${sheetSymbol} to Google Sheet and watchlist...`;
 
       // Helper for UI success
       function handleSuccess(msg) {
@@ -543,7 +700,6 @@ document.addEventListener('DOMContentLoaded', () => {
           closeAddStockModal();
           refreshIcon.classList.add('spin');
           pollStatus();
-          // Also trigger instant UI table refresh if possible
           if (typeof fetchData === 'function') fetchData();
         }, 2200);
       }
@@ -581,7 +737,7 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .then(data => {
         if (data.status === 'success' || data.status === 'warning') {
-          handleSuccess(data.message || `Added ${cleanSym}`);
+          handleSuccess(data.message || `Added ${sheetSymbol}`);
         } else {
           handleError(data.message || 'Failed to add stock.');
         }
@@ -592,18 +748,19 @@ document.addEventListener('DOMContentLoaded', () => {
                            localStorage.getItem('gsheet_webhook_url') || '';
 
         if (webhookUrl && webhookUrl.startsWith('http')) {
-          addStockFeedback.innerHTML = `Local server offline. Sending <strong>${cleanSym}</strong> directly to Google Sheet Webhook...`;
+          addStockFeedback.innerHTML = `Sending <strong>${sheetSymbol}</strong> directly to your Google Sheet...`;
 
+          // Note: Send sheetSymbol (WITHOUT .NS/.BO) so Google Finance formulas evaluate properly!
           const targetUrl = webhookUrl + (webhookUrl.includes('?') ? '&' : '?') +
-            'symbol=' + encodeURIComponent(cleanSym) +
-            '&name=' + encodeURIComponent(name || cleanSym) +
+            'symbol=' + encodeURIComponent(sheetSymbol) +
+            '&name=' + encodeURIComponent(name || sheetSymbol) +
             '&sector=' + encodeURIComponent(sector) +
             '&t=' + Date.now();
 
           // Try GET first with no-cors (works reliably across origins from browser to Apps Script)
           fetch(targetUrl, { method: 'GET', mode: 'no-cors' })
             .then(() => {
-              handleSuccess(`✅ Successfully added <strong>${cleanSym}</strong> directly to Google Sheet <em>"Spark Stock List"</em>!`);
+              handleSuccess(`✅ Successfully added <strong>${sheetSymbol}</strong> to Google Sheet <em>"Spark Stock List"</em>!`);
             })
             .catch(() => {
               // Fallback to POST with no-cors
@@ -611,17 +768,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 method: 'POST',
                 mode: 'no-cors',
                 headers: { 'Content-Type': 'text/plain' },
-                body: JSON.stringify({ symbol: cleanSym, name: name || cleanSym, sector: sector })
+                body: JSON.stringify({ symbol: sheetSymbol, name: name || sheetSymbol, sector: sector })
               })
               .then(() => {
-                handleSuccess(`✅ Sent <strong>${cleanSym}</strong> directly to Google Sheet <em>"Spark Stock List"</em>!`);
+                handleSuccess(`✅ Sent <strong>${sheetSymbol}</strong> to Google Sheet <em>"Spark Stock List"</em>!`);
               })
               .catch(postErr => {
                 handleError(`Could not reach Google Sheet Webhook: ${postErr.message}`);
               });
             });
         } else {
-          // Neither local server is running nor webhook URL is saved
           handleError(`⚠️ <strong>Connection Error (Local server is not running)</strong><br><br>
             Please choose one of the following to add stocks:<br>
             • <strong>Option A (Local):</strong> Double-click <code>Start_App.bat</code> on your PC to start the server.<br>
