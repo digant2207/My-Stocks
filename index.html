@@ -398,20 +398,77 @@ function doPost(e) {
 function handleStockRequest(data) {
   try {
     var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-    var sym = (data.symbol || "").trim();
-    var name = (data.name || sym).trim();
-    if (!sym) return ContentService.createTextOutput(JSON.stringify({status: "error", message: "Symbol empty"})).setMimeType(ContentService.MimeType.JSON);
-    
-    var values = sheet.getRange(1, 1, Math.max(sheet.getLastRow(), 1), 1).getValues();
-    for (var i = 0; i < values.length; i++) {
-      if (values[i][0].toString().trim().toUpperCase() === sym.toUpperCase()) {
-        return ContentService.createTextOutput(JSON.stringify({status: "warning", message: "Stock already in sheet"})).setMimeType(ContentService.MimeType.JSON);
+    var rawSym = (data.symbol || "").trim();
+    if (!rawSym) {
+      return ContentService.createTextOutput(JSON.stringify({status: "error", message: "Symbol empty"}))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    var cleanSym = rawSym.replace(/\.(NS|BO)$/i, "").toUpperCase();
+    var lastRow = sheet.getLastRow();
+
+    // Check if symbol already exists in Column A
+    if (lastRow >= 2) {
+      var existingVals = sheet.getRange(2, 1, lastRow - 1, 1).getValues();
+      for (var i = 0; i < existingVals.length; i++) {
+        var existing = existingVals[i][0].toString().trim().toUpperCase().replace(/\.(NS|BO)$/i, "");
+        if (existing === cleanSym) {
+          copyFormulasToRow(sheet, i + 2);
+          return ContentService.createTextOutput(JSON.stringify({
+            status: "warning", 
+            message: "Stock " + cleanSym + " is already in the sheet (formulas updated)!"
+          })).setMimeType(ContentService.MimeType.JSON);
+        }
       }
     }
-    sheet.appendRow([sym, name]);
-    return ContentService.createTextOutput(JSON.stringify({status: "success", message: "Added " + sym + " to Google Sheet!"})).setMimeType(ContentService.MimeType.JSON);
+
+    var newRow = lastRow + 1;
+
+    // 1. Write clean symbol to Column A
+    sheet.getRange(newRow, 1).setValue(cleanSym);
+
+    // 2. Copy formulas & formats from Columns B to L (Columns 2 to 12)
+    copyFormulasToRow(sheet, newRow);
+
+    SpreadsheetApp.flush();
+
+    return ContentService.createTextOutput(JSON.stringify({
+      status: "success", 
+      message: "Added " + cleanSym + " and copied formulas from B to L!"
+    })).setMimeType(ContentService.MimeType.JSON);
+
   } catch (err) {
     return ContentService.createTextOutput(JSON.stringify({status: "error", message: err.toString()})).setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
+// Copies formulas and formatting from previous row to targetRow (Columns B to L)
+function copyFormulasToRow(sheet, targetRow) {
+  if (targetRow <= 2) return;
+  var templateRow = targetRow - 1;
+  while (templateRow > 2 && !sheet.getRange(templateRow, 2).getFormula() && !sheet.getRange(templateRow, 3).getFormula()) {
+    templateRow--;
+  }
+
+  var sourceRange = sheet.getRange(templateRow, 2, 1, 11);
+  var targetRange = sheet.getRange(targetRow, 2, 1, 11);
+  sourceRange.copyTo(targetRange);
+
+  // Clear manual columns so previous targets aren't duplicated
+  var formulas = sourceRange.getFormulas()[0];
+  for (var c = 0; c < formulas.length; c++) {
+    if (!formulas[c]) {
+      targetRange.getCell(1, c + 1).clearContent();
+    }
+  }
+}
+
+// Run this once manually from Apps Script to fill formulas for all existing rows!
+function fillFormulasForAllRows() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  var lastRow = sheet.getLastRow();
+  for (var r = 3; r <= lastRow; r++) {
+    copyFormulasToRow(sheet, r);
   }
 }</pre>
             <button class="btn btn-outline btn-sm" id="btnCopyAppsScript" type="button" style="position:absolute; top:6px; right:6px; padding:3px 8px; font-size:11px; background:#1e293b; color:#fff; border-color:#475569;">📋 Copy</button>
