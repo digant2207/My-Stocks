@@ -186,8 +186,10 @@ def add_stock_to_google_sheet(sym, name="", sector="User Added", exchange=None):
     # 1. If Google Apps Script Webhook is configured, send to Google Sheet directly
     if apps_script_url:
         try:
+            # Strip .NS and .BO for Google Sheet Column A so Google Finance formulas work
+            sheet_symbol = clean_sym.replace('.NS', '').replace('.BO', '')
             payload = {
-                "symbol": clean_sym,
+                "symbol": sheet_symbol,
                 "name": stock_name,
                 "sector": sector
             }
