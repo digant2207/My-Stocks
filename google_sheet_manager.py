@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import csv
+import time
 import requests
 
 if sys.platform == 'win32':
@@ -24,6 +25,7 @@ def load_sheet_config():
     return {
         "sheet_name": "Spark Stock List",
         "google_sheet_url": "https://docs.google.com/spreadsheets/d/1_rWhyap8gO-u8ehP1vDCiad-RwnFjGBCn2R5qiis4_A/edit?gid=0#gid=0",
+        "google_apps_script_url": "",
         "auto_sync": True
     }
 
@@ -37,24 +39,48 @@ INVALID_OR_DELISTED = {
     "MANPASAND.NS", "JCTLTD.NS", "544467.BO"
 }
 
-def clean_symbol(sym):
+def clean_symbol(sym, exchange=None):
     sym = sym.strip().upper()
     if not sym: return ""
-    # Filter out malformed strings (e.g. descriptions pasted in ticker column)
+
+    # Strip exchange prefixes like BSE:, NSE:, BOM:
+    if sym.startswith("BSE:") or sym.startswith("BOM:"):
+        exchange = "BSE"
+        sym = sym.split(":", 1)[1].strip()
+    elif sym.startswith("NSE:"):
+        exchange = "NSE"
+        sym = sym.split(":", 1)[1].strip()
+
     if any(ch in sym for ch in ['[', ']', '(', ')', '{', '}', ';', ':']) or len(sym) > 18 or len(sym) < 2:
         return ""
     sym = sym.replace(" ", "").replace("&", "%26")
+
+    # Apply exchange preference if supplied
+    if exchange:
+        exch = exchange.upper()
+        if exch in ["BSE", "BO"]:
+            if sym.endswith(".NS"):
+                sym = sym[:-3]
+            if not sym.endswith(".BO"):
+                sym = sym + ".BO"
+        elif exch in ["NSE", "NS"]:
+            if sym.endswith(".BO"):
+                sym = sym[:-3]
+            if not sym.endswith(".NS"):
+                sym = sym + ".NS"
+
     if not sym.endswith(".NS") and not sym.endswith(".BO"):
         if sym.isdigit():
             sym = sym + ".BO"
         else:
             sym = sym + ".NS"
-    
+
     # Map alias if available
     sym = KNOWN_ALIASES.get(sym, sym)
     if sym in INVALID_OR_DELISTED:
         return ""
     return sym
+
 
 
 
@@ -144,5 +170,93 @@ def sync_from_google_sheet():
 
     return False, "Failed to read Google Sheet CSV"
 
+
+def add_stock_to_google_sheet(sym, name="", sector="User Added", exchange=None):
+    clean_sym = clean_symbol(sym, exchange)
+    if not clean_sym:
+        return False, "Invalid stock symbol format. Please provide a valid NSE or BSE symbol.", ""
+
+    cfg = load_sheet_config()
+    apps_script_url = cfg.get("google_apps_script_url", "").strip()
+    stock_name = name.strip() if name.strip() else clean_sym.split('.')[0]
+
+    sheet_synced = False
+    sheet_msg = ""
+
+    # 1. If Google Apps Script Webhook is configured, send to Google Sheet directly
+    if apps_script_url:
+        try:
+            payload = {
+                "symbol": clean_sym,
+                "name": stock_name,
+                "sector": sector
+            }
+            resp = requests.post(apps_script_url, json=payload, timeout=12, allow_redirects=True)
+            if resp.status_code == 200:
+                try:
+                    res_data = resp.json()
+                    if res_data.get("status") in ["success", "warning"]:
+                        sheet_synced = True
+                        sheet_msg = res_data.get("message", "Appended to Google Sheet")
+                    else:
+                        sheet_msg = f"Google Sheet Apps Script: {res_data.get('message')}"
+                except Exception:
+                    sheet_synced = True
+                    sheet_msg = "Sent to Google Sheet Webhook"
+            else:
+                sheet_msg = f"Google Apps Script returned status {resp.status_code}"
+        except Exception as e:
+            sheet_msg = f"Google Sheet Webhook error: {e}"
+
+    # 2. If Webhook succeeded, wait briefly and trigger sync to refresh local CSVs
+    if sheet_synced:
+        time.sleep(1.0)
+        ok_sync, _ = sync_from_google_sheet()
+        if ok_sync:
+            return True, f"✅ Successfully added {clean_sym} directly to Google Sheet 'Spark Stock List' and synced!", clean_sym
+
+    # Fallback / Local Addition: Ensure it is in local stocks.csv & stocks_active.csv
+    for csv_file in [STOCKS_CSV_PATH, STOCKS_ACTIVE_CSV_PATH]:
+        existing = []
+        seen = set()
+        if os.path.exists(csv_file):
+            try:
+                with open(csv_file, 'r', encoding='utf-8') as f:
+                    reader = csv.DictReader(f)
+                    for r in reader:
+                        s = r.get('symbol', '')
+                        if s:
+                            existing.append(r)
+                            seen.add(s.upper())
+            except Exception:
+                pass
+
+        if clean_sym.upper() not in seen:
+            existing.append({
+                "symbol": clean_sym,
+                "name": stock_name,
+                "sector": sector,
+                "cap_type": "Equity",
+                "tracking_notes": "Added via Dashboard UI"
+            })
+            try:
+                with open(csv_file, 'w', encoding='utf-8', newline='') as f:
+                    writer = csv.DictWriter(f, fieldnames=["symbol", "name", "sector", "cap_type", "tracking_notes"])
+                    writer.writeheader()
+                    for r in existing:
+                        writer.writerow(r)
+            except Exception:
+                pass
+
+    if apps_script_url:
+        if sheet_synced:
+            return True, f"✅ Added {clean_sym} to Google Sheet & local watchlist!", clean_sym
+        else:
+            return True, f"⚠️ Added {clean_sym} to local watchlist, but Google Sheet webhook said: {sheet_msg}", clean_sym
+    else:
+        return True, f"✅ Added {clean_sym} to watchlist! (Configure Apps Script Webhook in Google Sheet Settings to automatically write to Google Drive)", clean_sym
+
+
 if __name__ == "__main__":
     sync_from_google_sheet()
+

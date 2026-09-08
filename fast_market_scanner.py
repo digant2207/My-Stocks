@@ -202,22 +202,16 @@ def run_market_hours_ticker_scan():
         # Auto-push updated data to GitHub Pages (Skip if running in GitHub Actions CI)
         if not os.environ.get("GITHUB_ACTIONS") and not os.environ.get("CI"):
             try:
-                print("[GITHUB AUTO-SYNC] Pushing live market data & index.html cache version to GitHub Pages...")
+                print("[GITHUB AUTO-SYNC] Pushing live market data to GitHub Pages...")
                 import subprocess
-                subprocess.run(["git", "add", "index.html", "app.js", "analysis_data.json", "analysis_data.js", "stocks_active.csv", "stocks.csv", "scan_status.json"], check=False)
+                subprocess.run(["git", "add", "analysis_data.json", "analysis_data.js", "scan_status.json"], check=False)
                 diff_res = subprocess.run(["git", "diff", "--staged", "--quiet"], check=False)
                 if diff_res.returncode != 0:
-                    subprocess.run(["git", "commit", "-m", "Auto-update live market analysis data and trigger deployment [skip ci]"], check=False)
+                    subprocess.run(["git", "commit", "-m", "Auto-update live market analysis data [skip ci]"], check=False)
                     push_res = subprocess.run(["git", "push", "origin", "main"], check=False)
                     if push_res.returncode != 0:
-                        print("[GITHUB AUTO-SYNC] Remote has newer commits. Syncing cleanly with origin/main...")
-                        subprocess.run(["git", "fetch", "origin", "main"], check=False)
-                        rebase_res = subprocess.run(["git", "rebase", "-X", "theirs", "origin/main"], check=False)
-                        if rebase_res.returncode != 0:
-                            subprocess.run(["git", "rebase", "--abort"], check=False)
-                            subprocess.run(["git", "reset", "origin/main"], check=False)
-                            subprocess.run(["git", "add", "index.html", "app.js", "analysis_data.json", "analysis_data.js", "stocks_active.csv", "stocks.csv", "scan_status.json"], check=False)
-                            subprocess.run(["git", "commit", "-m", "Auto-update live market analysis data and trigger deployment [skip ci]"], check=False)
+                        print("[GITHUB AUTO-SYNC] Pulling latest commits...")
+                        subprocess.run(["git", "pull", "--rebase", "--autostash", "origin", "main"], check=False)
                         subprocess.run(["git", "push", "origin", "main"], check=False)
                     print("[GITHUB AUTO-SYNC] Published live data to GitHub Pages!")
                 else:

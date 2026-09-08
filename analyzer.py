@@ -37,21 +37,47 @@ INVALID_OR_DELISTED = {
     "MANPASAND.NS", "JCTLTD.NS", "544467.BO"
 }
 
-def clean_symbol(sym):
+def clean_symbol(sym, exchange=None):
     sym = sym.strip().upper()
     if not sym: return ""
+
+    # Strip exchange prefixes like BSE:, NSE:, BOM:
+    if sym.startswith("BSE:") or sym.startswith("BOM:"):
+        exchange = "BSE"
+        sym = sym.split(":", 1)[1].strip()
+    elif sym.startswith("NSE:"):
+        exchange = "NSE"
+        sym = sym.split(":", 1)[1].strip()
+
     if any(ch in sym for ch in ['[', ']', '(', ')', '{', '}', ';', ':']) or len(sym) > 18 or len(sym) < 2:
         return ""
     sym = sym.replace(" ", "").replace("&", "%26")
+
+    # Apply exchange preference if supplied
+    if exchange:
+        exch = exchange.upper()
+        if exch in ["BSE", "BO"]:
+            if sym.endswith(".NS"):
+                sym = sym[:-3]
+            if not sym.endswith(".BO"):
+                sym = sym + ".BO"
+        elif exch in ["NSE", "NS"]:
+            if sym.endswith(".BO"):
+                sym = sym[:-3]
+            if not sym.endswith(".NS"):
+                sym = sym + ".NS"
+
     if not sym.endswith(".NS") and not sym.endswith(".BO"):
         if sym.isdigit():
             sym = sym + ".BO"
         else:
             sym = sym + ".NS"
+
     sym = KNOWN_ALIASES.get(sym, sym)
     if sym in INVALID_OR_DELISTED:
         return ""
     return sym
+
 
 
 

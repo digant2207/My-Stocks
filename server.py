@@ -14,7 +14,7 @@ if sys.platform == 'win32':
     except Exception:
         pass
 
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import parse_qs, urlparse
 
 import email_notifier
@@ -178,46 +178,21 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
             sym = body.get('symbol', '').strip()
             name = body.get('name', '').strip()
             sector = body.get('sector', 'User Added').strip()
+            exchange = body.get('exchange', '').strip()
 
             if not sym:
                 self.send_json({"status": "error", "message": "Symbol is required"}, 400)
                 return
 
-            clean_sym = analyzer.clean_symbol(sym)
-            csv_path = os.path.join(os.path.dirname(__file__), "stocks.csv")
+            ok, msg, clean_sym = google_sheet_manager.add_stock_to_google_sheet(
+                sym, name=name, sector=sector, exchange=exchange
+            )
 
-            existing = []
-            seen = set()
-            if os.path.exists(csv_path):
-                with open(csv_path, 'r', encoding='utf-8') as f:
-                    reader = csv.DictReader(f)
-                    for r in reader:
-                        s_item = r.get('symbol', '')
-                        if s_item:
-                            existing.append(r)
-                            seen.add(s_item.upper())
-
-            if clean_sym in seen:
-                self.send_json({"status": "warning", "message": f"Stock {clean_sym} is already in the watchlist!"})
-                return
-
-            new_entry = {
-                "symbol": clean_sym,
-                "name": name or clean_sym.split('.')[0],
-                "sector": sector,
-                "cap_type": "Equity",
-                "tracking_notes": "Added via Dashboard UI"
-            }
-            existing.append(new_entry)
-
-            with open(csv_path, 'w', encoding='utf-8', newline='') as f:
-                writer = csv.DictWriter(f, fieldnames=["symbol", "name", "sector", "cap_type", "tracking_notes"])
-                writer.writeheader()
-                for e in existing:
-                    writer.writerow(e)
-
-            threading.Thread(target=run_analysis_tasks, daemon=True).start()
-            self.send_json({"status": "success", "message": f"✅ Added {clean_sym}! Starting background analysis update..."})
+            if ok:
+                threading.Thread(target=run_analysis_tasks, daemon=True).start()
+                self.send_json({"status": "success", "message": msg, "symbol": clean_sym})
+            else:
+                self.send_json({"status": "error", "message": msg}, 400)
         except Exception as e:
             self.send_json({"status": "error", "message": str(e)}, 500)
 
@@ -258,7 +233,9 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
             body = json.loads(post_data.decode('utf-8'))
             cfg = google_sheet_manager.load_sheet_config()
             cfg['google_sheet_url'] = body.get('google_sheet_url', '').strip()
-            cfg['sheet_name'] = body.get('sheet_name', 'Antigravity WatchlistIt').strip()
+            cfg['sheet_name'] = body.get('sheet_name', 'Spark Stock List').strip()
+            if 'google_apps_script_url' in body:
+                cfg['google_apps_script_url'] = body.get('google_apps_script_url', '').strip()
 
             with open(google_sheet_manager.CONFIG_PATH, 'w', encoding='utf-8') as f:
                 json.dump(cfg, f, indent=2)
@@ -302,7 +279,7 @@ class CustomRequestHandler(SimpleHTTPRequestHandler):
 
 def run_server():
     server_address = ('0.0.0.0', PORT)
-    httpd = HTTPServer(server_address, CustomRequestHandler)
+    httpd = ThreadingHTTPServer(server_address, CustomRequestHandler)
     print(f"Antigravity Stock Watchlist Server active on http://localhost:{PORT}", flush=True)
 
     start_background_scheduler()
