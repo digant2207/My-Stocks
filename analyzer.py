@@ -619,6 +619,8 @@ def fetch_stock_data(symbol, metadata):
         "current_price": current_price,
         "prev_close": prev_close,
         "day_change_pct": day_change_pct,
+        "day_high": round(float(high_prices[-1]), 2),
+        "day_low": round(float(low_prices[-1]), 2),
         "volume": int(current_vol),
         "vol_1m_avg": int(vol_1m_avg),
         "vol_surge_ratio": vol_surge_ratio,

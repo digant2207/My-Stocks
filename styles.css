@@ -1012,6 +1012,19 @@ body {
   font-size: 11px;
   font-weight: 700;
   color: var(--success);
+  transition: all 0.2s ease;
+}
+
+.sidebar-status-pill.closed {
+  background: rgba(241, 245, 249, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  color: var(--text-secondary);
+}
+
+.sidebar-status-pill.closed .pulse-indicator {
+  background: #94a3b8 !important;
+  animation: none !important;
+  box-shadow: none !important;
 }
 
 .sidebar-nav-links {

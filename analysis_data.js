@@ -108,7 +108,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 222.64,
+      "day_low": 214.5
     },
     {
       "symbol": "JMA.NS",
@@ -195,7 +197,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 98.31,
+      "day_low": 94.71
     },
     {
       "symbol": "KROSS.NS",
@@ -279,7 +283,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 222.31,
+      "day_low": 214.18
     },
     {
       "symbol": "UNIVPHOTO.NS",
@@ -364,7 +370,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 573.04,
+      "day_low": 552.09
     },
     {
       "symbol": "REDINGTON.NS",
@@ -449,7 +457,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 382.59,
+      "day_low": 368.6
     },
     {
       "symbol": "SARDAEN.NS",
@@ -535,7 +545,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 552.4,
+      "day_low": 532.2
     },
     {
       "symbol": "GSFC.NS",
@@ -629,7 +641,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 164.03,
+      "day_low": 158.11
     },
     {
       "symbol": "NSLNISP.NS",
@@ -712,7 +726,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 160.9x"
-      ]
+      ],
+      "day_high": 45.58,
+      "day_low": 43.91
     },
     {
       "symbol": "UTKARSHBNK.NS",
@@ -796,7 +812,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 16.09,
+      "day_low": 15.5
     },
     {
       "symbol": "DCW.NS",
@@ -880,7 +898,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 48.72,
+      "day_low": 46.94
     },
     {
       "symbol": "OIL.NS",
@@ -975,7 +995,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 504.94,
+      "day_low": 486.48
     },
     {
       "symbol": "NYKAA.NS",
@@ -1152,7 +1174,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 224.7x"
-      ]
+      ],
+      "day_high": 59.13,
+      "day_low": 56.97
     },
     {
       "symbol": "HAL.NS",
@@ -1237,7 +1261,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 5125.51,
+      "day_low": 4940.49
     },
     {
       "symbol": "STAR.NS",
@@ -1320,7 +1346,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1210.05,
+      "day_low": 1165.81
     },
     {
       "symbol": "JINDALSAW.NS",
@@ -1403,7 +1431,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -75.4% YoY)"
-      ]
+      ],
+      "day_high": 315.44,
+      "day_low": 303.91
     },
     {
       "symbol": "RML.NS",
@@ -1486,7 +1516,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1398.41,
+      "day_low": 1347.93
     },
     {
       "symbol": "VIJAYA.NS",
@@ -1580,7 +1612,9 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 82.4x"
-      ]
+      ],
+      "day_high": 1536.37,
+      "day_low": 1480.91
     },
     {
       "symbol": "ACE.NS",
@@ -1673,7 +1707,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1140.52,
+      "day_low": 1098.83
     },
     {
       "symbol": "PNB.NS",
@@ -1757,7 +1793,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 118.5,
+      "day_low": 114.22
     }
   ],
   "all_stocks": [
@@ -1844,7 +1882,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 222.64,
+      "day_low": 214.5
     },
     {
       "symbol": "JMA.NS",
@@ -1931,7 +1971,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 98.31,
+      "day_low": 94.71
     },
     {
       "symbol": "KROSS.NS",
@@ -2015,7 +2057,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 222.31,
+      "day_low": 214.18
     },
     {
       "symbol": "UNIVPHOTO.NS",
@@ -2100,7 +2144,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 573.04,
+      "day_low": 552.09
     },
     {
       "symbol": "REDINGTON.NS",
@@ -2185,7 +2231,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 382.59,
+      "day_low": 368.6
     },
     {
       "symbol": "SARDAEN.NS",
@@ -2271,7 +2319,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 552.4,
+      "day_low": 532.2
     },
     {
       "symbol": "GESHIP.NS",
@@ -2354,7 +2404,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1410.12,
+      "day_low": 1358.57
     },
     {
       "symbol": "GSFC.NS",
@@ -2448,7 +2500,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 164.03,
+      "day_low": 158.11
     },
     {
       "symbol": "NSLNISP.NS",
@@ -2531,7 +2585,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 160.9x"
-      ]
+      ],
+      "day_high": 45.58,
+      "day_low": 43.91
     },
     {
       "symbol": "UTKARSHBNK.NS",
@@ -2615,7 +2671,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 16.09,
+      "day_low": 15.5
     },
     {
       "symbol": "DCW.NS",
@@ -2699,7 +2757,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 48.72,
+      "day_low": 46.94
     },
     {
       "symbol": "OIL.NS",
@@ -2794,7 +2854,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 504.94,
+      "day_low": 486.48
     },
     {
       "symbol": "NYKAA.NS",
@@ -2971,7 +3033,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 224.7x"
-      ]
+      ],
+      "day_high": 59.13,
+      "day_low": 56.97
     },
     {
       "symbol": "HAL.NS",
@@ -3056,7 +3120,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 5125.51,
+      "day_low": 4940.49
     },
     {
       "symbol": "STAR.NS",
@@ -3139,7 +3205,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1210.05,
+      "day_low": 1165.81
     },
     {
       "symbol": "JINDALSAW.NS",
@@ -3222,7 +3290,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -75.4% YoY)"
-      ]
+      ],
+      "day_high": 315.44,
+      "day_low": 303.91
     },
     {
       "symbol": "RML.NS",
@@ -3305,7 +3375,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1398.41,
+      "day_low": 1347.93
     },
     {
       "symbol": "VIJAYA.NS",
@@ -3399,7 +3471,9 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 82.4x"
-      ]
+      ],
+      "day_high": 1536.37,
+      "day_low": 1480.91
     },
     {
       "symbol": "IKIO.NS",
@@ -3482,7 +3556,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 222.58,
+      "day_low": 214.44
     },
     {
       "symbol": "ACE.NS",
@@ -3575,7 +3651,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1140.52,
+      "day_low": 1098.83
     },
     {
       "symbol": "PNB.NS",
@@ -3659,7 +3737,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 118.5,
+      "day_low": 114.22
     },
     {
       "symbol": "INOXINDIA.NS",
@@ -3743,7 +3823,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 78.9x"
-      ]
+      ],
+      "day_high": 2240.14,
+      "day_low": 2159.27
     },
     {
       "symbol": "BOROLTD.NS",
@@ -3826,7 +3908,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -26.7% YoY)"
-      ]
+      ],
+      "day_high": 261.85,
+      "day_low": 252.39
     },
     {
       "symbol": "BANCOINDIA.NS",
@@ -3919,7 +4003,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 642.77,
+      "day_low": 619.27
     },
     {
       "symbol": "GPPL.NS",
@@ -4012,7 +4098,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 162.55,
+      "day_low": 156.69
     },
     {
       "symbol": "SOTL.NS",
@@ -4093,7 +4181,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 697.88,
+      "day_low": 672.36
     },
     {
       "symbol": "COCHINSHIP.NS",
@@ -4259,7 +4349,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 132.15,
+      "day_low": 127.38
     },
     {
       "symbol": "RCOM.NS",
@@ -4343,7 +4435,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 0.94,
+      "day_low": 0.91
     },
     {
       "symbol": "NMDC.NS",
@@ -4426,7 +4520,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 86.83,
+      "day_low": 83.66
     },
     {
       "symbol": "POLYCAB.NS",
@@ -4507,7 +4603,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 8562.85,
+      "day_low": 8253.75
     },
     {
       "symbol": "ENGINERSIN.NS",
@@ -4589,7 +4687,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 279.93,
+      "day_low": 269.82
     },
     {
       "symbol": "NATIONALUM.NS",
@@ -4671,7 +4771,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 382.13,
+      "day_low": 368.16
     },
     {
       "symbol": "GENUSPOWER.NS",
@@ -4754,7 +4856,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 1.04"
-      ]
+      ],
+      "day_high": 337.22,
+      "day_low": 325.05
     },
     {
       "symbol": "RAINBOW.NS",
@@ -4835,7 +4939,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1468.51,
+      "day_low": 1414.82
     },
     {
       "symbol": "SIGACHI.NS",
@@ -4917,7 +5023,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 35.69,
+      "day_low": 34.39
     },
     {
       "symbol": "HBLENGINE.NS",
@@ -5009,7 +5117,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -23.5% YoY)"
-      ]
+      ],
+      "day_high": 748.35,
+      "day_low": 721.34
     },
     {
       "symbol": "PREMEXPLN.NS",
@@ -5092,7 +5202,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -80.0% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 104.7x"
-      ]
+      ],
+      "day_high": 683.26,
+      "day_low": 658.6
     },
     {
       "symbol": "EDELWEISS.NS",
@@ -5185,7 +5297,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 3.20"
-      ]
+      ],
+      "day_high": 136.97,
+      "day_low": 132.03
     },
     {
       "symbol": "ACMESOLAR.NS",
@@ -5267,7 +5381,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 3.93"
-      ]
+      ],
+      "day_high": 411.64,
+      "day_low": 396.78
     },
     {
       "symbol": "SHARDAMOTR.NS",
@@ -5348,7 +5464,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -13.4% YoY)"
-      ]
+      ],
+      "day_high": 920.21,
+      "day_low": 886.57
     },
     {
       "symbol": "SPIC.NS",
@@ -5430,7 +5548,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -9.8% YoY)"
-      ]
+      ],
+      "day_high": 71.88,
+      "day_low": 69.29
     },
     {
       "symbol": "LUMAXIND.NS",
@@ -5511,7 +5631,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 1.06"
-      ]
+      ],
+      "day_high": 6288.57,
+      "day_low": 6058.65
     },
     {
       "symbol": "JYOTICNC.NS",
@@ -5593,7 +5715,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.1% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 71.5x"
-      ]
+      ],
+      "day_high": 1034.28,
+      "day_low": 996.94
     },
     {
       "symbol": "ATHERENERG.NS",
@@ -5674,7 +5798,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1598.96,
+      "day_low": 1540.5
     },
     {
       "symbol": "SYMPHONY.NS",
@@ -5753,7 +5879,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -5.1% YoY)"
-      ]
+      ],
+      "day_high": 626.02,
+      "day_low": 603.13
     },
     {
       "symbol": "ANANTRAJ.NS",
@@ -5834,7 +5962,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 628.94,
+      "day_low": 606.24
     },
     {
       "symbol": "ASIANTILES.NS",
@@ -5913,7 +6043,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -15.6% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 87.0x"
-      ]
+      ],
+      "day_high": 51.08,
+      "day_low": 49.21
     },
     {
       "symbol": "ONGC.NS",
@@ -6004,7 +6136,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 239.87,
+      "day_low": 231.21
     },
     {
       "symbol": "GMDCLTD.NS",
@@ -6083,7 +6217,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -0.2% YoY)"
-      ]
+      ],
+      "day_high": 581.44,
+      "day_low": 560.19
     },
     {
       "symbol": "NHPC.NS",
@@ -6165,7 +6301,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 1.13"
-      ]
+      ],
+      "day_high": 77.61,
+      "day_low": 74.77
     },
     {
       "symbol": "HDFCBANK.NS",
@@ -6245,7 +6383,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 704.28,
+      "day_low": 678.85
     },
     {
       "symbol": "IFCI.NS",
@@ -6326,7 +6466,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 134.8x"
-      ]
+      ],
+      "day_high": 91.18,
+      "day_low": 87.89
     },
     {
       "symbol": "ZFCVINDIA.NS",
@@ -6407,7 +6549,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 2531.65,
+      "day_low": 2440.26
     },
     {
       "symbol": "SUZLON.NS",
@@ -6490,7 +6634,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.3% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 46.59,
+      "day_low": 44.9
     },
     {
       "symbol": "GRAVITA.NS",
@@ -6573,7 +6719,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1716.76,
+      "day_low": 1653.99
     },
     {
       "symbol": "DELHIVERY.NS",
@@ -6654,7 +6802,9 @@ window.stockData = {
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -65.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 366.8x"
-      ]
+      ],
+      "day_high": 462.48,
+      "day_low": 445.79
     },
     {
       "symbol": "SPARC.NS",
@@ -6733,7 +6883,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 205.59,
+      "day_low": 198.17
     },
     {
       "symbol": "SANSTAR.NS",
@@ -6812,7 +6964,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 111.71,
+      "day_low": 107.68
     },
     {
       "symbol": "SIGMAADV.NS",
@@ -6894,7 +7048,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 79.7x"
-      ]
+      ],
+      "day_high": 773.98,
+      "day_low": 746.04
     },
     {
       "symbol": "CERA.NS",
@@ -6974,7 +7130,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -2.7% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 5840.96,
+      "day_low": 5630.12
     },
     {
       "symbol": "SBICARD.NS",
@@ -7056,7 +7214,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 2.80"
-      ]
+      ],
+      "day_high": 676.42,
+      "day_low": 651.69
     },
     {
       "symbol": "KUANTUM.NS",
@@ -7135,7 +7295,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -48.6% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 77.5,
+      "day_low": 74.7
     },
     {
       "symbol": "SUMMITSEC.NS",
@@ -7216,7 +7378,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1428.74,
+      "day_low": 1376.5
     },
     {
       "symbol": "YESBANK.NS",
@@ -7298,7 +7462,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 22.98,
+      "day_low": 22.15
     },
     {
       "symbol": "BAJAJHLDNG.NS",
@@ -7379,7 +7545,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -22.4% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 11210.94,
+      "day_low": 10801.05
     },
     {
       "symbol": "E2E.NS",
@@ -7458,7 +7626,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 222.2x"
-      ]
+      ],
+      "day_high": 619.61,
+      "day_low": 597.25
     },
     {
       "symbol": "AWL.NS",
@@ -7537,7 +7707,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 192.21,
+      "day_low": 185.27
     },
     {
       "symbol": "HEG.NS",
@@ -7621,7 +7793,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 265.9,
+      "day_low": 256.18
     },
     {
       "symbol": "LTF.NS",
@@ -7703,7 +7877,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 3.93"
-      ]
+      ],
+      "day_high": 314.12,
+      "day_low": 302.64
     },
     {
       "symbol": "TARIL.NS",
@@ -7784,7 +7960,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.5% YoY)"
-      ]
+      ],
+      "day_high": 304.32,
+      "day_low": 293.34
     },
     {
       "symbol": "LT.NS",
@@ -7865,7 +8043,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 4020.66,
+      "day_low": 3875.53
     },
     {
       "symbol": "JIOFIN.NS",
@@ -7945,7 +8125,9 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 71.7x"
-      ]
+      ],
+      "day_high": 236.77,
+      "day_low": 228.23
     },
     {
       "symbol": "DDEVPLSTIK.NS",
@@ -8024,7 +8206,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 272.19,
+      "day_low": 262.36
     },
     {
       "symbol": "GRSE.NS",
@@ -8103,7 +8287,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 2556.25,
+      "day_low": 2463.97
     },
     {
       "symbol": "EXIDEIND.NS",
@@ -8183,7 +8369,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 421.02,
+      "day_low": 405.82
     },
     {
       "symbol": "DHANBANK.NS",
@@ -8264,7 +8452,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 31.45,
+      "day_low": 30.31
     },
     {
       "symbol": "HAPPSTMNDS.NS",
@@ -8343,7 +8533,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 347.99,
+      "day_low": 335.43
     },
     {
       "symbol": "ITCHOTELS.NS",
@@ -8422,7 +8614,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 159.19,
+      "day_low": 153.45
     },
     {
       "symbol": "CAMS.NS",
@@ -8504,7 +8698,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 732.87,
+      "day_low": 706.42
     },
     {
       "symbol": "TATACONSUM.NS",
@@ -8584,7 +8780,9 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 60.6x"
-      ]
+      ],
+      "day_high": 1026.02,
+      "day_low": 988.99
     },
     {
       "symbol": "WAAREEENER.NS",
@@ -8674,7 +8872,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 2632.2,
+      "day_low": 2537.18
     },
     {
       "symbol": "FIEMIND.NS",
@@ -8753,7 +8953,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 2072.14,
+      "day_low": 1997.34
     },
     {
       "symbol": "BAJFINANCE.NS",
@@ -8838,7 +9040,9 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Debt Ratio: 3.15"
-      ]
+      ],
+      "day_high": 1065.28,
+      "day_low": 1026.83
     },
     {
       "symbol": "NTPC.NS",
@@ -8918,7 +9122,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -1.6% YoY)",
         "\u26a0\ufe0f High Debt Ratio: 1.18"
-      ]
+      ],
+      "day_high": 338.51,
+      "day_low": 326.14
     },
     {
       "symbol": "INDRAMEDCO.NS",
@@ -8997,7 +9203,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 364.52,
+      "day_low": 351.19
     },
     {
       "symbol": "MUTHOOTFIN.NS",
@@ -9081,7 +9289,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 3.94"
-      ]
+      ],
+      "day_high": 2885.37,
+      "day_low": 2781.22
     },
     {
       "symbol": "NCLIND.NS",
@@ -9173,7 +9383,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -14.3% YoY)"
-      ]
+      ],
+      "day_high": 181.27,
+      "day_low": 174.64
     },
     {
       "symbol": "TATAPOWER.NS",
@@ -9253,7 +9465,9 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Debt Ratio: 1.68"
-      ]
+      ],
+      "day_high": 374.44,
+      "day_low": 360.75
     },
     {
       "symbol": "HPL.NS",
@@ -9332,7 +9546,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 306.12,
+      "day_low": 295.07
     },
     {
       "symbol": "SJVN.NS",
@@ -9414,7 +9630,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -1.7% YoY)",
         "\u26a0\ufe0f High Debt Ratio: 2.27"
-      ]
+      ],
+      "day_high": 67.68,
+      "day_low": 65.21
     },
     {
       "symbol": "RELIANCE.NS",
@@ -9492,7 +9710,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -22.4% YoY)"
-      ]
+      ],
+      "day_high": 1310.97,
+      "day_low": 1263.65
     },
     {
       "symbol": "512068.BO",
@@ -9573,7 +9793,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 226.23,
+      "day_low": 217.96
     },
     {
       "symbol": "NDRAUTO.NS",
@@ -9652,7 +9874,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 732.77,
+      "day_low": 706.32
     },
     {
       "symbol": "ELECON.NS",
@@ -9731,7 +9955,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -59.8% YoY)"
-      ]
+      ],
+      "day_high": 429.88,
+      "day_low": 414.37
     },
     {
       "symbol": "INTLCONV.NS",
@@ -9814,7 +10040,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 78.88,
+      "day_low": 76.04
     },
     {
       "symbol": "BHARATCOAL.NS",
@@ -9896,7 +10124,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 34.2,
+      "day_low": 32.95
     },
     {
       "symbol": "IRCTC.NS",
@@ -9977,7 +10207,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 481.24,
+      "day_low": 463.87
     },
     {
       "symbol": "CANBK.NS",
@@ -10057,7 +10289,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 127.18,
+      "day_low": 122.59
     },
     {
       "symbol": "BAJAJHFL.NS",
@@ -10136,7 +10370,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 4.61"
-      ]
+      ],
+      "day_high": 84.99,
+      "day_low": 81.92
     },
     {
       "symbol": "SHYAMCENT.NS",
@@ -10214,7 +10450,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 5.03,
+      "day_low": 4.85
     },
     {
       "symbol": "WIPRO.NS",
@@ -10294,7 +10532,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 171.17,
+      "day_low": 165.0
     },
     {
       "symbol": "RVNL.NS",
@@ -10373,7 +10613,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 212.17,
+      "day_low": 204.52
     },
     {
       "symbol": "MAZDOCK.NS",
@@ -10453,7 +10695,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 2469.02,
+      "day_low": 2379.89
     },
     {
       "symbol": "HEROMOTOCO.NS",
@@ -10532,7 +10776,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -17.2% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 5348.45,
+      "day_low": 5155.38
     },
     {
       "symbol": "JPOLYINVST.NS",
@@ -10611,7 +10857,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -77.9% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 1018.9,
+      "day_low": 982.12
     },
     {
       "symbol": "RPOWER.NS",
@@ -10691,7 +10939,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 22.27,
+      "day_low": 21.46
     },
     {
       "symbol": "JAYBARMARU.NS",
@@ -10771,7 +11021,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -6.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 118.69,
+      "day_low": 114.35
     },
     {
       "symbol": "PIIND.NS",
@@ -10849,7 +11101,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -38.9% YoY)"
-      ]
+      ],
+      "day_high": 2453.85,
+      "day_low": 2365.27
     },
     {
       "symbol": "IOC.NS",
@@ -10927,7 +11181,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 137.23,
+      "day_low": 132.21
     },
     {
       "symbol": "PNBGILTS.NS",
@@ -11007,7 +11263,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -49.6% YoY)",
         "\u26a0\ufe0f High Debt Ratio: 14.80"
-      ]
+      ],
+      "day_high": 81.45,
+      "day_low": 78.51
     },
     {
       "symbol": "BOROSCI.NS",
@@ -11085,7 +11343,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 130.37,
+      "day_low": 125.66
     },
     {
       "symbol": "KOKUYOCMLN.NS",
@@ -11164,7 +11424,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -27.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 79.85,
+      "day_low": 76.93
     },
     {
       "symbol": "SHALBY.NS",
@@ -11243,7 +11505,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 152.19,
+      "day_low": 146.7
     },
     {
       "symbol": "RCF.NS",
@@ -11322,7 +11586,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 115.46,
+      "day_low": 111.29
     },
     {
       "symbol": "SIMBHALS.NS",
@@ -11404,7 +11670,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 7.53,
+      "day_low": 7.26
     },
     {
       "symbol": "KICL.NS",
@@ -11484,7 +11752,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 5147.04,
+      "day_low": 4961.24
     },
     {
       "symbol": "BBL.NS",
@@ -11562,7 +11832,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -29.6% YoY)"
-      ]
+      ],
+      "day_high": 2272.45,
+      "day_low": 2189.36
     },
     {
       "symbol": "MTNL.NS",
@@ -11642,7 +11914,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 25.84,
+      "day_low": 24.91
     },
     {
       "symbol": "BLUEJET.NS",
@@ -11732,7 +12006,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -14.3% YoY)"
-      ]
+      ],
+      "day_high": 589.68,
+      "day_low": 568.4
     },
     {
       "symbol": "ORICONENT.NS",
@@ -11813,7 +12089,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 53.38,
+      "day_low": 51.46
     },
     {
       "symbol": "RHFL.NS",
@@ -11892,7 +12170,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1.84,
+      "day_low": 1.78
     },
     {
       "symbol": "HDIL.NS",
@@ -11971,7 +12251,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 1.53,
+      "day_low": 1.47
     },
     {
       "symbol": "NATCOPHARM.NS",
@@ -12050,7 +12332,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -57.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 836.22,
+      "day_low": 805.64
     },
     {
       "symbol": "SUMEETINDS.NS",
@@ -12128,7 +12412,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -99.0% YoY)"
-      ]
+      ],
+      "day_high": 11.56,
+      "day_low": 11.14
     },
     {
       "symbol": "SHRENIK.NS",
@@ -12207,7 +12493,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 0.29,
+      "day_low": 0.29
     },
     {
       "symbol": "DEN.NS",
@@ -12285,7 +12573,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -32.5% YoY)"
-      ]
+      ],
+      "day_high": 27.54,
+      "day_low": 26.53
     },
     {
       "symbol": "ATGL.NS",
@@ -12365,7 +12655,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -14.0% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 106.9x"
-      ]
+      ],
+      "day_high": 619.65,
+      "day_low": 596.99
     },
     {
       "symbol": "SADHNANIQ.NS",
@@ -12443,7 +12735,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 2.88,
+      "day_low": 2.78
     },
     {
       "symbol": "VMM.NS",
@@ -12601,7 +12895,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
+      ],
+      "day_high": 174.85,
+      "day_low": 168.54
     },
     {
       "symbol": "ZENITHEXPO.NS",
@@ -12680,7 +12976,9 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 386.8x"
-      ]
+      ],
+      "day_high": 207.44,
+      "day_low": 199.86
     },
     {
       "symbol": "SAKSOFT.NS",
@@ -12762,7 +13060,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -9.3% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 153.23,
+      "day_low": 147.62
     },
     {
       "symbol": "DELTACORP.NS",
@@ -12840,7 +13140,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 56.63,
+      "day_low": 54.59
     },
     {
       "symbol": "ONMOBILE.NS",
@@ -12918,7 +13220,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 48.53,
+      "day_low": 46.78
     },
     {
       "symbol": "RIIL.NS",
@@ -12999,7 +13303,9 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.3% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 90.3x"
-      ]
+      ],
+      "day_high": 743.07,
+      "day_low": 716.25
     },
     {
       "symbol": "IRFC.NS",
@@ -13079,7 +13385,9 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Debt Ratio: 7.73"
-      ]
+      ],
+      "day_high": 83.42,
+      "day_low": 80.41
     },
     {
       "symbol": "VIRINCHI.NS",
@@ -13157,7 +13465,9 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
+      ],
+      "day_high": 14.34,
+      "day_low": 13.82
     }
   ],
   "upcoming_3d_events": [

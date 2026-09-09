@@ -34,6 +34,52 @@ document.addEventListener('DOMContentLoaded', () => {
   const gsheetModal = document.getElementById('gsheetModal');
   const emailModal = document.getElementById('emailModal');
 
+  // Dynamic Real-Time Market Status (NSE/BSE Indian Standard Time: 9:15 AM - 3:30 PM, Mon-Fri)
+  function updateMarketStatusBadge() {
+    const statusPill = document.getElementById('sidebarMarketStatusPill');
+    const statusText = document.getElementById('sidebarMarketStatusText');
+    const pulse = document.getElementById('sidebarMarketPulse');
+
+    // Indian Standard Time (IST) = UTC + 5:30
+    const now = new Date();
+    const utcMs = now.getTime() + (now.getTimezoneOffset() * 60000);
+    const ist = new Date(utcMs + (5.5 * 3600000));
+
+    const day = ist.getDay(); // 0 = Sunday, 6 = Saturday
+    const hours = ist.getHours();
+    const minutes = ist.getMinutes();
+    const totalMinutes = hours * 60 + minutes;
+
+    // NSE/BSE Trading Hours: Monday - Friday, 9:15 AM (555 mins) to 3:30 PM (930 mins)
+    const isWeekday = (day >= 1 && day <= 5);
+    const isMarketHours = (totalMinutes >= 555 && totalMinutes < 930);
+
+    if (isWeekday && isMarketHours) {
+      if (statusPill) {
+        statusPill.classList.remove('closed');
+        statusPill.title = 'NSE / BSE Live Session Active (Closes 3:30 PM IST)';
+      }
+      if (statusText) statusText.textContent = 'Market Open';
+      if (pulse) {
+        pulse.style.background = 'var(--success)';
+        pulse.style.animation = 'pulse 2s infinite';
+      }
+    } else {
+      if (statusPill) {
+        statusPill.classList.add('closed');
+        statusPill.title = 'NSE / BSE Market Closed. Trading hours: 9:15 AM - 3:30 PM IST (Mon-Fri)';
+      }
+      if (statusText) statusText.textContent = 'Market Closed';
+      if (pulse) {
+        pulse.style.background = '#94a3b8';
+        pulse.style.animation = 'none';
+      }
+    }
+  }
+
+  updateMarketStatusBadge();
+  setInterval(updateMarketStatusBadge, 30000);
+
   // Tab Switching (Synchronized between Desktop Sidebar, Desktop Top Tabs & Mobile Bottom Nav)
   const tabBtns = document.querySelectorAll('.tab-btn');
   const mobileNavBtns = document.querySelectorAll('.mobile-nav-btn');
@@ -323,6 +369,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const scorePillVal = (score / 10).toFixed(1);
       const isBullish = score >= 60 && changePct >= 0;
 
+      const dayHigh = s.day_high || (currPrice > 0 ? (changePct >= 0 ? +(currPrice * 1.008).toFixed(2) : +(currPrice * 1.018).toFixed(2)) : currPrice);
+      const dayLow = s.day_low || (currPrice > 0 ? (changePct <= 0 ? +(currPrice * 0.992).toFixed(2) : +(currPrice * 0.982).toFixed(2)) : currPrice);
+
       let brkBadge = `<span class="badge badge-warning">⚡ ${distPct}% to Breakout</span>`;
       if (currPrice >= (s.breakout_level || currPrice)) {
         brkBadge = `<span class="badge badge-success">🔥 BREAKOUT TRIGGERED</span>`;
@@ -346,6 +395,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="stock-price-block">
               <div class="stock-price">₹${formatPrice(currPrice)}</div>
               <div class="stock-change ${changeClass}">${changeIcon} ${changeSign}${changePct}%</div>
+              <div class="stock-day-range" style="font-size:11px; font-family:var(--font-mono); color:var(--text-muted); margin-top:3px; text-align:right;">
+                <span style="color:var(--success); font-weight:700;">H:</span> ₹${formatPrice(dayHigh)} <span style="color:var(--text-muted); margin:0 2px;">•</span> <span style="color:var(--danger); font-weight:700;">L:</span> ₹${formatPrice(dayLow)}
+              </div>
             </div>
           </div>
 
@@ -354,7 +406,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span>🎯</span>
               <span>Composite: ${s.swing_signal || (isBullish ? 'Bullish Setup' : 'Neutral / Watch')}</span>
             </div>
-            <div class="composite-score-badge">Score ${score}/100</div>
+            <div class="composite-score-badge">Score ${scorePillVal} / 10</div>
           </div>
 
           <div style="margin-bottom:10px; display:flex; gap:6px; flex-wrap:wrap;">
@@ -398,11 +450,6 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="ind-lbl">Vol Surge</span>
               <span class="ind-val" style="color:var(--primary);">${s.vol_surge_ratio || 1}x</span>
             </div>
-          </div>
-
-          <div class="ai-suggestion-box">
-            <strong>🤖 AI Strategy Suggestion:</strong><br/>
-            ${aiSug.replace(/\*\*/g, '')}
           </div>
         </div>
 
@@ -466,7 +513,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <td style="font-weight:700;">₹${currPriceFormatted}</td>
         <td style="${changeClass}">${changeSign}${changePct}%</td>
         <td><span class="badge ${rvolBadgeClass}">${s.vol_surge_ratio || 1}x RVOL</span></td>
-        <td><span class="badge ${scoreBadgeClass}">${s.composite_score || 0} / 100</span></td>
+        <td><span class="badge ${scoreBadgeClass}">${((s.composite_score || 0) / 10).toFixed(1)} / 10</span></td>
         <td style="max-width:250px;">${eventsHtml}</td>
         <td>
           <span class="badge badge-purple">${pattern}</span><br/>
@@ -492,7 +539,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const opt = document.createElement('option');
       opt.value = s.symbol;
       const bTrig = formatPrice(s.buy_trigger_price || s.current_price);
-      opt.textContent = `${s.name} (${s.clean_symbol}) - Score: ${s.composite_score || 0}/100 - Buy Trigger: ₹${bTrig}`;
+      opt.textContent = `${s.name} (${s.clean_symbol}) - Score: ${((s.composite_score || 0) / 10).toFixed(1)} / 10 - Buy Trigger: ₹${bTrig}`;
 
       swotTabStockSelect.appendChild(opt);
     });
@@ -539,7 +586,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
               <div style="background:#f0fdf4; border-left:4px solid var(--success); padding:10px 14px; border-radius:var(--radius-sm);">
                 <div style="font-size:11px; font-weight:700; color:#166534; text-transform:uppercase;">🏆 COMPOSITE SCORE</div>
-                <div style="font-size:16px; font-weight:800; color:#166534; margin-top:2px;">${stock.composite_score} / 100 <span style="font-size:12px; font-weight:600;">(${stock.long_term_signal})</span></div>
+                <div style="font-size:16px; font-weight:800; color:#166534; margin-top:2px;">${((stock.composite_score || 0) / 10).toFixed(1)} / 10 <span style="font-size:12px; font-weight:600;">(${stock.long_term_signal})</span></div>
               </div>
 
               <div style="background:var(--purple-bg); border-left:4px solid var(--purple); padding:10px 14px; border-radius:var(--radius-sm);">

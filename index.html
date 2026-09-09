@@ -29,9 +29,9 @@
   <!-- Desktop Sidebar Navigation (Visible on Laptop / Desktop >= 1024px) -->
   <nav class="desktop-sidebar" id="desktopSidebar">
     <div class="sidebar-status-box">
-      <div class="sidebar-status-pill">
-        <span class="pulse-indicator" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block;"></span>
-        <span>Market Open</span>
+      <div class="sidebar-status-pill" id="sidebarMarketStatusPill">
+        <span class="pulse-indicator" id="sidebarMarketPulse" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block;"></span>
+        <span id="sidebarMarketStatusText">Checking Market...</span>
       </div>
     </div>
     <div class="sidebar-nav-links">
@@ -347,10 +347,14 @@
         
         <!-- Score Calculation Card -->
         <div class="widget-card">
-          <h3 style="font-size:16px; font-weight:700; color:var(--primary); margin-bottom:12px;">📊 How Company Composite Score (0 - 100) is Calculated</h3>
+          <h3 style="font-size:16px; font-weight:700; color:var(--primary); margin-bottom:10px;">📊 How Company Score (Out of 10) is Calculated</h3>
           
+          <div style="background:rgba(29, 78, 216, 0.08); border-left:4px solid var(--primary); padding:10px 12px; border-radius:var(--radius-sm); margin-bottom:14px; font-size:12px; color:var(--text-primary);">
+            <strong>⭐ 10-Point Normalized Scale:</strong> Every stock undergoes comprehensive scoring across 100 raw algorithmic points and is normalized to a clean <strong>10.0 scale</strong> (e.g. 85 pts = <strong>8.5 / 10</strong>). A score of <strong>&ge; 7.0 / 10</strong> signals prime institutional accumulation and swing quality.
+          </div>
+
           <div class="info-section">
-            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">1. Fundamental Health (35 Points)</h4>
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">1. Fundamental Health (35% Weight)</h4>
             <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.6;">
               <li><strong>Revenue Growth YoY</strong> (+10 pts for &gt;15%, +6 pts for &gt;5%).</li>
               <li><strong>Net Profit Growth YoY</strong> (+10 pts for &gt;15%, +6 pts for &gt;5%).</li>
@@ -361,7 +365,7 @@
           </div>
 
           <div class="info-section" style="margin-top:14px;">
-            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">2. Technical Oscillators & Trend (35 Points)</h4>
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">2. Technical Oscillators & Trend (35% Weight)</h4>
             <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.6;">
               <li><strong>Moving Average Alignment</strong> (+8 pts above 20 EMA, +8 pts above 50 EMA, +7 pts above 200 EMA).</li>
               <li><strong>RSI Momentum (14)</strong> (+6 pts for sweet spot 50–68 RSI).</li>
@@ -370,7 +374,7 @@
           </div>
 
           <div class="info-section" style="margin-top:14px;">
-            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">3. Chart Pattern & Volume Surge (15 Points)</h4>
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">3. Chart Pattern & Volume Surge (15% Weight)</h4>
             <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.6;">
               <li><strong>Classic Chart Patterns</strong> (+10 pts for Cup & Handle, Ascending Triangle, Bull Flag, VCP, W-Pattern).</li>
               <li><strong>Multi-Horizon Breakouts</strong> (+6 pts for 20D/50D Box Breakout, +8 pts for 52W High Breakout).</li>
@@ -379,10 +383,25 @@
           </div>
 
           <div class="info-section" style="margin-top:14px;">
-            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">4. Valuation & Analyst Upside (15 Points)</h4>
+            <h4 style="font-size:14px; font-weight:700; color:var(--text-primary); margin-bottom:4px;">4. Valuation & Analyst Upside (15% Weight)</h4>
             <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.6;">
               <li><strong>Analyst Consensus Target</strong> (+8 pts for &gt;20% upside potential).</li>
               <li><strong>P/E Valuation Ratio</strong> (+7 pts for reasonable P/E between 0 and 35).</li>
+            </ul>
+          </div>
+
+          <!-- Oversold Rebound Calculation & Strategy -->
+          <div class="info-section" style="margin-top:14px; background:rgba(109, 40, 217, 0.05); border-left:4px solid var(--purple); padding:12px; border-radius:var(--radius-sm);">
+            <h4 style="font-size:14px; font-weight:700; color:var(--purple); margin-bottom:6px;">🔄 Oversold Rebound Setup & Calculation</h4>
+            <p style="font-size:13px; color:var(--text-secondary); line-height:1.6; margin-bottom:8px;">
+              The <strong>Oversold Rebound</strong> setup filters for high-quality stocks that experienced temporary short-term selling down to critical support zones, offering high-probability mean-reversion swing entries:
+            </p>
+            <ul style="font-size:13px; color:var(--text-secondary); padding-left:18px; line-height:1.6;">
+              <li><strong>RSI(14) Cooling (&le; 52 or &lt; 45)</strong>: Measures sentiment exhaustion where selling pressure has dried up.</li>
+              <li><strong>Volume Dry-Up & Absorption</strong>: Daily volume drops below the 20-day average during pullback, followed by bullish price absorption.</li>
+              <li><strong>Support Confluence</strong>: Price bouncing off critical key levels (20/50 SMA test, previous swing bottom, or double-bottom neckline).</li>
+              <li><strong>Quality Gate (Score &ge; 6.5 / 10)</strong>: Ensures you buy valuable fundamental leaders, strictly avoiding speculative falling knives.</li>
+              <li><strong>Swing Targets & SL</strong>: Target 1 at 20 DMA / resistance ceiling (1-7D), Target 2 at recent swing high (7-15D), with Stop Loss set 1.5% below the reversal pivot for a 1:2.5+ risk-to-reward ratio.</li>
             </ul>
           </div>
         </div>

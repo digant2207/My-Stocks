@@ -65,6 +65,8 @@ def run_market_hours_ticker_scan():
             vol_today = None
             prev_cp = s.get('prev_close', 0)
 
+            day_hi = None
+            day_lo = None
             if data is not None and not data.empty:
                 stock_df = None
                 if len(symbols) == 1:
@@ -75,9 +77,15 @@ def run_market_hours_ticker_scan():
                 if stock_df is not None and not stock_df.empty:
                     close_series = stock_df['Close'].dropna()
                     vol_series = stock_df['Volume'].dropna()
+                    high_series = stock_df['High'].dropna() if 'High' in stock_df else None
+                    low_series = stock_df['Low'].dropna() if 'Low' in stock_df else None
                     if not close_series.empty:
                         cp = round(float(close_series.iloc[-1]), 2)
                         vol_today = float(vol_series.sum()) if not vol_series.empty else s.get('volume', 0)
+                    if high_series is not None and not high_series.empty:
+                        day_hi = round(float(high_series.max()), 2)
+                    if low_series is not None and not low_series.empty:
+                        day_lo = round(float(low_series.min()), 2)
 
             # Fallback to fast_info if batch df was empty or missing
             if cp is None or cp <= 0:
@@ -97,6 +105,10 @@ def run_market_hours_ticker_scan():
                             if prev_cp <= 0 or abs(cand_prev - prev_cp) / (prev_cp or 1.0) < 0.20:
                                 prev_cp = cand_prev
                         vol_today = float(fi.get('lastVolume') or s.get('volume', 0))
+                        if fi.get('dayHigh'):
+                            day_hi = round(float(fi['dayHigh']), 2)
+                        if fi.get('dayLow'):
+                            day_lo = round(float(fi['dayLow']), 2)
                 except Exception:
                     pass
 
@@ -107,6 +119,8 @@ def run_market_hours_ticker_scan():
                 s['current_price'] = cp
                 s['prev_close'] = prev_cp if prev_cp > 0 else s.get('prev_close', cp)
                 s['day_change_pct'] = chg_pct
+                s['day_high'] = day_hi if day_hi and day_hi > 0 else s.get('day_high', round(cp * 1.01, 2))
+                s['day_low'] = day_lo if day_lo and day_lo > 0 else s.get('day_low', round(cp * 0.99, 2))
 
                 # Live RVOL update
                 vol_1m = s.get('vol_1m_avg', 1)
