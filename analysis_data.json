@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "09-Sep-2026 07:44:19 PM IST (Indian Standard Time)",
+    "last_updated": "09-Sep-2026 10:21:13 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,431.50",
@@ -22,7 +22,7 @@
     "strong_buys_count": 20,
     "pattern_breakouts_count": 32,
     "upcoming_3d_events_count": 130,
-    "scan_time_seconds": 28.2
+    "scan_time_seconds": 26.4
   },
   "top_20_swing": [
     {
@@ -1270,7 +1270,7 @@
     {
       "symbol": "STAR.NS",
       "clean_symbol": "STAR",
-      "name": "Strides Pharma Science Ltd",
+      "name": "star",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3131,7 +3131,7 @@
     {
       "symbol": "STAR.NS",
       "clean_symbol": "STAR",
-      "name": "Strides Pharma Science Ltd",
+      "name": "star",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3769,7 +3769,7 @@
       "macd_val": 74.68,
       "macd_signal": 58.27,
       "macd_hist": 16.41,
-      "pe_ratio": 78.9,
+      "pe_ratio": 78.28,
       "roe": 0.0,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -3828,7 +3828,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 78.9x"
+        "\u26a0\ufe0f High Valuation P/E: 78.3x"
       ]
     },
     {
@@ -4109,7 +4109,7 @@
     {
       "symbol": "SOTL.NS",
       "clean_symbol": "SOTL",
-      "name": "Savita Oil Technologies Ltd",
+      "name": "SOTL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4362,7 +4362,7 @@
     {
       "symbol": "RCOM.NS",
       "clean_symbol": "RCOM",
-      "name": "Reliance Communications Ltd",
+      "name": "RCOM",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4528,89 +4528,6 @@
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
-    },
-    {
-      "symbol": "POLYCAB.NS",
-      "clean_symbol": "POLYCAB",
-      "name": "Polycab India Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 8354.0,
-      "prev_close": 8373.5,
-      "day_change_pct": -0.23,
-      "day_high": 8407.0,
-      "day_low": 8302.0,
-      "volume": 198530,
-      "vol_1m_avg": 389966,
-      "vol_surge_ratio": 0.51,
-      "52w_high": 10126.0,
-      "52w_low": 6631.53,
-      "sma_20": 8944.83,
-      "sma_50": 9087.17,
-      "sma_200": 8314.01,
-      "rsi_14": 34.0,
-      "macd_val": -207.22,
-      "macd_signal": -122.1,
-      "macd_hist": -85.12,
-      "pe_ratio": 43.38,
-      "roe": 25.5,
-      "debt_to_equity": 0.02,
-      "debt_status": "Low Debt (Healthy)",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 39.0,
-      "earnings_growth_yoy": 32.5,
-      "dividend_yield": 56.0,
-      "promoter_holding": 64.7,
-      "institutional_holding": 16.3,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 9445.0,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 9454.44,
-      "sell_trigger_price": 8052.38,
-      "buy_status": "\u26a1 BUY ABOVE \u20b99,454.44 (13.2% away)",
-      "swing_target_1": 9519.13,
-      "swing_target_2": 10472.41,
-      "swing_stoploss": 8052.38,
-      "breakout_proximity_pct": 13.1,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 32.8,
-      "composite_score": 50,
-      "long_term_signal": "HOLD",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-09-09",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +32.5%)",
-          "summary": "Company declared strong YoY revenue growth of 39.0% and Net Profit growth of 32.5%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b99,454.44** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.51x. \u2022 **Sell/Stop Loss Trigger:** \u20b98,052.38 \u2022 **Target 1:** \u20b99,519.13 \u2022 **Target 2:** \u20b910,472.41",
-      "strengths": [
-        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+32.5%) & Revenue (+39.0%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +32.5%)",
-        "\ud83d\udcb0 High ROE: 25.5%",
-        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
-      ],
-      "weaknesses": [
-        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
       ]
     },
     {
@@ -4950,6 +4867,89 @@
       ]
     },
     {
+      "symbol": "POLYCAB.NS",
+      "clean_symbol": "POLYCAB",
+      "name": "Polycab India Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 8354.0,
+      "prev_close": 8373.5,
+      "day_change_pct": -0.23,
+      "day_high": 8407.0,
+      "day_low": 8302.0,
+      "volume": 198530,
+      "vol_1m_avg": 389966,
+      "vol_surge_ratio": 0.51,
+      "52w_high": 10126.0,
+      "52w_low": 6631.53,
+      "sma_20": 8944.83,
+      "sma_50": 9087.17,
+      "sma_200": 8314.01,
+      "rsi_14": 34.0,
+      "macd_val": -207.22,
+      "macd_signal": -122.1,
+      "macd_hist": -85.12,
+      "pe_ratio": 43.95,
+      "roe": 25.5,
+      "debt_to_equity": 0.02,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 39.0,
+      "earnings_growth_yoy": 32.5,
+      "dividend_yield": 56.0,
+      "promoter_holding": 64.7,
+      "institutional_holding": 16.3,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 9445.0,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 9454.44,
+      "sell_trigger_price": 8052.38,
+      "buy_status": "\u26a1 BUY ABOVE \u20b99,454.44 (13.2% away)",
+      "swing_target_1": 9519.13,
+      "swing_target_2": 10472.41,
+      "swing_stoploss": 8052.38,
+      "breakout_proximity_pct": 13.1,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 31.6,
+      "composite_score": 47,
+      "long_term_signal": "HOLD",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-09-09",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +32.5%)",
+          "summary": "Company declared strong YoY revenue growth of 39.0% and Net Profit growth of 32.5%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b99,454.44** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.51x. \u2022 **Sell/Stop Loss Trigger:** \u20b98,052.38 \u2022 **Target 1:** \u20b99,519.13 \u2022 **Target 2:** \u20b910,472.41",
+      "strengths": [
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+32.5%) & Revenue (+39.0%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +32.5%)",
+        "\ud83d\udcb0 High ROE: 25.5%",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
+      ]
+    },
+    {
       "symbol": "SIGACHI.NS",
       "clean_symbol": "SIGACHI",
       "name": "Sigachi Industries Ltd",
@@ -5151,7 +5151,7 @@
       "macd_val": -0.2,
       "macd_signal": -1.68,
       "macd_hist": 1.48,
-      "pe_ratio": 104.65,
+      "pe_ratio": 107.0,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -5209,7 +5209,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -80.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 104.7x"
+        "\u26a0\ufe0f High Valuation P/E: 107.0x"
       ]
     },
     {
@@ -5477,7 +5477,7 @@
     {
       "symbol": "SPIC.NS",
       "clean_symbol": "SPIC",
-      "name": "Southern Petrochemical Industries CorpLd",
+      "name": "SPIC",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -6056,7 +6056,7 @@
     {
       "symbol": "ONGC.NS",
       "clean_symbol": "ONGC",
-      "name": "Oil and Natural Gas Corporation Ltd",
+      "name": "ONGC",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7993,7 +7993,7 @@
       "macd_val": -1.46,
       "macd_signal": -1.55,
       "macd_hist": 0.08,
-      "pe_ratio": 33.74,
+      "pe_ratio": 33.43,
       "roe": 0.0,
       "debt_to_equity": 0.3,
       "debt_status": "Low Debt (Healthy)",
@@ -9319,7 +9319,7 @@
       "macd_val": -28.76,
       "macd_signal": -8.46,
       "macd_hist": -20.31,
-      "pe_ratio": 9.87,
+      "pe_ratio": 9.94,
       "roe": 31.7,
       "debt_to_equity": 3.94,
       "debt_status": "High Debt Warning",
@@ -9473,87 +9473,6 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -14.3% YoY)"
-      ]
-    },
-    {
-      "symbol": "ELECON.NS",
-      "clean_symbol": "ELECON",
-      "name": "Elecon Engineering Company Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 419.4,
-      "prev_close": 421.15,
-      "day_change_pct": -0.42,
-      "day_high": 427.35,
-      "day_low": 416.8,
-      "volume": 286939,
-      "vol_1m_avg": 688595,
-      "vol_surge_ratio": 0.42,
-      "52w_high": 634.9,
-      "52w_low": 351.0,
-      "sma_20": 429.81,
-      "sma_50": 448.17,
-      "sma_200": 458.91,
-      "rsi_14": 42.0,
-      "macd_val": -6.98,
-      "macd_signal": -7.93,
-      "macd_hist": 0.95,
-      "pe_ratio": 39.83,
-      "roe": 0.0,
-      "debt_to_equity": 0.12,
-      "debt_status": "Low Debt (Healthy)",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 6.1,
-      "earnings_growth_yoy": -59.8,
-      "dividend_yield": 47.0,
-      "promoter_holding": 63.2,
-      "institutional_holding": 11.2,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 459.3,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 459.76,
-      "sell_trigger_price": 400.11,
-      "buy_status": "\u26a1 BUY ABOVE \u20b9459.76 (9.6% away)",
-      "swing_target_1": 453.81,
-      "swing_target_2": 481.96,
-      "swing_stoploss": 400.11,
-      "breakout_proximity_pct": 9.5,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 21.7,
-      "composite_score": 28,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-09-08",
-          "date_tag": "Yesterday",
-          "is_upcoming_3_days": false,
-          "type": "Earnings Caution",
-          "title": "Earnings De-growth (YoY Profit Drop -59.8%)",
-          "summary": "Recent financial results show profit declining by 59.8%.",
-          "impact": "Bearish Caution \u26a0\ufe0f",
-          "impact_reason": "Margin pressure may trigger short-term profit booking."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9459.76** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.42x. \u2022 **Sell/Stop Loss Trigger:** \u20b9400.11 \u2022 **Target 1:** \u20b9453.81 \u2022 **Target 2:** \u20b9481.96",
-      "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Yesterday): Earnings Caution - Earnings De-growth (YoY Profit Drop -59.8%)",
-        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
-      ],
-      "weaknesses": [
-        "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -59.8% YoY)"
       ]
     },
     {
@@ -9722,7 +9641,7 @@
     {
       "symbol": "SJVN.NS",
       "clean_symbol": "SJVN",
-      "name": "SJVN Ltd",
+      "name": "SJVN",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10048,6 +9967,87 @@
       ]
     },
     {
+      "symbol": "ELECON.NS",
+      "clean_symbol": "ELECON",
+      "name": "Elecon Engineering Company Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 419.4,
+      "prev_close": 421.15,
+      "day_change_pct": -0.42,
+      "day_high": 427.35,
+      "day_low": 416.8,
+      "volume": 286939,
+      "vol_1m_avg": 688595,
+      "vol_surge_ratio": 0.42,
+      "52w_high": 634.9,
+      "52w_low": 351.0,
+      "sma_20": 429.81,
+      "sma_50": 448.17,
+      "sma_200": 458.91,
+      "rsi_14": 42.0,
+      "macd_val": -6.98,
+      "macd_signal": -7.93,
+      "macd_hist": 0.95,
+      "pe_ratio": 39.83,
+      "roe": 0.0,
+      "debt_to_equity": 0.12,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 6.1,
+      "earnings_growth_yoy": -59.8,
+      "dividend_yield": 47.0,
+      "promoter_holding": 63.2,
+      "institutional_holding": 11.2,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 459.3,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 459.76,
+      "sell_trigger_price": 400.11,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9459.76 (9.6% away)",
+      "swing_target_1": 453.81,
+      "swing_target_2": 481.96,
+      "swing_stoploss": 400.11,
+      "breakout_proximity_pct": 9.5,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 20.5,
+      "composite_score": 25,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-09-08",
+          "date_tag": "Yesterday",
+          "is_upcoming_3_days": false,
+          "type": "Earnings Caution",
+          "title": "Earnings De-growth (YoY Profit Drop -59.8%)",
+          "summary": "Recent financial results show profit declining by 59.8%.",
+          "impact": "Bearish Caution \u26a0\ufe0f",
+          "impact_reason": "Margin pressure may trigger short-term profit booking."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9459.76** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.42x. \u2022 **Sell/Stop Loss Trigger:** \u20b9400.11 \u2022 **Target 1:** \u20b9453.81 \u2022 **Target 2:** \u20b9481.96",
+      "strengths": [
+        "\ud83d\udcc5 Upcoming Event (Yesterday): Earnings Caution - Earnings De-growth (YoY Profit Drop -59.8%)",
+        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
+      ],
+      "weaknesses": [
+        "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -59.8% YoY)"
+      ]
+    },
+    {
       "symbol": "INTLCONV.NS",
       "clean_symbol": "INTLCONV",
       "name": "International Conveyors Ltd",
@@ -10302,7 +10302,7 @@
     {
       "symbol": "CANBK.NS",
       "clean_symbol": "CANBK",
-      "name": "Canara Bank Ltd",
+      "name": "CANBK",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10627,7 +10627,7 @@
     {
       "symbol": "RVNL.NS",
       "clean_symbol": "RVNL",
-      "name": "Rail Vikas Nigam Ltd",
+      "name": "rvnl",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10648,7 +10648,7 @@
       "macd_val": -5.5,
       "macd_signal": -4.53,
       "macd_hist": -0.97,
-      "pe_ratio": 48.71,
+      "pe_ratio": 47.92,
       "roe": 0.0,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -11137,7 +11137,7 @@
       "macd_val": -61.03,
       "macd_signal": -62.34,
       "macd_hist": 1.31,
-      "pe_ratio": 31.63,
+      "pe_ratio": 31.14,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -11786,7 +11786,7 @@
       "macd_val": -68.49,
       "macd_signal": -52.2,
       "macd_hist": -16.29,
-      "pe_ratio": 53.99,
+      "pe_ratio": 53.93,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -12184,7 +12184,7 @@
     {
       "symbol": "RHFL.NS",
       "clean_symbol": "RHFL",
-      "name": "Reliance Home Finance Ltd",
+      "name": "RHFL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13235,7 +13235,7 @@
     {
       "symbol": "RIIL.NS",
       "clean_symbol": "RIIL",
-      "name": "Reliance Industrial Infrastructure Ltd",
+      "name": "RIIL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13339,7 +13339,7 @@
       "macd_val": -1.75,
       "macd_signal": -1.54,
       "macd_hist": -0.22,
-      "pe_ratio": 15.02,
+      "pe_ratio": 14.83,
       "roe": 0.0,
       "debt_to_equity": 7.73,
       "debt_status": "High Debt Warning",
@@ -13698,7 +13698,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "STAR.NS",
       "clean_symbol": "STAR",
-      "name": "Strides Pharma Science Ltd"
+      "name": "star"
     },
     {
       "date": "2026-09-09",
@@ -13828,7 +13828,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SOTL.NS",
       "clean_symbol": "SOTL",
-      "name": "Savita Oil Technologies Ltd"
+      "name": "SOTL"
     },
     {
       "date": "2026-09-09",
@@ -13854,7 +13854,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "RCOM.NS",
       "clean_symbol": "RCOM",
-      "name": "Reliance Communications Ltd"
+      "name": "RCOM"
     },
     {
       "date": "2026-09-09",
@@ -13868,19 +13868,6 @@
       "symbol": "NMDC.NS",
       "clean_symbol": "NMDC",
       "name": "NMDC Ltd"
-    },
-    {
-      "date": "2026-09-09",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Quarterly Earnings Growth",
-      "title": "Strong Earnings Growth (YoY Profit +32.5%)",
-      "summary": "Company declared strong YoY revenue growth of 39.0% and Net Profit growth of 32.5%.",
-      "impact": "Bullish Re-rating \ud83d\ude80",
-      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
-      "symbol": "POLYCAB.NS",
-      "clean_symbol": "POLYCAB",
-      "name": "Polycab India Ltd"
     },
     {
       "date": "2026-09-09",
@@ -13933,6 +13920,19 @@
       "symbol": "RAINBOW.NS",
       "clean_symbol": "RAINBOW",
       "name": "Rainbow Children's Medicare Ltd"
+    },
+    {
+      "date": "2026-09-09",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +32.5%)",
+      "summary": "Company declared strong YoY revenue growth of 39.0% and Net Profit growth of 32.5%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "POLYCAB.NS",
+      "clean_symbol": "POLYCAB",
+      "name": "Polycab India Ltd"
     },
     {
       "date": "2026-09-09",
@@ -14023,7 +14023,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "SPIC.NS",
       "clean_symbol": "SPIC",
-      "name": "Southern Petrochemical Industries CorpLd"
+      "name": "SPIC"
     },
     {
       "date": "2026-09-09",
@@ -14114,7 +14114,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ONGC.NS",
       "clean_symbol": "ONGC",
-      "name": "Oil and Natural Gas Corporation Ltd"
+      "name": "ONGC"
     },
     {
       "date": "2026-09-09",
@@ -14673,7 +14673,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SJVN.NS",
       "clean_symbol": "SJVN",
-      "name": "SJVN Ltd"
+      "name": "SJVN"
     },
     {
       "date": "2026-09-09",
@@ -14764,7 +14764,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "CANBK.NS",
       "clean_symbol": "CANBK",
-      "name": "Canara Bank Ltd"
+      "name": "CANBK"
     },
     {
       "date": "2026-09-09",
@@ -14816,7 +14816,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "RVNL.NS",
       "clean_symbol": "RVNL",
-      "name": "Rail Vikas Nigam Ltd"
+      "name": "rvnl"
     },
     {
       "date": "2026-09-09",
@@ -15011,7 +15011,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "RHFL.NS",
       "clean_symbol": "RHFL",
-      "name": "Reliance Home Finance Ltd"
+      "name": "RHFL"
     },
     {
       "date": "2026-09-09",
@@ -15141,7 +15141,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "RIIL.NS",
       "clean_symbol": "RIIL",
-      "name": "Reliance Industrial Infrastructure Ltd"
+      "name": "RIIL"
     },
     {
       "date": "2026-09-09",
