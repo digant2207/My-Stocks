@@ -1,12 +1,13 @@
 {
   "summary": {
-    "last_updated": "09-Sep-2026 06:17:04 PM IST (Indian Standard Time)",
+    "last_updated": "09-Sep-2026 06:29:35 PM IST (Indian Standard Time)",
+    "indices": {},
     "total_stocks_scanned": 139,
     "swing_top_20_count": 20,
     "strong_buys_count": 20,
     "pattern_breakouts_count": 32,
     "upcoming_3d_events_count": 130,
-    "scan_time_seconds": 17.9
+    "scan_time_seconds": 66.5
   },
   "top_20_swing": [
     {
@@ -3407,7 +3408,7 @@
       "macd_val": 4.41,
       "macd_signal": 2.39,
       "macd_hist": 2.03,
-      "pe_ratio": 34.05,
+      "pe_ratio": 36.96,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -4847,7 +4848,7 @@
       "debt_to_equity": 0.31,
       "debt_status": "Low Debt (Healthy)",
       "debt_score_penalty": 0,
-      "rev_growth_yoy": -5.4,
+      "rev_growth_yoy": -4.7,
       "earnings_growth_yoy": 0.0,
       "dividend_yield": 29.0,
       "promoter_holding": 41.9,
@@ -7063,7 +7064,7 @@
       "macd_val": -0.44,
       "macd_signal": -0.72,
       "macd_hist": 0.28,
-      "pe_ratio": 17.96,
+      "pe_ratio": 18.26,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -8430,7 +8431,7 @@
       "macd_val": -2.67,
       "macd_signal": -1.97,
       "macd_hist": -0.69,
-      "pe_ratio": 37.42,
+      "pe_ratio": 37.33,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -8671,7 +8672,7 @@
       "macd_val": -41.34,
       "macd_signal": -40.33,
       "macd_hist": -1.01,
-      "pe_ratio": 19.55,
+      "pe_ratio": 19.39,
       "roe": 0.0,
       "debt_to_equity": 0.21,
       "debt_status": "Low Debt (Healthy)",
