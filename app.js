@@ -21,6 +21,31 @@ document.addEventListener('DOMContentLoaded', () => {
   const watchlistTableBody = document.getElementById('watchlistTableBody');
   const searchInput = document.getElementById('searchInput');
 
+  // RSI Analysis Tab Elements
+  const rsiTableBody = document.getElementById('rsiTableBody');
+  const rsiSearchInput = document.getElementById('rsiSearchInput');
+  const rsiFilterChips = document.querySelectorAll('[data-rsi-filter]');
+  let activeRsiFilter = 'all';
+  let rsiSearchTerm = '';
+
+  rsiFilterChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      rsiFilterChips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeRsiFilter = chip.getAttribute('data-rsi-filter') || 'all';
+      if (currentData && currentData.all_stocks) {
+        applyRsiFiltersAndRender(currentData.all_stocks);
+      }
+    });
+  });
+
+  rsiSearchInput?.addEventListener('input', (e) => {
+    rsiSearchTerm = e.target.value.toLowerCase().trim();
+    if (currentData && currentData.all_stocks) {
+      applyRsiFiltersAndRender(currentData.all_stocks);
+    }
+  });
+
   // Strength & Weakness Tab Elements
   const swotTabStockSelect = document.getElementById('swotTabStockSelect');
   const swotTabContentDisplay = document.getElementById('swotTabContentDisplay');
@@ -343,7 +368,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     applyFiltersAndRender(top20Swing);
     renderWatchlistTable(allStocks);
+    renderRsiTable(allStocks);
     setupSwotTab(allStocks);
+
+    const sidebarRsiBadge = document.getElementById('sidebarRsiBadge');
+    if (sidebarRsiBadge) sidebarRsiBadge.textContent = allStocks.length;
   }
 
   function renderSwingCards(stocks) {
@@ -530,6 +559,108 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       watchlistTableBody.appendChild(tr);
+    });
+  }
+
+  // --- RSI Analysis Table (Ranked High to Low) ---
+  function renderRsiTable(stocks) {
+    if (!stocks || !Array.isArray(stocks)) return;
+
+    // Dynamic Filter Counts
+    const cntAll = stocks.length;
+    const cntOverbought = stocks.filter(s => (s.rsi_14 || 50) >= 70).length;
+    const cntBullish = stocks.filter(s => (s.rsi_14 || 50) >= 55 && (s.rsi_14 || 50) < 70).length;
+    const cntNeutral = stocks.filter(s => (s.rsi_14 || 50) >= 45 && (s.rsi_14 || 50) < 55).length;
+    const cntOversold = stocks.filter(s => (s.rsi_14 || 50) < 45).length;
+
+    const elAll = document.getElementById('rsiCountAll');
+    const elOver = document.getElementById('rsiCountOverbought');
+    const elBull = document.getElementById('rsiCountBullish');
+    const elNeut = document.getElementById('rsiCountNeutral');
+    const elUnder = document.getElementById('rsiCountOversold');
+
+    if (elAll) elAll.textContent = cntAll;
+    if (elOver) elOver.textContent = cntOverbought;
+    if (elBull) elBull.textContent = cntBullish;
+    if (elNeut) elNeut.textContent = cntNeutral;
+    if (elUnder) elUnder.textContent = cntOversold;
+
+    applyRsiFiltersAndRender(stocks);
+  }
+
+  function applyRsiFiltersAndRender(stocks) {
+    if (!rsiTableBody) return;
+    let list = [...stocks];
+
+    // Strictly rank from High to Low by 14-period RSI
+    list.sort((a, b) => (b.rsi_14 || 50) - (a.rsi_14 || 50));
+
+    if (rsiSearchTerm) {
+      list = list.filter(s =>
+        (s.symbol && s.symbol.toLowerCase().includes(rsiSearchTerm)) ||
+        (s.name && s.name.toLowerCase().includes(rsiSearchTerm)) ||
+        (s.clean_symbol && s.clean_symbol.toLowerCase().includes(rsiSearchTerm))
+      );
+    }
+
+    if (activeRsiFilter === 'overbought') {
+      list = list.filter(s => (s.rsi_14 || 50) >= 70);
+    } else if (activeRsiFilter === 'bullish') {
+      list = list.filter(s => (s.rsi_14 || 50) >= 55 && (s.rsi_14 || 50) < 70);
+    } else if (activeRsiFilter === 'neutral') {
+      list = list.filter(s => (s.rsi_14 || 50) >= 45 && (s.rsi_14 || 50) < 55);
+    } else if (activeRsiFilter === 'oversold') {
+      list = list.filter(s => (s.rsi_14 || 50) < 45);
+    }
+
+    rsiTableBody.innerHTML = '';
+    if (list.length === 0) {
+      rsiTableBody.innerHTML = '<tr><td colspan="4" style="text-align:center; padding:24px; color:var(--text-muted);">No stocks match the selected RSI filter.</td></tr>';
+      return;
+    }
+
+    list.forEach(s => {
+      const rsiVal = s.rsi_14 !== null && s.rsi_14 !== undefined ? Math.round(s.rsi_14) : 50;
+      let rsiBadgeStyle = 'background:rgba(100, 116, 139, 0.12); color:#475569; border:1px solid rgba(100, 116, 139, 0.2);';
+      let rsiZone = 'Neutral';
+
+      if (rsiVal >= 70) {
+        rsiBadgeStyle = 'background:rgba(239, 68, 68, 0.12); color:#dc2626; border:1px solid rgba(239, 68, 68, 0.3);';
+        rsiZone = 'Overbought';
+      } else if (rsiVal >= 55) {
+        rsiBadgeStyle = 'background:rgba(5, 150, 105, 0.12); color:#059669; border:1px solid rgba(5, 150, 105, 0.3);';
+        rsiZone = 'Bullish Zone';
+      } else if (rsiVal < 45) {
+        rsiBadgeStyle = 'background:rgba(37, 99, 235, 0.12); color:#2563eb; border:1px solid rgba(37, 99, 235, 0.3);';
+        rsiZone = 'Oversold';
+      }
+
+      let rvolBadgeClass = (s.vol_surge_ratio || 0) >= 1.5 ? 'badge-success' : ((s.vol_surge_ratio || 0) >= 1.2 ? 'badge-warning' : 'badge-neutral');
+
+      const tr = document.createElement('tr');
+      tr.style.cursor = 'pointer';
+      tr.innerHTML = `
+        <td>
+          <strong style="color:var(--text-primary); font-size:14px;">${s.name}</strong><br/>
+          <span style="font-size:12px; color:var(--text-muted); font-family:var(--font-mono);">${s.clean_symbol || s.symbol}</span>
+        </td>
+        <td style="font-weight:700; font-family:var(--font-mono); font-size:14px;">₹${formatPrice(s.current_price)}</td>
+        <td><span class="badge ${rvolBadgeClass}">${s.vol_surge_ratio || 1}x RVOL</span></td>
+        <td>
+          <span class="badge" style="font-family:var(--font-mono); font-size:13px; font-weight:800; padding:5px 12px; border-radius:6px; ${rsiBadgeStyle}">
+            ${rsiVal} <span style="font-size:11px; font-weight:600; opacity:0.85; margin-left:4px;">(${rsiZone})</span>
+          </span>
+        </td>
+      `;
+
+      tr.addEventListener('click', () => {
+        switchTab('tab-swot');
+        swotTabStockSelect.value = s.symbol;
+        swotTabStockSelect.dispatchEvent(new Event('change'));
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      rsiTableBody.appendChild(tr);
     });
   }
 

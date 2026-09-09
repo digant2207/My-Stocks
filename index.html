@@ -48,6 +48,13 @@
           <span>My Watchlist</span>
         </div>
       </button>
+      <button class="sidebar-link" data-tab="tab-rsi">
+        <div class="sidebar-link-inner">
+          <span style="font-size:16px;">⚡</span>
+          <span>RSI Analysis</span>
+        </div>
+        <span class="sidebar-badge" id="sidebarRsiBadge">139</span>
+      </button>
       <button class="sidebar-link" data-tab="tab-swot">
         <div class="sidebar-link-inner">
           <span style="font-size:16px;">💪</span>
@@ -167,6 +174,7 @@
     <nav class="tabs-nav">
       <button class="tab-btn active" data-tab="tab-swing">🚀 20 Best Swing</button>
       <button class="tab-btn" data-tab="tab-watchlist">📊 My Watchlist</button>
+      <button class="tab-btn" data-tab="tab-rsi">⚡ RSI Analysis</button>
       <button class="tab-btn" data-tab="tab-swot">💪 SWOT Analysis</button>
       <button class="tab-btn" data-tab="tab-info">ℹ️ System Info</button>
     </nav>
@@ -233,6 +241,47 @@
           </thead>
           <tbody id="watchlistTableBody">
             <!-- Dynamically populated -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Tab: RSI Analysis (Ranked High to Low) -->
+    <section id="tab-rsi" class="tab-content" style="display:none;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; flex-wrap:wrap; gap:10px;">
+        <div>
+          <h2 style="font-size:18px; font-weight:800; display:flex; align-items:center; gap:8px;">
+            <span>⚡</span> RSI Analysis (High to Low)
+          </h2>
+          <p style="font-size:13px; color:var(--text-muted);">
+            All watchlist equities ranked strictly by 14-period Relative Strength Index (RSI).
+          </p>
+        </div>
+        <div style="display:flex; gap:8px; align-items:center;">
+          <input type="text" id="rsiSearchInput" placeholder="Filter stock or symbol..." style="padding:8px 12px; border:1px solid var(--border-color); border-radius:var(--radius-md); font-size:14px; width:220px;">
+        </div>
+      </div>
+
+      <div style="display:flex; gap:8px; margin-bottom:14px; flex-wrap:wrap;">
+        <button class="filter-chip active" data-rsi-filter="all" id="btnRsiAll">All Stocks (<span id="rsiCountAll">0</span>)</button>
+        <button class="filter-chip" data-rsi-filter="overbought" id="btnRsiOverbought">🔥 Overbought (&gt; 70) (<span id="rsiCountOverbought">0</span>)</button>
+        <button class="filter-chip" data-rsi-filter="bullish" id="btnRsiBullish">📈 Bullish Zone (55 - 70) (<span id="rsiCountBullish">0</span>)</button>
+        <button class="filter-chip" data-rsi-filter="neutral" id="btnRsiNeutral">⚖️ Neutral Zone (45 - 55) (<span id="rsiCountNeutral">0</span>)</button>
+        <button class="filter-chip" data-rsi-filter="oversold" id="btnRsiOversold">🔄 Oversold / Pullback (&lt; 45) (<span id="rsiCountOversold">0</span>)</button>
+      </div>
+
+      <div class="table-container">
+        <table class="data-table" id="rsiTable">
+          <thead>
+            <tr>
+              <th style="width:40%;">Stock Name & Symbol</th>
+              <th style="width:20%;">Current Price</th>
+              <th style="width:20%;">RVOL</th>
+              <th style="width:20%;">RSI (14)</th>
+            </tr>
+          </thead>
+          <tbody id="rsiTableBody">
+            <!-- Dynamically populated from High to Low -->
           </tbody>
         </table>
       </div>
@@ -709,6 +758,10 @@ function fillFormulasForAllRows() {
     <button class="mobile-nav-btn" data-tab="tab-watchlist">
       <span class="mobile-nav-icon">📊</span>
       <span class="mobile-nav-label">Watchlist</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="tab-rsi">
+      <span class="mobile-nav-icon">⚡</span>
+      <span class="mobile-nav-label">RSI</span>
     </button>
     <button class="mobile-nav-btn" data-tab="tab-swot">
       <span class="mobile-nav-icon">💪</span>
