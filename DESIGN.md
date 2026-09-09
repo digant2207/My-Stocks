@@ -1,4 +1,4 @@
-# Design System & UI Specification: My Watchlist (Indian Stock Screener)
+# Design System & UI Specification: My Watchlist (Warm Nordic Sand)
 
 ## 1. Overview
 **My Watchlist** is an Indian stock screener and swing trading radar web application. It monitors equities from NSE and BSE, syncs with Google Sheets ("Spark Stock List"), and runs automated scans for swing setups, technical indicators (MACD, RSI, 20D/52W breakouts, volume surge), SWOT analysis, and valuation metrics.
@@ -6,9 +6,9 @@
 ---
 
 ## 2. Design Philosophy & Aesthetics
-- **Aesthetic**: Modern financial terminal with clean card-based hierarchy, high-contrast badges, and responsive data-dense layouts.
-- **Tone**: Professional, data-driven, rapid scanning, mobile-optimized (iPhone PWA ready).
-- **Theme**: Neutral Slate background with vibrant accents (Emerald for gains/bullish, Crimson for risks/bearish, Royal Blue for primary actions, Amber for warnings).
+- **Theme**: **Warm Nordic Sand** - Natural organic sand undertones, frosted glass surfaces, and high-contrast precision financial accents.
+- **Aesthetic**: Premium financial terminal with clean card-based hierarchy, frosted glassmorphism, responsive data-dense layouts, and smooth micro-interactions.
+- **Tone**: High clarity, data-driven, rapid scanning, mobile-optimized (iPhone PWA ready with native feel).
 
 ---
 
@@ -16,111 +16,117 @@
 
 ### 3.1 Color Palette
 ```css
-/* Backgrounds */
---bg-main: #f8fafc;        /* Slate 50 */
---bg-card: #ffffff;        /* Pure White */
---bg-subtle: #f1f5f9;      /* Slate 100 */
---bg-dark-terminal: #0f172a; /* Slate 900 (for Dark Mode / PWA Header) */
+/* Warm Nordic Sand Palette */
+--bg-main: #f4efea;              /* Warm Sand 100 - Main Page Canvas */
+--bg-card: #ffffff;              /* Pure White Card Base */
+--bg-subtle: #faf8f5;            /* Sand 50 - Card Secondary / Subtle Surface */
+--bg-container: #ebe3db;         /* Sand 200 - Surface Container High */
+--bg-dark-terminal: #1c1917;     /* Sand 900 - Deep Onyx Accents */
 
 /* Typography Colors */
---text-primary: #0f172a;   /* Slate 900 */
---text-secondary: #475569; /* Slate 600 */
---text-muted: #64748b;     /* Slate 500 */
+--text-primary: #1c1917;         /* Sand 900 - High Contrast Ink */
+--text-secondary: #57534e;       /* Stone 600 - Secondary Body */
+--text-muted: #78716c;           /* Stone 500 - Captions & Subtitles */
 
 /* Borders & Dividers */
---border-color: #e2e8f0;   /* Slate 200 */
---border-hover: #cbd5e1;   /* Slate 300 */
+--border-color: #ebe3db;         /* Sand 200 - Organic Warm Border */
+--border-hover: #ded3c7;         /* Sand 300 - Border on Hover */
+--border-focus: #1d4ed8;         /* Precision Focus Ring */
 
-/* Accents & Status */
---primary: #2563eb;        /* Blue 600 */
---primary-hover: #1d4ed8;  /* Blue 700 */
---primary-light: #eff6ff;  /* Blue 50 */
+/* Financial Status Accents */
+--primary: #1d4ed8;              /* Royal Blue 700 - Brand & Primary Actions */
+--primary-hover: #1e40af;        /* Royal Blue 800 */
+--primary-light: #eff6ff;        /* Soft Blue Highlight */
 
---success: #059669;        /* Emerald 600 */
---success-bg: #dcfce7;     /* Emerald 100 */
+--success: #059669;              /* Emerald 600 - Bullish / Gains */
+--success-bg: #dcfce7;           /* Emerald 100 Container */
+--success-border: #86efac;       /* Emerald Border */
 
---warning: #d97706;        /* Amber 600 */
---warning-bg: #fef3c7;     /* Amber 100 */
+--danger: #e11d48;               /* Rose 600 - Bearish / Red Flags / Stop Loss */
+--danger-bg: #ffe4e6;            /* Rose 100 Container */
+--danger-border: #fca5a5;        /* Rose Border */
 
---danger: #dc2626;         /* Red 600 */
---danger-bg: #fee2e2;      /* Red 100 */
+--warning: #b45309;              /* Amber 700 - Caution / Consolidating */
+--warning-bg: #fef3c7;           /* Amber 100 Container */
 
---purple: #7c3aed;         /* Violet 600 */
---purple-bg: #f3e8ff;      /* Violet 100 */
+--purple: #6d28d9;               /* Violet 700 - Patterns / AI Insights */
+--purple-bg: #f5f3ff;            /* Violet 100 Container */
 ```
 
 ### 3.2 Typography
-- **Primary Font Family**: `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif`
-- **Monospace Font (for prices/ratios)**: `"SF Mono", "Fira Code", "Roboto Mono", monospace`
+- **Primary Body Font**: `'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`
+- **Monospace Font (for prices, ratios, tickers)**: `'JetBrains Mono', 'SF Mono', 'Fira Code', monospace`
 - **Scale**:
-  - App Header: `18px`, Weight `800`
+  - App Brand Title: `18px`, Weight `800`
   - Section Headings: `18px - 20px`, Weight `800`
-  - Card Titles: `16px`, Weight `700`
-  - Metrics / Numbers: `14px - 16px`, Weight `700` (Monospace / High Legibility)
-  - Body & Labels: `13px - 14px`, Weight `400` - `500`
-  - Subtitles & Badges: `11px - 12px`, Weight `600`
+  - Card Titles: `15px - 16px`, Weight `700`
+  - Metrics / Numbers: `15px - 17px`, Weight `700` (`JetBrains Mono`)
+  - Body & Labels: `13px - 14px`, Weight `500`
+  - Badges & Pills: `10px - 11px`, Weight `700` (`JetBrains Mono` / `Plus Jakarta Sans`)
 
-### 3.3 Elevation & Shapes
+### 3.3 Elevation & Surfaces
+- **Glassmorphism**: `background: rgba(255, 255, 255, 0.88); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid rgba(235, 227, 219, 0.95);`
 - **Corner Radii**:
-  - Small pills & badges: `8px`
-  - Form controls & buttons: `10px - 12px`
-  - Cards & modals: `16px`
+  - Badges & Pills: `6px - 8px` / Full Pill `9999px`
+  - Form Controls & Buttons: `10px - 12px`
+  - Cards & Bento Widgets: `16px`
+  - Modals: `20px`
 - **Shadows**:
-  - Card shadow: `0 4px 12px rgba(0, 0, 0, 0.05)`
-  - Elevated / Hover shadow: `0 10px 25px rgba(0, 0, 0, 0.08)`
-  - Sticky headers: `0 1px 3px rgba(0, 0, 0, 0.05)`
+  - Soft Card: `0 4px 20px rgba(78, 64, 43, 0.05)`
+  - Elevated Hover: `transform: translateY(-2px); box-shadow: 0 12px 28px -4px rgba(78, 64, 43, 0.1), 0 4px 10px -2px rgba(78, 64, 43, 0.04); border-color: #d8d0c2;`
 
 ---
 
 ## 4. Layout & Core Components
 
 ### 4.1 Header Bar
-- Sticky at top (`z-index: 100`)
-- **Brand Title**: "📈 My Watchlist - Indian Equities Daily Screener & Swing Radar"
-- **Actions Bar**:
-  - Last Updated Timestamp Pill (with green pulse indicator)
-  - "➕ Add Stock" Button (opens quick add modal)
-  - "🔄 Refresh Analysis" Button (triggers live Python background scanner)
-  - "⚡ Reset Cache" Button (iOS Safari / PWA cache bust)
+- Sticky at top (`z-index: 100`) with glass frosted background.
+- Brand logo + title: "📈 My Watchlist - Indian Equities Daily Screener & Swing Radar".
+- Pulsing real-time Market Open indicator.
+- Action triggers: "➕ Add Stock", "🔄 Refresh Analysis", "⚡ Reset Cache".
 
-### 4.2 Welcome & System Summary Banner
-- Hero greeting with status connection to Google Sheet (`Spark Stock List`).
-- Quick-stats pills: `Total Scanned`, `20 Best Swing Picks`, `Google Sheet Status`, `Email Settings`.
+### 4.2 Bento Market Overview Banner
+- Dynamic horizontal card carousel / grid:
+  1. **NIFTY 50** real-time index card.
+  2. **SENSEX** real-time index card.
+  3. **Scanned Stocks** count pill.
+  4. **Best Swing Picks** count badge.
+  5. **Google Sheet Sync** live connection badge.
 
-### 4.3 Navigation Tabs
-- Segmented tab bar with active border & smooth pill highlight:
+### 4.3 Navigation & Tabs
+- **Desktop Navigation**: Horizontal segmented pill tabs with active indicator:
   1. `🚀 20 Best Swing Trading Stocks (1-15 Days)`
-  2. `📊 My Watchlist` (Comprehensive list of equities)
-  3. `💪 Strength & Weakness` (SWOT / Bullish vs Bearish breakdown)
-  4. `ℹ️ System Information` (Cron jobs, scan schedules, runner logs)
+  2. `📊 My Watchlist`
+  3. `💪 Strength & Weakness (SWOT)`
+  4. `ℹ️ System Information`
+- **Mobile Bottom Navigation Bar** (`.mobile-nav`):
+  - Fixed dock at bottom on mobile (`@media (max-width: 768px)`), hidden on desktop.
+  - Quick touch targets: 20 Swing, Watchlist, SWOT, System.
 
 ### 4.4 Swing Trading Stock Card (`.stock-card`)
-- **Card Header**:
-  - Stock Symbol (e.g. `TCS.NS`) + Company Name
-  - Sector & Market Cap Category (Large / Mid / Small)
-  - Live CMP (Current Market Price) + 1-Day % Change Badge (Green/Red)
-- **Technical Indicator Grid**:
-  - 20-Day SMA / 50-Day SMA / 200-Day SMA status
-  - RSI (14) indicator with color-coded sentiment (Oversold <30, Neutral, Overbought >70)
-  - Volume Surge multiplier (e.g., `2.4x 10D Avg`)
-  - Breakout tags (`52W High Nearby`, `MACD Bullish Crossover`)
-- **Card Action Footer**:
-  - Target 1 & Target 2 projection pills
-  - Stop Loss recommendation
-  - External link to TradingView chart / Screener.in
+- **Top Accent Bar**: Color-coded top edge (Emerald for bullish setup, Crimson for caution).
+- **Header**: Ticker (e.g. `TCS.NS`) in JetBrains Mono + Score Pill (`9.2 / 10`), company name, current price, and 1-day change.
+- **Composite Score Banner**: Bullish setup status + composite score (`92/100`).
+- **Trigger Levels**:
+  - 🟢 **BUY TRIGGER POINT (ENTRY)**: `BUY ABOVE ₹X,XXX.XX`
+  - 🔴 **SELL TRIGGER POINT (STOP LOSS)**: `SELL BELOW ₹X,XXX.XX`
+- **Targets & Projections**: Target 1 (1-7D) & Target 2 (7-15D) formatted in JetBrains Mono.
+- **Indicators Grid**: 20D SMA, RSI(14) with visual progress bar, RVOL Surge multiplier.
+- **AI Strategy Suggestion**: Clean highlighted guidance note.
 
-### 4.5 Filter & Search Bar
-- Quick search bar with instant debounce filtering.
-- Filter chips: `All`, `Nifty 50`, `High Momentum`, `Near 52W High`, `Oversold Rebound`, `P/E < 25`.
+### 4.5 Filter & Quick-Chips Bar
+- Search box with instant filter.
+- Quick filter chips: `All (20)`, `High Momentum`, `Near Breakout`, `High Volume Surge`, `Oversold Rebound`.
 
-### 4.6 Modals
-- **Add Stock Modal**: Symbol input (autocomplete support), exchange picker (NSE/BSE), Target price, Buy price.
-- **Google Sheet Sync Modal**: View sheet URL, sync status, manual pull/push triggers.
-- **Email Config Modal**: Notification receiver email address, briefing time toggle (8:00 AM IST).
+### 4.6 System Information & Integrations
+- Dedicated configuration cards for:
+  - **Google Sheet Synchronization** (Status: Active Sync, Manage Settings modal trigger).
+  - **Daily Email Briefing** (8:00 AM IST scheduled morning briefing, Manage Settings modal trigger).
+  - Comprehensive scoring methodology breakdown.
 
 ---
 
 ## 5. Responsive Behavior
-- **Desktop (1024px+)**: 3-column or 4-column responsive grid for stock cards; full multi-column data tables.
-- **Tablet (768px - 1023px)**: 2-column card grid.
-- **Mobile (< 768px)**: 1-column cards, sticky bottom action bar, horizontal scrollable tab navigation, touch-friendly 44px tap targets.
+- **Desktop (1024px+)**: 3-column stock cards grid; full multi-column data table; top segmented tabs.
+- **Tablet (768px - 1023px)**: 2-column card grid; horizontal scrollable filters.
+- **Mobile (< 768px)**: 1-column cards; docked bottom navigation bar; 44px touch targets; horizontal index carousel.

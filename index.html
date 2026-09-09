@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Spark Stock">
-  <meta name="theme-color" content="#0f172a">
+  <meta name="theme-color" content="#f4efea">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
   <link rel="manifest" href="manifest.json">
@@ -14,8 +14,14 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <title>My Watchlist - Indian Stock Analyzer</title>
-  <link rel="stylesheet" href="styles.css?v=20260909164555">
-  <script src="analysis_data.js?v=20260909164555"></script>
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css?v=20260909181500">
+  <script src="analysis_data.js?v=20260909181500"></script>
 </head>
 
 <body>
@@ -24,14 +30,17 @@
   <header class="header">
     <div class="header-container">
       <div class="brand">
-        <span class="brand-icon">📈</span>
+        <div class="brand-icon">📈</div>
         <div class="brand-text">
           <h1>My Watchlist</h1>
           <p>Indian Equities Daily Screener & Swing Radar</p>
         </div>
       </div>
       <div class="header-actions">
-        <div class="timestamp-badge" id="lastUpdatedBadge">Loading analysis...</div>
+        <div class="timestamp-badge" id="lastUpdatedBadge">
+          <span class="pulse-indicator" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block;"></span>
+          <span>Loading analysis...</span>
+        </div>
         <button class="btn btn-success" id="btnAddStockHeader" title="Add BSE or NSE Stock to Watchlist">
           <span>➕ Add Stock</span>
         </button>
@@ -46,20 +55,78 @@
     </div>
   </header>
 
-
-  <!-- Welcome Banner -->
+  <!-- Bento Market Overview Banner -->
   <section class="welcome-banner">
-    <div class="banner-card">
-      <div>
-        <div class="banner-title">Welcome to My Stock Watchlist 👋</div>
-        <div class="banner-subtitle">Synced with Google Sheet <strong>"Spark Stock List"</strong> • Dual-Tier Auto Scan & 8:00 AM Email Briefing</div>
+    <div class="market-bento-grid">
+      <!-- NIFTY 50 -->
+      <div class="bento-item">
+        <div class="bento-header">
+          <span class="bento-label">NIFTY 50</span>
+          <span class="bento-delta positive" id="bentoNiftyDelta">+0.59%</span>
+        </div>
+        <div class="bento-value" id="bentoNiftyVal">24,389.20</div>
+        <div class="bento-subtext">📈 Benchmark Index</div>
       </div>
-      <div class="banner-meta">
-        <div class="meta-pill" id="totalScannedPill">📊 Scanned: -- Stocks</div>
-        <div class="meta-pill" id="swingPicksPill">🎯 20 Best Swing Picks</div>
+
+      <!-- SENSEX -->
+      <div class="bento-item">
+        <div class="bento-header">
+          <span class="bento-label">SENSEX</span>
+          <span class="bento-delta positive" id="bentoSensexDelta">+0.52%</span>
+        </div>
+        <div class="bento-value" id="bentoSensexVal">80,118.95</div>
+        <div class="bento-subtext">📈 BSE Index</div>
+      </div>
+
+      <!-- Total Scanned -->
+      <div class="bento-item">
+        <div class="bento-header">
+          <span class="bento-label">Total Scanned</span>
+          <span style="font-size:14px;">📡</span>
+        </div>
+        <div class="bento-value" id="totalScannedPill" style="color:var(--primary);">-- Stocks</div>
+        <div class="bento-subtext">NSE/BSE Watchlist Universe</div>
+      </div>
+
+      <!-- Best Swing Picks -->
+      <div class="bento-item">
+        <div class="bento-header">
+          <span class="bento-label">Best Swing</span>
+          <span style="font-size:14px;">🎯</span>
+        </div>
+        <div class="bento-value" id="swingPicksPill" style="color:var(--success);">20 Picks</div>
+        <div class="bento-subtext">1-15 Day Horizon</div>
+      </div>
+
+      <!-- Google Sheet Sync -->
+      <div class="bento-item">
+        <div class="bento-header">
+          <span class="bento-label">Sheet Sync</span>
+          <span style="font-size:14px;">📊</span>
+        </div>
+        <div class="bento-value" style="font-size:14px; display:flex; align-items:center; gap:6px; color:var(--success); margin-top:8px;">
+          <span class="pulse-indicator" style="width:8px; height:8px; border-radius:50%; background:var(--success); display:inline-block;"></span>
+          <span>Connected</span>
+        </div>
+        <div class="bento-subtext">Spark Stock List</div>
       </div>
     </div>
   </section>
+
+  <!-- Filter Chips Bar -->
+  <div class="filter-bar">
+    <div class="filter-search-box">
+      <span class="filter-search-icon">🔍</span>
+      <input type="text" id="quickFilterInput" placeholder="Filter ticker, tag or setup...">
+    </div>
+    <div class="filter-chips-container">
+      <button class="filter-chip active" data-filter="all">All (20)</button>
+      <button class="filter-chip" data-filter="breakout">⚡ Near Breakout</button>
+      <button class="filter-chip" data-filter="momentum">🔥 High Momentum</button>
+      <button class="filter-chip" data-filter="volume">📊 High Volume (RVOL)</button>
+      <button class="filter-chip" data-filter="lowdebt">🛡️ Zero / Low Debt</button>
+    </div>
+  </div>
 
   <!-- Nav Tabs -->
   <nav class="tabs-nav">
@@ -563,8 +630,28 @@ function fillFormulasForAllRows() {
     </div>
   </div>
 
+  <!-- Mobile Bottom Navigation Bar (Visible on Mobile / PWA) -->
+  <nav class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-btn active" data-tab="tab-swing">
+      <span class="mobile-nav-icon">🚀</span>
+      <span class="mobile-nav-label">20 Swing</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="tab-watchlist">
+      <span class="mobile-nav-icon">📊</span>
+      <span class="mobile-nav-label">Watchlist</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="tab-swot">
+      <span class="mobile-nav-icon">💪</span>
+      <span class="mobile-nav-label">SWOT</span>
+    </button>
+    <button class="mobile-nav-btn" data-tab="tab-info">
+      <span class="mobile-nav-icon">ℹ️</span>
+      <span class="mobile-nav-label">System</span>
+    </button>
+  </nav>
+
   <script src="stocks_directory.js?v=202609081245"></script>
-  <script src="app.js?v=20260909164555"></script>
+  <script src="app.js?v=20260909181500"></script>
 </body>
 </html>
 

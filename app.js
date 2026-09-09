@@ -34,21 +34,98 @@ document.addEventListener('DOMContentLoaded', () => {
   const gsheetModal = document.getElementById('gsheetModal');
   const emailModal = document.getElementById('emailModal');
 
-  // Tab Switching
+  // Tab Switching (Synchronized between Desktop Tabs & Mobile Bottom Nav)
   const tabBtns = document.querySelectorAll('.tab-btn');
+  const mobileNavBtns = document.querySelectorAll('.mobile-nav-btn');
   const tabContents = document.querySelectorAll('.tab-content');
+
+  function switchTab(targetId) {
+    tabBtns.forEach(b => {
+      if (b.getAttribute('data-tab') === targetId) {
+        b.classList.add('active');
+      } else {
+        b.classList.remove('active');
+      }
+    });
+
+    mobileNavBtns.forEach(mb => {
+      if (mb.getAttribute('data-tab') === targetId) {
+        mb.classList.add('active');
+      } else {
+        mb.classList.remove('active');
+      }
+    });
+
+    tabContents.forEach(c => c.style.display = 'none');
+    const targetEl = document.getElementById(targetId);
+    if (targetEl) targetEl.style.display = 'block';
+  }
 
   tabBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-      tabBtns.forEach(b => b.classList.remove('active'));
-      tabContents.forEach(c => c.style.display = 'none');
-
-      btn.classList.add('active');
       const targetId = btn.getAttribute('data-tab');
-      const targetEl = document.getElementById(targetId);
-      if (targetEl) targetEl.style.display = 'block';
+      switchTab(targetId);
     });
   });
+
+  mobileNavBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetId = btn.getAttribute('data-tab');
+      switchTab(targetId);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+
+  // Filter Chips and Quick Search State
+  let activeFilterChip = 'all';
+  let quickFilterTerm = '';
+  const filterChips = document.querySelectorAll('.filter-chip');
+  const quickFilterInput = document.getElementById('quickFilterInput');
+
+  filterChips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      filterChips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeFilterChip = chip.getAttribute('data-filter') || 'all';
+      if (currentData && currentData.top_20_swing) {
+        applyFiltersAndRender(currentData.top_20_swing);
+      }
+    });
+  });
+
+  quickFilterInput?.addEventListener('input', (e) => {
+    quickFilterTerm = e.target.value.toLowerCase().trim();
+    if (currentData && currentData.top_20_swing) {
+      applyFiltersAndRender(currentData.top_20_swing);
+    }
+  });
+
+  function applyFiltersAndRender(stocks) {
+    let filtered = [...stocks];
+    if (quickFilterTerm) {
+      filtered = filtered.filter(s =>
+        (s.symbol && s.symbol.toLowerCase().includes(quickFilterTerm)) ||
+        (s.name && s.name.toLowerCase().includes(quickFilterTerm)) ||
+        (s.sector && s.sector.toLowerCase().includes(quickFilterTerm)) ||
+        (s.primary_pattern && s.primary_pattern.toLowerCase().includes(quickFilterTerm))
+      );
+    }
+
+    if (activeFilterChip === 'breakout') {
+      filtered = filtered.filter(s => (s.breakout_proximity_pct || 99) <= 3.5 || (s.current_price >= (s.breakout_level || s.current_price)));
+    } else if (activeFilterChip === 'momentum') {
+      filtered = filtered.filter(s => (s.day_change_pct || 0) > 0.8 || (s.composite_score || 0) >= 70);
+    } else if (activeFilterChip === 'volume') {
+      filtered = filtered.filter(s => (s.vol_surge_ratio || 0) >= 1.4);
+    } else if (activeFilterChip === 'lowdebt') {
+      filtered = filtered.filter(s => {
+        const debt = (s.debt_status || '').toLowerCase();
+        return debt.includes('low') || debt.includes('zero') || (s.debt_to_equity || 0) < 0.5;
+      });
+    }
+
+    renderSwingCards(filtered);
+  }
 
   // Modal Triggers
   document.getElementById('btnGoogleSheetModal')?.addEventListener('click', () => {
@@ -127,12 +204,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const allStocks = data.all_stocks || [];
 
     const scannedCount = summary.total_stocks_scanned || summary.total_stocks || allStocks.length || 0;
-    lastUpdatedBadge.textContent = 'Updated: ' + (summary.last_updated || 'Just now');
-    totalScannedPill.textContent = `📊 Scanned: ${scannedCount} Stocks`;
-    swingPicksPill.textContent = `⚡ ${summary.near_breakout_zone_count || top20Swing.length} Near Breakout Zone`;
+    if (lastUpdatedBadge) {
+      lastUpdatedBadge.innerHTML = `<span class="pulse-indicator" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block;"></span> <span>Updated: ${summary.last_updated || 'Just now'}</span>`;
+    }
+    if (totalScannedPill) {
+      totalScannedPill.textContent = `${scannedCount} Stocks`;
+    }
+    if (swingPicksPill) {
+      swingPicksPill.textContent = `${top20Swing.length || 20} Picks`;
+    }
 
-
-    renderSwingCards(top20Swing);
+    applyFiltersAndRender(top20Swing);
     renderWatchlistTable(allStocks);
     setupSwotTab(allStocks);
   }
@@ -140,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderSwingCards(stocks) {
     swingCardsGrid.innerHTML = '';
     if (!stocks || stocks.length === 0) {
-      swingCardsGrid.innerHTML = '<div style="padding:20px; color:var(--text-muted);">No swing candidates available right now. Click Refresh to scan.</div>';
+      swingCardsGrid.innerHTML = '<div style="padding:24px; text-align:center; color:var(--text-muted); grid-column: 1 / -1; background:var(--bg-card); border-radius:var(--radius-lg); border:1px solid var(--border-color);">No swing candidates match this filter. Try selecting "All" or refresh data.</div>';
       return;
     }
 
@@ -148,6 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const changePct = s.day_change_pct || 0;
       const changeClass = changePct >= 0 ? 'positive' : 'negative';
       const changeSign = changePct >= 0 ? '+' : '';
+      const changeIcon = changePct >= 0 ? '▲' : '▼';
       const pattern = s.primary_pattern || 'Breakout Setup';
       const aiSug = s.ai_suggestion || s.swing_reason || '';
       const accStatus = s.accumulation_status || 'Neutral';
@@ -155,25 +238,42 @@ document.addEventListener('DOMContentLoaded', () => {
       const sellTrig = s.sell_trigger_price || s.swing_stoploss;
       const distPct = s.breakout_proximity_pct || 0;
       const currPrice = s.current_price || 0;
+      const score = s.composite_score || 0;
+      const scorePillVal = (score / 10).toFixed(1);
+      const isBullish = score >= 60 && changePct >= 0;
 
       let brkBadge = `<span class="badge badge-warning">⚡ ${distPct}% to Breakout</span>`;
       if (currPrice >= (s.breakout_level || currPrice)) {
         brkBadge = `<span class="badge badge-success">🔥 BREAKOUT TRIGGERED</span>`;
       }
 
+      const accentClass = changePct >= 0 ? '' : 'danger';
+
       const card = document.createElement('div');
       card.className = 'stock-card';
       card.innerHTML = `
+        <div class="card-top-accent ${accentClass}"></div>
         <div>
           <div class="card-header">
             <div>
-              <div class="stock-name">#${idx + 1} ${s.name}</div>
-              <div class="stock-symbol">${s.clean_symbol} • ${s.sector}</div>
+              <div class="stock-ticker-row">
+                <span class="stock-ticker">#${idx + 1} ${s.clean_symbol || s.symbol}</span>
+                <span class="stock-score-pill">${scorePillVal} / 10</span>
+              </div>
+              <div class="stock-name">${s.name} • ${s.sector || 'Equities'}</div>
             </div>
             <div class="stock-price-block">
               <div class="stock-price">₹${formatPrice(currPrice)}</div>
-              <div class="stock-change ${changeClass}">${changeSign}${changePct}%</div>
+              <div class="stock-change ${changeClass}">${changeIcon} ${changeSign}${changePct}%</div>
             </div>
+          </div>
+
+          <div class="composite-banner ${isBullish ? '' : 'neutral'}">
+            <div class="composite-title">
+              <span>🎯</span>
+              <span>Composite: ${s.swing_signal || (isBullish ? 'Bullish Setup' : 'Neutral / Watch')}</span>
+            </div>
+            <div class="composite-score-badge">Score ${score}/100</div>
           </div>
 
           <div style="margin-bottom:10px; display:flex; gap:6px; flex-wrap:wrap;">
@@ -181,36 +281,53 @@ document.addEventListener('DOMContentLoaded', () => {
             ${brkBadge}
           </div>
 
-          <div style="background:#ecfdf5; border-left:4px solid var(--success); padding:10px; border-radius:var(--radius-sm); margin-bottom:10px;">
-            <div style="font-size:11px; font-weight:700; color:#047857; text-transform:uppercase;">🟢 BUY TRIGGER POINT (ENTRY)</div>
-            <div style="font-size:16px; font-weight:800; color:#065f46; margin-top:2px;">BUY ABOVE ₹${formatPrice(buyTrig)}</div>
+          <div class="trigger-box buy">
+            <div class="trigger-label">🟢 BUY TRIGGER POINT (ENTRY)</div>
+            <div class="trigger-val">BUY ABOVE ₹${formatPrice(buyTrig)}</div>
           </div>
 
-          <div style="background:#fef2f2; border-left:4px solid var(--danger); padding:10px; border-radius:var(--radius-sm); margin-bottom:10px;">
-            <div style="font-size:11px; font-weight:700; color:#b91c1c; text-transform:uppercase;">🔴 SELL TRIGGER POINT (STOP LOSS)</div>
-            <div style="font-size:16px; font-weight:800; color:#991b1b; margin-top:2px;">SELL BELOW ₹${formatPrice(sellTrig)}</div>
+          <div class="trigger-box sell">
+            <div class="trigger-label">🔴 SELL TRIGGER POINT (STOP LOSS)</div>
+            <div class="trigger-val">SELL BELOW ₹${formatPrice(sellTrig)}</div>
           </div>
 
           <div class="card-levels">
-            <div class="level-box target">
+            <div class="level-box">
               <div class="level-label">Target 1 (1-7D)</div>
-              <div class="level-value" style="color:var(--success);">₹${formatPrice(s.swing_target_1, 0)}</div>
+              <div class="level-value">₹${formatPrice(s.swing_target_1, 0)}</div>
             </div>
-            <div class="level-box target">
+            <div class="level-box">
               <div class="level-label">Target 2 (7-15D)</div>
-              <div class="level-value" style="color:var(--success);">₹${formatPrice(s.swing_target_2, 0)}</div>
+              <div class="level-value">₹${formatPrice(s.swing_target_2, 0)}</div>
             </div>
           </div>
 
-          <div class="ai-suggestion-box" style="margin-bottom:10px;">
+          <div class="indicators-grid">
+            <div class="indicator-col">
+              <span class="ind-lbl">20D SMA</span>
+              <span class="ind-val" style="color:${currPrice >= (s.sma_20 || currPrice) ? 'var(--success)' : 'var(--danger)'};">
+                ${currPrice >= (s.sma_20 || currPrice) ? 'Above' : 'Below'}
+              </span>
+            </div>
+            <div class="indicator-col">
+              <span class="ind-lbl">RSI (14)</span>
+              <span class="ind-val" style="color:var(--text-primary);">${Math.round(s.rsi_14 || 50)}</span>
+            </div>
+            <div class="indicator-col">
+              <span class="ind-lbl">Vol Surge</span>
+              <span class="ind-val" style="color:var(--primary);">${s.vol_surge_ratio || 1}x</span>
+            </div>
+          </div>
+
+          <div class="ai-suggestion-box">
             <strong>🤖 AI Strategy Suggestion:</strong><br/>
             ${aiSug.replace(/\*\*/g, '')}
           </div>
         </div>
 
-        <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border-color); padding-top:10px; margin-top:8px; font-size:12px;">
-          <div>RVOL: <strong style="color:var(--primary);">${s.vol_surge_ratio || 1}x</strong> (${accStatus})</div>
-          <div class="badge badge-success">Score: ${s.composite_score || 0}/100</div>
+        <div class="card-footer-bar">
+          <div>RVOL: <strong style="color:var(--primary); font-family:var(--font-mono);">${s.vol_surge_ratio || 1}x</strong> (${accStatus})</div>
+          <div class="badge badge-success" style="font-family:var(--font-mono);">Rank #${idx + 1}</div>
         </div>
       `;
 
