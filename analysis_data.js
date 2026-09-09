@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "09-Sep-2026 07:08:08 PM IST (Indian Standard Time)",
+    "last_updated": "09-Sep-2026 07:16:06 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,431.50",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 20,
     "pattern_breakouts_count": 32,
     "upcoming_3d_events_count": 130,
-    "scan_time_seconds": 14.6
+    "scan_time_seconds": 26.3
   },
   "top_20_swing": [
     {
@@ -35,6 +35,8 @@ window.stockData = {
       "current_price": 220.0,
       "prev_close": 209.53,
       "day_change_pct": 5.0,
+      "day_high": 220.0,
+      "day_low": 212.0,
       "volume": 139577,
       "vol_1m_avg": 27856,
       "vol_surge_ratio": 5.01,
@@ -108,9 +110,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 222.64,
-      "day_low": 214.5
+      ]
     },
     {
       "symbol": "JMA.NS",
@@ -122,6 +122,8 @@ window.stockData = {
       "current_price": 97.14,
       "prev_close": 89.14,
       "day_change_pct": 8.97,
+      "day_high": 101.0,
+      "day_low": 89.15,
       "volume": 165983,
       "vol_1m_avg": 32840,
       "vol_surge_ratio": 5.05,
@@ -197,9 +199,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 98.31,
-      "day_low": 94.71
+      ]
     },
     {
       "symbol": "KROSS.NS",
@@ -211,6 +211,8 @@ window.stockData = {
       "current_price": 219.67,
       "prev_close": 209.15,
       "day_change_pct": 5.03,
+      "day_high": 220.9,
+      "day_low": 208.91,
       "volume": 792404,
       "vol_1m_avg": 377533,
       "vol_surge_ratio": 2.1,
@@ -283,9 +285,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 222.31,
-      "day_low": 214.18
+      ]
     },
     {
       "symbol": "UNIVPHOTO.NS",
@@ -297,6 +297,8 @@ window.stockData = {
       "current_price": 566.25,
       "prev_close": 540.6,
       "day_change_pct": 4.74,
+      "day_high": 567.6,
+      "day_low": 531.0,
       "volume": 7505,
       "vol_1m_avg": 1473,
       "vol_surge_ratio": 5.09,
@@ -370,9 +372,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 573.04,
-      "day_low": 552.09
+      ]
     },
     {
       "symbol": "REDINGTON.NS",
@@ -384,6 +384,8 @@ window.stockData = {
       "current_price": 378.05,
       "prev_close": 374.0,
       "day_change_pct": 1.08,
+      "day_high": 382.7,
+      "day_low": 374.05,
       "volume": 4172278,
       "vol_1m_avg": 5414112,
       "vol_surge_ratio": 0.77,
@@ -457,9 +459,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 382.59,
-      "day_low": 368.6
+      ]
     },
     {
       "symbol": "SARDAEN.NS",
@@ -471,6 +471,8 @@ window.stockData = {
       "current_price": 545.85,
       "prev_close": 518.0,
       "day_change_pct": 5.38,
+      "day_high": 554.7,
+      "day_low": 519.05,
       "volume": 5268296,
       "vol_1m_avg": 1790100,
       "vol_surge_ratio": 2.94,
@@ -483,7 +485,7 @@ window.stockData = {
       "macd_val": 3.12,
       "macd_signal": 0.33,
       "macd_hist": 2.78,
-      "pe_ratio": 17.02,
+      "pe_ratio": 16.8,
       "roe": 0.0,
       "debt_to_equity": 0.35,
       "debt_status": "Low Debt (Healthy)",
@@ -545,9 +547,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 552.4,
-      "day_low": 532.2
+      ]
     },
     {
       "symbol": "GSFC.NS",
@@ -559,6 +559,8 @@ window.stockData = {
       "current_price": 160.03,
       "prev_close": 160.88,
       "day_change_pct": -0.53,
+      "day_high": 161.75,
+      "day_low": 159.47,
       "volume": 1930795,
       "vol_1m_avg": 1181047,
       "vol_surge_ratio": 1.63,
@@ -641,9 +643,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 164.03,
-      "day_low": 158.11
+      ]
     },
     {
       "symbol": "NSLNISP.NS",
@@ -655,6 +655,8 @@ window.stockData = {
       "current_price": 45.04,
       "prev_close": 45.02,
       "day_change_pct": 0.04,
+      "day_high": 45.65,
+      "day_low": 44.82,
       "volume": 5018256,
       "vol_1m_avg": 13282754,
       "vol_surge_ratio": 0.38,
@@ -726,9 +728,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 160.9x"
-      ],
-      "day_high": 45.58,
-      "day_low": 43.91
+      ]
     },
     {
       "symbol": "UTKARSHBNK.NS",
@@ -738,8 +738,10 @@ window.stockData = {
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
       "current_price": 15.9,
-      "prev_close": 15.69,
-      "day_change_pct": 1.34,
+      "prev_close": 15.64,
+      "day_change_pct": 1.66,
+      "day_high": 16.48,
+      "day_low": 15.21,
       "volume": 50486765,
       "vol_1m_avg": 13129038,
       "vol_surge_ratio": 3.85,
@@ -812,9 +814,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 16.09,
-      "day_low": 15.5
+      ]
     },
     {
       "symbol": "DCW.NS",
@@ -826,6 +826,8 @@ window.stockData = {
       "current_price": 48.14,
       "prev_close": 47.65,
       "day_change_pct": 1.03,
+      "day_high": 49.3,
+      "day_low": 47.39,
       "volume": 2936860,
       "vol_1m_avg": 1877049,
       "vol_surge_ratio": 1.56,
@@ -898,9 +900,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 48.72,
-      "day_low": 46.94
+      ]
     },
     {
       "symbol": "OIL.NS",
@@ -912,6 +912,8 @@ window.stockData = {
       "current_price": 498.95,
       "prev_close": 495.4,
       "day_change_pct": 0.72,
+      "day_high": 504.9,
+      "day_low": 496.0,
       "volume": 2470648,
       "vol_1m_avg": 2193633,
       "vol_surge_ratio": 1.13,
@@ -931,7 +933,7 @@ window.stockData = {
       "debt_score_penalty": 5,
       "rev_growth_yoy": 57.7,
       "earnings_growth_yoy": 91.4,
-      "dividend_yield": 267.0,
+      "dividend_yield": 262.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.6,
       "pledged_pct": 0.0,
@@ -966,10 +968,10 @@ window.stockData = {
           "date_tag": "04 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (267.00% Yield)",
+          "title": "Ex-Dividend Event (262.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (267.00%) attracts income investors."
+          "impact_reason": "High dividend yield (262.00%) attracts income investors."
         },
         {
           "date": "2026-09-09",
@@ -985,7 +987,7 @@ window.stockData = {
       "ai_suggestion": "**\u26a1 WATCHLIST BREAKOUT ZONE - BUY TRIGGER: \u20b9505.40** \u2022 Coiling **1.2% away** from breakout level (\u20b9504.90) in **Ascending Triangle \ud83d\udcd0** setup. \u2022 **Sell/Stop Loss Trigger:** \u20b9473.58 \u2022 **Target 1:** \u20b9501.30 \u2022 **Target 2:** \u20b9554.09",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+91.4%) & Revenue (+57.7%)",
-        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (267.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (262.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +91.4%)",
         "\ud83d\udcc8 Chart Pattern: Ascending Triangle \ud83d\udcd0 (Bullish Accumulation \ud83d\udfe2)",
         "\u26a1 Breakout Zone: Only 1.2% away from breakout trigger (\u20b9505.40)",
@@ -995,9 +997,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 504.94,
-      "day_low": 486.48
+      ]
     },
     {
       "symbol": "NYKAA.NS",
@@ -1009,6 +1009,8 @@ window.stockData = {
       "current_price": 343.0,
       "prev_close": 341.0,
       "day_change_pct": 0.59,
+      "day_high": 343.0,
+      "day_low": 338.25,
       "volume": 4010750,
       "vol_1m_avg": 4367363,
       "vol_surge_ratio": 0.92,
@@ -1093,6 +1095,8 @@ window.stockData = {
       "current_price": 58.43,
       "prev_close": 58.2,
       "day_change_pct": 0.4,
+      "day_high": 62.4,
+      "day_low": 57.66,
       "volume": 71042938,
       "vol_1m_avg": 20964062,
       "vol_surge_ratio": 3.39,
@@ -1174,9 +1178,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 224.7x"
-      ],
-      "day_high": 59.13,
-      "day_low": 56.97
+      ]
     },
     {
       "symbol": "HAL.NS",
@@ -1188,6 +1190,8 @@ window.stockData = {
       "current_price": 5000.5,
       "prev_close": 5031.1,
       "day_change_pct": -0.61,
+      "day_high": 5097.4,
+      "day_low": 5000.5,
       "volume": 1669534,
       "vol_1m_avg": 1065991,
       "vol_surge_ratio": 1.57,
@@ -1261,9 +1265,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 5125.51,
-      "day_low": 4940.49
+      ]
     },
     {
       "symbol": "STAR.NS",
@@ -1275,6 +1277,8 @@ window.stockData = {
       "current_price": 1195.7,
       "prev_close": 1187.0,
       "day_change_pct": 0.73,
+      "day_high": 1217.0,
+      "day_low": 1181.3,
       "volume": 376091,
       "vol_1m_avg": 615012,
       "vol_surge_ratio": 0.61,
@@ -1346,9 +1350,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1210.05,
-      "day_low": 1165.81
+      ]
     },
     {
       "symbol": "JINDALSAW.NS",
@@ -1360,6 +1362,8 @@ window.stockData = {
       "current_price": 311.7,
       "prev_close": 307.6,
       "day_change_pct": 1.33,
+      "day_high": 315.3,
+      "day_low": 305.2,
       "volume": 1990650,
       "vol_1m_avg": 3169165,
       "vol_surge_ratio": 0.63,
@@ -1431,9 +1435,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -75.4% YoY)"
-      ],
-      "day_high": 315.44,
-      "day_low": 303.91
+      ]
     },
     {
       "symbol": "RML.NS",
@@ -1445,6 +1447,8 @@ window.stockData = {
       "current_price": 1364.3,
       "prev_close": 1398.8,
       "day_change_pct": -2.47,
+      "day_high": 1408.8,
+      "day_low": 1356.2,
       "volume": 77426,
       "vol_1m_avg": 144365,
       "vol_surge_ratio": 0.54,
@@ -1516,9 +1520,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1398.41,
-      "day_low": 1347.93
+      ]
     },
     {
       "symbol": "VIJAYA.NS",
@@ -1530,6 +1532,8 @@ window.stockData = {
       "current_price": 1498.9,
       "prev_close": 1503.0,
       "day_change_pct": -0.27,
+      "day_high": 1578.0,
+      "day_low": 1476.7,
       "volume": 569470,
       "vol_1m_avg": 145236,
       "vol_surge_ratio": 3.92,
@@ -1612,9 +1616,7 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 82.4x"
-      ],
-      "day_high": 1536.37,
-      "day_low": 1480.91
+      ]
     },
     {
       "symbol": "ACE.NS",
@@ -1626,6 +1628,8 @@ window.stockData = {
       "current_price": 1127.0,
       "prev_close": 1121.2,
       "day_change_pct": 0.52,
+      "day_high": 1163.0,
+      "day_low": 1120.0,
       "volume": 559298,
       "vol_1m_avg": 371734,
       "vol_surge_ratio": 1.5,
@@ -1707,9 +1711,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1140.52,
-      "day_low": 1098.83
+      ]
     },
     {
       "symbol": "PNB.NS",
@@ -1721,6 +1723,8 @@ window.stockData = {
       "current_price": 115.61,
       "prev_close": 116.0,
       "day_change_pct": -0.34,
+      "day_high": 117.0,
+      "day_low": 115.25,
       "volume": 11687747,
       "vol_1m_avg": 11579291,
       "vol_surge_ratio": 1.01,
@@ -1740,7 +1744,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 15.2,
       "earnings_growth_yoy": 1.9,
-      "dividend_yield": 260.0,
+      "dividend_yield": 259.0,
       "promoter_holding": 70.1,
       "institutional_holding": 19.3,
       "pledged_pct": 0.0,
@@ -1793,9 +1797,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 118.5,
-      "day_low": 114.22
+      ]
     }
   ],
   "all_stocks": [
@@ -1809,6 +1811,8 @@ window.stockData = {
       "current_price": 220.0,
       "prev_close": 209.53,
       "day_change_pct": 5.0,
+      "day_high": 220.0,
+      "day_low": 212.0,
       "volume": 139577,
       "vol_1m_avg": 27856,
       "vol_surge_ratio": 5.01,
@@ -1882,9 +1886,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 222.64,
-      "day_low": 214.5
+      ]
     },
     {
       "symbol": "JMA.NS",
@@ -1896,6 +1898,8 @@ window.stockData = {
       "current_price": 97.14,
       "prev_close": 89.14,
       "day_change_pct": 8.97,
+      "day_high": 101.0,
+      "day_low": 89.15,
       "volume": 165983,
       "vol_1m_avg": 32840,
       "vol_surge_ratio": 5.05,
@@ -1971,9 +1975,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 98.31,
-      "day_low": 94.71
+      ]
     },
     {
       "symbol": "KROSS.NS",
@@ -1985,6 +1987,8 @@ window.stockData = {
       "current_price": 219.67,
       "prev_close": 209.15,
       "day_change_pct": 5.03,
+      "day_high": 220.9,
+      "day_low": 208.91,
       "volume": 792404,
       "vol_1m_avg": 377533,
       "vol_surge_ratio": 2.1,
@@ -2057,9 +2061,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 222.31,
-      "day_low": 214.18
+      ]
     },
     {
       "symbol": "UNIVPHOTO.NS",
@@ -2071,6 +2073,8 @@ window.stockData = {
       "current_price": 566.25,
       "prev_close": 540.6,
       "day_change_pct": 4.74,
+      "day_high": 567.6,
+      "day_low": 531.0,
       "volume": 7505,
       "vol_1m_avg": 1473,
       "vol_surge_ratio": 5.09,
@@ -2144,9 +2148,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 573.04,
-      "day_low": 552.09
+      ]
     },
     {
       "symbol": "REDINGTON.NS",
@@ -2158,6 +2160,8 @@ window.stockData = {
       "current_price": 378.05,
       "prev_close": 374.0,
       "day_change_pct": 1.08,
+      "day_high": 382.7,
+      "day_low": 374.05,
       "volume": 4172278,
       "vol_1m_avg": 5414112,
       "vol_surge_ratio": 0.77,
@@ -2231,9 +2235,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 382.59,
-      "day_low": 368.6
+      ]
     },
     {
       "symbol": "SARDAEN.NS",
@@ -2245,6 +2247,8 @@ window.stockData = {
       "current_price": 545.85,
       "prev_close": 518.0,
       "day_change_pct": 5.38,
+      "day_high": 554.7,
+      "day_low": 519.05,
       "volume": 5268296,
       "vol_1m_avg": 1790100,
       "vol_surge_ratio": 2.94,
@@ -2257,7 +2261,7 @@ window.stockData = {
       "macd_val": 3.12,
       "macd_signal": 0.33,
       "macd_hist": 2.78,
-      "pe_ratio": 17.02,
+      "pe_ratio": 16.8,
       "roe": 0.0,
       "debt_to_equity": 0.35,
       "debt_status": "Low Debt (Healthy)",
@@ -2319,9 +2323,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 552.4,
-      "day_low": 532.2
+      ]
     },
     {
       "symbol": "GESHIP.NS",
@@ -2333,6 +2335,8 @@ window.stockData = {
       "current_price": 1393.4,
       "prev_close": 1383.8,
       "day_change_pct": 0.69,
+      "day_high": 1402.4,
+      "day_low": 1381.2,
       "volume": 755100,
       "vol_1m_avg": 921340,
       "vol_surge_ratio": 0.82,
@@ -2404,9 +2408,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1410.12,
-      "day_low": 1358.57
+      ]
     },
     {
       "symbol": "GSFC.NS",
@@ -2418,6 +2420,8 @@ window.stockData = {
       "current_price": 160.03,
       "prev_close": 160.88,
       "day_change_pct": -0.53,
+      "day_high": 161.75,
+      "day_low": 159.47,
       "volume": 1930795,
       "vol_1m_avg": 1181047,
       "vol_surge_ratio": 1.63,
@@ -2500,9 +2504,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 164.03,
-      "day_low": 158.11
+      ]
     },
     {
       "symbol": "NSLNISP.NS",
@@ -2514,6 +2516,8 @@ window.stockData = {
       "current_price": 45.04,
       "prev_close": 45.02,
       "day_change_pct": 0.04,
+      "day_high": 45.65,
+      "day_low": 44.82,
       "volume": 5018256,
       "vol_1m_avg": 13282754,
       "vol_surge_ratio": 0.38,
@@ -2585,9 +2589,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 160.9x"
-      ],
-      "day_high": 45.58,
-      "day_low": 43.91
+      ]
     },
     {
       "symbol": "UTKARSHBNK.NS",
@@ -2597,8 +2599,10 @@ window.stockData = {
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
       "current_price": 15.9,
-      "prev_close": 15.69,
-      "day_change_pct": 1.34,
+      "prev_close": 15.64,
+      "day_change_pct": 1.66,
+      "day_high": 16.48,
+      "day_low": 15.21,
       "volume": 50486765,
       "vol_1m_avg": 13129038,
       "vol_surge_ratio": 3.85,
@@ -2671,9 +2675,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 16.09,
-      "day_low": 15.5
+      ]
     },
     {
       "symbol": "DCW.NS",
@@ -2685,6 +2687,8 @@ window.stockData = {
       "current_price": 48.14,
       "prev_close": 47.65,
       "day_change_pct": 1.03,
+      "day_high": 49.3,
+      "day_low": 47.39,
       "volume": 2936860,
       "vol_1m_avg": 1877049,
       "vol_surge_ratio": 1.56,
@@ -2757,9 +2761,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 48.72,
-      "day_low": 46.94
+      ]
     },
     {
       "symbol": "OIL.NS",
@@ -2771,6 +2773,8 @@ window.stockData = {
       "current_price": 498.95,
       "prev_close": 495.4,
       "day_change_pct": 0.72,
+      "day_high": 504.9,
+      "day_low": 496.0,
       "volume": 2470648,
       "vol_1m_avg": 2193633,
       "vol_surge_ratio": 1.13,
@@ -2790,7 +2794,7 @@ window.stockData = {
       "debt_score_penalty": 5,
       "rev_growth_yoy": 57.7,
       "earnings_growth_yoy": 91.4,
-      "dividend_yield": 267.0,
+      "dividend_yield": 262.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.6,
       "pledged_pct": 0.0,
@@ -2825,10 +2829,10 @@ window.stockData = {
           "date_tag": "04 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (267.00% Yield)",
+          "title": "Ex-Dividend Event (262.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (267.00%) attracts income investors."
+          "impact_reason": "High dividend yield (262.00%) attracts income investors."
         },
         {
           "date": "2026-09-09",
@@ -2844,7 +2848,7 @@ window.stockData = {
       "ai_suggestion": "**\u26a1 WATCHLIST BREAKOUT ZONE - BUY TRIGGER: \u20b9505.40** \u2022 Coiling **1.2% away** from breakout level (\u20b9504.90) in **Ascending Triangle \ud83d\udcd0** setup. \u2022 **Sell/Stop Loss Trigger:** \u20b9473.58 \u2022 **Target 1:** \u20b9501.30 \u2022 **Target 2:** \u20b9554.09",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+91.4%) & Revenue (+57.7%)",
-        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (267.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (262.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +91.4%)",
         "\ud83d\udcc8 Chart Pattern: Ascending Triangle \ud83d\udcd0 (Bullish Accumulation \ud83d\udfe2)",
         "\u26a1 Breakout Zone: Only 1.2% away from breakout trigger (\u20b9505.40)",
@@ -2854,9 +2858,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 504.94,
-      "day_low": 486.48
+      ]
     },
     {
       "symbol": "NYKAA.NS",
@@ -2868,6 +2870,8 @@ window.stockData = {
       "current_price": 343.0,
       "prev_close": 341.0,
       "day_change_pct": 0.59,
+      "day_high": 343.0,
+      "day_low": 338.25,
       "volume": 4010750,
       "vol_1m_avg": 4367363,
       "vol_surge_ratio": 0.92,
@@ -2952,6 +2956,8 @@ window.stockData = {
       "current_price": 58.43,
       "prev_close": 58.2,
       "day_change_pct": 0.4,
+      "day_high": 62.4,
+      "day_low": 57.66,
       "volume": 71042938,
       "vol_1m_avg": 20964062,
       "vol_surge_ratio": 3.39,
@@ -3033,9 +3039,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 224.7x"
-      ],
-      "day_high": 59.13,
-      "day_low": 56.97
+      ]
     },
     {
       "symbol": "HAL.NS",
@@ -3047,6 +3051,8 @@ window.stockData = {
       "current_price": 5000.5,
       "prev_close": 5031.1,
       "day_change_pct": -0.61,
+      "day_high": 5097.4,
+      "day_low": 5000.5,
       "volume": 1669534,
       "vol_1m_avg": 1065991,
       "vol_surge_ratio": 1.57,
@@ -3120,9 +3126,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 5125.51,
-      "day_low": 4940.49
+      ]
     },
     {
       "symbol": "STAR.NS",
@@ -3134,6 +3138,8 @@ window.stockData = {
       "current_price": 1195.7,
       "prev_close": 1187.0,
       "day_change_pct": 0.73,
+      "day_high": 1217.0,
+      "day_low": 1181.3,
       "volume": 376091,
       "vol_1m_avg": 615012,
       "vol_surge_ratio": 0.61,
@@ -3205,9 +3211,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1210.05,
-      "day_low": 1165.81
+      ]
     },
     {
       "symbol": "JINDALSAW.NS",
@@ -3219,6 +3223,8 @@ window.stockData = {
       "current_price": 311.7,
       "prev_close": 307.6,
       "day_change_pct": 1.33,
+      "day_high": 315.3,
+      "day_low": 305.2,
       "volume": 1990650,
       "vol_1m_avg": 3169165,
       "vol_surge_ratio": 0.63,
@@ -3290,9 +3296,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -75.4% YoY)"
-      ],
-      "day_high": 315.44,
-      "day_low": 303.91
+      ]
     },
     {
       "symbol": "RML.NS",
@@ -3304,6 +3308,8 @@ window.stockData = {
       "current_price": 1364.3,
       "prev_close": 1398.8,
       "day_change_pct": -2.47,
+      "day_high": 1408.8,
+      "day_low": 1356.2,
       "volume": 77426,
       "vol_1m_avg": 144365,
       "vol_surge_ratio": 0.54,
@@ -3375,9 +3381,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1398.41,
-      "day_low": 1347.93
+      ]
     },
     {
       "symbol": "VIJAYA.NS",
@@ -3389,6 +3393,8 @@ window.stockData = {
       "current_price": 1498.9,
       "prev_close": 1503.0,
       "day_change_pct": -0.27,
+      "day_high": 1578.0,
+      "day_low": 1476.7,
       "volume": 569470,
       "vol_1m_avg": 145236,
       "vol_surge_ratio": 3.92,
@@ -3471,9 +3477,7 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 82.4x"
-      ],
-      "day_high": 1536.37,
-      "day_low": 1480.91
+      ]
     },
     {
       "symbol": "IKIO.NS",
@@ -3485,6 +3489,8 @@ window.stockData = {
       "current_price": 219.94,
       "prev_close": 219.25,
       "day_change_pct": 0.31,
+      "day_high": 228.78,
+      "day_low": 218.12,
       "volume": 696197,
       "vol_1m_avg": 704566,
       "vol_surge_ratio": 0.99,
@@ -3556,9 +3562,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 222.58,
-      "day_low": 214.44
+      ]
     },
     {
       "symbol": "ACE.NS",
@@ -3570,6 +3574,8 @@ window.stockData = {
       "current_price": 1127.0,
       "prev_close": 1121.2,
       "day_change_pct": 0.52,
+      "day_high": 1163.0,
+      "day_low": 1120.0,
       "volume": 559298,
       "vol_1m_avg": 371734,
       "vol_surge_ratio": 1.5,
@@ -3651,9 +3657,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1140.52,
-      "day_low": 1098.83
+      ]
     },
     {
       "symbol": "PNB.NS",
@@ -3665,6 +3669,8 @@ window.stockData = {
       "current_price": 115.61,
       "prev_close": 116.0,
       "day_change_pct": -0.34,
+      "day_high": 117.0,
+      "day_low": 115.25,
       "volume": 11687747,
       "vol_1m_avg": 11579291,
       "vol_surge_ratio": 1.01,
@@ -3684,7 +3690,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 15.2,
       "earnings_growth_yoy": 1.9,
-      "dividend_yield": 260.0,
+      "dividend_yield": 259.0,
       "promoter_holding": 70.1,
       "institutional_holding": 19.3,
       "pledged_pct": 0.0,
@@ -3737,9 +3743,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 118.5,
-      "day_low": 114.22
+      ]
     },
     {
       "symbol": "INOXINDIA.NS",
@@ -3751,6 +3755,8 @@ window.stockData = {
       "current_price": 2185.5,
       "prev_close": 2215.9,
       "day_change_pct": -1.37,
+      "day_high": 2235.9,
+      "day_low": 2174.9,
       "volume": 100830,
       "vol_1m_avg": 445498,
       "vol_surge_ratio": 0.23,
@@ -3823,9 +3829,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 78.9x"
-      ],
-      "day_high": 2240.14,
-      "day_low": 2159.27
+      ]
     },
     {
       "symbol": "BOROLTD.NS",
@@ -3837,6 +3841,8 @@ window.stockData = {
       "current_price": 255.46,
       "prev_close": 255.54,
       "day_change_pct": -0.03,
+      "day_high": 256.7,
+      "day_low": 252.14,
       "volume": 73476,
       "vol_1m_avg": 1242333,
       "vol_surge_ratio": 0.06,
@@ -3908,9 +3914,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -26.7% YoY)"
-      ],
-      "day_high": 261.85,
-      "day_low": 252.39
+      ]
     },
     {
       "symbol": "BANCOINDIA.NS",
@@ -3922,6 +3926,8 @@ window.stockData = {
       "current_price": 635.15,
       "prev_close": 628.3,
       "day_change_pct": 1.09,
+      "day_high": 649.0,
+      "day_low": 624.25,
       "volume": 222389,
       "vol_1m_avg": 103940,
       "vol_surge_ratio": 2.14,
@@ -4003,9 +4009,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 642.77,
-      "day_low": 619.27
+      ]
     },
     {
       "symbol": "GPPL.NS",
@@ -4017,6 +4021,8 @@ window.stockData = {
       "current_price": 158.59,
       "prev_close": 161.0,
       "day_change_pct": -1.5,
+      "day_high": 164.2,
+      "day_low": 158.01,
       "volume": 1549069,
       "vol_1m_avg": 2866662,
       "vol_surge_ratio": 0.54,
@@ -4098,9 +4104,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 162.55,
-      "day_low": 156.69
+      ]
     },
     {
       "symbol": "SOTL.NS",
@@ -4112,6 +4116,8 @@ window.stockData = {
       "current_price": 689.6,
       "prev_close": 681.0,
       "day_change_pct": 1.26,
+      "day_high": 698.2,
+      "day_low": 675.4,
       "volume": 375664,
       "vol_1m_avg": 1186454,
       "vol_surge_ratio": 0.32,
@@ -4181,9 +4187,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 697.88,
-      "day_low": 672.36
+      ]
     },
     {
       "symbol": "COCHINSHIP.NS",
@@ -4195,6 +4199,8 @@ window.stockData = {
       "current_price": 1556.0,
       "prev_close": 1528.2,
       "day_change_pct": 1.82,
+      "day_high": 1562.0,
+      "day_low": 1502.1,
       "volume": 1253238,
       "vol_1m_avg": 889844,
       "vol_surge_ratio": 1.41,
@@ -4278,6 +4284,8 @@ window.stockData = {
       "current_price": 128.93,
       "prev_close": 129.0,
       "day_change_pct": -0.05,
+      "day_high": 131.19,
+      "day_low": 126.49,
       "volume": 1788854,
       "vol_1m_avg": 1258410,
       "vol_surge_ratio": 1.42,
@@ -4349,9 +4357,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 132.15,
-      "day_low": 127.38
+      ]
     },
     {
       "symbol": "RCOM.NS",
@@ -4363,6 +4369,8 @@ window.stockData = {
       "current_price": 0.93,
       "prev_close": 0.89,
       "day_change_pct": 4.49,
+      "day_high": 0.93,
+      "day_low": 0.91,
       "volume": 4345641,
       "vol_1m_avg": 2871033,
       "vol_surge_ratio": 1.51,
@@ -4435,9 +4443,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 0.94,
-      "day_low": 0.91
+      ]
     },
     {
       "symbol": "NMDC.NS",
@@ -4449,6 +4455,8 @@ window.stockData = {
       "current_price": 85.8,
       "prev_close": 84.71,
       "day_change_pct": 1.29,
+      "day_high": 85.89,
+      "day_low": 84.53,
       "volume": 14142238,
       "vol_1m_avg": 17982667,
       "vol_surge_ratio": 0.79,
@@ -4520,9 +4528,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 86.83,
-      "day_low": 83.66
+      ]
     },
     {
       "symbol": "POLYCAB.NS",
@@ -4534,6 +4540,8 @@ window.stockData = {
       "current_price": 8354.0,
       "prev_close": 8373.5,
       "day_change_pct": -0.23,
+      "day_high": 8407.0,
+      "day_low": 8302.0,
       "volume": 198530,
       "vol_1m_avg": 389966,
       "vol_surge_ratio": 0.51,
@@ -4603,9 +4611,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 8562.85,
-      "day_low": 8253.75
+      ]
     },
     {
       "symbol": "ENGINERSIN.NS",
@@ -4617,6 +4623,8 @@ window.stockData = {
       "current_price": 273.1,
       "prev_close": 281.2,
       "day_change_pct": -2.88,
+      "day_high": 283.3,
+      "day_low": 272.0,
       "volume": 2221585,
       "vol_1m_avg": 6076220,
       "vol_surge_ratio": 0.37,
@@ -4687,9 +4695,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 279.93,
-      "day_low": 269.82
+      ]
     },
     {
       "symbol": "NATIONALUM.NS",
@@ -4701,6 +4707,8 @@ window.stockData = {
       "current_price": 377.6,
       "prev_close": 371.05,
       "day_change_pct": 1.77,
+      "day_high": 386.0,
+      "day_low": 371.65,
       "volume": 9138077,
       "vol_1m_avg": 6082701,
       "vol_surge_ratio": 1.5,
@@ -4771,9 +4779,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 382.13,
-      "day_low": 368.16
+      ]
     },
     {
       "symbol": "GENUSPOWER.NS",
@@ -4785,6 +4791,8 @@ window.stockData = {
       "current_price": 329.0,
       "prev_close": 333.65,
       "day_change_pct": -1.39,
+      "day_high": 336.0,
+      "day_low": 327.0,
       "volume": 1392388,
       "vol_1m_avg": 3419653,
       "vol_surge_ratio": 0.41,
@@ -4856,9 +4864,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 1.04"
-      ],
-      "day_high": 337.22,
-      "day_low": 325.05
+      ]
     },
     {
       "symbol": "RAINBOW.NS",
@@ -4870,6 +4876,8 @@ window.stockData = {
       "current_price": 1451.1,
       "prev_close": 1449.9,
       "day_change_pct": 0.08,
+      "day_high": 1474.7,
+      "day_low": 1440.8,
       "volume": 97345,
       "vol_1m_avg": 88485,
       "vol_surge_ratio": 1.1,
@@ -4939,9 +4947,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1468.51,
-      "day_low": 1414.82
+      ]
     },
     {
       "symbol": "SIGACHI.NS",
@@ -4953,6 +4959,8 @@ window.stockData = {
       "current_price": 35.27,
       "prev_close": 34.67,
       "day_change_pct": 1.73,
+      "day_high": 35.8,
+      "day_low": 34.26,
       "volume": 3395301,
       "vol_1m_avg": 4499193,
       "vol_surge_ratio": 0.75,
@@ -4970,7 +4978,7 @@ window.stockData = {
       "debt_to_equity": 0.31,
       "debt_status": "Low Debt (Healthy)",
       "debt_score_penalty": 0,
-      "rev_growth_yoy": -4.7,
+      "rev_growth_yoy": -5.4,
       "earnings_growth_yoy": 0.0,
       "dividend_yield": 29.0,
       "promoter_holding": 41.9,
@@ -5023,9 +5031,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 35.69,
-      "day_low": 34.39
+      ]
     },
     {
       "symbol": "HBLENGINE.NS",
@@ -5037,6 +5043,8 @@ window.stockData = {
       "current_price": 730.1,
       "prev_close": 730.9,
       "day_change_pct": -0.11,
+      "day_high": 772.8,
+      "day_low": 726.0,
       "volume": 6704099,
       "vol_1m_avg": 1888235,
       "vol_surge_ratio": 3.55,
@@ -5117,9 +5125,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -23.5% YoY)"
-      ],
-      "day_high": 748.35,
-      "day_low": 721.34
+      ]
     },
     {
       "symbol": "PREMEXPLN.NS",
@@ -5131,6 +5137,8 @@ window.stockData = {
       "current_price": 666.6,
       "prev_close": 677.7,
       "day_change_pct": -1.64,
+      "day_high": 679.0,
+      "day_low": 664.05,
       "volume": 572076,
       "vol_1m_avg": 244366,
       "vol_surge_ratio": 2.34,
@@ -5150,7 +5158,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": -27.8,
       "earnings_growth_yoy": -80.0,
-      "dividend_yield": 8.0,
+      "dividend_yield": 7.0,
       "promoter_holding": 43.6,
       "institutional_holding": 10.1,
       "pledged_pct": 0.0,
@@ -5202,9 +5210,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -80.0% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 104.7x"
-      ],
-      "day_high": 683.26,
-      "day_low": 658.6
+      ]
     },
     {
       "symbol": "EDELWEISS.NS",
@@ -5216,6 +5222,8 @@ window.stockData = {
       "current_price": 133.63,
       "prev_close": 138.32,
       "day_change_pct": -3.39,
+      "day_high": 139.15,
+      "day_low": 131.4,
       "volume": 7707808,
       "vol_1m_avg": 8278831,
       "vol_surge_ratio": 0.93,
@@ -5235,7 +5243,7 @@ window.stockData = {
       "debt_score_penalty": 15,
       "rev_growth_yoy": 23.0,
       "earnings_growth_yoy": 27.3,
-      "dividend_yield": 113.0,
+      "dividend_yield": 108.0,
       "promoter_holding": 38.0,
       "institutional_holding": 16.3,
       "pledged_pct": 0.0,
@@ -5270,10 +5278,10 @@ window.stockData = {
           "date_tag": "11 Sep 2026",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (113.00% Yield)",
+          "title": "Ex-Dividend Event (108.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (113.00%) attracts income investors."
+          "impact_reason": "High dividend yield (108.00%) attracts income investors."
         },
         {
           "date": "2026-09-09",
@@ -5289,7 +5297,7 @@ window.stockData = {
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9139.94** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.93x. \u2022 **Sell/Stop Loss Trigger:** \u20b9125.98 \u2022 **Target 1:** \u20b9139.80 \u2022 **Target 2:** \u20b9156.39",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+27.3%) & Revenue (+23.0%)",
-        "\ud83d\udcc5 Upcoming Event (11 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (113.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (11 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (108.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +27.3%)",
         "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25",
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)",
@@ -5297,9 +5305,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 3.20"
-      ],
-      "day_high": 136.97,
-      "day_low": 132.03
+      ]
     },
     {
       "symbol": "ACMESOLAR.NS",
@@ -5311,6 +5317,8 @@ window.stockData = {
       "current_price": 401.6,
       "prev_close": 412.6,
       "day_change_pct": -2.67,
+      "day_high": 417.0,
+      "day_low": 401.0,
       "volume": 861759,
       "vol_1m_avg": 2215228,
       "vol_surge_ratio": 0.39,
@@ -5381,9 +5389,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 3.93"
-      ],
-      "day_high": 411.64,
-      "day_low": 396.78
+      ]
     },
     {
       "symbol": "SHARDAMOTR.NS",
@@ -5395,6 +5401,8 @@ window.stockData = {
       "current_price": 909.3,
       "prev_close": 886.05,
       "day_change_pct": 2.62,
+      "day_high": 921.75,
+      "day_low": 885.05,
       "volume": 72945,
       "vol_1m_avg": 48930,
       "vol_surge_ratio": 1.49,
@@ -5464,9 +5472,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -13.4% YoY)"
-      ],
-      "day_high": 920.21,
-      "day_low": 886.57
+      ]
     },
     {
       "symbol": "SPIC.NS",
@@ -5478,6 +5484,8 @@ window.stockData = {
       "current_price": 70.13,
       "prev_close": 71.07,
       "day_change_pct": -1.32,
+      "day_high": 71.48,
+      "day_low": 69.95,
       "volume": 398198,
       "vol_1m_avg": 569697,
       "vol_surge_ratio": 0.7,
@@ -5548,9 +5556,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -9.8% YoY)"
-      ],
-      "day_high": 71.88,
-      "day_low": 69.29
+      ]
     },
     {
       "symbol": "LUMAXIND.NS",
@@ -5562,6 +5568,8 @@ window.stockData = {
       "current_price": 6214.0,
       "prev_close": 6133.0,
       "day_change_pct": 1.32,
+      "day_high": 6280.0,
+      "day_low": 6120.0,
       "volume": 10564,
       "vol_1m_avg": 18935,
       "vol_surge_ratio": 0.56,
@@ -5631,9 +5639,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 1.06"
-      ],
-      "day_high": 6288.57,
-      "day_low": 6058.65
+      ]
     },
     {
       "symbol": "JYOTICNC.NS",
@@ -5645,6 +5651,8 @@ window.stockData = {
       "current_price": 1009.05,
       "prev_close": 1037.2,
       "day_change_pct": -2.71,
+      "day_high": 1055.0,
+      "day_low": 1005.0,
       "volume": 510512,
       "vol_1m_avg": 1403101,
       "vol_surge_ratio": 0.36,
@@ -5715,9 +5723,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.1% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 71.5x"
-      ],
-      "day_high": 1034.28,
-      "day_low": 996.94
+      ]
     },
     {
       "symbol": "ATHERENERG.NS",
@@ -5729,6 +5735,8 @@ window.stockData = {
       "current_price": 1580.0,
       "prev_close": 1578.0,
       "day_change_pct": 0.13,
+      "day_high": 1599.6,
+      "day_low": 1572.8,
       "volume": 1668845,
       "vol_1m_avg": 4724213,
       "vol_surge_ratio": 0.35,
@@ -5798,9 +5806,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1598.96,
-      "day_low": 1540.5
+      ]
     },
     {
       "symbol": "SYMPHONY.NS",
@@ -5812,6 +5818,8 @@ window.stockData = {
       "current_price": 618.6,
       "prev_close": 608.25,
       "day_change_pct": 1.7,
+      "day_high": 627.0,
+      "day_low": 603.0,
       "volume": 331811,
       "vol_1m_avg": 309586,
       "vol_surge_ratio": 1.07,
@@ -5879,9 +5887,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -5.1% YoY)"
-      ],
-      "day_high": 626.02,
-      "day_low": 603.13
+      ]
     },
     {
       "symbol": "ANANTRAJ.NS",
@@ -5893,6 +5899,8 @@ window.stockData = {
       "current_price": 613.6,
       "prev_close": 625.85,
       "day_change_pct": -1.96,
+      "day_high": 625.8,
+      "day_low": 612.5,
       "volume": 2109620,
       "vol_1m_avg": 2918934,
       "vol_surge_ratio": 0.72,
@@ -5962,9 +5970,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 628.94,
-      "day_low": 606.24
+      ]
     },
     {
       "symbol": "ASIANTILES.NS",
@@ -5976,6 +5982,8 @@ window.stockData = {
       "current_price": 50.47,
       "prev_close": 50.04,
       "day_change_pct": 0.86,
+      "day_high": 50.98,
+      "day_low": 49.26,
       "volume": 2719325,
       "vol_1m_avg": 5521345,
       "vol_surge_ratio": 0.49,
@@ -6043,9 +6051,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -15.6% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 87.0x"
-      ],
-      "day_high": 51.08,
-      "day_low": 49.21
+      ]
     },
     {
       "symbol": "ONGC.NS",
@@ -6057,6 +6063,8 @@ window.stockData = {
       "current_price": 234.02,
       "prev_close": 236.0,
       "day_change_pct": -0.84,
+      "day_high": 239.27,
+      "day_low": 234.02,
       "volume": 12775414,
       "vol_1m_avg": 11011547,
       "vol_surge_ratio": 1.16,
@@ -6136,9 +6144,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 239.87,
-      "day_low": 231.21
+      ]
     },
     {
       "symbol": "GMDCLTD.NS",
@@ -6150,6 +6156,8 @@ window.stockData = {
       "current_price": 574.55,
       "prev_close": 568.85,
       "day_change_pct": 1.0,
+      "day_high": 585.0,
+      "day_low": 569.95,
       "volume": 1868300,
       "vol_1m_avg": 873250,
       "vol_surge_ratio": 2.14,
@@ -6217,9 +6225,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -0.2% YoY)"
-      ],
-      "day_high": 581.44,
-      "day_low": 560.19
+      ]
     },
     {
       "symbol": "NHPC.NS",
@@ -6231,6 +6237,8 @@ window.stockData = {
       "current_price": 76.69,
       "prev_close": 75.9,
       "day_change_pct": 1.04,
+      "day_high": 77.89,
+      "day_low": 75.9,
       "volume": 17725525,
       "vol_1m_avg": 8933910,
       "vol_surge_ratio": 1.98,
@@ -6301,9 +6309,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 1.13"
-      ],
-      "day_high": 77.61,
-      "day_low": 74.77
+      ]
     },
     {
       "symbol": "HDFCBANK.NS",
@@ -6315,6 +6321,8 @@ window.stockData = {
       "current_price": 687.1,
       "prev_close": 703.0,
       "day_change_pct": -2.26,
+      "day_high": 700.0,
+      "day_low": 687.1,
       "volume": 39138036,
       "vol_1m_avg": 26314081,
       "vol_surge_ratio": 1.49,
@@ -6334,7 +6342,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 16.6,
       "earnings_growth_yoy": 18.1,
-      "dividend_yield": 183.0,
+      "dividend_yield": 185.0,
       "promoter_holding": 0.2,
       "institutional_holding": 61.0,
       "pledged_pct": 0.0,
@@ -6383,9 +6391,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 704.28,
-      "day_low": 678.85
+      ]
     },
     {
       "symbol": "IFCI.NS",
@@ -6397,6 +6403,8 @@ window.stockData = {
       "current_price": 88.96,
       "prev_close": 92.25,
       "day_change_pct": -3.57,
+      "day_high": 93.56,
+      "day_low": 87.76,
       "volume": 156465520,
       "vol_1m_avg": 110425520,
       "vol_surge_ratio": 1.42,
@@ -6466,9 +6474,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 134.8x"
-      ],
-      "day_high": 91.18,
-      "day_low": 87.89
+      ]
     },
     {
       "symbol": "ZFCVINDIA.NS",
@@ -6480,6 +6486,8 @@ window.stockData = {
       "current_price": 2469.9,
       "prev_close": 2527.0,
       "day_change_pct": -2.26,
+      "day_high": 2517.4,
+      "day_low": 2446.9,
       "volume": 88797,
       "vol_1m_avg": 97062,
       "vol_surge_ratio": 0.91,
@@ -6549,9 +6557,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 2531.65,
-      "day_low": 2440.26
+      ]
     },
     {
       "symbol": "SUZLON.NS",
@@ -6563,6 +6569,8 @@ window.stockData = {
       "current_price": 45.45,
       "prev_close": 45.5,
       "day_change_pct": -0.11,
+      "day_high": 46.4,
+      "day_low": 45.3,
       "volume": 52486626,
       "vol_1m_avg": 40134602,
       "vol_surge_ratio": 1.31,
@@ -6634,9 +6642,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.3% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 46.59,
-      "day_low": 44.9
+      ]
     },
     {
       "symbol": "GRAVITA.NS",
@@ -6648,6 +6654,8 @@ window.stockData = {
       "current_price": 1696.4,
       "prev_close": 1682.3,
       "day_change_pct": 0.84,
+      "day_high": 1724.0,
+      "day_low": 1677.5,
       "volume": 146729,
       "vol_1m_avg": 182811,
       "vol_surge_ratio": 0.8,
@@ -6719,9 +6727,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1716.76,
-      "day_low": 1653.99
+      ]
     },
     {
       "symbol": "DELHIVERY.NS",
@@ -6733,6 +6739,8 @@ window.stockData = {
       "current_price": 451.2,
       "prev_close": 454.9,
       "day_change_pct": -0.81,
+      "day_high": 454.0,
+      "day_low": 448.0,
       "volume": 1267017,
       "vol_1m_avg": 2066827,
       "vol_surge_ratio": 0.61,
@@ -6802,9 +6810,7 @@ window.stockData = {
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -65.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 366.8x"
-      ],
-      "day_high": 462.48,
-      "day_low": 445.79
+      ]
     },
     {
       "symbol": "SPARC.NS",
@@ -6816,6 +6822,8 @@ window.stockData = {
       "current_price": 200.58,
       "prev_close": 203.27,
       "day_change_pct": -1.32,
+      "day_high": 204.0,
+      "day_low": 200.07,
       "volume": 519058,
       "vol_1m_avg": 894410,
       "vol_surge_ratio": 0.58,
@@ -6883,9 +6891,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 205.59,
-      "day_low": 198.17
+      ]
     },
     {
       "symbol": "SANSTAR.NS",
@@ -6897,6 +6903,8 @@ window.stockData = {
       "current_price": 108.99,
       "prev_close": 109.7,
       "day_change_pct": -0.65,
+      "day_high": 111.47,
+      "day_low": 108.5,
       "volume": 126988,
       "vol_1m_avg": 223914,
       "vol_surge_ratio": 0.57,
@@ -6964,9 +6972,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 111.71,
-      "day_low": 107.68
+      ]
     },
     {
       "symbol": "SIGMAADV.NS",
@@ -6978,6 +6984,8 @@ window.stockData = {
       "current_price": 755.1,
       "prev_close": 777.15,
       "day_change_pct": -2.84,
+      "day_high": 789.0,
+      "day_low": 750.0,
       "volume": 155487,
       "vol_1m_avg": 316479,
       "vol_surge_ratio": 0.49,
@@ -7048,9 +7056,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 79.7x"
-      ],
-      "day_high": 773.98,
-      "day_low": 746.04
+      ]
     },
     {
       "symbol": "CERA.NS",
@@ -7062,6 +7068,8 @@ window.stockData = {
       "current_price": 5698.5,
       "prev_close": 5750.0,
       "day_change_pct": -0.9,
+      "day_high": 5761.5,
+      "day_low": 5676.0,
       "volume": 4352,
       "vol_1m_avg": 8976,
       "vol_surge_ratio": 0.48,
@@ -7130,9 +7138,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -2.7% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 5840.96,
-      "day_low": 5630.12
+      ]
     },
     {
       "symbol": "SBICARD.NS",
@@ -7144,6 +7150,8 @@ window.stockData = {
       "current_price": 668.4,
       "prev_close": 668.0,
       "day_change_pct": 0.06,
+      "day_high": 674.45,
+      "day_low": 657.25,
       "volume": 2198898,
       "vol_1m_avg": 3490086,
       "vol_surge_ratio": 0.63,
@@ -7214,9 +7222,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 2.80"
-      ],
-      "day_high": 676.42,
-      "day_low": 651.69
+      ]
     },
     {
       "symbol": "KUANTUM.NS",
@@ -7228,6 +7234,8 @@ window.stockData = {
       "current_price": 75.61,
       "prev_close": 77.92,
       "day_change_pct": -2.96,
+      "day_high": 78.44,
+      "day_low": 75.0,
       "volume": 76052,
       "vol_1m_avg": 156440,
       "vol_surge_ratio": 0.49,
@@ -7240,7 +7248,7 @@ window.stockData = {
       "macd_val": -0.44,
       "macd_signal": -0.72,
       "macd_hist": 0.28,
-      "pe_ratio": 17.96,
+      "pe_ratio": 18.26,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -7295,9 +7303,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -48.6% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 77.5,
-      "day_low": 74.7
+      ]
     },
     {
       "symbol": "SUMMITSEC.NS",
@@ -7309,6 +7315,8 @@ window.stockData = {
       "current_price": 1411.8,
       "prev_close": 1404.1,
       "day_change_pct": 0.55,
+      "day_high": 1460.5,
+      "day_low": 1402.5,
       "volume": 7671,
       "vol_1m_avg": 3007,
       "vol_surge_ratio": 2.55,
@@ -7378,9 +7386,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1428.74,
-      "day_low": 1376.5
+      ]
     },
     {
       "symbol": "YESBANK.NS",
@@ -7392,6 +7398,8 @@ window.stockData = {
       "current_price": 22.42,
       "prev_close": 22.52,
       "day_change_pct": -0.44,
+      "day_high": 22.58,
+      "day_low": 22.37,
       "volume": 38518490,
       "vol_1m_avg": 48795562,
       "vol_surge_ratio": 0.79,
@@ -7462,9 +7470,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 22.98,
-      "day_low": 22.15
+      ]
     },
     {
       "symbol": "BAJAJHLDNG.NS",
@@ -7476,6 +7482,8 @@ window.stockData = {
       "current_price": 11078.0,
       "prev_close": 11046.0,
       "day_change_pct": 0.29,
+      "day_high": 11133.0,
+      "day_low": 11001.0,
       "volume": 18501,
       "vol_1m_avg": 45890,
       "vol_surge_ratio": 0.4,
@@ -7545,9 +7553,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -22.4% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 11210.94,
-      "day_low": 10801.05
+      ]
     },
     {
       "symbol": "E2E.NS",
@@ -7559,6 +7565,8 @@ window.stockData = {
       "current_price": 604.5,
       "prev_close": 617.9,
       "day_change_pct": -2.17,
+      "day_high": 627.0,
+      "day_low": 600.0,
       "volume": 795462,
       "vol_1m_avg": 750313,
       "vol_surge_ratio": 1.06,
@@ -7626,9 +7634,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Valuation P/E: 222.2x"
-      ],
-      "day_high": 619.61,
-      "day_low": 597.25
+      ]
     },
     {
       "symbol": "AWL.NS",
@@ -7640,6 +7646,8 @@ window.stockData = {
       "current_price": 187.52,
       "prev_close": 187.6,
       "day_change_pct": -0.04,
+      "day_high": 188.49,
+      "day_low": 185.1,
       "volume": 1593053,
       "vol_1m_avg": 3400310,
       "vol_surge_ratio": 0.47,
@@ -7707,9 +7715,89 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
+      ]
+    },
+    {
+      "symbol": "VMM.NS",
+      "clean_symbol": "VMM",
+      "name": "Vishal Mega Mart Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 103.18,
+      "prev_close": 103.9,
+      "day_change_pct": -0.69,
+      "day_high": 103.99,
+      "day_low": 102.52,
+      "volume": 6947217,
+      "vol_1m_avg": 17834892,
+      "vol_surge_ratio": 0.39,
+      "52w_high": 153.88,
+      "52w_low": 98.77,
+      "sma_20": 106.61,
+      "sma_50": 110.11,
+      "sma_200": 119.07,
+      "rsi_14": 40.3,
+      "macd_val": -1.37,
+      "macd_signal": -1.08,
+      "macd_hist": -0.3,
+      "pe_ratio": 54.31,
+      "roe": 0.0,
+      "debt_to_equity": 0.27,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 18.7,
+      "earnings_growth_yoy": 25.0,
+      "dividend_yield": 0.0,
+      "promoter_holding": 40.0,
+      "institutional_holding": 48.1,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 115.4,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
+      "is_volume_dryup": true,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 115.52,
+      "sell_trigger_price": 100.8,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9115.52 (12.0% away)",
+      "swing_target_1": 113.63,
+      "swing_target_2": 122.17,
+      "swing_stoploss": 100.8,
+      "breakout_proximity_pct": 11.8,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 24.1,
+      "composite_score": 36,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-09-09",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +25.0%)",
+          "summary": "Company declared strong YoY revenue growth of 18.7% and Net Profit growth of 25.0%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
       ],
-      "day_high": 192.21,
-      "day_low": 185.27
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9115.52** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.39x. \u2022 **Sell/Stop Loss Trigger:** \u20b9100.80 \u2022 **Target 1:** \u20b9113.63 \u2022 **Target 2:** \u20b9122.17",
+      "strengths": [
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+25.0%) & Revenue (+18.7%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +25.0%)",
+        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
+      ],
+      "weaknesses": [
+        "No major red flags detected"
+      ]
     },
     {
       "symbol": "HEG.NS",
@@ -7721,6 +7809,8 @@ window.stockData = {
       "current_price": 262.75,
       "prev_close": 258.6,
       "day_change_pct": 1.6,
+      "day_high": 271.5,
+      "day_low": 255.0,
       "volume": 3288829,
       "vol_1m_avg": 2057928,
       "vol_surge_ratio": 1.6,
@@ -7740,7 +7830,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 10.4,
       "earnings_growth_yoy": 16.8,
-      "dividend_yield": 125.0,
+      "dividend_yield": 131.0,
       "promoter_holding": 59.4,
       "institutional_holding": 12.1,
       "pledged_pct": 0.0,
@@ -7793,9 +7883,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 265.9,
-      "day_low": 256.18
+      ]
     },
     {
       "symbol": "LTF.NS",
@@ -7807,6 +7895,8 @@ window.stockData = {
       "current_price": 310.4,
       "prev_close": 308.3,
       "day_change_pct": 0.68,
+      "day_high": 314.4,
+      "day_low": 307.0,
       "volume": 2988481,
       "vol_1m_avg": 4447408,
       "vol_surge_ratio": 0.67,
@@ -7826,7 +7916,7 @@ window.stockData = {
       "debt_score_penalty": 15,
       "rev_growth_yoy": 29.3,
       "earnings_growth_yoy": 28.2,
-      "dividend_yield": 88.0,
+      "dividend_yield": 89.0,
       "promoter_holding": 65.9,
       "institutional_holding": 18.9,
       "pledged_pct": 0.0,
@@ -7877,9 +7967,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 3.93"
-      ],
-      "day_high": 314.12,
-      "day_low": 302.64
+      ]
     },
     {
       "symbol": "TARIL.NS",
@@ -7891,6 +7979,8 @@ window.stockData = {
       "current_price": 296.9,
       "prev_close": 297.15,
       "day_change_pct": -0.08,
+      "day_high": 300.5,
+      "day_low": 295.15,
       "volume": 775852,
       "vol_1m_avg": 1899311,
       "vol_surge_ratio": 0.41,
@@ -7960,9 +8050,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.5% YoY)"
-      ],
-      "day_high": 304.32,
-      "day_low": 293.34
+      ]
     },
     {
       "symbol": "LT.NS",
@@ -7974,6 +8062,8 @@ window.stockData = {
       "current_price": 3922.6,
       "prev_close": 3946.1,
       "day_change_pct": -0.6,
+      "day_high": 4020.2,
+      "day_low": 3922.6,
       "volume": 2954282,
       "vol_1m_avg": 1338188,
       "vol_surge_ratio": 2.21,
@@ -8043,9 +8133,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 4020.66,
-      "day_low": 3875.53
+      ]
     },
     {
       "symbol": "JIOFIN.NS",
@@ -8057,6 +8145,8 @@ window.stockData = {
       "current_price": 231.0,
       "prev_close": 233.15,
       "day_change_pct": -0.92,
+      "day_high": 232.97,
+      "day_low": 230.63,
       "volume": 10758302,
       "vol_1m_avg": 12528404,
       "vol_surge_ratio": 0.86,
@@ -8125,9 +8215,7 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 71.7x"
-      ],
-      "day_high": 236.77,
-      "day_low": 228.23
+      ]
     },
     {
       "symbol": "DDEVPLSTIK.NS",
@@ -8139,6 +8227,8 @@ window.stockData = {
       "current_price": 265.55,
       "prev_close": 269.45,
       "day_change_pct": -1.45,
+      "day_high": 269.45,
+      "day_low": 262.95,
       "volume": 82633,
       "vol_1m_avg": 96859,
       "vol_surge_ratio": 0.85,
@@ -8158,7 +8248,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 28.6,
       "earnings_growth_yoy": 22.2,
-      "dividend_yield": 64.0,
+      "dividend_yield": 65.0,
       "promoter_holding": 82.2,
       "institutional_holding": 0.1,
       "pledged_pct": 0.0,
@@ -8206,9 +8296,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 272.19,
-      "day_low": 262.36
+      ]
     },
     {
       "symbol": "GRSE.NS",
@@ -8220,6 +8308,8 @@ window.stockData = {
       "current_price": 2493.9,
       "prev_close": 2525.7,
       "day_change_pct": -1.26,
+      "day_high": 2553.3,
+      "day_low": 2488.1,
       "volume": 236940,
       "vol_1m_avg": 434389,
       "vol_surge_ratio": 0.55,
@@ -8287,9 +8377,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 2556.25,
-      "day_low": 2463.97
+      ]
     },
     {
       "symbol": "EXIDEIND.NS",
@@ -8301,6 +8389,8 @@ window.stockData = {
       "current_price": 410.75,
       "prev_close": 418.15,
       "day_change_pct": -1.77,
+      "day_high": 420.0,
+      "day_low": 409.7,
       "volume": 2097015,
       "vol_1m_avg": 2164213,
       "vol_surge_ratio": 0.97,
@@ -8369,9 +8459,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 421.02,
-      "day_low": 405.82
+      ]
     },
     {
       "symbol": "DHANBANK.NS",
@@ -8383,6 +8471,8 @@ window.stockData = {
       "current_price": 30.68,
       "prev_close": 31.11,
       "day_change_pct": -1.38,
+      "day_high": 31.12,
+      "day_low": 30.5,
       "volume": 304141,
       "vol_1m_avg": 657484,
       "vol_surge_ratio": 0.46,
@@ -8452,9 +8542,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 31.45,
-      "day_low": 30.31
+      ]
     },
     {
       "symbol": "HAPPSTMNDS.NS",
@@ -8466,6 +8554,8 @@ window.stockData = {
       "current_price": 339.5,
       "prev_close": 345.65,
       "day_change_pct": -1.78,
+      "day_high": 343.1,
+      "day_low": 337.1,
       "volume": 788975,
       "vol_1m_avg": 3318482,
       "vol_surge_ratio": 0.24,
@@ -8533,9 +8623,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 347.99,
-      "day_low": 335.43
+      ]
     },
     {
       "symbol": "ITCHOTELS.NS",
@@ -8547,6 +8635,8 @@ window.stockData = {
       "current_price": 155.31,
       "prev_close": 157.02,
       "day_change_pct": -1.09,
+      "day_high": 157.04,
+      "day_low": 155.01,
       "volume": 1633742,
       "vol_1m_avg": 1308371,
       "vol_surge_ratio": 1.25,
@@ -8614,9 +8704,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 159.19,
-      "day_low": 153.45
+      ]
     },
     {
       "symbol": "CAMS.NS",
@@ -8628,6 +8716,8 @@ window.stockData = {
       "current_price": 715.0,
       "prev_close": 729.5,
       "day_change_pct": -1.99,
+      "day_high": 730.0,
+      "day_low": 711.2,
       "volume": 1556480,
       "vol_1m_avg": 1303166,
       "vol_surge_ratio": 1.19,
@@ -8698,9 +8788,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 732.87,
-      "day_low": 706.42
+      ]
     },
     {
       "symbol": "TATACONSUM.NS",
@@ -8712,6 +8800,8 @@ window.stockData = {
       "current_price": 1001.0,
       "prev_close": 1014.1,
       "day_change_pct": -1.29,
+      "day_high": 1013.7,
+      "day_low": 1001.0,
       "volume": 973413,
       "vol_1m_avg": 1117652,
       "vol_surge_ratio": 0.87,
@@ -8780,9 +8870,7 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 60.6x"
-      ],
-      "day_high": 1026.02,
-      "day_low": 988.99
+      ]
     },
     {
       "symbol": "WAAREEENER.NS",
@@ -8794,6 +8882,8 @@ window.stockData = {
       "current_price": 2568.0,
       "prev_close": 2571.0,
       "day_change_pct": -0.12,
+      "day_high": 2599.0,
+      "day_low": 2560.5,
       "volume": 282508,
       "vol_1m_avg": 444073,
       "vol_surge_ratio": 0.64,
@@ -8872,9 +8962,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 2632.2,
-      "day_low": 2537.18
+      ]
     },
     {
       "symbol": "FIEMIND.NS",
@@ -8886,6 +8974,8 @@ window.stockData = {
       "current_price": 2021.6,
       "prev_close": 2038.2,
       "day_change_pct": -0.81,
+      "day_high": 2048.6,
+      "day_low": 2009.4,
       "volume": 52069,
       "vol_1m_avg": 117496,
       "vol_surge_ratio": 0.44,
@@ -8953,9 +9043,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 2072.14,
-      "day_low": 1997.34
+      ]
     },
     {
       "symbol": "BAJFINANCE.NS",
@@ -8967,6 +9055,8 @@ window.stockData = {
       "current_price": 1039.3,
       "prev_close": 1054.1,
       "day_change_pct": -1.4,
+      "day_high": 1060.1,
+      "day_low": 1038.5,
       "volume": 9243637,
       "vol_1m_avg": 4607627,
       "vol_surge_ratio": 2.01,
@@ -9040,9 +9130,7 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Debt Ratio: 3.15"
-      ],
-      "day_high": 1065.28,
-      "day_low": 1026.83
+      ]
     },
     {
       "symbol": "NTPC.NS",
@@ -9054,6 +9142,8 @@ window.stockData = {
       "current_price": 334.5,
       "prev_close": 330.8,
       "day_change_pct": 1.12,
+      "day_high": 337.5,
+      "day_low": 330.9,
       "volume": 11790599,
       "vol_1m_avg": 8364468,
       "vol_surge_ratio": 1.41,
@@ -9122,9 +9212,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -1.6% YoY)",
         "\u26a0\ufe0f High Debt Ratio: 1.18"
-      ],
-      "day_high": 338.51,
-      "day_low": 326.14
+      ]
     },
     {
       "symbol": "INDRAMEDCO.NS",
@@ -9136,6 +9224,8 @@ window.stockData = {
       "current_price": 360.2,
       "prev_close": 355.15,
       "day_change_pct": 1.42,
+      "day_high": 362.0,
+      "day_low": 352.0,
       "volume": 217284,
       "vol_1m_avg": 182274,
       "vol_surge_ratio": 1.19,
@@ -9155,7 +9245,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 11.3,
       "earnings_growth_yoy": 8.6,
-      "dividend_yield": 114.0,
+      "dividend_yield": 113.0,
       "promoter_holding": 55.3,
       "institutional_holding": 0.7,
       "pledged_pct": 0.0,
@@ -9203,9 +9293,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 364.52,
-      "day_low": 351.19
+      ]
     },
     {
       "symbol": "MUTHOOTFIN.NS",
@@ -9217,6 +9305,8 @@ window.stockData = {
       "current_price": 2815.0,
       "prev_close": 2899.7,
       "day_change_pct": -2.92,
+      "day_high": 2865.3,
+      "day_low": 2795.6,
       "volume": 1026951,
       "vol_1m_avg": 950151,
       "vol_surge_ratio": 1.08,
@@ -9289,9 +9379,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 3.94"
-      ],
-      "day_high": 2885.37,
-      "day_low": 2781.22
+      ]
     },
     {
       "symbol": "NCLIND.NS",
@@ -9303,6 +9391,8 @@ window.stockData = {
       "current_price": 179.12,
       "prev_close": 176.65,
       "day_change_pct": 1.4,
+      "day_high": 181.85,
+      "day_low": 175.25,
       "volume": 27116,
       "vol_1m_avg": 59678,
       "vol_surge_ratio": 0.45,
@@ -9383,9 +9473,88 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -14.3% YoY)"
+      ]
+    },
+    {
+      "symbol": "ELECON.NS",
+      "clean_symbol": "ELECON",
+      "name": "Elecon Engineering Company Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 419.4,
+      "prev_close": 421.15,
+      "day_change_pct": -0.42,
+      "day_high": 427.35,
+      "day_low": 416.8,
+      "volume": 286939,
+      "vol_1m_avg": 688595,
+      "vol_surge_ratio": 0.42,
+      "52w_high": 634.9,
+      "52w_low": 351.0,
+      "sma_20": 429.81,
+      "sma_50": 448.17,
+      "sma_200": 458.91,
+      "rsi_14": 42.0,
+      "macd_val": -6.98,
+      "macd_signal": -7.93,
+      "macd_hist": 0.95,
+      "pe_ratio": 39.83,
+      "roe": 0.0,
+      "debt_to_equity": 0.12,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 6.1,
+      "earnings_growth_yoy": -59.8,
+      "dividend_yield": 47.0,
+      "promoter_holding": 63.2,
+      "institutional_holding": 11.2,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 459.3,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 459.76,
+      "sell_trigger_price": 400.11,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9459.76 (9.6% away)",
+      "swing_target_1": 453.81,
+      "swing_target_2": 481.96,
+      "swing_stoploss": 400.11,
+      "breakout_proximity_pct": 9.5,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 21.7,
+      "composite_score": 28,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-09-08",
+          "date_tag": "Yesterday",
+          "is_upcoming_3_days": false,
+          "type": "Earnings Caution",
+          "title": "Earnings De-growth (YoY Profit Drop -59.8%)",
+          "summary": "Recent financial results show profit declining by 59.8%.",
+          "impact": "Bearish Caution \u26a0\ufe0f",
+          "impact_reason": "Margin pressure may trigger short-term profit booking."
+        }
       ],
-      "day_high": 181.27,
-      "day_low": 174.64
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9459.76** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.42x. \u2022 **Sell/Stop Loss Trigger:** \u20b9400.11 \u2022 **Target 1:** \u20b9453.81 \u2022 **Target 2:** \u20b9481.96",
+      "strengths": [
+        "\ud83d\udcc5 Upcoming Event (Yesterday): Earnings Caution - Earnings De-growth (YoY Profit Drop -59.8%)",
+        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
+      ],
+      "weaknesses": [
+        "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -59.8% YoY)"
+      ]
     },
     {
       "symbol": "TATAPOWER.NS",
@@ -9397,6 +9566,8 @@ window.stockData = {
       "current_price": 370.0,
       "prev_close": 365.55,
       "day_change_pct": 1.22,
+      "day_high": 373.7,
+      "day_low": 363.15,
       "volume": 5667441,
       "vol_1m_avg": 5637139,
       "vol_surge_ratio": 1.01,
@@ -9465,9 +9636,7 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Debt Ratio: 1.68"
-      ],
-      "day_high": 374.44,
-      "day_low": 360.75
+      ]
     },
     {
       "symbol": "HPL.NS",
@@ -9479,6 +9648,8 @@ window.stockData = {
       "current_price": 298.65,
       "prev_close": 303.0,
       "day_change_pct": -1.44,
+      "day_high": 305.45,
+      "day_low": 298.05,
       "volume": 83174,
       "vol_1m_avg": 84444,
       "vol_surge_ratio": 0.98,
@@ -9546,9 +9717,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 306.12,
-      "day_low": 295.07
+      ]
     },
     {
       "symbol": "SJVN.NS",
@@ -9560,6 +9729,8 @@ window.stockData = {
       "current_price": 66.88,
       "prev_close": 66.06,
       "day_change_pct": 1.24,
+      "day_high": 68.33,
+      "day_low": 65.59,
       "volume": 5366168,
       "vol_1m_avg": 1653616,
       "vol_surge_ratio": 3.25,
@@ -9579,7 +9750,7 @@ window.stockData = {
       "debt_score_penalty": 15,
       "rev_growth_yoy": 52.0,
       "earnings_growth_yoy": -1.7,
-      "dividend_yield": 229.0,
+      "dividend_yield": 228.0,
       "promoter_holding": 81.8,
       "institutional_holding": 5.7,
       "pledged_pct": 0.0,
@@ -9630,9 +9801,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -1.7% YoY)",
         "\u26a0\ufe0f High Debt Ratio: 2.27"
-      ],
-      "day_high": 67.68,
-      "day_low": 65.21
+      ]
     },
     {
       "symbol": "RELIANCE.NS",
@@ -9644,6 +9813,8 @@ window.stockData = {
       "current_price": 1279.0,
       "prev_close": 1294.9,
       "day_change_pct": -1.23,
+      "day_high": 1294.7,
+      "day_low": 1277.2,
       "volume": 12152063,
       "vol_1m_avg": 10803494,
       "vol_surge_ratio": 1.12,
@@ -9710,9 +9881,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -22.4% YoY)"
-      ],
-      "day_high": 1310.97,
-      "day_low": 1263.65
+      ]
     },
     {
       "symbol": "512068.BO",
@@ -9724,6 +9893,8 @@ window.stockData = {
       "current_price": 223.55,
       "prev_close": 213.5,
       "day_change_pct": 4.71,
+      "day_high": 223.55,
+      "day_low": 223.55,
       "volume": 1,
       "vol_1m_avg": 297275,
       "vol_surge_ratio": 0.0,
@@ -9793,9 +9964,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 226.23,
-      "day_low": 217.96
+      ]
     },
     {
       "symbol": "NDRAUTO.NS",
@@ -9807,6 +9976,8 @@ window.stockData = {
       "current_price": 714.9,
       "prev_close": 715.05,
       "day_change_pct": -0.02,
+      "day_high": 721.0,
+      "day_low": 706.05,
       "volume": 8117,
       "vol_1m_avg": 17484,
       "vol_surge_ratio": 0.46,
@@ -9874,90 +10045,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 732.77,
-      "day_low": 706.32
-    },
-    {
-      "symbol": "ELECON.NS",
-      "clean_symbol": "ELECON",
-      "name": "Elecon Engineering Company Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 419.4,
-      "prev_close": 421.15,
-      "day_change_pct": -0.42,
-      "volume": 286939,
-      "vol_1m_avg": 688595,
-      "vol_surge_ratio": 0.42,
-      "52w_high": 634.9,
-      "52w_low": 351.0,
-      "sma_20": 429.81,
-      "sma_50": 448.17,
-      "sma_200": 458.91,
-      "rsi_14": 42.0,
-      "macd_val": -6.98,
-      "macd_signal": -7.93,
-      "macd_hist": 0.95,
-      "pe_ratio": 39.83,
-      "roe": 0.0,
-      "debt_to_equity": 0.12,
-      "debt_status": "Low Debt (Healthy)",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 6.1,
-      "earnings_growth_yoy": -59.8,
-      "dividend_yield": 47.0,
-      "promoter_holding": 63.2,
-      "institutional_holding": 11.2,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 459.3,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 459.76,
-      "sell_trigger_price": 400.11,
-      "buy_status": "\u26a1 BUY ABOVE \u20b9459.76 (9.6% away)",
-      "swing_target_1": 453.81,
-      "swing_target_2": 481.96,
-      "swing_stoploss": 400.11,
-      "breakout_proximity_pct": 9.5,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 20.5,
-      "composite_score": 25,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-09-08",
-          "date_tag": "Yesterday",
-          "is_upcoming_3_days": false,
-          "type": "Earnings Caution",
-          "title": "Earnings De-growth (YoY Profit Drop -59.8%)",
-          "summary": "Recent financial results show profit declining by 59.8%.",
-          "impact": "Bearish Caution \u26a0\ufe0f",
-          "impact_reason": "Margin pressure may trigger short-term profit booking."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9459.76** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.42x. \u2022 **Sell/Stop Loss Trigger:** \u20b9400.11 \u2022 **Target 1:** \u20b9453.81 \u2022 **Target 2:** \u20b9481.96",
-      "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Yesterday): Earnings Caution - Earnings De-growth (YoY Profit Drop -59.8%)",
-        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
-      ],
-      "weaknesses": [
-        "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -59.8% YoY)"
-      ],
-      "day_high": 429.88,
-      "day_low": 414.37
+      ]
     },
     {
       "symbol": "INTLCONV.NS",
@@ -9969,6 +10057,8 @@ window.stockData = {
       "current_price": 76.96,
       "prev_close": 79.5,
       "day_change_pct": -3.19,
+      "day_high": 79.58,
+      "day_low": 75.05,
       "volume": 88002,
       "vol_1m_avg": 73392,
       "vol_surge_ratio": 1.2,
@@ -10040,9 +10130,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 78.88,
-      "day_low": 76.04
+      ]
     },
     {
       "symbol": "BHARATCOAL.NS",
@@ -10054,6 +10142,8 @@ window.stockData = {
       "current_price": 33.79,
       "prev_close": 33.53,
       "day_change_pct": 0.78,
+      "day_high": 34.5,
+      "day_low": 33.59,
       "volume": 5613551,
       "vol_1m_avg": 5486569,
       "vol_surge_ratio": 1.02,
@@ -10124,9 +10214,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 34.2,
-      "day_low": 32.95
+      ]
     },
     {
       "symbol": "IRCTC.NS",
@@ -10138,6 +10226,8 @@ window.stockData = {
       "current_price": 469.5,
       "prev_close": 472.4,
       "day_change_pct": -0.61,
+      "day_high": 475.0,
+      "day_low": 469.0,
       "volume": 687521,
       "vol_1m_avg": 739662,
       "vol_surge_ratio": 0.93,
@@ -10207,9 +10297,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 481.24,
-      "day_low": 463.87
+      ]
     },
     {
       "symbol": "CANBK.NS",
@@ -10221,6 +10309,8 @@ window.stockData = {
       "current_price": 124.08,
       "prev_close": 124.68,
       "day_change_pct": -0.48,
+      "day_high": 125.38,
+      "day_low": 124.04,
       "volume": 9337142,
       "vol_1m_avg": 11244144,
       "vol_surge_ratio": 0.83,
@@ -10289,9 +10379,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 127.18,
-      "day_low": 122.59
+      ]
     },
     {
       "symbol": "BAJAJHFL.NS",
@@ -10303,6 +10391,8 @@ window.stockData = {
       "current_price": 82.92,
       "prev_close": 84.01,
       "day_change_pct": -1.3,
+      "day_high": 84.1,
+      "day_low": 82.79,
       "volume": 1812167,
       "vol_1m_avg": 2529208,
       "vol_surge_ratio": 0.72,
@@ -10370,9 +10460,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 4.61"
-      ],
-      "day_high": 84.99,
-      "day_low": 81.92
+      ]
     },
     {
       "symbol": "SHYAMCENT.NS",
@@ -10384,6 +10472,8 @@ window.stockData = {
       "current_price": 4.97,
       "prev_close": 4.94,
       "day_change_pct": 0.61,
+      "day_high": 5.1,
+      "day_low": 4.95,
       "volume": 31051,
       "vol_1m_avg": 61579,
       "vol_surge_ratio": 0.5,
@@ -10450,9 +10540,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 5.03,
-      "day_low": 4.85
+      ]
     },
     {
       "symbol": "WIPRO.NS",
@@ -10464,6 +10552,8 @@ window.stockData = {
       "current_price": 167.0,
       "prev_close": 171.5,
       "day_change_pct": -2.62,
+      "day_high": 169.15,
+      "day_low": 166.37,
       "volume": 11990872,
       "vol_1m_avg": 8269226,
       "vol_surge_ratio": 1.45,
@@ -10532,9 +10622,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 171.17,
-      "day_low": 165.0
+      ]
     },
     {
       "symbol": "RVNL.NS",
@@ -10546,6 +10634,8 @@ window.stockData = {
       "current_price": 207.0,
       "prev_close": 207.5,
       "day_change_pct": -0.24,
+      "day_high": 209.45,
+      "day_low": 206.11,
       "volume": 3169257,
       "vol_1m_avg": 3875196,
       "vol_surge_ratio": 0.82,
@@ -10613,9 +10703,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 212.17,
-      "day_low": 204.52
+      ]
     },
     {
       "symbol": "MAZDOCK.NS",
@@ -10627,6 +10715,8 @@ window.stockData = {
       "current_price": 2408.8,
       "prev_close": 2466.4,
       "day_change_pct": -2.34,
+      "day_high": 2461.2,
+      "day_low": 2395.0,
       "volume": 563485,
       "vol_1m_avg": 716095,
       "vol_surge_ratio": 0.79,
@@ -10695,9 +10785,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 2469.02,
-      "day_low": 2379.89
+      ]
     },
     {
       "symbol": "HEROMOTOCO.NS",
@@ -10709,6 +10797,8 @@ window.stockData = {
       "current_price": 5218.0,
       "prev_close": 5333.5,
       "day_change_pct": -2.17,
+      "day_high": 5297.0,
+      "day_low": 5205.5,
       "volume": 531983,
       "vol_1m_avg": 549612,
       "vol_surge_ratio": 0.97,
@@ -10776,9 +10866,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -17.2% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 5348.45,
-      "day_low": 5155.38
+      ]
     },
     {
       "symbol": "JPOLYINVST.NS",
@@ -10790,6 +10878,8 @@ window.stockData = {
       "current_price": 994.05,
       "prev_close": 994.45,
       "day_change_pct": -0.04,
+      "day_high": 997.95,
+      "day_low": 988.0,
       "volume": 2455,
       "vol_1m_avg": 20957,
       "vol_surge_ratio": 0.12,
@@ -10857,9 +10947,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -77.9% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 1018.9,
-      "day_low": 982.12
+      ]
     },
     {
       "symbol": "RPOWER.NS",
@@ -10871,6 +10959,8 @@ window.stockData = {
       "current_price": 22.01,
       "prev_close": 21.71,
       "day_change_pct": 1.38,
+      "day_high": 22.9,
+      "day_low": 21.62,
       "volume": 72135611,
       "vol_1m_avg": 20213589,
       "vol_surge_ratio": 3.57,
@@ -10939,9 +11029,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 22.27,
-      "day_low": 21.46
+      ]
     },
     {
       "symbol": "JAYBARMARU.NS",
@@ -10953,6 +11041,8 @@ window.stockData = {
       "current_price": 117.28,
       "prev_close": 116.5,
       "day_change_pct": 0.67,
+      "day_high": 119.79,
+      "day_low": 114.35,
       "volume": 224099,
       "vol_1m_avg": 271855,
       "vol_surge_ratio": 0.82,
@@ -11021,9 +11111,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -6.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 118.69,
-      "day_low": 114.35
+      ]
     },
     {
       "symbol": "PIIND.NS",
@@ -11035,6 +11123,8 @@ window.stockData = {
       "current_price": 2394.0,
       "prev_close": 2395.0,
       "day_change_pct": -0.04,
+      "day_high": 2402.0,
+      "day_low": 2367.6,
       "volume": 100708,
       "vol_1m_avg": 213634,
       "vol_surge_ratio": 0.47,
@@ -11047,7 +11137,7 @@ window.stockData = {
       "macd_val": -61.03,
       "macd_signal": -62.34,
       "macd_hist": 1.31,
-      "pe_ratio": 31.14,
+      "pe_ratio": 31.63,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -11101,9 +11191,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -38.9% YoY)"
-      ],
-      "day_high": 2453.85,
-      "day_low": 2365.27
+      ]
     },
     {
       "symbol": "IOC.NS",
@@ -11115,6 +11203,8 @@ window.stockData = {
       "current_price": 135.6,
       "prev_close": 134.35,
       "day_change_pct": 0.93,
+      "day_high": 136.14,
+      "day_low": 133.06,
       "volume": 5293705,
       "vol_1m_avg": 7376690,
       "vol_surge_ratio": 0.72,
@@ -11181,9 +11271,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 137.23,
-      "day_low": 132.21
+      ]
     },
     {
       "symbol": "PNBGILTS.NS",
@@ -11195,6 +11283,8 @@ window.stockData = {
       "current_price": 79.46,
       "prev_close": 81.26,
       "day_change_pct": -2.22,
+      "day_high": 81.33,
+      "day_low": 79.0,
       "volume": 283795,
       "vol_1m_avg": 371987,
       "vol_surge_ratio": 0.76,
@@ -11263,9 +11353,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -49.6% YoY)",
         "\u26a0\ufe0f High Debt Ratio: 14.80"
-      ],
-      "day_high": 81.45,
-      "day_low": 78.51
+      ]
     },
     {
       "symbol": "BOROSCI.NS",
@@ -11277,6 +11365,8 @@ window.stockData = {
       "current_price": 127.19,
       "prev_close": 129.63,
       "day_change_pct": -1.88,
+      "day_high": 130.54,
+      "day_low": 126.99,
       "volume": 30256,
       "vol_1m_avg": 51830,
       "vol_surge_ratio": 0.58,
@@ -11343,9 +11433,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 130.37,
-      "day_low": 125.66
+      ]
     },
     {
       "symbol": "KOKUYOCMLN.NS",
@@ -11357,6 +11445,8 @@ window.stockData = {
       "current_price": 78.9,
       "prev_close": 78.71,
       "day_change_pct": 0.24,
+      "day_high": 79.95,
+      "day_low": 78.2,
       "volume": 19650,
       "vol_1m_avg": 45237,
       "vol_surge_ratio": 0.43,
@@ -11424,9 +11514,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -27.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 79.85,
-      "day_low": 76.93
+      ]
     },
     {
       "symbol": "SHALBY.NS",
@@ -11438,6 +11526,8 @@ window.stockData = {
       "current_price": 148.48,
       "prev_close": 150.76,
       "day_change_pct": -1.51,
+      "day_high": 152.0,
+      "day_low": 147.6,
       "volume": 87527,
       "vol_1m_avg": 62632,
       "vol_surge_ratio": 1.4,
@@ -11505,9 +11595,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 152.19,
-      "day_low": 146.7
+      ]
     },
     {
       "symbol": "RCF.NS",
@@ -11519,6 +11607,8 @@ window.stockData = {
       "current_price": 112.64,
       "prev_close": 113.88,
       "day_change_pct": -1.09,
+      "day_high": 113.19,
+      "day_low": 112.26,
       "volume": 666918,
       "vol_1m_avg": 2076568,
       "vol_surge_ratio": 0.32,
@@ -11586,9 +11676,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 115.46,
-      "day_low": 111.29
+      ]
     },
     {
       "symbol": "SIMBHALS.NS",
@@ -11600,6 +11688,8 @@ window.stockData = {
       "current_price": 7.35,
       "prev_close": 7.5,
       "day_change_pct": -2.0,
+      "day_high": 7.5,
+      "day_low": 7.35,
       "volume": 4635,
       "vol_1m_avg": 22860,
       "vol_surge_ratio": 0.2,
@@ -11670,9 +11760,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 7.53,
-      "day_low": 7.26
+      ]
     },
     {
       "symbol": "KICL.NS",
@@ -11684,6 +11772,8 @@ window.stockData = {
       "current_price": 5021.5,
       "prev_close": 5144.0,
       "day_change_pct": -2.38,
+      "day_high": 5134.5,
+      "day_low": 5001.0,
       "volume": 1226,
       "vol_1m_avg": 1028,
       "vol_surge_ratio": 1.19,
@@ -11696,7 +11786,7 @@ window.stockData = {
       "macd_val": -68.49,
       "macd_signal": -52.2,
       "macd_hist": -16.29,
-      "pe_ratio": 53.93,
+      "pe_ratio": 53.99,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -11752,9 +11842,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 5147.04,
-      "day_low": 4961.24
+      ]
     },
     {
       "symbol": "BBL.NS",
@@ -11766,6 +11854,8 @@ window.stockData = {
       "current_price": 2245.5,
       "prev_close": 2240.1,
       "day_change_pct": 0.24,
+      "day_high": 2281.9,
+      "day_low": 2221.0,
       "volume": 15266,
       "vol_1m_avg": 22156,
       "vol_surge_ratio": 0.69,
@@ -11832,9 +11922,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -29.6% YoY)"
-      ],
-      "day_high": 2272.45,
-      "day_low": 2189.36
+      ]
     },
     {
       "symbol": "MTNL.NS",
@@ -11846,6 +11934,8 @@ window.stockData = {
       "current_price": 25.21,
       "prev_close": 25.4,
       "day_change_pct": -0.75,
+      "day_high": 25.44,
+      "day_low": 25.15,
       "volume": 493877,
       "vol_1m_avg": 1035813,
       "vol_surge_ratio": 0.48,
@@ -11914,9 +12004,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 25.84,
-      "day_low": 24.91
+      ]
     },
     {
       "symbol": "BLUEJET.NS",
@@ -11928,6 +12016,8 @@ window.stockData = {
       "current_price": 575.3,
       "prev_close": 581.5,
       "day_change_pct": -1.07,
+      "day_high": 584.0,
+      "day_low": 573.0,
       "volume": 216748,
       "vol_1m_avg": 516567,
       "vol_surge_ratio": 0.42,
@@ -12006,9 +12096,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -14.3% YoY)"
-      ],
-      "day_high": 589.68,
-      "day_low": 568.4
+      ]
     },
     {
       "symbol": "ORICONENT.NS",
@@ -12020,6 +12108,8 @@ window.stockData = {
       "current_price": 52.08,
       "prev_close": 53.16,
       "day_change_pct": -2.03,
+      "day_high": 53.97,
+      "day_low": 51.88,
       "volume": 18309,
       "vol_1m_avg": 125936,
       "vol_surge_ratio": 0.15,
@@ -12089,9 +12179,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 53.38,
-      "day_low": 51.46
+      ]
     },
     {
       "symbol": "RHFL.NS",
@@ -12103,6 +12191,8 @@ window.stockData = {
       "current_price": 1.8,
       "prev_close": 1.81,
       "day_change_pct": -0.55,
+      "day_high": 1.84,
+      "day_low": 1.77,
       "volume": 467505,
       "vol_1m_avg": 557381,
       "vol_surge_ratio": 0.84,
@@ -12170,9 +12260,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1.84,
-      "day_low": 1.78
+      ]
     },
     {
       "symbol": "HDIL.NS",
@@ -12184,6 +12272,8 @@ window.stockData = {
       "current_price": 1.49,
       "prev_close": 1.5,
       "day_change_pct": -0.67,
+      "day_high": 1.54,
+      "day_low": 1.48,
       "volume": 76865,
       "vol_1m_avg": 179410,
       "vol_surge_ratio": 0.43,
@@ -12251,9 +12341,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 1.53,
-      "day_low": 1.47
+      ]
     },
     {
       "symbol": "NATCOPHARM.NS",
@@ -12265,6 +12353,8 @@ window.stockData = {
       "current_price": 826.3,
       "prev_close": 825.0,
       "day_change_pct": 0.16,
+      "day_high": 838.9,
+      "day_low": 815.2,
       "volume": 537043,
       "vol_1m_avg": 524569,
       "vol_surge_ratio": 1.02,
@@ -12332,9 +12422,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -57.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 836.22,
-      "day_low": 805.64
+      ]
     },
     {
       "symbol": "SUMEETINDS.NS",
@@ -12346,6 +12434,8 @@ window.stockData = {
       "current_price": 11.28,
       "prev_close": 11.39,
       "day_change_pct": -0.97,
+      "day_high": 11.5,
+      "day_low": 11.26,
       "volume": 934770,
       "vol_1m_avg": 8124604,
       "vol_surge_ratio": 0.12,
@@ -12412,9 +12502,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -99.0% YoY)"
-      ],
-      "day_high": 11.56,
-      "day_low": 11.14
+      ]
     },
     {
       "symbol": "SHRENIK.NS",
@@ -12426,6 +12514,8 @@ window.stockData = {
       "current_price": 0.29,
       "prev_close": 0.29,
       "day_change_pct": 0.0,
+      "day_high": 0.3,
+      "day_low": 0.28,
       "volume": 443723,
       "vol_1m_avg": 462681,
       "vol_surge_ratio": 0.96,
@@ -12493,9 +12583,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 0.29,
-      "day_low": 0.29
+      ]
     },
     {
       "symbol": "DEN.NS",
@@ -12507,6 +12595,8 @@ window.stockData = {
       "current_price": 27.21,
       "prev_close": 27.18,
       "day_change_pct": 0.11,
+      "day_high": 27.7,
+      "day_low": 27.08,
       "volume": 219114,
       "vol_1m_avg": 342982,
       "vol_surge_ratio": 0.64,
@@ -12573,9 +12663,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -32.5% YoY)"
-      ],
-      "day_high": 27.54,
-      "day_low": 26.53
+      ]
     },
     {
       "symbol": "ATGL.NS",
@@ -12587,6 +12675,8 @@ window.stockData = {
       "current_price": 612.3,
       "prev_close": 610.4,
       "day_change_pct": 0.31,
+      "day_high": 624.4,
+      "day_low": 608.55,
       "volume": 870902,
       "vol_1m_avg": 989052,
       "vol_surge_ratio": 0.88,
@@ -12655,9 +12745,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -14.0% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 106.9x"
-      ],
-      "day_high": 619.65,
-      "day_low": 596.99
+      ]
     },
     {
       "symbol": "SADHNANIQ.NS",
@@ -12669,6 +12757,8 @@ window.stockData = {
       "current_price": 2.81,
       "prev_close": 2.82,
       "day_change_pct": -0.35,
+      "day_high": 2.81,
+      "day_low": 2.78,
       "volume": 1051201,
       "vol_1m_avg": 1245818,
       "vol_surge_ratio": 0.84,
@@ -12735,88 +12825,6 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 2.88,
-      "day_low": 2.78
-    },
-    {
-      "symbol": "VMM.NS",
-      "clean_symbol": "VMM",
-      "name": "Vishal Mega Mart Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 103.18,
-      "prev_close": 103.9,
-      "day_change_pct": -0.69,
-      "volume": 6947217,
-      "vol_1m_avg": 17834892,
-      "vol_surge_ratio": 0.39,
-      "52w_high": 153.88,
-      "52w_low": 98.77,
-      "sma_20": 106.61,
-      "sma_50": 110.11,
-      "sma_200": 119.07,
-      "rsi_14": 40.3,
-      "macd_val": -1.37,
-      "macd_signal": -1.08,
-      "macd_hist": -0.3,
-      "pe_ratio": 54.31,
-      "roe": 0.0,
-      "debt_to_equity": 0.0,
-      "debt_status": "Zero Debt",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 0.0,
-      "earnings_growth_yoy": 0.0,
-      "dividend_yield": 0.0,
-      "promoter_holding": 50.0,
-      "institutional_holding": 30.0,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 115.4,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
-      "is_volume_dryup": true,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 115.52,
-      "sell_trigger_price": 100.8,
-      "buy_status": "\u26a1 BUY ABOVE \u20b9115.52 (12.0% away)",
-      "swing_target_1": 113.63,
-      "swing_target_2": 122.17,
-      "swing_stoploss": 100.8,
-      "breakout_proximity_pct": 11.8,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 12.9,
-      "composite_score": 8,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-09-09",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Trading Monitoring",
-          "title": "Normal Volume & Price Watch",
-          "summary": "Stock trading smoothly at \u20b9103.18.",
-          "impact": "Neutral \u2696\ufe0f",
-          "impact_reason": "Standard price discovery."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9115.52** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.39x. \u2022 **Sell/Stop Loss Trigger:** \u20b9100.80 \u2022 **Target 1:** \u20b9113.63 \u2022 **Target 2:** \u20b9122.17",
-      "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Today): Trading Monitoring - Normal Volume & Price Watch",
-        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25",
-        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet"
-      ],
-      "weaknesses": [
-        "No major red flags detected"
       ]
     },
     {
@@ -12829,6 +12837,8 @@ window.stockData = {
       "current_price": 170.59,
       "prev_close": 173.98,
       "day_change_pct": -1.95,
+      "day_high": 174.29,
+      "day_low": 169.99,
       "volume": 146621,
       "vol_1m_avg": 436468,
       "vol_surge_ratio": 0.34,
@@ -12895,9 +12905,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ],
-      "day_high": 174.85,
-      "day_low": 168.54
+      ]
     },
     {
       "symbol": "ZENITHEXPO.NS",
@@ -12909,6 +12917,8 @@ window.stockData = {
       "current_price": 204.98,
       "prev_close": 197.0,
       "day_change_pct": 4.05,
+      "day_high": 206.85,
+      "day_low": 204.9,
       "volume": 18,
       "vol_1m_avg": 419,
       "vol_surge_ratio": 0.04,
@@ -12976,9 +12986,7 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Valuation P/E: 386.8x"
-      ],
-      "day_high": 207.44,
-      "day_low": 199.86
+      ]
     },
     {
       "symbol": "SAKSOFT.NS",
@@ -12990,6 +12998,8 @@ window.stockData = {
       "current_price": 151.41,
       "prev_close": 149.98,
       "day_change_pct": 0.95,
+      "day_high": 152.5,
+      "day_low": 147.3,
       "volume": 243104,
       "vol_1m_avg": 273843,
       "vol_surge_ratio": 0.89,
@@ -13060,9 +13070,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -9.3% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 153.23,
-      "day_low": 147.62
+      ]
     },
     {
       "symbol": "DELTACORP.NS",
@@ -13074,6 +13082,8 @@ window.stockData = {
       "current_price": 55.25,
       "prev_close": 55.44,
       "day_change_pct": -0.34,
+      "day_high": 55.92,
+      "day_low": 54.8,
       "volume": 712978,
       "vol_1m_avg": 837306,
       "vol_surge_ratio": 0.85,
@@ -13140,9 +13150,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 56.63,
-      "day_low": 54.59
+      ]
     },
     {
       "symbol": "ONMOBILE.NS",
@@ -13154,6 +13162,8 @@ window.stockData = {
       "current_price": 47.35,
       "prev_close": 48.25,
       "day_change_pct": -1.87,
+      "day_high": 48.25,
+      "day_low": 47.3,
       "volume": 20520,
       "vol_1m_avg": 34285,
       "vol_surge_ratio": 0.6,
@@ -13220,9 +13230,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 48.53,
-      "day_low": 46.78
+      ]
     },
     {
       "symbol": "RIIL.NS",
@@ -13234,6 +13242,8 @@ window.stockData = {
       "current_price": 724.95,
       "prev_close": 729.7,
       "day_change_pct": -0.65,
+      "day_high": 738.3,
+      "day_low": 723.3,
       "volume": 44391,
       "vol_1m_avg": 100488,
       "vol_surge_ratio": 0.44,
@@ -13303,9 +13313,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.3% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 90.3x"
-      ],
-      "day_high": 743.07,
-      "day_low": 716.25
+      ]
     },
     {
       "symbol": "IRFC.NS",
@@ -13317,6 +13325,8 @@ window.stockData = {
       "current_price": 81.39,
       "prev_close": 82.0,
       "day_change_pct": -0.74,
+      "day_high": 82.4,
+      "day_low": 81.12,
       "volume": 6679608,
       "vol_1m_avg": 7008500,
       "vol_surge_ratio": 0.95,
@@ -13385,9 +13395,7 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Debt Ratio: 7.73"
-      ],
-      "day_high": 83.42,
-      "day_low": 80.41
+      ]
     },
     {
       "symbol": "VIRINCHI.NS",
@@ -13399,6 +13407,8 @@ window.stockData = {
       "current_price": 14.17,
       "prev_close": 14.05,
       "day_change_pct": 0.85,
+      "day_high": 14.36,
+      "day_low": 14.0,
       "volume": 36907,
       "vol_1m_avg": 73037,
       "vol_surge_ratio": 0.51,
@@ -13465,9 +13475,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ],
-      "day_high": 14.34,
-      "day_low": 13.82
+      ]
     }
   ],
   "upcoming_3d_events": [
@@ -13957,10 +13965,10 @@ window.stockData = {
       "date_tag": "11 Sep 2026",
       "is_upcoming_3_days": true,
       "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (113.00% Yield)",
+      "title": "Ex-Dividend Event (108.00% Yield)",
       "summary": "Ex-dividend date for payout.",
       "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (113.00%) attracts income investors.",
+      "impact_reason": "High dividend yield (108.00%) attracts income investors.",
       "symbol": "EDELWEISS.NS",
       "clean_symbol": "EDELWEISS",
       "name": "Edelweiss Financial Services Ltd"
@@ -14354,6 +14362,19 @@ window.stockData = {
       "symbol": "AWL.NS",
       "clean_symbol": "AWL",
       "name": "AWL Agri Business Ltd"
+    },
+    {
+      "date": "2026-09-09",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +25.0%)",
+      "summary": "Company declared strong YoY revenue growth of 18.7% and Net Profit growth of 25.0%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "VMM.NS",
+      "clean_symbol": "VMM",
+      "name": "Vishal Mega Mart Ltd"
     },
     {
       "date": "2026-09-09",
@@ -15043,19 +15064,6 @@ window.stockData = {
       "symbol": "SADHNANIQ.NS",
       "clean_symbol": "SADHNANIQ",
       "name": "Sadhana Nitro Chem Ltd"
-    },
-    {
-      "date": "2026-09-09",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Trading Monitoring",
-      "title": "Normal Volume & Price Watch",
-      "summary": "Stock trading smoothly at \u20b9103.18.",
-      "impact": "Neutral \u2696\ufe0f",
-      "impact_reason": "Standard price discovery.",
-      "symbol": "VMM.NS",
-      "clean_symbol": "VMM",
-      "name": "Vishal Mega Mart Ltd"
     },
     {
       "date": "2026-09-09",
