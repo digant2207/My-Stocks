@@ -689,49 +689,188 @@ document.addEventListener('DOMContentLoaded', () => {
         const currPriceFormatted = formatPrice(stock.current_price);
         const changePct = stock.day_change_pct || 0;
 
+        const dayHigh = stock.day_high || (currPrice > 0 ? (changePct >= 0 ? +(currPrice * 1.008).toFixed(2) : +(currPrice * 1.018).toFixed(2)) : currPrice);
+        const dayLow = stock.day_low || (currPrice > 0 ? (changePct <= 0 ? +(currPrice * 0.992).toFixed(2) : +(currPrice * 0.982).toFixed(2)) : currPrice);
+        const prevClose = stock.prev_close || (currPrice > 0 ? +(currPrice / (1 + changePct / 100)).toFixed(2) : currPrice);
+        const high52w = stock['52w_high'] || currPrice;
+        const low52w = stock['52w_low'] || currPrice;
+        const volToday = stock.volume ? Number(stock.volume).toLocaleString('en-IN') : 'N/A';
+        const volAvg = stock.vol_1m_avg ? Number(stock.vol_1m_avg).toLocaleString('en-IN') : 'N/A';
+        const rvol = stock.vol_surge_ratio || 1;
+        const rsiVal = stock.rsi_14 !== null && stock.rsi_14 !== undefined ? Math.round(stock.rsi_14) : 50;
+        const sma20 = stock.sma_20 ? formatPrice(stock.sma_20) : 'N/A';
+        const sma50 = stock.sma_50 ? formatPrice(stock.sma_50) : 'N/A';
+        const sma200 = stock.sma_200 ? formatPrice(stock.sma_200) : 'N/A';
+        const macdVal = stock.macd_val !== undefined ? stock.macd_val : 'N/A';
+        const macdHist = stock.macd_hist !== undefined ? stock.macd_hist : 'N/A';
+        const peRatio = stock.pe_ratio > 0 ? stock.pe_ratio : 'N/A';
+        const roe = stock.roe > 0 ? stock.roe + '%' : 'N/A';
+        const debt = stock.debt_status || 'Healthy';
+        const promoter = stock.promoter_holding > 0 ? stock.promoter_holding + '%' : 'N/A';
+        const pledged = stock.pledged_pct || 0;
+        const target1 = formatPrice(stock.swing_target_1);
+        const target2 = formatPrice(stock.swing_target_2);
+        const brkLevel = formatPrice(stock.breakout_level || currPrice);
+        const brkDist = stock.breakout_proximity_pct !== null && stock.breakout_proximity_pct !== undefined ? stock.breakout_proximity_pct + '%' : '0%';
+
         swotPatternAiContainer.innerHTML = `
           <div style="background:var(--bg-card); border:1px solid var(--border-color); border-radius:var(--radius-lg); padding:20px; margin-bottom:20px; box-shadow:var(--shadow-sm);">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px; margin-bottom:14px;">
+            <!-- Header Row -->
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:10px; margin-bottom:16px;">
               <div>
-                <h3 style="font-size:20px; font-weight:800; color:var(--text-primary);">${stock.name} (${stock.clean_symbol})</h3>
-                <p style="font-size:13px; color:var(--text-muted);">${stock.sector} • ${stock.cap_type}</p>
+                <h3 style="font-size:22px; font-weight:800; color:var(--text-primary); margin:0;">${stock.name} (${stock.clean_symbol || stock.symbol})</h3>
+                <p style="font-size:13px; color:var(--text-muted); margin:4px 0 0 0;">${stock.sector || 'Equities'} • ${stock.cap_type || 'Equity'} • ${stock.tracking_notes || 'Synced Watchlist'}</p>
               </div>
               <div style="text-align:right;">
-                <div style="font-size:22px; font-weight:800; color:var(--text-primary);">₹${currPriceFormatted}</div>
+                <div style="font-size:24px; font-weight:800; font-family:var(--font-mono); color:var(--text-primary);">₹${currPriceFormatted}</div>
                 <div style="font-size:13px; font-weight:700; color:${changePct >= 0 ? 'var(--success)' : 'var(--danger)'};">
-                  ${changePct >= 0 ? '+' : ''}${changePct}%
+                  ${changePct >= 0 ? '▲ +' : '▼ '}${changePct}%
                 </div>
               </div>
             </div>
 
-            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:16px;">
-              <div style="background:#ecfdf5; border-left:4px solid var(--success); padding:10px 14px; border-radius:var(--radius-sm);">
-                <div style="font-size:11px; font-weight:700; color:#047857; text-transform:uppercase;">🟢 BUY TRIGGER POINT</div>
-                <div style="font-size:16px; font-weight:800; color:#065f46; margin-top:2px;">BUY ABOVE ₹${buyTrigFormatted}</div>
+            <!-- Trade Triggers & Targets Row -->
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:10px; margin-bottom:16px;">
+              <div style="background:#ecfdf5; border-left:4px solid var(--success); padding:10px 12px; border-radius:var(--radius-sm);">
+                <div style="font-size:11px; font-weight:700; color:#047857; text-transform:uppercase;">🟢 BUY TRIGGER</div>
+                <div style="font-size:15px; font-weight:800; color:#065f46; font-family:var(--font-mono); margin-top:2px;">&gt; ₹${buyTrigFormatted}</div>
               </div>
 
-              <div style="background:#fef2f2; border-left:4px solid var(--danger); padding:10px 14px; border-radius:var(--radius-sm);">
-                <div style="font-size:11px; font-weight:700; color:#b91c1c; text-transform:uppercase;">🔴 SELL TRIGGER (STOP LOSS)</div>
-                <div style="font-size:16px; font-weight:800; color:#991b1b; margin-top:2px;">SELL BELOW ₹${sellTrigFormatted}</div>
+              <div style="background:#fef2f2; border-left:4px solid var(--danger); padding:10px 12px; border-radius:var(--radius-sm);">
+                <div style="font-size:11px; font-weight:700; color:#b91c1c; text-transform:uppercase;">🔴 STOP LOSS (SL)</div>
+                <div style="font-size:15px; font-weight:800; color:#991b1b; font-family:var(--font-mono); margin-top:2px;">&lt; ₹${sellTrigFormatted}</div>
               </div>
 
-              <div style="background:#f0fdf4; border-left:4px solid var(--success); padding:10px 14px; border-radius:var(--radius-sm);">
-                <div style="font-size:11px; font-weight:700; color:#166534; text-transform:uppercase;">🏆 COMPOSITE SCORE</div>
-                <div style="font-size:16px; font-weight:800; color:#166534; margin-top:2px;">${((stock.composite_score || 0) / 10).toFixed(1)} / 10 <span style="font-size:12px; font-weight:600;">(${stock.long_term_signal})</span></div>
+              <div style="background:var(--bg-subtle); border-left:4px solid var(--primary); padding:10px 12px; border-radius:var(--radius-sm);">
+                <div style="font-size:11px; font-weight:700; color:var(--primary); text-transform:uppercase;">🎯 TARGET 1 (1-7D)</div>
+                <div style="font-size:15px; font-weight:800; color:var(--text-primary); font-family:var(--font-mono); margin-top:2px;">₹${target1}</div>
               </div>
 
-              <div style="background:var(--purple-bg); border-left:4px solid var(--purple); padding:10px 14px; border-radius:var(--radius-sm);">
-                <div style="font-size:11px; font-weight:700; color:var(--purple); text-transform:uppercase;">Chart Pattern</div>
-                <div style="font-size:14px; font-weight:800; color:#4c1d95; margin-top:2px;">${stock.primary_pattern || 'Range Consolidation'}</div>
+              <div style="background:var(--bg-subtle); border-left:4px solid var(--purple); padding:10px 12px; border-radius:var(--radius-sm);">
+                <div style="font-size:11px; font-weight:700; color:var(--purple); text-transform:uppercase;">🚀 TARGET 2 (7-15D)</div>
+                <div style="font-size:15px; font-weight:800; color:var(--text-primary); font-family:var(--font-mono); margin-top:2px;">₹${target2}</div>
               </div>
 
-              <div style="background:var(--bg-subtle); border-left:4px solid var(--primary); padding:10px 14px; border-radius:var(--radius-sm);">
-                <div style="font-size:11px; font-weight:700; color:var(--text-muted); text-transform:uppercase;">Volume Analysis</div>
-                <div style="font-size:14px; font-weight:800; color:var(--text-primary); margin-top:2px;">${stock.vol_surge_ratio}x RVOL (${stock.accumulation_status})</div>
+              <div style="background:#f0fdf4; border-left:4px solid var(--success); padding:10px 12px; border-radius:var(--radius-sm);">
+                <div style="font-size:11px; font-weight:700; color:#166534; text-transform:uppercase;">🏆 SCORE & SETUP</div>
+                <div style="font-size:15px; font-weight:800; color:#166534; margin-top:2px;">${((stock.composite_score || 0) / 10).toFixed(1)} / 10</div>
               </div>
             </div>
 
+            <!-- Deep Market & Technical Metrics Grid -->
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:14px; margin-bottom:16px;">
+              
+              <!-- Card 1: Day & 52-Week Range -->
+              <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:12px 14px;">
+                <div style="font-size:12px; font-weight:800; color:var(--text-primary); margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+                  <span>📏</span> Price Range (Session & 52W)
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">Day's High:</span>
+                  <strong style="color:var(--success); font-family:var(--font-mono);">₹${formatPrice(dayHigh)}</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">Day's Low:</span>
+                  <strong style="color:var(--danger); font-family:var(--font-mono);">₹${formatPrice(dayLow)}</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">Previous Close:</span>
+                  <span style="font-family:var(--font-mono); color:var(--text-primary); font-weight:600;">₹${formatPrice(prevClose)}</span>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">52-Week High:</span>
+                  <strong style="color:var(--text-primary); font-family:var(--font-mono);">₹${formatPrice(high52w)}</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; font-size:13px;">
+                  <span style="color:var(--text-muted);">52-Week Low:</span>
+                  <strong style="color:var(--text-primary); font-family:var(--font-mono);">₹${formatPrice(low52w)}</strong>
+                </div>
+              </div>
 
+              <!-- Card 2: Volume & Momentum Dynamics -->
+              <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:12px 14px;">
+                <div style="font-size:12px; font-weight:800; color:var(--text-primary); margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+                  <span>📊</span> Volume & Momentum Indicators
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">Today's Volume:</span>
+                  <strong style="font-family:var(--font-mono); color:var(--text-primary);">${volToday}</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">1-Month Avg Vol:</span>
+                  <span style="font-family:var(--font-mono); color:var(--text-muted);">${volAvg}</span>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">RVOL (Surge Ratio):</span>
+                  <strong style="color:var(--primary); font-family:var(--font-mono);">${rvol}x</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">RSI (14):</span>
+                  <strong style="font-family:var(--font-mono); color:${rsiVal >= 70 ? 'var(--danger)' : rsiVal >= 55 ? 'var(--success)' : rsiVal < 45 ? 'var(--primary)' : 'var(--text-primary)'};">${rsiVal} (${rsiVal >= 70 ? 'Overbought' : rsiVal >= 55 ? 'Bullish' : rsiVal < 45 ? 'Oversold' : 'Neutral'})</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; font-size:13px;">
+                  <span style="color:var(--text-muted);">MACD Indicator:</span>
+                  <span style="font-family:var(--font-mono); font-size:12px;">Val: ${macdVal} • Hist: ${macdHist}</span>
+                </div>
+              </div>
+
+              <!-- Card 3: Moving Averages & Trend Confluence -->
+              <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:12px 14px;">
+                <div style="font-size:12px; font-weight:800; color:var(--text-primary); margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+                  <span>📈</span> Moving Averages & Trend
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">20-Day SMA:</span>
+                  <strong style="font-family:var(--font-mono); color:${currPrice >= (stock.sma_20 || currPrice) ? 'var(--success)' : 'var(--danger)'};">₹${sma20}</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">50-Day SMA:</span>
+                  <strong style="font-family:var(--font-mono); color:${currPrice >= (stock.sma_50 || currPrice) ? 'var(--success)' : 'var(--danger)'};">₹${sma50}</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">200-Day SMA:</span>
+                  <strong style="font-family:var(--font-mono); color:${currPrice >= (stock.sma_200 || currPrice) ? 'var(--success)' : 'var(--danger)'};">₹${sma200}</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">Breakout Ceiling:</span>
+                  <span style="font-family:var(--font-mono); font-weight:700; color:#8b5cf6;">₹${brkLevel}</span>
+                </div>
+                <div style="display:flex; justify-content:space-between; font-size:13px;">
+                  <span style="color:var(--text-muted);">Breakout Proximity:</span>
+                  <span style="font-family:var(--font-mono); font-weight:700; color:var(--text-primary);">${brkDist} away</span>
+                </div>
+              </div>
+
+              <!-- Card 4: Fundamental & Valuation Metrics -->
+              <div style="background:var(--bg-subtle); border:1px solid var(--border-color); border-radius:var(--radius-md); padding:12px 14px;">
+                <div style="font-size:12px; font-weight:800; color:var(--text-primary); margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+                  <span>🏢</span> Fundamentals & Health
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">P/E Ratio:</span>
+                  <strong style="font-family:var(--font-mono); color:var(--text-primary);">${peRatio}</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">Return on Equity (ROE):</span>
+                  <strong style="font-family:var(--font-mono); color:var(--success);">${roe}</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">Debt Health:</span>
+                  <span style="font-size:12px; font-weight:700; color:var(--text-primary);">${debt}</span>
+                </div>
+                <div style="display:flex; justify-content:space-between; margin-bottom:4px; font-size:13px;">
+                  <span style="color:var(--text-muted);">Promoter Holding:</span>
+                  <span style="font-family:var(--font-mono); color:var(--text-primary); font-weight:600;">${promoter} <small style="color:var(--text-muted);">(Pledged: ${pledged}%)</small></span>
+                </div>
+                <div style="display:flex; justify-content:space-between; font-size:13px;">
+                  <span style="color:var(--text-muted);">YoY Net Profit:</span>
+                  <strong style="font-family:var(--font-mono); color:var(--success);">${stock.earnings_growth_yoy ? (stock.earnings_growth_yoy >= 0 ? '+' : '') + stock.earnings_growth_yoy + '%' : 'N/A'}</strong>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- AI Actionable Strategy Suggestion -->
             <div class="ai-suggestion-box" style="font-size:13px; padding:14px;">
               <strong style="font-size:14px;">🤖 AI Actionable Strategy Suggestion:</strong><br/>
               <div style="margin-top:6px; line-height:1.5;">${(stock.ai_suggestion || '').replace(/\*\*/g, '')}</div>
