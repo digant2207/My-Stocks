@@ -172,6 +172,25 @@ def run_market_hours_ticker_scan():
     summary_stats['live_market_updates_count'] = updated_count
     summary_stats['live_breakout_alerts_count'] = breakout_alerts_count
 
+    try:
+        ind = {}
+        n_info = yf.Ticker('^NSEI').fast_info
+        np = round(float(n_info.last_price), 2)
+        npr = float(n_info.previous_close) if n_info.previous_close else np
+        nd = round(np - npr, 2)
+        npct = round((nd / npr) * 100, 2) if npr else 0.0
+        ind['nifty'] = {'price': f"{np:,.2f}", 'raw_price': np, 'change_pts': f"{'+' if nd >= 0 else ''}{nd:,.2f}", 'change_pct': f"{'+' if npct >= 0 else ''}{npct:.2f}%", 'is_positive': npct >= 0}
+
+        s_info = yf.Ticker('^BSESN').fast_info
+        sp = round(float(s_info.last_price), 2)
+        spr = float(s_info.previous_close) if s_info.previous_close else sp
+        sd = round(sp - spr, 2)
+        spct = round((sd / spr) * 100, 2) if spr else 0.0
+        ind['sensex'] = {'price': f"{sp:,.2f}", 'raw_price': sp, 'change_pts': f"{'+' if sd >= 0 else ''}{sd:,.2f}", 'change_pct': f"{'+' if spct >= 0 else ''}{spct:.2f}%", 'is_positive': spct >= 0}
+        summary_stats['indices'] = ind
+    except Exception:
+        pass
+
     payload['summary'] = summary_stats
     payload['top_20_swing'] = top_20_swing
     payload['all_stocks'] = all_stocks

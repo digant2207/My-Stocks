@@ -1,7 +1,22 @@
 {
   "summary": {
     "last_updated": "09-Sep-2026 06:29:35 PM IST (Indian Standard Time)",
-    "indices": {},
+    "indices": {
+      "nifty": {
+        "price": "23,431.50",
+        "raw_price": 23431.5,
+        "change_pts": "-203.60",
+        "change_pct": "-0.86%",
+        "is_positive": false
+      },
+      "sensex": {
+        "price": "74,764.23",
+        "raw_price": 74764.23,
+        "change_pts": "-813.35",
+        "change_pct": "-1.08%",
+        "is_positive": false
+      }
+    },
     "total_stocks_scanned": 139,
     "swing_top_20_count": 20,
     "strong_buys_count": 20,

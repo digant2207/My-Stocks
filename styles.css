@@ -978,9 +978,178 @@ body {
 }
 
 /* ==========================================================================
+   DESKTOP SIDEBAR NAVIGATION (Stitch Desktop Layout)
+   ========================================================================== */
+.desktop-sidebar {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 256px;
+  background: var(--bg-card);
+  border-right: 1px solid var(--border-color);
+  z-index: 95;
+  flex-direction: column;
+  padding: 16px 12px;
+  box-shadow: var(--shadow-xs);
+  overflow-y: auto;
+}
+
+.sidebar-status-box {
+  padding: 4px 8px;
+  margin-bottom: 12px;
+}
+
+.sidebar-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(220, 252, 231, 0.7);
+  border: 1px solid rgba(5, 150, 105, 0.25);
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--success);
+}
+
+.sidebar-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar-link:hover {
+  background: var(--bg-subtle);
+  color: var(--text-primary);
+}
+
+.sidebar-link.active {
+  background: #1e3a8a; /* Stitch active primary container */
+  color: #ffffff;
+  box-shadow: var(--shadow-sm);
+}
+
+.sidebar-link.active .sidebar-badge {
+  background: #ffffff;
+  color: #1e3a8a;
+}
+
+.sidebar-link-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-badge {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: var(--radius-pill);
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+}
+
+.sidebar-search-box {
+  margin-top: 14px;
+  margin-bottom: 6px;
+  padding: 6px 10px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sidebar-search-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  width: 100%;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+.sidebar-add-btn {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  background: rgba(29, 78, 216, 0.08);
+  border: 1px solid rgba(29, 78, 216, 0.2);
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sidebar-add-btn:hover {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+/* ==========================================================================
    RESPONSIVE QUERIES
    ========================================================================== */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
+  .desktop-sidebar {
+    display: flex;
+  }
+
+  .main-content-wrapper {
+    margin-left: 256px;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+  }
+
+  .tabs-nav {
+    display: none; /* Sidebar is primary navigation on Desktop / Laptop */
+  }
+
+  .market-bento-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1023px) {
+  .desktop-sidebar {
+    display: none;
+  }
+
+  .main-content-wrapper {
+    margin-left: 0;
+  }
+
   .market-bento-grid {
     grid-template-columns: repeat(3, 1fr);
   }

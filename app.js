@@ -34,9 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const gsheetModal = document.getElementById('gsheetModal');
   const emailModal = document.getElementById('emailModal');
 
-  // Tab Switching (Synchronized between Desktop Tabs & Mobile Bottom Nav)
+  // Tab Switching (Synchronized between Desktop Sidebar, Desktop Top Tabs & Mobile Bottom Nav)
   const tabBtns = document.querySelectorAll('.tab-btn');
   const mobileNavBtns = document.querySelectorAll('.mobile-nav-btn');
+  const sidebarLinks = document.querySelectorAll('.sidebar-link[data-tab]');
   const tabContents = document.querySelectorAll('.tab-content');
 
   function switchTab(targetId) {
@@ -53,6 +54,14 @@ document.addEventListener('DOMContentLoaded', () => {
         mb.classList.add('active');
       } else {
         mb.classList.remove('active');
+      }
+    });
+
+    sidebarLinks.forEach(sb => {
+      if (sb.getAttribute('data-tab') === targetId) {
+        sb.classList.add('active');
+      } else {
+        sb.classList.remove('active');
       }
     });
 
@@ -75,6 +84,34 @@ document.addEventListener('DOMContentLoaded', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   });
+
+  sidebarLinks.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetId = btn.getAttribute('data-tab');
+      switchTab(targetId);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+
+  // Desktop Sidebar Quick Find & Add Stock
+  const sidebarSearchInput = document.getElementById('sidebarSearchInput');
+  if (sidebarSearchInput) {
+    sidebarSearchInput.addEventListener('input', (e) => {
+      const term = e.target.value.toLowerCase().trim();
+      switchTab('tab-watchlist');
+      if (searchInput) {
+        searchInput.value = term;
+        searchInput.dispatchEvent(new Event('input'));
+      }
+    });
+  }
+
+  const btnSidebarAddStock = document.getElementById('btnSidebarAddStock');
+  if (btnSidebarAddStock) {
+    btnSidebarAddStock.addEventListener('click', () => {
+      openAddStockModal();
+    });
+  }
 
   // Filter Chips and Quick Search State
   let activeFilterChip = 'all';
@@ -111,17 +148,12 @@ document.addEventListener('DOMContentLoaded', () => {
       );
     }
 
-    if (activeFilterChip === 'breakout') {
-      filtered = filtered.filter(s => (s.breakout_proximity_pct || 99) <= 3.5 || (s.current_price >= (s.breakout_level || s.current_price)));
-    } else if (activeFilterChip === 'momentum') {
-      filtered = filtered.filter(s => (s.day_change_pct || 0) > 0.8 || (s.composite_score || 0) >= 70);
-    } else if (activeFilterChip === 'volume') {
-      filtered = filtered.filter(s => (s.vol_surge_ratio || 0) >= 1.4);
-    } else if (activeFilterChip === 'lowdebt') {
-      filtered = filtered.filter(s => {
-        const debt = (s.debt_status || '').toLowerCase();
-        return debt.includes('low') || debt.includes('zero') || (s.debt_to_equity || 0) < 0.5;
-      });
+    if (activeFilterChip === 'momentum') {
+      filtered = filtered.filter(s => (s.day_change_pct || 0) >= 0.5 || (s.composite_score || 0) >= 70 || (s.rsi_14 || 50) >= 55);
+    } else if (activeFilterChip === '52w') {
+      filtered = filtered.filter(s => (s.breakout_proximity_pct !== null && s.breakout_proximity_pct <= 5.0) || (s.current_price >= (s.breakout_level || s.current_price)) || (s.primary_pattern || '').toLowerCase().includes('52w') || (s.primary_pattern || '').toLowerCase().includes('breakout'));
+    } else if (activeFilterChip === 'oversold') {
+      filtered = filtered.filter(s => (s.rsi_14 || 50) <= 52 || (s.day_change_pct || 0) <= 0.8 || (s.primary_pattern || '').toLowerCase().includes('oversold') || (s.primary_pattern || '').toLowerCase().includes('support'));
     }
 
     renderSwingCards(filtered);
@@ -212,6 +244,55 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (swingPicksPill) {
       swingPicksPill.textContent = `${top20Swing.length || 20} Picks`;
+    }
+
+    // Dynamic Live Benchmark Indices (NIFTY 50 & SENSEX)
+    const indices = summary.indices || {};
+    if (indices.nifty) {
+      const niftyValEl = document.getElementById('bentoNiftyVal');
+      const niftyDeltaEl = document.getElementById('bentoNiftyDelta');
+      const niftySubtextEl = document.getElementById('bentoNiftySubtext');
+      if (niftyValEl) niftyValEl.textContent = indices.nifty.price;
+      if (niftyDeltaEl) {
+        niftyDeltaEl.textContent = indices.nifty.change_pct;
+        niftyDeltaEl.className = 'bento-delta ' + (indices.nifty.is_positive ? 'positive' : 'negative');
+      }
+      if (niftySubtextEl) {
+        niftySubtextEl.textContent = (indices.nifty.is_positive ? '📈 +' : '📉 ') + indices.nifty.change_pts + ' pts';
+      }
+    }
+    if (indices.sensex) {
+      const sensexValEl = document.getElementById('bentoSensexVal');
+      const sensexDeltaEl = document.getElementById('bentoSensexDelta');
+      const sensexSubtextEl = document.getElementById('bentoSensexSubtext');
+      if (sensexValEl) sensexValEl.textContent = indices.sensex.price;
+      if (sensexDeltaEl) {
+        sensexDeltaEl.textContent = indices.sensex.change_pct;
+        sensexDeltaEl.className = 'bento-delta ' + (indices.sensex.is_positive ? 'positive' : 'negative');
+      }
+      if (sensexSubtextEl) {
+        sensexSubtextEl.textContent = (indices.sensex.is_positive ? '📈 +' : '📉 ') + indices.sensex.change_pts + ' pts';
+      }
+    }
+
+    // Dynamic Filter Chip Counts
+    const chipAll = document.querySelector('.filter-chip[data-filter="all"]');
+    const chipMom = document.querySelector('.filter-chip[data-filter="momentum"]');
+    const chip52w = document.querySelector('.filter-chip[data-filter="52w"]');
+    const chipOver = document.querySelector('.filter-chip[data-filter="oversold"]');
+
+    if (chipAll) chipAll.textContent = `All (${top20Swing.length})`;
+    if (chipMom) {
+      const momCount = top20Swing.filter(s => (s.day_change_pct || 0) >= 0.5 || (s.composite_score || 0) >= 70 || (s.rsi_14 || 50) >= 55).length;
+      chipMom.textContent = `🔥 High Momentum (${momCount})`;
+    }
+    if (chip52w) {
+      const count52 = top20Swing.filter(s => (s.breakout_proximity_pct !== null && s.breakout_proximity_pct <= 5.0) || (s.current_price >= (s.breakout_level || s.current_price)) || (s.primary_pattern || '').toLowerCase().includes('52w') || (s.primary_pattern || '').toLowerCase().includes('breakout')).length;
+      chip52w.textContent = `⚡ 52W High (${count52})`;
+    }
+    if (chipOver) {
+      const overCount = top20Swing.filter(s => (s.rsi_14 || 50) <= 52 || (s.day_change_pct || 0) <= 0.8 || (s.primary_pattern || '').toLowerCase().includes('oversold') || (s.primary_pattern || '').toLowerCase().includes('support')).length;
+      chipOver.textContent = `🔄 Oversold Rebound (${overCount})`;
     }
 
     applyFiltersAndRender(top20Swing);

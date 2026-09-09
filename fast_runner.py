@@ -12,6 +12,7 @@ def get_ist_now():
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import analyzer
 import google_sheet_manager
+import yfinance as yf
 
 STATUS_FILE = os.path.join(os.path.dirname(__file__), "scan_status.json")
 
@@ -98,12 +99,43 @@ def run_fast_analysis(csv_path="stocks.csv", output_json="analysis_data.json", o
 
     elapsed = round(time.time() - start_time, 1)
 
+    # Fetch live NIFTY 50 and SENSEX benchmark indices
+    indices = {}
+    try:
+        n_info = yf.Ticker('^NSEI').fast_info
+        n_price = round(float(n_info.last_price), 2)
+        n_prev = float(n_info.previous_close) if n_info.previous_close else n_price
+        n_diff = round(n_price - n_prev, 2)
+        n_pct = round((n_diff / n_prev) * 100, 2) if n_prev else 0.0
+        indices['nifty'] = {
+            'price': f"{n_price:,.2f}",
+            'raw_price': n_price,
+            'change_pts': f"{'+' if n_diff >= 0 else ''}{n_diff:,.2f}",
+            'change_pct': f"{'+' if n_pct >= 0 else ''}{n_pct:.2f}%",
+            'is_positive': n_pct >= 0
+        }
+    except Exception as e:
+        print(f"[FAST RUNNER] NIFTY fetch error: {e}")
+
+    try:
+        s_info = yf.Ticker('^BSESN').fast_info
+        s_price = round(float(s_info.last_price), 2)
+        s_prev = float(s_info.previous_close) if s_info.previous_close else s_price
+        s_diff = round(s_price - s_prev, 2)
+        s_pct = round((s_diff / s_prev) * 100, 2) if s_prev else 0.0
+        indices['sensex'] = {
+            'price': f"{s_price:,.2f}",
+            'raw_price': s_price,
+            'change_pts': f"{'+' if s_diff >= 0 else ''}{s_diff:,.2f}",
+            'change_pct': f"{'+' if s_pct >= 0 else ''}{s_pct:.2f}%",
+            'is_positive': s_pct >= 0
+        }
+    except Exception as e:
+        print(f"[FAST RUNNER] SENSEX fetch error: {e}")
+
     summary_stats = {
         "last_updated": get_ist_now().strftime("%d-%b-%Y %I:%M:%S %p IST (Indian Standard Time)"),
-
-
-
-
+        "indices": indices,
         "total_stocks_scanned": len(analyzed),
         "swing_top_20_count": len(top_20_swing),
         "strong_buys_count": sum(1 for s in analyzed if s['long_term_signal'] in ['STRONG BUY', 'ACCUMULATE']),

@@ -20,137 +20,187 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=20260909182935">
-  <script src="analysis_data.js?v=20260909182935"></script>
+  <link rel="stylesheet" href="styles.css?v=20260909183400">
+  <script src="analysis_data.js?v=20260909183400"></script>
 </head>
 
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="header-container">
-      <div class="brand">
-        <div class="brand-icon">📈</div>
-        <div class="brand-text">
-          <h1>My Watchlist</h1>
-          <p>Indian Equities Daily Screener & Swing Radar</p>
-        </div>
-      </div>
-      <div class="header-actions">
-        <div class="timestamp-badge" id="lastUpdatedBadge">
-          <span class="pulse-indicator" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block;"></span>
-          <span>Loading analysis...</span>
-        </div>
-        <button class="btn btn-success" id="btnAddStockHeader" title="Add BSE or NSE Stock to Watchlist">
-          <span>➕ Add Stock</span>
-        </button>
-        <button class="btn btn-primary" id="btnRefresh">
-          <span id="refreshIcon">🔄</span>
-          <span>Refresh Analysis</span>
-        </button>
-        <button class="btn btn-outline" id="btnClearCache" title="Force Clear iPhone Cache">
-          <span>⚡ Reset Cache</span>
-        </button>
+  <!-- Desktop Sidebar Navigation (Visible on Laptop / Desktop >= 1024px) -->
+  <nav class="desktop-sidebar" id="desktopSidebar">
+    <div class="sidebar-status-box">
+      <div class="sidebar-status-pill">
+        <span class="pulse-indicator" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block;"></span>
+        <span>Market Open</span>
       </div>
     </div>
-  </header>
-
-  <!-- Bento Market Overview Banner -->
-  <section class="welcome-banner">
-    <div class="market-bento-grid">
-      <!-- NIFTY 50 -->
-      <div class="bento-item">
-        <div class="bento-header">
-          <span class="bento-label">NIFTY 50</span>
-          <span class="bento-delta positive" id="bentoNiftyDelta">+0.59%</span>
+    <div class="sidebar-nav-links">
+      <button class="sidebar-link active" data-tab="tab-swing">
+        <div class="sidebar-link-inner">
+          <span style="font-size:16px;">🚀</span>
+          <span>20 Best Swing</span>
         </div>
-        <div class="bento-value" id="bentoNiftyVal">24,389.20</div>
-        <div class="bento-subtext">📈 Benchmark Index</div>
+        <span class="sidebar-badge" id="sidebarSwingBadge">20</span>
+      </button>
+      <button class="sidebar-link" data-tab="tab-watchlist">
+        <div class="sidebar-link-inner">
+          <span style="font-size:16px;">📊</span>
+          <span>My Watchlist</span>
+        </div>
+      </button>
+      <button class="sidebar-link" data-tab="tab-swot">
+        <div class="sidebar-link-inner">
+          <span style="font-size:16px;">💪</span>
+          <span>SWOT Analysis</span>
+        </div>
+      </button>
+      <button class="sidebar-link" data-tab="tab-info">
+        <div class="sidebar-link-inner">
+          <span style="font-size:16px;">ℹ️</span>
+          <span>System Information</span>
+        </div>
+      </button>
+
+      <div class="sidebar-search-box">
+        <span style="font-size:12px; color:var(--text-muted);">🔍</span>
+        <input type="text" id="sidebarSearchInput" placeholder="Quick find ticker...">
       </div>
 
-      <!-- SENSEX -->
-      <div class="bento-item">
-        <div class="bento-header">
-          <span class="bento-label">SENSEX</span>
-          <span class="bento-delta positive" id="bentoSensexDelta">+0.52%</span>
-        </div>
-        <div class="bento-value" id="bentoSensexVal">80,118.95</div>
-        <div class="bento-subtext">📈 BSE Index</div>
-      </div>
-
-      <!-- Total Scanned -->
-      <div class="bento-item">
-        <div class="bento-header">
-          <span class="bento-label">Total Scanned</span>
-          <span style="font-size:14px;">📡</span>
-        </div>
-        <div class="bento-value" id="totalScannedPill" style="color:var(--primary);">-- Stocks</div>
-        <div class="bento-subtext">NSE/BSE Watchlist Universe</div>
-      </div>
-
-      <!-- Best Swing Picks -->
-      <div class="bento-item">
-        <div class="bento-header">
-          <span class="bento-label">Best Swing</span>
-          <span style="font-size:14px;">🎯</span>
-        </div>
-        <div class="bento-value" id="swingPicksPill" style="color:var(--success);">20 Picks</div>
-        <div class="bento-subtext">1-15 Day Horizon</div>
-      </div>
-
-      <!-- Google Sheet Sync -->
-      <div class="bento-item">
-        <div class="bento-header">
-          <span class="bento-label">Sheet Sync</span>
-          <span style="font-size:14px;">📊</span>
-        </div>
-        <div class="bento-value" style="font-size:14px; display:flex; align-items:center; gap:6px; color:var(--success); margin-top:8px;">
-          <span class="pulse-indicator" style="width:8px; height:8px; border-radius:50%; background:var(--success); display:inline-block;"></span>
-          <span>Connected</span>
-        </div>
-        <div class="bento-subtext">Spark Stock List</div>
-      </div>
+      <button class="sidebar-add-btn" id="btnSidebarAddStock">
+        <span>➕</span>
+        <span>Add Stock</span>
+      </button>
     </div>
-  </section>
-
-  <!-- Filter Chips Bar -->
-  <div class="filter-bar">
-    <div class="filter-search-box">
-      <span class="filter-search-icon">🔍</span>
-      <input type="text" id="quickFilterInput" placeholder="Filter ticker, tag or setup...">
-    </div>
-    <div class="filter-chips-container">
-      <button class="filter-chip active" data-filter="all">All (20)</button>
-      <button class="filter-chip" data-filter="breakout">⚡ Near Breakout</button>
-      <button class="filter-chip" data-filter="momentum">🔥 High Momentum</button>
-      <button class="filter-chip" data-filter="volume">📊 High Volume (RVOL)</button>
-      <button class="filter-chip" data-filter="lowdebt">🛡️ Zero / Low Debt</button>
-    </div>
-  </div>
-
-  <!-- Nav Tabs -->
-  <nav class="tabs-nav">
-    <button class="tab-btn active" data-tab="tab-swing">🚀 20 Best Swing Trading Stocks (1-15 Days)</button>
-    <button class="tab-btn" data-tab="tab-watchlist">📊 My Watchlist</button>
-
-    <button class="tab-btn" data-tab="tab-swot">💪 Strength & Weakness</button>
-    <button class="tab-btn" data-tab="tab-info">ℹ️ System Information</button>
   </nav>
 
-  <!-- Main Layout Container -->
-  <main class="main-container">
-    
-    <!-- Tab 1: 20 Best Swing Trading Stocks -->
-    <section id="tab-swing" class="tab-content">
-      <div style="margin-bottom:12px;">
-        <h2 style="font-size:18px; font-weight:800;">20 Best Stocks for Today's Movement (1 - 15 Days Swing)</h2>
-        <p style="font-size:13px; color:var(--text-muted);">Filtered for high volume expansion, 20D/52W breakouts, positive MACD, and fundamental support.</p>
-      </div>
+  <!-- Main Content Wrapper (Offset for sidebar on desktop) -->
+  <div class="main-content-wrapper">
 
-      <div class="cards-grid" id="swingCardsGrid">
-        <!-- Dynamically populated -->
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <div class="brand">
+          <div class="brand-icon">📈</div>
+          <div class="brand-text">
+            <h1>My Watchlist</h1>
+            <p>Indian Equities Daily Screener & Swing Radar</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <div class="timestamp-badge" id="lastUpdatedBadge">
+            <span class="pulse-indicator" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block;"></span>
+            <span>Loading analysis...</span>
+          </div>
+          <button class="btn btn-success" id="btnAddStockHeader" title="Add BSE or NSE Stock to Watchlist">
+            <span>➕ Add Stock</span>
+          </button>
+          <button class="btn btn-primary" id="btnRefresh">
+            <span id="refreshIcon">🔄</span>
+            <span>Refresh Analysis</span>
+          </button>
+          <button class="btn btn-outline" id="btnClearCache" title="Force Clear iPhone Cache">
+            <span>⚡ Reset Cache</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Bento Market Overview Banner -->
+    <section class="welcome-banner">
+      <div class="market-bento-grid">
+        <!-- NIFTY 50 -->
+        <div class="bento-item">
+          <div class="bento-header">
+            <span class="bento-label">NIFTY 50</span>
+            <span class="bento-delta" id="bentoNiftyDelta">-0.86%</span>
+          </div>
+          <div class="bento-value" id="bentoNiftyVal">23,431.50</div>
+          <div class="bento-subtext" id="bentoNiftySubtext">📉 -203.60 pts</div>
+        </div>
+
+        <!-- SENSEX -->
+        <div class="bento-item">
+          <div class="bento-header">
+            <span class="bento-label">SENSEX</span>
+            <span class="bento-delta" id="bentoSensexDelta">-1.08%</span>
+          </div>
+          <div class="bento-value" id="bentoSensexVal">74,764.23</div>
+          <div class="bento-subtext" id="bentoSensexSubtext">📉 -813.35 pts</div>
+        </div>
+
+        <!-- Total Scanned -->
+        <div class="bento-item">
+          <div class="bento-header">
+            <span class="bento-label">Total Scanned</span>
+            <span style="font-size:14px;">📡</span>
+          </div>
+          <div class="bento-value" id="totalScannedPill" style="color:var(--primary);">139 Stocks</div>
+          <div class="bento-subtext">NSE/BSE Watchlist Universe</div>
+        </div>
+
+        <!-- Best Swing Picks -->
+        <div class="bento-item">
+          <div class="bento-header">
+            <span class="bento-label">Best Swing</span>
+            <span style="font-size:14px;">🎯</span>
+          </div>
+          <div class="bento-value" id="swingPicksPill" style="color:var(--success);">20 Picks</div>
+          <div class="bento-subtext">1-15 Day Horizon</div>
+        </div>
+
+        <!-- Google Sheet Sync -->
+        <div class="bento-item">
+          <div class="bento-header">
+            <span class="bento-label">Sheet Sync</span>
+            <span style="font-size:14px;">📊</span>
+          </div>
+          <div class="bento-value" style="font-size:14px; display:flex; align-items:center; gap:6px; color:var(--success); margin-top:8px;">
+            <span class="pulse-indicator" style="width:8px; height:8px; border-radius:50%; background:var(--success); display:inline-block;"></span>
+            <span>Connected</span>
+          </div>
+          <div class="bento-subtext">Spark Stock List</div>
+        </div>
       </div>
     </section>
+
+    <!-- Mobile Nav Tabs (Visible on Tablet / Mobile, hidden on Desktop where Sidebar is primary) -->
+    <nav class="tabs-nav">
+      <button class="tab-btn active" data-tab="tab-swing">🚀 20 Best Swing</button>
+      <button class="tab-btn" data-tab="tab-watchlist">📊 My Watchlist</button>
+      <button class="tab-btn" data-tab="tab-swot">💪 SWOT Analysis</button>
+      <button class="tab-btn" data-tab="tab-info">ℹ️ System Info</button>
+    </nav>
+
+    <!-- Main Layout Container -->
+    <main class="main-container">
+      
+      <!-- Tab 1: 20 Best Swing Trading Stocks -->
+      <section id="tab-swing" class="tab-content">
+        <div style="margin-bottom:12px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+          <div>
+            <h2 style="font-size:18px; font-weight:800;">20 Best Stocks for Today's Movement (1 - 15 Days Swing)</h2>
+            <p style="font-size:13px; color:var(--text-muted);">Filtered for high volume expansion, 20D/52W breakouts, positive MACD, and fundamental support.</p>
+          </div>
+        </div>
+
+        <!-- Stitch Filter Bar Tabs -->
+        <div class="filter-bar" style="margin: 6px 0 16px 0; padding: 0;">
+          <div class="filter-search-box">
+            <span class="filter-search-icon">🔍</span>
+            <input type="text" id="quickFilterInput" placeholder="Filter ticker, sector or setup (e.g. TCS)...">
+          </div>
+          <div class="filter-chips-container">
+            <button class="filter-chip active" data-filter="all">All (20)</button>
+            <button class="filter-chip" data-filter="momentum">🔥 High Momentum</button>
+            <button class="filter-chip" data-filter="52w">⚡ 52W High</button>
+            <button class="filter-chip" data-filter="oversold">🔄 Oversold Rebound</button>
+          </div>
+        </div>
+
+        <div class="cards-grid" id="swingCardsGrid">
+          <!-- Dynamically populated -->
+        </div>
+      </section>
 
     <!-- Tab 2: My Watchlist -->
 
@@ -397,6 +447,7 @@
     </section>
 
   </main>
+  </div> <!-- /.main-content-wrapper -->
 
   <!-- Add Stock Modal -->
   <div class="modal-overlay" id="addStockModal">
@@ -651,7 +702,7 @@ function fillFormulasForAllRows() {
   </nav>
 
   <script src="stocks_directory.js?v=202609081245"></script>
-  <script src="app.js?v=20260909182935"></script>
+  <script src="app.js?v=20260909183400"></script>
 </body>
 </html>
 
