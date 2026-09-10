@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "10-Sep-2026 03:45:59 PM IST (Indian Standard Time)",
+    "last_updated": "10-Sep-2026 04:01:11 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,477.80",
@@ -22,7 +22,7 @@
     "strong_buys_count": 19,
     "pattern_breakouts_count": 31,
     "upcoming_3d_events_count": 132,
-    "scan_time_seconds": 17.1
+    "scan_time_seconds": 25.3
   },
   "top_20_swing": [
     {
@@ -4900,7 +4900,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 23.8,
       "earnings_growth_yoy": -0.2,
-      "dividend_yield": 167.0,
+      "dividend_yield": 165.0,
       "promoter_holding": 74.1,
       "institutional_holding": 2.6,
       "pledged_pct": 0.0,
@@ -8245,7 +8245,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 0.8,
       "earnings_growth_yoy": 0.4,
-      "dividend_yield": 236.0,
+      "dividend_yield": 233.0,
       "promoter_holding": 60.8,
       "institutional_holding": 20.1,
       "pledged_pct": 0.0,
@@ -8411,7 +8411,7 @@
       "debt_score_penalty": 5,
       "rev_growth_yoy": 14.3,
       "earnings_growth_yoy": 18.2,
-      "dividend_yield": 211.0,
+      "dividend_yield": 215.0,
       "promoter_holding": 46.0,
       "institutional_holding": 8.2,
       "pledged_pct": 0.0,
@@ -8654,7 +8654,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 11.9,
       "earnings_growth_yoy": 27.9,
-      "dividend_yield": 99.0,
+      "dividend_yield": 100.0,
       "promoter_holding": 34.4,
       "institutional_holding": 34.4,
       "pledged_pct": 0.0,
@@ -8981,7 +8981,7 @@
       "debt_score_penalty": 15,
       "rev_growth_yoy": 8.0,
       "earnings_growth_yoy": -1.6,
-      "dividend_yield": 373.0,
+      "dividend_yield": 369.0,
       "promoter_holding": 54.0,
       "institutional_holding": 38.4,
       "pledged_pct": 0.0,
@@ -9144,7 +9144,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 1.5,
       "earnings_growth_yoy": -14.3,
-      "dividend_yield": 226.0,
+      "dividend_yield": 223.0,
       "promoter_holding": 50.3,
       "institutional_holding": 0.5,
       "pledged_pct": 0.0,
@@ -9179,10 +9179,10 @@
           "date_tag": "Tomorrow",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (226.00% Yield)",
+          "title": "Ex-Dividend Event (223.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (226.00%) attracts income investors."
+          "impact_reason": "High dividend yield (223.00%) attracts income investors."
         },
         {
           "date": "2026-09-09",
@@ -9197,7 +9197,7 @@
       ],
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9184.18** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.54x. \u2022 **Sell/Stop Loss Trigger:** \u20b9172.74 \u2022 **Target 1:** \u20b9184.00 \u2022 **Target 2:** \u20b9215.22",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Tomorrow): Dividend Ex-Date - Ex-Dividend Event (226.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (Tomorrow): Dividend Ex-Date - Ex-Dividend Event (223.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Yesterday): Earnings Caution - Earnings De-growth (YoY Profit Drop -14.3%)",
         "\u26a1 Breakout Zone: Only 3.3% away from breakout trigger (\u20b9184.18)"
       ],
@@ -9904,7 +9904,7 @@
       "debt_score_penalty": 15,
       "rev_growth_yoy": 26.1,
       "earnings_growth_yoy": 27.2,
-      "dividend_yield": 51.0,
+      "dividend_yield": 52.0,
       "promoter_holding": 56.5,
       "institutional_holding": 27.2,
       "pledged_pct": 0.0,
@@ -10315,7 +10315,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 34.9,
       "earnings_growth_yoy": -17.2,
-      "dividend_yield": 347.0,
+      "dividend_yield": 355.0,
       "promoter_holding": 37.2,
       "institutional_holding": 39.0,
       "pledged_pct": 0.0,
@@ -10631,7 +10631,7 @@
       "macd_val": -5.66,
       "macd_signal": -4.76,
       "macd_hist": -0.9,
-      "pe_ratio": 47.59,
+      "pe_ratio": 47.7,
       "roe": 0.0,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -11297,7 +11297,7 @@
       "debt_score_penalty": 5,
       "rev_growth_yoy": 38.5,
       "earnings_growth_yoy": 0.0,
-      "dividend_yield": 614.0,
+      "dividend_yield": 608.0,
       "promoter_holding": 73.4,
       "institutional_holding": 14.3,
       "pledged_pct": 0.0,
@@ -14677,10 +14677,10 @@
       "date_tag": "Tomorrow",
       "is_upcoming_3_days": true,
       "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (226.00% Yield)",
+      "title": "Ex-Dividend Event (223.00% Yield)",
       "summary": "Ex-dividend date for payout.",
       "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (226.00%) attracts income investors.",
+      "impact_reason": "High dividend yield (223.00%) attracts income investors.",
       "symbol": "NCLIND.NS",
       "clean_symbol": "NCLIND",
       "name": "Ncl Industries Ltd"
