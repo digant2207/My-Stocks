@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "10-Sep-2026 04:01:11 PM IST (Indian Standard Time)",
+    "last_updated": "10-Sep-2026 04:15:53 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,477.80",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 19,
     "pattern_breakouts_count": 31,
     "upcoming_3d_events_count": 132,
-    "scan_time_seconds": 25.3
+    "scan_time_seconds": 15.7
   },
   "top_20_swing": [
     {
@@ -10631,7 +10631,7 @@ window.stockData = {
       "macd_val": -5.66,
       "macd_signal": -4.76,
       "macd_hist": -0.9,
-      "pe_ratio": 47.7,
+      "pe_ratio": 47.59,
       "roe": 0.0,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
