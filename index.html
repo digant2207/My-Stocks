@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css?v=20260910103116">
+  <link rel="stylesheet" href="styles.css?v=20260910103700">
   <script src="analysis_data.js?v=20260910103116"></script>
 </head>
 
@@ -381,6 +381,30 @@
           <div>
             <button class="btn btn-outline btn-sm" id="btnEmailModal" style="width:100%; justify-content:center;">
               ⚙️ Manage Email Settings
+            </button>
+          </div>
+        </div>
+
+        <!-- Last Analysis Update & Screener Status Card -->
+        <div class="widget-card" style="border-top:4px solid var(--purple); display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px;">
+              <h3 style="font-size:15px; font-weight:700; color:var(--text-primary); display:flex; align-items:center; gap:8px;">
+                <span>⏱️</span> Screener Last Update
+              </h3>
+              <span class="badge" style="font-size:11px; padding:3px 8px; background:var(--purple-bg); color:var(--purple); font-weight:700; border-radius:var(--radius-sm);">Status</span>
+            </div>
+            <p style="font-size:13px; color:var(--text-secondary); line-height:1.5; margin-bottom:10px;">
+              Latest full technical and algorithmic analysis timestamp:
+            </p>
+            <div style="background:var(--bg-subtle); border:1px solid var(--border-color); padding:8px 12px; border-radius:var(--radius-md); font-family:var(--font-mono); font-size:12px; font-weight:600; color:var(--text-primary); display:flex; align-items:center; gap:8px; margin-bottom:14px; word-break:break-word;">
+              <span class="pulse-indicator" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block; flex-shrink:0;"></span>
+              <span id="systemInfoLastUpdated">Loading analysis...</span>
+            </div>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-sm" id="btnRefreshSystemInfo" style="width:100%; justify-content:center;">
+              🔄 Refresh Analysis Now
             </button>
           </div>
         </div>
@@ -774,7 +798,7 @@ function fillFormulasForAllRows() {
   </nav>
 
   <script src="stocks_directory.js?v=202609081245"></script>
-  <script src="app.js?v=20260910103116"></script>
+  <script src="app.js?v=20260910103700"></script>
 </body>
 </html>
 

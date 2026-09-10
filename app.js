@@ -315,8 +315,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const allStocks = data.all_stocks || [];
 
     const scannedCount = summary.total_stocks_scanned || summary.total_stocks || allStocks.length || 0;
+    const rawUpdated = summary.last_updated || 'Just now';
+    const cleanUpdated = rawUpdated.replace(/\s*\(Indian Standard Time\)/i, '');
     if (lastUpdatedBadge) {
-      lastUpdatedBadge.innerHTML = `<span class="pulse-indicator" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block;"></span> <span>Updated: ${summary.last_updated || 'Just now'}</span>`;
+      lastUpdatedBadge.innerHTML = `<span class="pulse-indicator" style="width:7px; height:7px; border-radius:50%; background:var(--success); display:inline-block; flex-shrink:0;"></span> <span class="update-text">Updated: ${cleanUpdated}</span>`;
+      lastUpdatedBadge.setAttribute('title', rawUpdated);
+    }
+    const systemInfoLastUpdated = document.getElementById('systemInfoLastUpdated');
+    if (systemInfoLastUpdated) {
+      systemInfoLastUpdated.textContent = rawUpdated;
     }
     if (totalScannedPill) {
       totalScannedPill.textContent = `${scannedCount} Stocks`;
@@ -948,6 +955,13 @@ document.addEventListener('DOMContentLoaded', () => {
       headers: { 'Bypass-Tunnel-Reminder': 'true', 'Content-Type': 'application/json' }
     }).catch(() => {});
   });
+
+  const btnRefreshSystemInfo = document.getElementById('btnRefreshSystemInfo');
+  if (btnRefreshSystemInfo) {
+    btnRefreshSystemInfo.addEventListener('click', () => {
+      btnRefresh.click();
+    });
+  }
 
 
 

@@ -1173,8 +1173,66 @@ body {
     padding-bottom: 90px;
   }
 
+  .header {
+    padding: 10px 14px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 18px;
+  }
+
+  .brand-text h1 {
+    font-size: 16px;
+  }
+
+  .brand-text p {
+    font-size: 10.5px;
+  }
+
+  .header-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+  }
+
   .header-actions .timestamp-badge {
-    display: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    order: -1;
+    padding: 6px 12px;
+    font-size: 11px;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-pill);
+    box-shadow: var(--shadow-xs);
+    text-align: center;
+    color: var(--text-secondary);
+    font-weight: 600;
+  }
+
+  .header-actions .btn {
+    flex: 1 1 auto;
+    height: 34px;
+    padding: 0 10px;
+    font-size: 12px;
+    gap: 4px;
   }
 
   .market-bento-grid {
