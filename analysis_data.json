@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "11-Sep-2026 04:16:04 PM IST (Indian Standard Time)",
+    "last_updated": "11-Sep-2026 04:31:06 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,398.10",
@@ -22,7 +22,7 @@
     "strong_buys_count": 17,
     "pattern_breakouts_count": 23,
     "upcoming_3d_events_count": 130,
-    "scan_time_seconds": 21.0
+    "scan_time_seconds": 16.6
   },
   "top_20_swing": [
     {
@@ -929,7 +929,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 15.2,
       "earnings_growth_yoy": 1.9,
-      "dividend_yield": 259.0,
+      "dividend_yield": 257.0,
       "promoter_holding": 70.1,
       "institutional_holding": 19.3,
       "pledged_pct": 0.0,
@@ -1187,7 +1187,7 @@
       "debt_score_penalty": 5,
       "rev_growth_yoy": 57.7,
       "earnings_growth_yoy": 91.4,
-      "dividend_yield": 261.0,
+      "dividend_yield": 260.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.6,
       "pledged_pct": 0.0,
@@ -1222,10 +1222,10 @@
           "date_tag": "04 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (261.00% Yield)",
+          "title": "Ex-Dividend Event (260.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (261.00%) attracts income investors."
+          "impact_reason": "High dividend yield (260.00%) attracts income investors."
         },
         {
           "date": "2026-09-11",
@@ -1241,7 +1241,7 @@
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9514.96** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 2.13x. \u2022 **Sell/Stop Loss Trigger:** \u20b9475.74 \u2022 **Target 1:** \u20b9514.45 \u2022 **Target 2:** \u20b9546.68",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+91.4%) & Revenue (+57.7%)",
-        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (261.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (260.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +91.4%)",
         "\ud83d\udd25 Heavy Volume Surge: 2.13x of 1M Avg Volume",
         "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25",
@@ -1368,7 +1368,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 25.7,
       "earnings_growth_yoy": 21.4,
-      "dividend_yield": 620.0,
+      "dividend_yield": 611.0,
       "promoter_holding": 69.2,
       "institutional_holding": 22.7,
       "pledged_pct": 0.0,
@@ -1403,10 +1403,10 @@
           "date_tag": "04 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (620.00% Yield)",
+          "title": "Ex-Dividend Event (611.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (620.00%) attracts income investors."
+          "impact_reason": "High dividend yield (611.00%) attracts income investors."
         },
         {
           "date": "2026-09-11",
@@ -1422,7 +1422,7 @@
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9243.40** \u2022 Consolidating in **VCP Volatility Contraction \ud83d\udcc9\u26a1** base (Consolidation Range). Volume RVOL: 2.25x. \u2022 **Sell/Stop Loss Trigger:** \u20b9226.36 \u2022 **Target 1:** \u20b9239.39 \u2022 **Target 2:** \u20b9245.03",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+21.4%) & Revenue (+25.7%)",
-        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (620.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (611.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +21.4%)",
         "\ud83d\udcc8 Chart Pattern: VCP Volatility Contraction \ud83d\udcc9\u26a1 (Bullish Breakout \ud83d\ude80)",
         "\ud83d\udd25 Heavy Volume Surge: 2.25x of 1M Avg Volume"
@@ -1549,7 +1549,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 33.7,
       "earnings_growth_yoy": -13.4,
-      "dividend_yield": 220.0,
+      "dividend_yield": 211.0,
       "promoter_holding": 64.8,
       "institutional_holding": 12.7,
       "pledged_pct": 0.0,
@@ -1584,10 +1584,10 @@
           "date_tag": "18 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (220.00% Yield)",
+          "title": "Ex-Dividend Event (211.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (220.00%) attracts income investors."
+          "impact_reason": "High dividend yield (211.00%) attracts income investors."
         },
         {
           "date": "2026-09-11",
@@ -1602,7 +1602,7 @@
       ],
       "ai_suggestion": "**\u26a1 WATCHLIST BREAKOUT ZONE - BUY TRIGGER: \u20b9959.96** \u2022 Coiling **1.6% away** from breakout level (\u20b9959.00) in **Range Consolidation** setup. \u2022 **Sell/Stop Loss Trigger:** \u20b9887.78 \u2022 **Target 1:** \u20b9959.00 \u2022 **Target 2:** \u20b91,189.90",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (18 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (220.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (18 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (211.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +-13.4%)",
         "\u26a1 Breakout Zone: Only 1.6% away from breakout trigger (\u20b9959.96)",
         "\ud83d\udd25 Heavy Volume Surge: 1.56x of 1M Avg Volume",
@@ -2775,7 +2775,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 15.2,
       "earnings_growth_yoy": 1.9,
-      "dividend_yield": 259.0,
+      "dividend_yield": 257.0,
       "promoter_holding": 70.1,
       "institutional_holding": 19.3,
       "pledged_pct": 0.0,
@@ -3118,7 +3118,7 @@
       "debt_score_penalty": 5,
       "rev_growth_yoy": 57.7,
       "earnings_growth_yoy": 91.4,
-      "dividend_yield": 261.0,
+      "dividend_yield": 260.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.6,
       "pledged_pct": 0.0,
@@ -3153,10 +3153,10 @@
           "date_tag": "04 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (261.00% Yield)",
+          "title": "Ex-Dividend Event (260.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (261.00%) attracts income investors."
+          "impact_reason": "High dividend yield (260.00%) attracts income investors."
         },
         {
           "date": "2026-09-11",
@@ -3172,7 +3172,7 @@
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9514.96** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 2.13x. \u2022 **Sell/Stop Loss Trigger:** \u20b9475.74 \u2022 **Target 1:** \u20b9514.45 \u2022 **Target 2:** \u20b9546.68",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+91.4%) & Revenue (+57.7%)",
-        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (261.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (260.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +91.4%)",
         "\ud83d\udd25 Heavy Volume Surge: 2.13x of 1M Avg Volume",
         "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25",
@@ -3299,7 +3299,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 25.7,
       "earnings_growth_yoy": 21.4,
-      "dividend_yield": 620.0,
+      "dividend_yield": 611.0,
       "promoter_holding": 69.2,
       "institutional_holding": 22.7,
       "pledged_pct": 0.0,
@@ -3334,10 +3334,10 @@
           "date_tag": "04 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (620.00% Yield)",
+          "title": "Ex-Dividend Event (611.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (620.00%) attracts income investors."
+          "impact_reason": "High dividend yield (611.00%) attracts income investors."
         },
         {
           "date": "2026-09-11",
@@ -3353,7 +3353,7 @@
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9243.40** \u2022 Consolidating in **VCP Volatility Contraction \ud83d\udcc9\u26a1** base (Consolidation Range). Volume RVOL: 2.25x. \u2022 **Sell/Stop Loss Trigger:** \u20b9226.36 \u2022 **Target 1:** \u20b9239.39 \u2022 **Target 2:** \u20b9245.03",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+21.4%) & Revenue (+25.7%)",
-        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (620.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (04 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (611.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +21.4%)",
         "\ud83d\udcc8 Chart Pattern: VCP Volatility Contraction \ud83d\udcc9\u26a1 (Bullish Breakout \ud83d\ude80)",
         "\ud83d\udd25 Heavy Volume Surge: 2.25x of 1M Avg Volume"
@@ -3480,7 +3480,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 33.7,
       "earnings_growth_yoy": -13.4,
-      "dividend_yield": 220.0,
+      "dividend_yield": 211.0,
       "promoter_holding": 64.8,
       "institutional_holding": 12.7,
       "pledged_pct": 0.0,
@@ -3515,10 +3515,10 @@
           "date_tag": "18 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (220.00% Yield)",
+          "title": "Ex-Dividend Event (211.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (220.00%) attracts income investors."
+          "impact_reason": "High dividend yield (211.00%) attracts income investors."
         },
         {
           "date": "2026-09-11",
@@ -3533,7 +3533,7 @@
       ],
       "ai_suggestion": "**\u26a1 WATCHLIST BREAKOUT ZONE - BUY TRIGGER: \u20b9959.96** \u2022 Coiling **1.6% away** from breakout level (\u20b9959.00) in **Range Consolidation** setup. \u2022 **Sell/Stop Loss Trigger:** \u20b9887.78 \u2022 **Target 1:** \u20b9959.00 \u2022 **Target 2:** \u20b91,189.90",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (18 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (220.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (18 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (211.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +-13.4%)",
         "\u26a1 Breakout Zone: Only 1.6% away from breakout trigger (\u20b9959.96)",
         "\ud83d\udd25 Heavy Volume Surge: 1.56x of 1M Avg Volume",
@@ -4279,7 +4279,7 @@
       "macd_val": -2.0,
       "macd_signal": 10.82,
       "macd_hist": -12.82,
-      "pe_ratio": 2.77,
+      "pe_ratio": 2.83,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -4528,7 +4528,7 @@
       "macd_val": 0.32,
       "macd_signal": 0.11,
       "macd_hist": 0.21,
-      "pe_ratio": 19.76,
+      "pe_ratio": 19.35,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -4712,7 +4712,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": -5.4,
       "earnings_growth_yoy": 0.0,
-      "dividend_yield": 28.0,
+      "dividend_yield": 27.0,
       "promoter_holding": 41.9,
       "institutional_holding": 1.1,
       "pledged_pct": 0.0,
@@ -5718,7 +5718,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": -27.8,
       "earnings_growth_yoy": -80.0,
-      "dividend_yield": 8.0,
+      "dividend_yield": 7.0,
       "promoter_holding": 43.6,
       "institutional_holding": 10.1,
       "pledged_pct": 0.0,
@@ -6396,7 +6396,7 @@
       "macd_val": -24.08,
       "macd_signal": 26.12,
       "macd_hist": -50.2,
-      "pe_ratio": 14.11,
+      "pe_ratio": 13.99,
       "roe": 11.6,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -6738,7 +6738,7 @@
       "macd_val": 39.79,
       "macd_signal": 46.54,
       "macd_hist": -6.75,
-      "pe_ratio": 69.71,
+      "pe_ratio": 69.61,
       "roe": 0.0,
       "debt_to_equity": 0.43,
       "debt_status": "Low Debt (Healthy)",
@@ -6795,7 +6795,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 69.7x"
+        "\u26a0\ufe0f High Valuation P/E: 69.6x"
       ]
     },
     {
@@ -7248,7 +7248,7 @@
       "macd_val": -1.2,
       "macd_signal": -1.14,
       "macd_hist": -0.06,
-      "pe_ratio": 19.78,
+      "pe_ratio": 19.27,
       "roe": 39.4,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -7750,7 +7750,7 @@
       "macd_val": -9.6,
       "macd_signal": -5.71,
       "macd_hist": -3.9,
-      "pe_ratio": 36.71,
+      "pe_ratio": 37.72,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -8167,7 +8167,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 22.0,
       "earnings_growth_yoy": 11.7,
-      "dividend_yield": 252.0,
+      "dividend_yield": 255.0,
       "promoter_holding": 70.0,
       "institutional_holding": 1.3,
       "pledged_pct": 0.0,
@@ -8202,10 +8202,10 @@
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (252.00% Yield)",
+          "title": "Ex-Dividend Event (255.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (252.00%) attracts income investors."
+          "impact_reason": "High dividend yield (255.00%) attracts income investors."
         },
         {
           "date": "2026-09-11",
@@ -8221,7 +8221,7 @@
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9641.37** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 1.02x. \u2022 **Sell/Stop Loss Trigger:** \u20b9587.99 \u2022 **Target 1:** \u20b9632.58 \u2022 **Target 2:** \u20b9646.96",
       "strengths": [
         "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+11.7%) & Revenue (+22.0%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (252.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (255.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +11.7%)",
         "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
       ],
@@ -8996,7 +8996,7 @@
       "debt_score_penalty": 5,
       "rev_growth_yoy": 34.5,
       "earnings_growth_yoy": 1.0,
-      "dividend_yield": 33.0,
+      "dividend_yield": 34.0,
       "promoter_holding": 72.7,
       "institutional_holding": 0.2,
       "pledged_pct": 0.0,
@@ -9031,10 +9031,10 @@
           "date_tag": "17 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (33.00% Yield)",
+          "title": "Ex-Dividend Event (34.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (33.00%) attracts income investors."
+          "impact_reason": "High dividend yield (34.00%) attracts income investors."
         },
         {
           "date": "2026-09-11",
@@ -9050,7 +9050,7 @@
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9325.32** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 1.52x. \u2022 **Sell/Stop Loss Trigger:** \u20b9285.85 \u2022 **Target 1:** \u20b9313.16 \u2022 **Target 2:** \u20b9330.47",
       "strengths": [
         "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+1.0%) & Revenue (+34.5%)",
-        "\ud83d\udcc5 Upcoming Event (17 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (33.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (17 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (34.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +1.0%)",
         "\ud83d\udd25 Heavy Volume Surge: 1.52x of 1M Avg Volume"
       ],
@@ -9673,7 +9673,7 @@
       "debt_score_penalty": 15,
       "rev_growth_yoy": -48.1,
       "earnings_growth_yoy": -49.6,
-      "dividend_yield": 252.0,
+      "dividend_yield": 249.0,
       "promoter_holding": 75.9,
       "institutional_holding": 0.0,
       "pledged_pct": 0.0,
@@ -9831,7 +9831,7 @@
       "macd_val": 3.18,
       "macd_signal": 4.24,
       "macd_hist": -1.05,
-      "pe_ratio": 130.62,
+      "pe_ratio": 124.68,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -9887,7 +9887,7 @@
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 130.6x"
+        "\u26a0\ufe0f High Valuation P/E: 124.7x"
       ]
     },
     {
@@ -10889,7 +10889,7 @@
       "macd_val": -7.28,
       "macd_signal": -7.73,
       "macd_hist": 0.45,
-      "pe_ratio": 9.13,
+      "pe_ratio": 9.12,
       "roe": 0.0,
       "debt_to_equity": 0.76,
       "debt_status": "Moderate Debt",
@@ -11376,7 +11376,7 @@
       "macd_val": -3.14,
       "macd_signal": -4.24,
       "macd_hist": 1.1,
-      "pe_ratio": 30.49,
+      "pe_ratio": 30.21,
       "roe": 0.0,
       "debt_to_equity": 1.68,
       "debt_status": "High Debt Warning",
@@ -11557,7 +11557,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 17.7,
       "earnings_growth_yoy": -29.6,
-      "dividend_yield": 156.0,
+      "dividend_yield": 157.0,
       "promoter_holding": 35.9,
       "institutional_holding": 16.6,
       "pledged_pct": 0.0,
@@ -12392,7 +12392,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": -8.5,
       "earnings_growth_yoy": 0.0,
-      "dividend_yield": 90.0,
+      "dividend_yield": 92.0,
       "promoter_holding": 34.5,
       "institutional_holding": 1.0,
       "pledged_pct": 0.0,
@@ -13115,7 +13115,7 @@
       "macd_val": -4.79,
       "macd_signal": -3.89,
       "macd_hist": -0.9,
-      "pe_ratio": 15.16,
+      "pe_ratio": 14.71,
       "roe": 0.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -13203,7 +13203,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": -30.7,
       "earnings_growth_yoy": -8.3,
-      "dividend_yield": 48.0,
+      "dividend_yield": 49.0,
       "promoter_holding": 48.3,
       "institutional_holding": 0.6,
       "pledged_pct": 0.0,
@@ -13451,7 +13451,7 @@
       "debt_score_penalty": 15,
       "rev_growth_yoy": 10.3,
       "earnings_growth_yoy": 9.7,
-      "dividend_yield": 356.0,
+      "dividend_yield": 358.0,
       "promoter_holding": 82.9,
       "institutional_holding": 4.8,
       "pledged_pct": 0.0,
@@ -14551,10 +14551,10 @@
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (252.00% Yield)",
+      "title": "Ex-Dividend Event (255.00% Yield)",
       "summary": "Ex-dividend date for payout.",
       "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (252.00%) attracts income investors.",
+      "impact_reason": "High dividend yield (255.00%) attracts income investors.",
       "symbol": "BANCOINDIA.NS",
       "clean_symbol": "BANCOINDIA",
       "name": "Banco Products (India) Ltd"
