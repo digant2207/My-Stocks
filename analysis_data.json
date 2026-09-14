@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "14-Sep-2026 02:32:55 PM IST (Indian Standard Time)",
+    "last_updated": "14-Sep-2026 02:46:03 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,398.10",
@@ -22,7 +22,7 @@
     "strong_buys_count": 14,
     "pattern_breakouts_count": 19,
     "upcoming_3d_events_count": 126,
-    "scan_time_seconds": 16.3
+    "scan_time_seconds": 19.3
   },
   "top_20_swing": [
     {
@@ -10095,6 +10095,86 @@
       ]
     },
     {
+      "symbol": "SHYAMCENT.NS",
+      "clean_symbol": "SHYAMCENT",
+      "name": "Shyam Century Ferrous Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 4.96,
+      "prev_close": 4.97,
+      "day_change_pct": -0.2,
+      "day_high": 4.96,
+      "day_low": 4.96,
+      "volume": 1,
+      "vol_1m_avg": 60867,
+      "vol_surge_ratio": 0.0,
+      "52w_high": 8.0,
+      "52w_low": 3.68,
+      "sma_20": 4.95,
+      "sma_50": 5.18,
+      "sma_200": 5.37,
+      "rsi_14": 45.8,
+      "macd_val": -0.04,
+      "macd_signal": -0.06,
+      "macd_hist": 0.02,
+      "pe_ratio": 0.0,
+      "roe": 0.0,
+      "debt_to_equity": 0.01,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": -97.7,
+      "earnings_growth_yoy": 0.0,
+      "dividend_yield": 0.0,
+      "promoter_holding": 67.7,
+      "institutional_holding": 0.0,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 5.24,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Neutral Balance \u2696\ufe0f",
+      "is_volume_dryup": true,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 5.25,
+      "sell_trigger_price": 4.88,
+      "buy_status": "\u26a1 BUY ABOVE \u20b95.25 (5.8% away)",
+      "swing_target_1": 5.24,
+      "swing_target_2": 8.0,
+      "swing_stoploss": 4.88,
+      "breakout_proximity_pct": 5.6,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 8.8,
+      "composite_score": 22,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "MOMENTUM BUY \ud83d\udfe2",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-09-14",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Trading Monitoring",
+          "title": "Normal Volume & Price Watch",
+          "summary": "Stock trading smoothly at \u20b94.96.",
+          "impact": "Neutral \u2696\ufe0f",
+          "impact_reason": "Standard price discovery."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b95.25** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b94.88 \u2022 **Target 1:** \u20b95.24 \u2022 **Target 2:** \u20b98.00",
+      "strengths": [
+        "\ud83d\udcc5 Upcoming Event (Today): Trading Monitoring - Normal Volume & Price Watch"
+      ],
+      "weaknesses": [
+        "No major red flags detected"
+      ]
+    },
+    {
       "symbol": "SHRENIK.NS",
       "clean_symbol": "SHRENIK",
       "name": "Shrenik Ltd",
@@ -10173,86 +10253,6 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
-    },
-    {
-      "symbol": "SHYAMCENT.NS",
-      "clean_symbol": "SHYAMCENT",
-      "name": "Shyam Century Ferrous Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 4.96,
-      "prev_close": 4.97,
-      "day_change_pct": -0.2,
-      "day_high": 4.96,
-      "day_low": 4.96,
-      "volume": 1,
-      "vol_1m_avg": 60867,
-      "vol_surge_ratio": 0.0,
-      "52w_high": 8.0,
-      "52w_low": 3.68,
-      "sma_20": 4.95,
-      "sma_50": 5.18,
-      "sma_200": 5.37,
-      "rsi_14": 45.8,
-      "macd_val": -0.04,
-      "macd_signal": -0.06,
-      "macd_hist": 0.02,
-      "pe_ratio": 0.0,
-      "roe": 0.0,
-      "debt_to_equity": 0.01,
-      "debt_status": "Low Debt (Healthy)",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": -97.7,
-      "earnings_growth_yoy": 0.0,
-      "dividend_yield": 0.0,
-      "promoter_holding": 67.7,
-      "institutional_holding": 0.0,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 5.24,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Neutral Balance \u2696\ufe0f",
-      "is_volume_dryup": true,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 5.25,
-      "sell_trigger_price": 4.88,
-      "buy_status": "\u26a1 BUY ABOVE \u20b95.25 (5.8% away)",
-      "swing_target_1": 5.24,
-      "swing_target_2": 8.0,
-      "swing_stoploss": 4.88,
-      "breakout_proximity_pct": 5.6,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 8.8,
-      "composite_score": 22,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "MOMENTUM BUY \ud83d\udfe2",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-09-14",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Trading Monitoring",
-          "title": "Normal Volume & Price Watch",
-          "summary": "Stock trading smoothly at \u20b94.96.",
-          "impact": "Neutral \u2696\ufe0f",
-          "impact_reason": "Standard price discovery."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b95.25** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b94.88 \u2022 **Target 1:** \u20b95.24 \u2022 **Target 2:** \u20b98.00",
-      "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Today): Trading Monitoring - Normal Volume & Price Watch"
-      ],
-      "weaknesses": [
-        "No major red flags detected"
       ]
     },
     {
@@ -14678,12 +14678,12 @@
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
       "title": "Normal Volume & Price Watch",
-      "summary": "Stock trading smoothly at \u20b90.30.",
+      "summary": "Stock trading smoothly at \u20b94.96.",
       "impact": "Neutral \u2696\ufe0f",
       "impact_reason": "Standard price discovery.",
-      "symbol": "SHRENIK.NS",
-      "clean_symbol": "SHRENIK",
-      "name": "Shrenik Ltd"
+      "symbol": "SHYAMCENT.NS",
+      "clean_symbol": "SHYAMCENT",
+      "name": "Shyam Century Ferrous Ltd"
     },
     {
       "date": "2026-09-14",
@@ -14691,12 +14691,12 @@
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
       "title": "Normal Volume & Price Watch",
-      "summary": "Stock trading smoothly at \u20b94.96.",
+      "summary": "Stock trading smoothly at \u20b90.30.",
       "impact": "Neutral \u2696\ufe0f",
       "impact_reason": "Standard price discovery.",
-      "symbol": "SHYAMCENT.NS",
-      "clean_symbol": "SHYAMCENT",
-      "name": "Shyam Century Ferrous Ltd"
+      "symbol": "SHRENIK.NS",
+      "clean_symbol": "SHRENIK",
+      "name": "Shrenik Ltd"
     },
     {
       "date": "2026-09-14",
