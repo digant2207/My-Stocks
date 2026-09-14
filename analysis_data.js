@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "14-Sep-2026 04:31:21 PM IST (Indian Standard Time)",
+    "last_updated": "14-Sep-2026 04:45:58 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,398.10",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 14,
     "pattern_breakouts_count": 19,
     "upcoming_3d_events_count": 126,
-    "scan_time_seconds": 30.2
+    "scan_time_seconds": 17.5
   },
   "top_20_swing": [
     {
@@ -11251,87 +11251,6 @@ window.stockData = {
       ]
     },
     {
-      "symbol": "TARIL.NS",
-      "clean_symbol": "TARIL",
-      "name": "Transformers and Rectifiers (India) Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 289.95,
-      "prev_close": 290.0,
-      "day_change_pct": -0.02,
-      "day_high": 289.95,
-      "day_low": 289.95,
-      "volume": 1,
-      "vol_1m_avg": 1768971,
-      "vol_surge_ratio": 0.0,
-      "52w_high": 552.0,
-      "52w_low": 224.05,
-      "sma_20": 299.12,
-      "sma_50": 305.83,
-      "sma_200": 297.39,
-      "rsi_14": 39.5,
-      "macd_val": -3.26,
-      "macd_signal": -2.19,
-      "macd_hist": -1.07,
-      "pe_ratio": 32.62,
-      "roe": 0.0,
-      "debt_to_equity": 0.3,
-      "debt_status": "Low Debt (Healthy)",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 8.1,
-      "earnings_growth_yoy": -8.5,
-      "dividend_yield": 9.0,
-      "promoter_holding": 64.4,
-      "institutional_holding": 7.6,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 326.95,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
-      "is_volume_dryup": true,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 327.28,
-      "sell_trigger_price": 279.74,
-      "buy_status": "\u26a1 BUY ABOVE \u20b9327.28 (12.9% away)",
-      "swing_target_1": 312.82,
-      "swing_target_2": 331.52,
-      "swing_stoploss": 279.74,
-      "breakout_proximity_pct": 12.8,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 6.4,
-      "composite_score": 16,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-09-18",
-          "date_tag": "18 Sep 2026",
-          "is_upcoming_3_days": false,
-          "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (9.00% Yield)",
-          "summary": "Ex-dividend date for payout.",
-          "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (9.00%) attracts income investors."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9327.28** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b9279.74 \u2022 **Target 1:** \u20b9312.82 \u2022 **Target 2:** \u20b9331.52",
-      "strengths": [
-        "\ud83d\udcc5 Upcoming Event (18 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (9.00% Yield)",
-        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
-      ],
-      "weaknesses": [
-        "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.5% YoY)"
-      ]
-    },
-    {
       "symbol": "TATAPOWER.NS",
       "clean_symbol": "TATAPOWER",
       "name": "Tata Power Company Ltd",
@@ -11411,6 +11330,87 @@ window.stockData = {
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
         "\u26a0\ufe0f High Debt Ratio: 1.68"
+      ]
+    },
+    {
+      "symbol": "TARIL.NS",
+      "clean_symbol": "TARIL",
+      "name": "Transformers and Rectifiers (India) Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 289.95,
+      "prev_close": 290.0,
+      "day_change_pct": -0.02,
+      "day_high": 289.95,
+      "day_low": 289.95,
+      "volume": 1,
+      "vol_1m_avg": 1768971,
+      "vol_surge_ratio": 0.0,
+      "52w_high": 552.0,
+      "52w_low": 224.05,
+      "sma_20": 299.12,
+      "sma_50": 305.83,
+      "sma_200": 297.39,
+      "rsi_14": 39.5,
+      "macd_val": -3.26,
+      "macd_signal": -2.19,
+      "macd_hist": -1.07,
+      "pe_ratio": 32.62,
+      "roe": 0.0,
+      "debt_to_equity": 0.3,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 8.1,
+      "earnings_growth_yoy": -8.5,
+      "dividend_yield": 9.0,
+      "promoter_holding": 64.4,
+      "institutional_holding": 7.6,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 326.95,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
+      "is_volume_dryup": true,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 327.28,
+      "sell_trigger_price": 279.74,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9327.28 (12.9% away)",
+      "swing_target_1": 312.82,
+      "swing_target_2": 331.52,
+      "swing_stoploss": 279.74,
+      "breakout_proximity_pct": 12.8,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 6.4,
+      "composite_score": 16,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-09-18",
+          "date_tag": "18 Sep 2026",
+          "is_upcoming_3_days": false,
+          "type": "Dividend Ex-Date",
+          "title": "Ex-Dividend Event (9.00% Yield)",
+          "summary": "Ex-dividend date for payout.",
+          "impact": "Bullish Income",
+          "impact_reason": "High dividend yield (9.00%) attracts income investors."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9327.28** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b9279.74 \u2022 **Target 1:** \u20b9312.82 \u2022 **Target 2:** \u20b9331.52",
+      "strengths": [
+        "\ud83d\udcc5 Upcoming Event (18 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (9.00% Yield)",
+        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
+      ],
+      "weaknesses": [
+        "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.5% YoY)"
       ]
     },
     {
