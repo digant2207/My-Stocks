@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "15-Sep-2026 07:55:54 PM IST (Indian Standard Time)",
+    "last_updated": "15-Sep-2026 10:43:35 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,118.60",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 11,
     "pattern_breakouts_count": 12,
     "upcoming_3d_events_count": 132,
-    "scan_time_seconds": 22.1
+    "scan_time_seconds": 25.5
   },
   "top_20_swing": [
     {
@@ -1258,7 +1258,7 @@ window.stockData = {
       "debt_score_penalty": 5,
       "rev_growth_yoy": 36.3,
       "earnings_growth_yoy": -48.6,
-      "dividend_yield": 331.0,
+      "dividend_yield": 327.0,
       "promoter_holding": 74.9,
       "institutional_holding": 0.0,
       "pledged_pct": 0.0,
@@ -1595,7 +1595,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 19.6,
       "earnings_growth_yoy": 20.6,
-      "dividend_yield": 57.0,
+      "dividend_yield": 58.0,
       "promoter_holding": 0.1,
       "institutional_holding": 73.2,
       "pledged_pct": 0.0,
@@ -3965,7 +3965,7 @@ window.stockData = {
       "debt_score_penalty": 5,
       "rev_growth_yoy": 36.3,
       "earnings_growth_yoy": -48.6,
-      "dividend_yield": 331.0,
+      "dividend_yield": 327.0,
       "promoter_holding": 74.9,
       "institutional_holding": 0.0,
       "pledged_pct": 0.0,
@@ -4568,7 +4568,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 15.4,
       "earnings_growth_yoy": 42.3,
-      "dividend_yield": 209.0,
+      "dividend_yield": 215.0,
       "promoter_holding": 50.0,
       "institutional_holding": 30.0,
       "pledged_pct": 0.0,
@@ -6342,7 +6342,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 19.6,
       "earnings_growth_yoy": 20.6,
-      "dividend_yield": 57.0,
+      "dividend_yield": 58.0,
       "promoter_holding": 0.1,
       "institutional_holding": 73.2,
       "pledged_pct": 0.0,
@@ -10356,7 +10356,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": -0.4,
       "earnings_growth_yoy": 127.9,
-      "dividend_yield": 65.0,
+      "dividend_yield": 64.0,
       "promoter_holding": 74.2,
       "institutional_holding": 0.0,
       "pledged_pct": 0.0,
@@ -10391,10 +10391,10 @@ window.stockData = {
           "date_tag": "17 Sep 2026",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (65.00% Yield)",
+          "title": "Ex-Dividend Event (64.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (65.00%) attracts income investors."
+          "impact_reason": "High dividend yield (64.00%) attracts income investors."
         },
         {
           "date": "2026-09-15",
@@ -10410,7 +10410,7 @@ window.stockData = {
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b983.36** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.6x. \u2022 **Sell/Stop Loss Trigger:** \u20b971.12 \u2022 **Target 1:** \u20b981.68 \u2022 **Target 2:** \u20b986.30",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+127.9%) & Revenue (+-0.4%)",
-        "\ud83d\udcc5 Upcoming Event (17 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (65.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (17 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (64.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +127.9%)",
         "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
       ],
@@ -12781,7 +12781,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 0.8,
       "earnings_growth_yoy": -27.0,
-      "dividend_yield": 38.0,
+      "dividend_yield": 39.0,
       "promoter_holding": 75.7,
       "institutional_holding": 1.0,
       "pledged_pct": 0.0,
@@ -14814,10 +14814,10 @@ window.stockData = {
       "date_tag": "17 Sep 2026",
       "is_upcoming_3_days": true,
       "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (65.00% Yield)",
+      "title": "Ex-Dividend Event (64.00% Yield)",
       "summary": "Ex-dividend date for payout.",
       "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (65.00%) attracts income investors.",
+      "impact_reason": "High dividend yield (64.00%) attracts income investors.",
       "symbol": "INTLCONV.NS",
       "clean_symbol": "INTLCONV",
       "name": "International Conveyors Ltd"
