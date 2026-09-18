@@ -1,12 +1,12 @@
 window.stockData = {
   "summary": {
-    "last_updated": "18-Sep-2026 04:30:59 PM IST (Indian Standard Time)",
+    "last_updated": "18-Sep-2026 04:46:01 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
-        "price": "23,346.40",
-        "raw_price": 23346.4,
-        "change_pts": "+75.80",
-        "change_pct": "+0.33%",
+        "price": "23,270.60",
+        "raw_price": 23270.6,
+        "change_pts": "+0.00",
+        "change_pct": "+0.00%",
         "is_positive": true
       },
       "sensex": {
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 15,
     "pattern_breakouts_count": 20,
     "upcoming_3d_events_count": 131,
-    "scan_time_seconds": 11.6
+    "scan_time_seconds": 20.8
   },
   "top_20_swing": [
     {
@@ -224,7 +224,7 @@ window.stockData = {
       "macd_val": 17.43,
       "macd_signal": 20.81,
       "macd_hist": -3.38,
-      "pe_ratio": 86.03,
+      "pe_ratio": 85.56,
       "roe": 0.0,
       "debt_to_equity": 0.44,
       "debt_status": "Low Debt (Healthy)",
@@ -295,7 +295,7 @@ window.stockData = {
         "\ud83c\udfaf RSI Bullish Momentum Zone: 63.9"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 86.0x"
+        "\u26a0\ufe0f High Valuation P/E: 85.6x"
       ]
     },
     {
@@ -504,7 +504,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 33.7,
       "earnings_growth_yoy": -13.4,
-      "dividend_yield": 215.0,
+      "dividend_yield": 211.0,
       "promoter_holding": 64.8,
       "institutional_holding": 13.0,
       "pledged_pct": 0.0,
@@ -539,10 +539,10 @@ window.stockData = {
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (215.00% Yield)",
+          "title": "Ex-Dividend Event (211.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (215.00%) attracts income investors."
+          "impact_reason": "High dividend yield (211.00%) attracts income investors."
         },
         {
           "date": "2026-09-18",
@@ -557,7 +557,7 @@ window.stockData = {
       ],
       "ai_suggestion": "**\u26a1 WATCHLIST BREAKOUT ZONE - BUY TRIGGER: \u20b9973.97** \u2022 Coiling **0.6% away** from breakout level (\u20b9973.00) in **Cup and Handle \ud83c\udf75** setup. \u2022 **Sell/Stop Loss Trigger:** \u20b9892.06 \u2022 **Target 1:** \u20b9974.40 \u2022 **Target 2:** \u20b91,189.90",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (215.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (211.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +-13.4%)",
         "\ud83d\udcc8 Chart Pattern: Cup and Handle \ud83c\udf75 (Bullish Breakout \ud83d\ude80)",
         "\u26a1 Breakout Zone: Only 0.6% away from breakout trigger (\u20b9973.97)",
@@ -679,7 +679,7 @@ window.stockData = {
       "macd_val": 27.63,
       "macd_signal": 34.16,
       "macd_hist": -6.53,
-      "pe_ratio": 73.3,
+      "pe_ratio": 74.34,
       "roe": 0.0,
       "debt_to_equity": 0.43,
       "debt_status": "Low Debt (Healthy)",
@@ -740,7 +740,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 73.3x"
+        "\u26a0\ufe0f High Valuation P/E: 74.3x"
       ]
     },
     {
@@ -945,7 +945,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": -6.4,
       "earnings_growth_yoy": 175.0,
-      "dividend_yield": 257.0,
+      "dividend_yield": 258.0,
       "promoter_holding": 70.1,
       "institutional_holding": 19.2,
       "pledged_pct": 0.0,
@@ -1550,7 +1550,7 @@ window.stockData = {
       "debt_score_penalty": 5,
       "rev_growth_yoy": 57.7,
       "earnings_growth_yoy": 91.4,
-      "dividend_yield": 267.0,
+      "dividend_yield": 272.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.4,
       "pledged_pct": 0.0,
@@ -1985,7 +1985,7 @@ window.stockData = {
       "macd_val": 17.43,
       "macd_signal": 20.81,
       "macd_hist": -3.38,
-      "pe_ratio": 86.03,
+      "pe_ratio": 85.56,
       "roe": 0.0,
       "debt_to_equity": 0.44,
       "debt_status": "Low Debt (Healthy)",
@@ -2056,7 +2056,7 @@ window.stockData = {
         "\ud83c\udfaf RSI Bullish Momentum Zone: 63.9"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 86.0x"
+        "\u26a0\ufe0f High Valuation P/E: 85.6x"
       ]
     },
     {
@@ -2265,7 +2265,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 33.7,
       "earnings_growth_yoy": -13.4,
-      "dividend_yield": 215.0,
+      "dividend_yield": 211.0,
       "promoter_holding": 64.8,
       "institutional_holding": 13.0,
       "pledged_pct": 0.0,
@@ -2300,10 +2300,10 @@ window.stockData = {
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (215.00% Yield)",
+          "title": "Ex-Dividend Event (211.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (215.00%) attracts income investors."
+          "impact_reason": "High dividend yield (211.00%) attracts income investors."
         },
         {
           "date": "2026-09-18",
@@ -2318,7 +2318,7 @@ window.stockData = {
       ],
       "ai_suggestion": "**\u26a1 WATCHLIST BREAKOUT ZONE - BUY TRIGGER: \u20b9973.97** \u2022 Coiling **0.6% away** from breakout level (\u20b9973.00) in **Cup and Handle \ud83c\udf75** setup. \u2022 **Sell/Stop Loss Trigger:** \u20b9892.06 \u2022 **Target 1:** \u20b9974.40 \u2022 **Target 2:** \u20b91,189.90",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (215.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (211.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +-13.4%)",
         "\ud83d\udcc8 Chart Pattern: Cup and Handle \ud83c\udf75 (Bullish Breakout \ud83d\ude80)",
         "\u26a1 Breakout Zone: Only 0.6% away from breakout trigger (\u20b9973.97)",
@@ -2440,7 +2440,7 @@ window.stockData = {
       "macd_val": 27.63,
       "macd_signal": 34.16,
       "macd_hist": -6.53,
-      "pe_ratio": 73.3,
+      "pe_ratio": 74.34,
       "roe": 0.0,
       "debt_to_equity": 0.43,
       "debt_status": "Low Debt (Healthy)",
@@ -2501,7 +2501,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 73.3x"
+        "\u26a0\ufe0f High Valuation P/E: 74.3x"
       ]
     },
     {
@@ -2790,7 +2790,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": -6.4,
       "earnings_growth_yoy": 175.0,
-      "dividend_yield": 257.0,
+      "dividend_yield": 258.0,
       "promoter_holding": 70.1,
       "institutional_holding": 19.2,
       "pledged_pct": 0.0,
@@ -3894,7 +3894,7 @@ window.stockData = {
       "debt_score_penalty": 5,
       "rev_growth_yoy": 57.7,
       "earnings_growth_yoy": 91.4,
-      "dividend_yield": 267.0,
+      "dividend_yield": 272.0,
       "promoter_holding": 67.7,
       "institutional_holding": 22.4,
       "pledged_pct": 0.0,
@@ -5694,7 +5694,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 25.7,
       "earnings_growth_yoy": 21.4,
-      "dividend_yield": 612.0,
+      "dividend_yield": 624.0,
       "promoter_holding": 69.2,
       "institutional_holding": 22.5,
       "pledged_pct": 0.0,
@@ -5768,7 +5768,7 @@ window.stockData = {
       "macd_val": -0.8,
       "macd_signal": 1.32,
       "macd_hist": -2.11,
-      "pe_ratio": 26.42,
+      "pe_ratio": 27.26,
       "roe": 0.0,
       "debt_to_equity": 2.8,
       "debt_status": "High Debt Warning",
@@ -7203,7 +7203,7 @@ window.stockData = {
       "macd_val": -39.31,
       "macd_signal": -25.34,
       "macd_hist": -13.96,
-      "pe_ratio": 29.87,
+      "pe_ratio": 29.69,
       "roe": 0.0,
       "debt_to_equity": 0.3,
       "debt_status": "Low Debt (Healthy)",
@@ -7542,7 +7542,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 208.2,
       "earnings_growth_yoy": 170.2,
-      "dividend_yield": 27.0,
+      "dividend_yield": 26.0,
       "promoter_holding": 50.2,
       "institutional_holding": 19.6,
       "pledged_pct": 0.0,
@@ -8224,7 +8224,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": -8.5,
       "earnings_growth_yoy": 0.0,
-      "dividend_yield": 91.0,
+      "dividend_yield": 89.0,
       "promoter_holding": 34.5,
       "institutional_holding": 1.0,
       "pledged_pct": 0.0,
@@ -8633,7 +8633,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": -5.4,
       "earnings_growth_yoy": 0.0,
-      "dividend_yield": 32.0,
+      "dividend_yield": 34.0,
       "promoter_holding": 41.9,
       "institutional_holding": 1.1,
       "pledged_pct": 0.0,
@@ -8668,15 +8668,15 @@ window.stockData = {
           "date_tag": "22 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (32.00% Yield)",
+          "title": "Ex-Dividend Event (34.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (32.00%) attracts income investors."
+          "impact_reason": "High dividend yield (34.00%) attracts income investors."
         }
       ],
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b938.81** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 2.44x. \u2022 **Sell/Stop Loss Trigger:** \u20b927.23 \u2022 **Target 1:** \u20b938.84 \u2022 **Target 2:** \u20b946.39",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (22 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (32.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (22 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (34.00% Yield)",
         "\ud83d\udd25 Heavy Volume Surge: 2.44x of 1M Avg Volume",
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
@@ -10151,7 +10151,7 @@ window.stockData = {
       "macd_val": -9.86,
       "macd_signal": -7.01,
       "macd_hist": -2.85,
-      "pe_ratio": 350.82,
+      "pe_ratio": 345.16,
       "roe": 0.0,
       "debt_to_equity": 0.15,
       "debt_status": "Low Debt (Healthy)",
@@ -10205,7 +10205,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -65.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 350.8x"
+        "\u26a0\ufe0f High Valuation P/E: 345.2x"
       ]
     },
     {
@@ -11260,7 +11260,7 @@ window.stockData = {
       "debt_score_penalty": 15,
       "rev_growth_yoy": -48.1,
       "earnings_growth_yoy": -49.6,
-      "dividend_yield": 257.0,
+      "dividend_yield": 255.0,
       "promoter_holding": 75.9,
       "institutional_holding": 0.0,
       "pledged_pct": 0.0,
@@ -11295,10 +11295,10 @@ window.stockData = {
           "date_tag": "21 Sep 2026",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (257.00% Yield)",
+          "title": "Ex-Dividend Event (255.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (257.00%) attracts income investors."
+          "impact_reason": "High dividend yield (255.00%) attracts income investors."
         },
         {
           "date": "2026-09-17",
@@ -11313,7 +11313,7 @@ window.stockData = {
       ],
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b985.59** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.75x. \u2022 **Sell/Stop Loss Trigger:** \u20b977.88 \u2022 **Target 1:** \u20b985.50 \u2022 **Target 2:** \u20b9106.00",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (21 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (257.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (21 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (255.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Yesterday): Earnings Caution - Earnings De-growth (YoY Profit Drop -49.6%)",
         "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
       ],
@@ -11608,7 +11608,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 17.7,
       "earnings_growth_yoy": -29.6,
-      "dividend_yield": 161.0,
+      "dividend_yield": 159.0,
       "promoter_holding": 35.9,
       "institutional_holding": 16.0,
       "pledged_pct": 0.0,
@@ -11681,7 +11681,7 @@ window.stockData = {
       "macd_val": -0.86,
       "macd_signal": 1.54,
       "macd_hist": -2.39,
-      "pe_ratio": 112.51,
+      "pe_ratio": 115.92,
       "roe": 0.0,
       "debt_to_equity": 0.23,
       "debt_status": "Low Debt (Healthy)",
@@ -11736,7 +11736,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 112.5x"
+        "\u26a0\ufe0f High Valuation P/E: 115.9x"
       ]
     },
     {
@@ -12257,7 +12257,7 @@ window.stockData = {
       "debt_score_penalty": 15,
       "rev_growth_yoy": 10.3,
       "earnings_growth_yoy": 9.7,
-      "dividend_yield": 367.0,
+      "dividend_yield": 366.0,
       "promoter_holding": 82.9,
       "institutional_holding": 4.8,
       "pledged_pct": 0.0,
@@ -13313,7 +13313,7 @@ window.stockData = {
       "macd_val": -5.9,
       "macd_signal": -4.75,
       "macd_hist": -1.15,
-      "pe_ratio": 14.18,
+      "pe_ratio": 14.17,
       "roe": 0.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -13686,10 +13686,10 @@ window.stockData = {
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (215.00% Yield)",
+      "title": "Ex-Dividend Event (211.00% Yield)",
       "summary": "Ex-dividend date for payout.",
       "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (215.00%) attracts income investors.",
+      "impact_reason": "High dividend yield (211.00%) attracts income investors.",
       "symbol": "SHARDAMOTR.NS",
       "clean_symbol": "SHARDAMOTR",
       "name": "Sharda Motor Industries Ltd"
@@ -14999,10 +14999,10 @@ window.stockData = {
       "date_tag": "21 Sep 2026",
       "is_upcoming_3_days": true,
       "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (257.00% Yield)",
+      "title": "Ex-Dividend Event (255.00% Yield)",
       "summary": "Ex-dividend date for payout.",
       "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (257.00%) attracts income investors.",
+      "impact_reason": "High dividend yield (255.00%) attracts income investors.",
       "symbol": "PNBGILTS.NS",
       "clean_symbol": "PNBGILTS",
       "name": "PNB Gilts Ltd"
