@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "22-Sep-2026 03:46:04 PM IST (Indian Standard Time)",
+    "last_updated": "22-Sep-2026 04:01:08 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,329.00",
@@ -22,13 +22,13 @@ window.stockData = {
     "strong_buys_count": 19,
     "pattern_breakouts_count": 22,
     "upcoming_3d_events_count": 124,
-    "scan_time_seconds": 26.3
+    "scan_time_seconds": 23.5
   },
   "top_20_swing": [
     {
       "symbol": "GESHIP.NS",
       "clean_symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
+      "name": "GESHIP",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -212,7 +212,7 @@ window.stockData = {
     {
       "symbol": "SHARDAMOTR.NS",
       "clean_symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
+      "name": "SHARDAMOTR",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -407,7 +407,7 @@ window.stockData = {
     {
       "symbol": "REDINGTON.NS",
       "clean_symbol": "REDINGTON",
-      "name": "Redington Ltd",
+      "name": "redington",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -435,7 +435,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 34.6,
       "earnings_growth_yoy": 76.7,
-      "dividend_yield": 150.0,
+      "dividend_yield": 153.0,
       "promoter_holding": 26.0,
       "institutional_holding": 38.8,
       "pledged_pct": 0.0,
@@ -514,7 +514,7 @@ window.stockData = {
       "macd_val": 7.66,
       "macd_signal": -7.28,
       "macd_hist": 14.94,
-      "pe_ratio": 14.06,
+      "pe_ratio": 14.05,
       "roe": 11.6,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -589,7 +589,7 @@ window.stockData = {
     {
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
+      "name": "JAMNAAUTO",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -617,7 +617,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 6.7,
       "earnings_growth_yoy": 6.1,
-      "dividend_yield": 200.0,
+      "dividend_yield": 193.0,
       "promoter_holding": 53.1,
       "institutional_holding": 7.5,
       "pledged_pct": 0.0,
@@ -652,16 +652,16 @@ window.stockData = {
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (200.00% Yield)",
+          "title": "Ex-Dividend Event (193.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (200.00%) attracts income investors."
+          "impact_reason": "High dividend yield (193.00%) attracts income investors."
         }
       ],
       "ai_suggestion": "**\ud83d\udd25 BREAKOUT ACTIVE - BUY NOW ABOVE \u20b9127.99** \u2022 Breakout triggered on **Double Bottom (W-Pattern) \ud83d\udd04** with **0.87x** volume surge and Institutional Accumulation \ud83d\udd25. \u2022 **Sell/Stop Loss Trigger:** \u20b9122.79 \u2022 **Target 1:** \u20b9137.78 \u2022 **Target 2:** \u20b9152.60",
       "strengths": [
         "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+6.1%) & Revenue (+6.7%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (200.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (193.00% Yield)",
         "\ud83d\udcc8 Chart Pattern: Double Bottom (W-Pattern) \ud83d\udd04 (Bullish Reversal \ud83d\udfe2)",
         "\u26a1 Breakout Zone: Only 0.7% away from breakout trigger (\u20b9127.99)",
         "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25",
@@ -1272,7 +1272,7 @@ window.stockData = {
     {
       "symbol": "ONGC.NS",
       "clean_symbol": "ONGC",
-      "name": "ONGC",
+      "name": "Oil and Natural Gas Corporation Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1355,7 +1355,7 @@ window.stockData = {
     {
       "symbol": "PNB.NS",
       "clean_symbol": "PNB",
-      "name": "PNB",
+      "name": "Punjab National Bank",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1783,7 +1783,7 @@ window.stockData = {
     {
       "symbol": "GESHIP.NS",
       "clean_symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd",
+      "name": "GESHIP",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1967,7 +1967,7 @@ window.stockData = {
     {
       "symbol": "SHARDAMOTR.NS",
       "clean_symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd",
+      "name": "SHARDAMOTR",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2162,7 +2162,7 @@ window.stockData = {
     {
       "symbol": "REDINGTON.NS",
       "clean_symbol": "REDINGTON",
-      "name": "Redington Ltd",
+      "name": "redington",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2190,7 +2190,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 34.6,
       "earnings_growth_yoy": 76.7,
-      "dividend_yield": 150.0,
+      "dividend_yield": 153.0,
       "promoter_holding": 26.0,
       "institutional_holding": 38.8,
       "pledged_pct": 0.0,
@@ -2269,7 +2269,7 @@ window.stockData = {
       "macd_val": 7.66,
       "macd_signal": -7.28,
       "macd_hist": 14.94,
-      "pe_ratio": 14.06,
+      "pe_ratio": 14.05,
       "roe": 11.6,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -2344,7 +2344,7 @@ window.stockData = {
     {
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
+      "name": "JAMNAAUTO",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2372,7 +2372,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 6.7,
       "earnings_growth_yoy": 6.1,
-      "dividend_yield": 200.0,
+      "dividend_yield": 193.0,
       "promoter_holding": 53.1,
       "institutional_holding": 7.5,
       "pledged_pct": 0.0,
@@ -2407,16 +2407,16 @@ window.stockData = {
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (200.00% Yield)",
+          "title": "Ex-Dividend Event (193.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (200.00%) attracts income investors."
+          "impact_reason": "High dividend yield (193.00%) attracts income investors."
         }
       ],
       "ai_suggestion": "**\ud83d\udd25 BREAKOUT ACTIVE - BUY NOW ABOVE \u20b9127.99** \u2022 Breakout triggered on **Double Bottom (W-Pattern) \ud83d\udd04** with **0.87x** volume surge and Institutional Accumulation \ud83d\udd25. \u2022 **Sell/Stop Loss Trigger:** \u20b9122.79 \u2022 **Target 1:** \u20b9137.78 \u2022 **Target 2:** \u20b9152.60",
       "strengths": [
         "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+6.1%) & Revenue (+6.7%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (200.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (193.00% Yield)",
         "\ud83d\udcc8 Chart Pattern: Double Bottom (W-Pattern) \ud83d\udd04 (Bullish Reversal \ud83d\udfe2)",
         "\u26a1 Breakout Zone: Only 0.7% away from breakout trigger (\u20b9127.99)",
         "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25",
@@ -3111,7 +3111,7 @@ window.stockData = {
     {
       "symbol": "ONGC.NS",
       "clean_symbol": "ONGC",
-      "name": "ONGC",
+      "name": "Oil and Natural Gas Corporation Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3279,7 +3279,7 @@ window.stockData = {
     {
       "symbol": "PNB.NS",
       "clean_symbol": "PNB",
-      "name": "PNB",
+      "name": "Punjab National Bank",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3632,7 +3632,7 @@ window.stockData = {
     {
       "symbol": "RML.NS",
       "clean_symbol": "RML",
-      "name": "Rane (Madras) Ltd",
+      "name": "rml",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3968,7 +3968,7 @@ window.stockData = {
     {
       "symbol": "ACMESOLAR.NS",
       "clean_symbol": "ACMESOLAR",
-      "name": "acmesolar",
+      "name": "Acme Solar Holdings Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4053,7 +4053,7 @@ window.stockData = {
     {
       "symbol": "ANANTRAJ.NS",
       "clean_symbol": "ANANTRAJ",
-      "name": "Anant Raj Ltd",
+      "name": "anantraj",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4324,7 +4324,7 @@ window.stockData = {
       "macd_val": -5.46,
       "macd_signal": -7.35,
       "macd_hist": 1.89,
-      "pe_ratio": 39.28,
+      "pe_ratio": 39.24,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -4385,7 +4385,7 @@ window.stockData = {
     {
       "symbol": "POLYCAB.NS",
       "clean_symbol": "POLYCAB",
-      "name": "Polycab India Ltd",
+      "name": "polycab",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4467,7 +4467,7 @@ window.stockData = {
     {
       "symbol": "HEROMOTOCO.NS",
       "clean_symbol": "HEROMOTOCO",
-      "name": "HEROMOTOCO",
+      "name": "Hero Motocorp Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4965,7 +4965,7 @@ window.stockData = {
     {
       "symbol": "INDRAMEDCO.NS",
       "clean_symbol": "INDRAMEDCO",
-      "name": "indramedco",
+      "name": "Indraprastha Medical Corporation Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5047,7 +5047,7 @@ window.stockData = {
     {
       "symbol": "STAR.NS",
       "clean_symbol": "STAR",
-      "name": "Strides Pharma Science Ltd",
+      "name": "star",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5320,7 +5320,7 @@ window.stockData = {
     {
       "symbol": "GRSE.NS",
       "clean_symbol": "GRSE",
-      "name": "GRSE",
+      "name": "Garden Reach Shipbuilders & Enginers Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -6001,7 +6001,7 @@ window.stockData = {
     {
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "Delta Corp Ltd",
+      "name": "DELTACORP",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -6753,7 +6753,7 @@ window.stockData = {
     {
       "symbol": "DDEVPLSTIK.NS",
       "clean_symbol": "DDEVPLSTIK",
-      "name": "Ddev Plastiks Industries Ltd",
+      "name": "ddevplstik",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7254,7 +7254,7 @@ window.stockData = {
     {
       "symbol": "IKIO.NS",
       "clean_symbol": "IKIO",
-      "name": "IKIO Technologies Ltd",
+      "name": "IKIO",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7419,7 +7419,7 @@ window.stockData = {
     {
       "symbol": "SUZLON.NS",
       "clean_symbol": "SUZLON",
-      "name": "Suzlon Energy Ltd",
+      "name": "suzlon",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7501,7 +7501,7 @@ window.stockData = {
     {
       "symbol": "ATHERENERG.NS",
       "clean_symbol": "ATHERENERG",
-      "name": "ATHERENERG",
+      "name": "Ather Energy Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7919,7 +7919,7 @@ window.stockData = {
     {
       "symbol": "GSFC.NS",
       "clean_symbol": "GSFC",
-      "name": "GSFC",
+      "name": "Gujarat State Fertilizers & Chemicls Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8276,7 +8276,7 @@ window.stockData = {
       "debt_score_penalty": 5,
       "rev_growth_yoy": 14.3,
       "earnings_growth_yoy": 18.2,
-      "dividend_yield": 227.0,
+      "dividend_yield": 230.0,
       "promoter_holding": 46.0,
       "institutional_holding": 8.0,
       "pledged_pct": 0.0,
@@ -8412,7 +8412,7 @@ window.stockData = {
     {
       "symbol": "CERA.NS",
       "clean_symbol": "CERA",
-      "name": "Cera Sanitaryware Ltd",
+      "name": "CERA",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8440,7 +8440,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 15.1,
       "earnings_growth_yoy": -2.7,
-      "dividend_yield": 133.0,
+      "dividend_yield": 136.0,
       "promoter_holding": 57.0,
       "institutional_holding": 26.3,
       "pledged_pct": 0.0,
@@ -8493,7 +8493,7 @@ window.stockData = {
     {
       "symbol": "NATIONALUM.NS",
       "clean_symbol": "NATIONALUM",
-      "name": "NATIONALUM",
+      "name": "National Aluminium Co Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8521,7 +8521,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 39.3,
       "earnings_growth_yoy": 91.1,
-      "dividend_yield": 114.0,
+      "dividend_yield": 113.0,
       "promoter_holding": 51.3,
       "institutional_holding": 22.1,
       "pledged_pct": 0.0,
@@ -8575,7 +8575,7 @@ window.stockData = {
     {
       "symbol": "GRAVITA.NS",
       "clean_symbol": "GRAVITA",
-      "name": "Gravita India Ltd",
+      "name": "gravita",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8899,7 +8899,7 @@ window.stockData = {
     {
       "symbol": "MUTHOOTFIN.NS",
       "clean_symbol": "MUTHOOTFIN",
-      "name": "MUTHOOTFIN",
+      "name": "Muthoot Finance Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -9320,7 +9320,7 @@ window.stockData = {
     {
       "symbol": "UTKARSHBNK.NS",
       "clean_symbol": "UTKARSHBNK",
-      "name": "Utkarsh Small Finance Bank Ltd",
+      "name": "UTKARSHBNK",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -9484,7 +9484,7 @@ window.stockData = {
     {
       "symbol": "NATCOPHARM.NS",
       "clean_symbol": "NATCOPHARM",
-      "name": "Natco Pharma Ltd",
+      "name": "NATCOPHARM",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -9892,7 +9892,7 @@ window.stockData = {
     {
       "symbol": "TATAPOWER.NS",
       "clean_symbol": "TATAPOWER",
-      "name": "Tata Power Company Ltd",
+      "name": "TATAPOWER",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -9974,7 +9974,7 @@ window.stockData = {
     {
       "symbol": "DELHIVERY.NS",
       "clean_symbol": "DELHIVERY",
-      "name": "Delhivery",
+      "name": "delhivery",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10218,7 +10218,7 @@ window.stockData = {
     {
       "symbol": "SIGACHI.NS",
       "clean_symbol": "SIGACHI",
-      "name": "SIGACHI",
+      "name": "Sigachi Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10556,7 +10556,7 @@ window.stockData = {
     {
       "symbol": "WIPRO.NS",
       "clean_symbol": "WIPRO",
-      "name": "Wipro Ltd",
+      "name": "WIPRO",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10638,7 +10638,7 @@ window.stockData = {
     {
       "symbol": "HPL.NS",
       "clean_symbol": "HPL",
-      "name": "hpl",
+      "name": "HPL Electric & Power Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10810,7 +10810,7 @@ window.stockData = {
     {
       "symbol": "LT.NS",
       "clean_symbol": "LT",
-      "name": "LT",
+      "name": "Larsen and Toubro Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -11054,7 +11054,7 @@ window.stockData = {
     {
       "symbol": "GMDCLTD.NS",
       "clean_symbol": "GMDCLTD",
-      "name": "Gujarat Mineral Development Corpn Ltd",
+      "name": "gmdcltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -11082,7 +11082,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 23.8,
       "earnings_growth_yoy": -0.2,
-      "dividend_yield": 171.0,
+      "dividend_yield": 170.0,
       "promoter_holding": 74.1,
       "institutional_holding": 2.5,
       "pledged_pct": 0.0,
@@ -11117,10 +11117,10 @@ window.stockData = {
           "date_tag": "Tomorrow",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (171.00% Yield)",
+          "title": "Ex-Dividend Event (170.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (171.00%) attracts income investors."
+          "impact_reason": "High dividend yield (170.00%) attracts income investors."
         },
         {
           "date": "2026-09-22",
@@ -11135,7 +11135,7 @@ window.stockData = {
       ],
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9601.60** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.77x. \u2022 **Sell/Stop Loss Trigger:** \u20b9527.02 \u2022 **Target 1:** \u20b9598.38 \u2022 **Target 2:** \u20b9626.80",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Tomorrow): Dividend Ex-Date - Ex-Dividend Event (171.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (Tomorrow): Dividend Ex-Date - Ex-Dividend Event (170.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +-0.2%)",
         "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25"
       ],
@@ -11392,7 +11392,7 @@ window.stockData = {
     {
       "symbol": "NMDC.NS",
       "clean_symbol": "NMDC",
-      "name": "NMDC",
+      "name": "NMDC Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -11420,7 +11420,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 0.8,
       "earnings_growth_yoy": 0.4,
-      "dividend_yield": 253.0,
+      "dividend_yield": 251.0,
       "promoter_holding": 60.8,
       "institutional_holding": 20.5,
       "pledged_pct": 0.0,
@@ -11878,7 +11878,7 @@ window.stockData = {
     {
       "symbol": "RPOWER.NS",
       "clean_symbol": "RPOWER",
-      "name": "Reliance Power Ltd",
+      "name": "RPOWER",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12041,7 +12041,7 @@ window.stockData = {
     {
       "symbol": "SBICARD.NS",
       "clean_symbol": "SBICARD",
-      "name": "sbicard",
+      "name": "SBI Cards and Payment Services Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12123,7 +12123,7 @@ window.stockData = {
     {
       "symbol": "JAYBARMARU.NS",
       "clean_symbol": "JAYBARMARU",
-      "name": "Jay Bharat Maruti Ltd",
+      "name": "JAYBARMARU",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12285,7 +12285,7 @@ window.stockData = {
     {
       "symbol": "RHFL.NS",
       "clean_symbol": "RHFL",
-      "name": "RHFL",
+      "name": "Reliance Home Finance Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12367,7 +12367,7 @@ window.stockData = {
     {
       "symbol": "COCHINSHIP.NS",
       "clean_symbol": "COCHINSHIP",
-      "name": "cochinship",
+      "name": "Cochin Shipyard Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12395,7 +12395,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 2.4,
       "earnings_growth_yoy": -19.3,
-      "dividend_yield": 80.0,
+      "dividend_yield": 81.0,
       "promoter_holding": 63.3,
       "institutional_holding": 11.1,
       "pledged_pct": 0.0,
@@ -12430,10 +12430,10 @@ window.stockData = {
           "date_tag": "18 Sep 2026",
           "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (80.00% Yield)",
+          "title": "Ex-Dividend Event (81.00% Yield)",
           "summary": "Ex-dividend date for payout.",
           "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (80.00%) attracts income investors."
+          "impact_reason": "High dividend yield (81.00%) attracts income investors."
         },
         {
           "date": "2026-09-21",
@@ -12448,7 +12448,7 @@ window.stockData = {
       ],
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,577.71** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.72x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,277.79 \u2022 **Target 1:** \u20b91,652.01 \u2022 **Target 2:** \u20b91,867.28",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (18 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (80.00% Yield)",
+        "\ud83d\udcc5 Upcoming Event (18 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (81.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Yesterday): Earnings Caution - Earnings De-growth (YoY Profit Drop -19.3%)"
       ],
       "weaknesses": [
@@ -12459,7 +12459,7 @@ window.stockData = {
     {
       "symbol": "PNBGILTS.NS",
       "clean_symbol": "PNBGILTS",
-      "name": "PNB Gilts Ltd",
+      "name": "PNBGILTS",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12958,7 +12958,7 @@ window.stockData = {
     {
       "symbol": "RIIL.NS",
       "clean_symbol": "RIIL",
-      "name": "Reliance Industrial Infrastructure Ltd",
+      "name": "RIIL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13121,7 +13121,7 @@ window.stockData = {
     {
       "symbol": "SIMBHALS.NS",
       "clean_symbol": "SIMBHALS",
-      "name": "SIMBHALS",
+      "name": "Simbhaoli Sugars Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13282,7 +13282,7 @@ window.stockData = {
     {
       "symbol": "HDIL.NS",
       "clean_symbol": "HDIL",
-      "name": "HDIL",
+      "name": "Housing Development & Infrastructure",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13453,7 +13453,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "GESHIP.NS",
       "clean_symbol": "GESHIP",
-      "name": "Great Eastern Shipping Company Ltd"
+      "name": "GESHIP"
     },
     {
       "date": "2026-09-24",
@@ -13492,7 +13492,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SHARDAMOTR.NS",
       "clean_symbol": "SHARDAMOTR",
-      "name": "Sharda Motor Industries Ltd"
+      "name": "SHARDAMOTR"
     },
     {
       "date": "2026-09-22",
@@ -13518,7 +13518,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "REDINGTON.NS",
       "clean_symbol": "REDINGTON",
-      "name": "Redington Ltd"
+      "name": "redington"
     },
     {
       "date": "2026-09-22",
@@ -13538,13 +13538,13 @@ window.stockData = {
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (200.00% Yield)",
+      "title": "Ex-Dividend Event (193.00% Yield)",
       "summary": "Ex-dividend date for payout.",
       "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (200.00%) attracts income investors.",
+      "impact_reason": "High dividend yield (193.00%) attracts income investors.",
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd"
+      "name": "JAMNAAUTO"
     },
     {
       "date": "2026-09-22",
@@ -13661,7 +13661,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ONGC.NS",
       "clean_symbol": "ONGC",
-      "name": "ONGC"
+      "name": "Oil and Natural Gas Corporation Ltd"
     },
     {
       "date": "2026-09-22",
@@ -13687,7 +13687,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "PNB.NS",
       "clean_symbol": "PNB",
-      "name": "PNB"
+      "name": "Punjab National Bank"
     },
     {
       "date": "2026-09-22",
@@ -13726,7 +13726,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "RML.NS",
       "clean_symbol": "RML",
-      "name": "Rane (Madras) Ltd"
+      "name": "rml"
     },
     {
       "date": "2026-09-22",
@@ -13778,7 +13778,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ACMESOLAR.NS",
       "clean_symbol": "ACMESOLAR",
-      "name": "acmesolar"
+      "name": "Acme Solar Holdings Ltd"
     },
     {
       "date": "2026-09-22",
@@ -13791,7 +13791,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "ANANTRAJ.NS",
       "clean_symbol": "ANANTRAJ",
-      "name": "Anant Raj Ltd"
+      "name": "anantraj"
     },
     {
       "date": "2026-09-22",
@@ -13843,7 +13843,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "POLYCAB.NS",
       "clean_symbol": "POLYCAB",
-      "name": "Polycab India Ltd"
+      "name": "polycab"
     },
     {
       "date": "2026-09-22",
@@ -13856,7 +13856,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "HEROMOTOCO.NS",
       "clean_symbol": "HEROMOTOCO",
-      "name": "HEROMOTOCO"
+      "name": "Hero Motocorp Ltd"
     },
     {
       "date": "2026-09-22",
@@ -13908,7 +13908,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "STAR.NS",
       "clean_symbol": "STAR",
-      "name": "Strides Pharma Science Ltd"
+      "name": "star"
     },
     {
       "date": "2026-09-22",
@@ -13960,7 +13960,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "GRSE.NS",
       "clean_symbol": "GRSE",
-      "name": "GRSE"
+      "name": "Garden Reach Shipbuilders & Enginers Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14064,7 +14064,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "Delta Corp Ltd"
+      "name": "DELTACORP"
     },
     {
       "date": "2026-09-22",
@@ -14155,7 +14155,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "DDEVPLSTIK.NS",
       "clean_symbol": "DDEVPLSTIK",
-      "name": "Ddev Plastiks Industries Ltd"
+      "name": "ddevplstik"
     },
     {
       "date": "2026-09-22",
@@ -14233,7 +14233,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "IKIO.NS",
       "clean_symbol": "IKIO",
-      "name": "IKIO Technologies Ltd"
+      "name": "IKIO"
     },
     {
       "date": "2026-09-22",
@@ -14259,7 +14259,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SUZLON.NS",
       "clean_symbol": "SUZLON",
-      "name": "Suzlon Energy Ltd"
+      "name": "suzlon"
     },
     {
       "date": "2026-09-22",
@@ -14272,7 +14272,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ATHERENERG.NS",
       "clean_symbol": "ATHERENERG",
-      "name": "ATHERENERG"
+      "name": "Ather Energy Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14337,7 +14337,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "GSFC.NS",
       "clean_symbol": "GSFC",
-      "name": "GSFC"
+      "name": "Gujarat State Fertilizers & Chemicls Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14415,7 +14415,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "CERA.NS",
       "clean_symbol": "CERA",
-      "name": "Cera Sanitaryware Ltd"
+      "name": "CERA"
     },
     {
       "date": "2026-09-22",
@@ -14428,7 +14428,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "NATIONALUM.NS",
       "clean_symbol": "NATIONALUM",
-      "name": "NATIONALUM"
+      "name": "National Aluminium Co Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14441,7 +14441,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "GRAVITA.NS",
       "clean_symbol": "GRAVITA",
-      "name": "Gravita India Ltd"
+      "name": "gravita"
     },
     {
       "date": "2026-09-22",
@@ -14493,7 +14493,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "MUTHOOTFIN.NS",
       "clean_symbol": "MUTHOOTFIN",
-      "name": "MUTHOOTFIN"
+      "name": "Muthoot Finance Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14545,7 +14545,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "UTKARSHBNK.NS",
       "clean_symbol": "UTKARSHBNK",
-      "name": "Utkarsh Small Finance Bank Ltd"
+      "name": "UTKARSHBNK"
     },
     {
       "date": "2026-09-22",
@@ -14610,7 +14610,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "TATAPOWER.NS",
       "clean_symbol": "TATAPOWER",
-      "name": "Tata Power Company Ltd"
+      "name": "TATAPOWER"
     },
     {
       "date": "2026-09-22",
@@ -14623,7 +14623,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "DELHIVERY.NS",
       "clean_symbol": "DELHIVERY",
-      "name": "Delhivery"
+      "name": "delhivery"
     },
     {
       "date": "2026-09-22",
@@ -14662,7 +14662,7 @@ window.stockData = {
       "impact_reason": "High dividend yield (32.00%) attracts income investors.",
       "symbol": "SIGACHI.NS",
       "clean_symbol": "SIGACHI",
-      "name": "SIGACHI"
+      "name": "Sigachi Industries Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14714,7 +14714,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "WIPRO.NS",
       "clean_symbol": "WIPRO",
-      "name": "Wipro Ltd"
+      "name": "WIPRO"
     },
     {
       "date": "2026-09-22",
@@ -14727,7 +14727,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "HPL.NS",
       "clean_symbol": "HPL",
-      "name": "hpl"
+      "name": "HPL Electric & Power Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14753,7 +14753,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "LT.NS",
       "clean_symbol": "LT",
-      "name": "LT"
+      "name": "Larsen and Toubro Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14773,13 +14773,13 @@ window.stockData = {
       "date_tag": "Tomorrow",
       "is_upcoming_3_days": true,
       "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (171.00% Yield)",
+      "title": "Ex-Dividend Event (170.00% Yield)",
       "summary": "Ex-dividend date for payout.",
       "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (171.00%) attracts income investors.",
+      "impact_reason": "High dividend yield (170.00%) attracts income investors.",
       "symbol": "GMDCLTD.NS",
       "clean_symbol": "GMDCLTD",
-      "name": "Gujarat Mineral Development Corpn Ltd"
+      "name": "gmdcltd"
     },
     {
       "date": "2026-09-22",
@@ -14792,7 +14792,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "GMDCLTD.NS",
       "clean_symbol": "GMDCLTD",
-      "name": "Gujarat Mineral Development Corpn Ltd"
+      "name": "gmdcltd"
     },
     {
       "date": "2026-09-22",
@@ -14831,7 +14831,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "NMDC.NS",
       "clean_symbol": "NMDC",
-      "name": "NMDC"
+      "name": "NMDC Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14883,7 +14883,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "RPOWER.NS",
       "clean_symbol": "RPOWER",
-      "name": "Reliance Power Ltd"
+      "name": "RPOWER"
     },
     {
       "date": "2026-09-22",
@@ -14909,7 +14909,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SBICARD.NS",
       "clean_symbol": "SBICARD",
-      "name": "sbicard"
+      "name": "SBI Cards and Payment Services Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14922,7 +14922,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "JAYBARMARU.NS",
       "clean_symbol": "JAYBARMARU",
-      "name": "Jay Bharat Maruti Ltd"
+      "name": "JAYBARMARU"
     },
     {
       "date": "2026-09-22",
@@ -14935,7 +14935,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "RHFL.NS",
       "clean_symbol": "RHFL",
-      "name": "RHFL"
+      "name": "Reliance Home Finance Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14987,7 +14987,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "RIIL.NS",
       "clean_symbol": "RIIL",
-      "name": "Reliance Industrial Infrastructure Ltd"
+      "name": "RIIL"
     },
     {
       "date": "2026-09-22",
@@ -15013,7 +15013,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "SIMBHALS.NS",
       "clean_symbol": "SIMBHALS",
-      "name": "SIMBHALS"
+      "name": "Simbhaoli Sugars Ltd"
     },
     {
       "date": "2026-09-22",
@@ -15039,7 +15039,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "HDIL.NS",
       "clean_symbol": "HDIL",
-      "name": "HDIL"
+      "name": "Housing Development & Infrastructure"
     },
     {
       "date": "2026-09-22",
