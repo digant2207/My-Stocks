@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "22-Sep-2026 04:01:08 PM IST (Indian Standard Time)",
+    "last_updated": "22-Sep-2026 04:15:52 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,329.00",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 19,
     "pattern_breakouts_count": 22,
     "upcoming_3d_events_count": 124,
-    "scan_time_seconds": 23.5
+    "scan_time_seconds": 16.2
   },
   "top_20_swing": [
     {
@@ -407,7 +407,7 @@ window.stockData = {
     {
       "symbol": "REDINGTON.NS",
       "clean_symbol": "REDINGTON",
-      "name": "redington",
+      "name": "Redington Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -589,7 +589,7 @@ window.stockData = {
     {
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "JAMNAAUTO",
+      "name": "Jamna Auto Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1186,7 +1186,7 @@ window.stockData = {
     {
       "symbol": "KUANTUM.NS",
       "clean_symbol": "KUANTUM",
-      "name": "Kuantum Papers Ltd",
+      "name": "KUANTUM",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1441,7 +1441,7 @@ window.stockData = {
     {
       "symbol": "HBLENGINE.NS",
       "clean_symbol": "HBLENGINE",
-      "name": "HBL Engineering Ltd",
+      "name": "hblengine",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1526,7 +1526,7 @@ window.stockData = {
     {
       "symbol": "EDELWEISS.NS",
       "clean_symbol": "EDELWEISS",
-      "name": "Edelweiss Financial Services Ltd",
+      "name": "EDELWEISS",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2162,7 +2162,7 @@ window.stockData = {
     {
       "symbol": "REDINGTON.NS",
       "clean_symbol": "REDINGTON",
-      "name": "redington",
+      "name": "Redington Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2344,7 +2344,7 @@ window.stockData = {
     {
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "JAMNAAUTO",
+      "name": "Jamna Auto Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3025,7 +3025,7 @@ window.stockData = {
     {
       "symbol": "KUANTUM.NS",
       "clean_symbol": "KUANTUM",
-      "name": "Kuantum Papers Ltd",
+      "name": "KUANTUM",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3461,7 +3461,7 @@ window.stockData = {
     {
       "symbol": "HBLENGINE.NS",
       "clean_symbol": "HBLENGINE",
-      "name": "HBL Engineering Ltd",
+      "name": "hblengine",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3546,7 +3546,7 @@ window.stockData = {
     {
       "symbol": "EDELWEISS.NS",
       "clean_symbol": "EDELWEISS",
-      "name": "Edelweiss Financial Services Ltd",
+      "name": "EDELWEISS",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4053,7 +4053,7 @@ window.stockData = {
     {
       "symbol": "ANANTRAJ.NS",
       "clean_symbol": "ANANTRAJ",
-      "name": "anantraj",
+      "name": "Anant Raj Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4385,7 +4385,7 @@ window.stockData = {
     {
       "symbol": "POLYCAB.NS",
       "clean_symbol": "POLYCAB",
-      "name": "polycab",
+      "name": "Polycab India Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4549,7 +4549,7 @@ window.stockData = {
     {
       "symbol": "BLUEJET.NS",
       "clean_symbol": "BLUEJET",
-      "name": "bluejet",
+      "name": "Blue Jet Healthcare Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4799,7 +4799,7 @@ window.stockData = {
     {
       "symbol": "BOROLTD.NS",
       "clean_symbol": "BOROLTD",
-      "name": "BOROLTD",
+      "name": "Borosil Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4965,7 +4965,7 @@ window.stockData = {
     {
       "symbol": "INDRAMEDCO.NS",
       "clean_symbol": "INDRAMEDCO",
-      "name": "Indraprastha Medical Corporation Ltd",
+      "name": "indramedco",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5494,7 +5494,7 @@ window.stockData = {
     {
       "symbol": "JIOFIN.NS",
       "clean_symbol": "JIOFIN",
-      "name": "Jio Financial Services Ltd",
+      "name": "JIOFIN",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -6001,7 +6001,7 @@ window.stockData = {
     {
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "DELTACORP",
+      "name": "Delta Corp Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7254,7 +7254,7 @@ window.stockData = {
     {
       "symbol": "IKIO.NS",
       "clean_symbol": "IKIO",
-      "name": "IKIO",
+      "name": "IKIO Technologies Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7419,7 +7419,7 @@ window.stockData = {
     {
       "symbol": "SUZLON.NS",
       "clean_symbol": "SUZLON",
-      "name": "suzlon",
+      "name": "Suzlon Energy Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7583,7 +7583,7 @@ window.stockData = {
     {
       "symbol": "AWL.NS",
       "clean_symbol": "AWL",
-      "name": "AWL Agri Business Ltd",
+      "name": "AWL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7828,7 +7828,7 @@ window.stockData = {
     {
       "symbol": "IRCTC.NS",
       "clean_symbol": "IRCTC",
-      "name": "IRCTC",
+      "name": "Indian Railway Ctrng nd Trsm Corp Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8269,7 +8269,7 @@ window.stockData = {
       "macd_val": -20.62,
       "macd_signal": -17.37,
       "macd_hist": -3.26,
-      "pe_ratio": 21.19,
+      "pe_ratio": 21.16,
       "roe": 13.3,
       "debt_to_equity": 0.99,
       "debt_status": "Moderate Debt",
@@ -8412,7 +8412,7 @@ window.stockData = {
     {
       "symbol": "CERA.NS",
       "clean_symbol": "CERA",
-      "name": "CERA",
+      "name": "Cera Sanitaryware Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8493,7 +8493,7 @@ window.stockData = {
     {
       "symbol": "NATIONALUM.NS",
       "clean_symbol": "NATIONALUM",
-      "name": "National Aluminium Co Ltd",
+      "name": "NATIONALUM",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8575,7 +8575,7 @@ window.stockData = {
     {
       "symbol": "GRAVITA.NS",
       "clean_symbol": "GRAVITA",
-      "name": "gravita",
+      "name": "Gravita India Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8656,7 +8656,7 @@ window.stockData = {
     {
       "symbol": "CAMS.NS",
       "clean_symbol": "CAMS",
-      "name": "Computer Age Management Services Ltd",
+      "name": "CAMS",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8899,7 +8899,7 @@ window.stockData = {
     {
       "symbol": "MUTHOOTFIN.NS",
       "clean_symbol": "MUTHOOTFIN",
-      "name": "Muthoot Finance Ltd",
+      "name": "MUTHOOTFIN",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -9320,7 +9320,7 @@ window.stockData = {
     {
       "symbol": "UTKARSHBNK.NS",
       "clean_symbol": "UTKARSHBNK",
-      "name": "UTKARSHBNK",
+      "name": "Utkarsh Small Finance Bank Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -9729,7 +9729,7 @@ window.stockData = {
     {
       "symbol": "SHYAMCENT.NS",
       "clean_symbol": "SHYAMCENT",
-      "name": "SHYAMCENT",
+      "name": "Shyam Century Ferrous Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -9892,7 +9892,7 @@ window.stockData = {
     {
       "symbol": "TATAPOWER.NS",
       "clean_symbol": "TATAPOWER",
-      "name": "TATAPOWER",
+      "name": "Tata Power Company Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10638,7 +10638,7 @@ window.stockData = {
     {
       "symbol": "HPL.NS",
       "clean_symbol": "HPL",
-      "name": "HPL Electric & Power Ltd",
+      "name": "hpl",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10730,7 +10730,7 @@ window.stockData = {
     {
       "symbol": "BBL.NS",
       "clean_symbol": "BBL",
-      "name": "Bharat Bijlee Ltd",
+      "name": "BBL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -11054,7 +11054,7 @@ window.stockData = {
     {
       "symbol": "GMDCLTD.NS",
       "clean_symbol": "GMDCLTD",
-      "name": "gmdcltd",
+      "name": "Gujarat Mineral Development Corpn Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -11312,7 +11312,7 @@ window.stockData = {
     {
       "symbol": "SPIC.NS",
       "clean_symbol": "SPIC",
-      "name": "Southern Petrochemical Industries CorpLd",
+      "name": "SPIC",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -11392,7 +11392,7 @@ window.stockData = {
     {
       "symbol": "NMDC.NS",
       "clean_symbol": "NMDC",
-      "name": "NMDC Ltd",
+      "name": "NMDC",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12041,7 +12041,7 @@ window.stockData = {
     {
       "symbol": "SBICARD.NS",
       "clean_symbol": "SBICARD",
-      "name": "SBI Cards and Payment Services Ltd",
+      "name": "sbicard",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12877,7 +12877,7 @@ window.stockData = {
     {
       "symbol": "SJVN.NS",
       "clean_symbol": "SJVN",
-      "name": "SJVN Ltd",
+      "name": "SJVN",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13363,7 +13363,7 @@ window.stockData = {
     {
       "symbol": "VIRINCHI.NS",
       "clean_symbol": "VIRINCHI",
-      "name": "VIRINCHI",
+      "name": "Virinchi Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13518,7 +13518,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "REDINGTON.NS",
       "clean_symbol": "REDINGTON",
-      "name": "redington"
+      "name": "Redington Ltd"
     },
     {
       "date": "2026-09-22",
@@ -13544,7 +13544,7 @@ window.stockData = {
       "impact_reason": "High dividend yield (193.00%) attracts income investors.",
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "JAMNAAUTO"
+      "name": "Jamna Auto Industries Ltd"
     },
     {
       "date": "2026-09-22",
@@ -13648,7 +13648,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "KUANTUM.NS",
       "clean_symbol": "KUANTUM",
-      "name": "Kuantum Papers Ltd"
+      "name": "KUANTUM"
     },
     {
       "date": "2026-09-22",
@@ -13713,7 +13713,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "EDELWEISS.NS",
       "clean_symbol": "EDELWEISS",
-      "name": "Edelweiss Financial Services Ltd"
+      "name": "EDELWEISS"
     },
     {
       "date": "2026-09-22",
@@ -13791,7 +13791,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "ANANTRAJ.NS",
       "clean_symbol": "ANANTRAJ",
-      "name": "anantraj"
+      "name": "Anant Raj Ltd"
     },
     {
       "date": "2026-09-22",
@@ -13843,7 +13843,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "POLYCAB.NS",
       "clean_symbol": "POLYCAB",
-      "name": "polycab"
+      "name": "Polycab India Ltd"
     },
     {
       "date": "2026-09-22",
@@ -13986,7 +13986,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "JIOFIN.NS",
       "clean_symbol": "JIOFIN",
-      "name": "Jio Financial Services Ltd"
+      "name": "JIOFIN"
     },
     {
       "date": "2026-09-22",
@@ -14064,7 +14064,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "DELTACORP"
+      "name": "Delta Corp Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14233,7 +14233,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "IKIO.NS",
       "clean_symbol": "IKIO",
-      "name": "IKIO"
+      "name": "IKIO Technologies Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14259,7 +14259,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SUZLON.NS",
       "clean_symbol": "SUZLON",
-      "name": "suzlon"
+      "name": "Suzlon Energy Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14285,7 +14285,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "AWL.NS",
       "clean_symbol": "AWL",
-      "name": "AWL Agri Business Ltd"
+      "name": "AWL"
     },
     {
       "date": "2026-09-22",
@@ -14311,7 +14311,7 @@ window.stockData = {
       "impact_reason": "High dividend yield (191.00%) attracts income investors.",
       "symbol": "IRCTC.NS",
       "clean_symbol": "IRCTC",
-      "name": "IRCTC"
+      "name": "Indian Railway Ctrng nd Trsm Corp Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14324,7 +14324,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "IRCTC.NS",
       "clean_symbol": "IRCTC",
-      "name": "IRCTC"
+      "name": "Indian Railway Ctrng nd Trsm Corp Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14415,7 +14415,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "CERA.NS",
       "clean_symbol": "CERA",
-      "name": "CERA"
+      "name": "Cera Sanitaryware Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14428,7 +14428,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "NATIONALUM.NS",
       "clean_symbol": "NATIONALUM",
-      "name": "National Aluminium Co Ltd"
+      "name": "NATIONALUM"
     },
     {
       "date": "2026-09-22",
@@ -14441,7 +14441,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "GRAVITA.NS",
       "clean_symbol": "GRAVITA",
-      "name": "gravita"
+      "name": "Gravita India Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14454,7 +14454,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "CAMS.NS",
       "clean_symbol": "CAMS",
-      "name": "Computer Age Management Services Ltd"
+      "name": "CAMS"
     },
     {
       "date": "2026-09-22",
@@ -14493,7 +14493,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "MUTHOOTFIN.NS",
       "clean_symbol": "MUTHOOTFIN",
-      "name": "Muthoot Finance Ltd"
+      "name": "MUTHOOTFIN"
     },
     {
       "date": "2026-09-22",
@@ -14545,7 +14545,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "UTKARSHBNK.NS",
       "clean_symbol": "UTKARSHBNK",
-      "name": "UTKARSHBNK"
+      "name": "Utkarsh Small Finance Bank Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14584,7 +14584,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "SHYAMCENT.NS",
       "clean_symbol": "SHYAMCENT",
-      "name": "SHYAMCENT"
+      "name": "Shyam Century Ferrous Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14610,7 +14610,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "TATAPOWER.NS",
       "clean_symbol": "TATAPOWER",
-      "name": "TATAPOWER"
+      "name": "Tata Power Company Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14727,7 +14727,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "HPL.NS",
       "clean_symbol": "HPL",
-      "name": "HPL Electric & Power Ltd"
+      "name": "hpl"
     },
     {
       "date": "2026-09-22",
@@ -14740,7 +14740,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "BBL.NS",
       "clean_symbol": "BBL",
-      "name": "Bharat Bijlee Ltd"
+      "name": "BBL"
     },
     {
       "date": "2026-09-22",
@@ -14779,7 +14779,7 @@ window.stockData = {
       "impact_reason": "High dividend yield (170.00%) attracts income investors.",
       "symbol": "GMDCLTD.NS",
       "clean_symbol": "GMDCLTD",
-      "name": "gmdcltd"
+      "name": "Gujarat Mineral Development Corpn Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14792,7 +14792,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "GMDCLTD.NS",
       "clean_symbol": "GMDCLTD",
-      "name": "gmdcltd"
+      "name": "Gujarat Mineral Development Corpn Ltd"
     },
     {
       "date": "2026-09-22",
@@ -14831,7 +14831,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "NMDC.NS",
       "clean_symbol": "NMDC",
-      "name": "NMDC Ltd"
+      "name": "NMDC"
     },
     {
       "date": "2026-09-22",
@@ -14909,7 +14909,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SBICARD.NS",
       "clean_symbol": "SBICARD",
-      "name": "SBI Cards and Payment Services Ltd"
+      "name": "sbicard"
     },
     {
       "date": "2026-09-22",
@@ -14974,7 +14974,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SJVN.NS",
       "clean_symbol": "SJVN",
-      "name": "SJVN Ltd"
+      "name": "SJVN"
     },
     {
       "date": "2026-09-22",
@@ -15052,7 +15052,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "VIRINCHI.NS",
       "clean_symbol": "VIRINCHI",
-      "name": "VIRINCHI"
+      "name": "Virinchi Ltd"
     }
   ]
 };
