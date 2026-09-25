@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "25-Sep-2026 08:36:22 PM IST (Indian Standard Time)",
+    "last_updated": "25-Sep-2026 10:58:30 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,140.50",
@@ -22,7 +22,7 @@
     "strong_buys_count": 17,
     "pattern_breakouts_count": 23,
     "upcoming_3d_events_count": 116,
-    "scan_time_seconds": 18.5
+    "scan_time_seconds": 20.7
   },
   "top_20_swing": [
     {
@@ -297,7 +297,7 @@
     {
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "JAMNAAUTO",
+      "name": "Jamna Auto Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -653,7 +653,7 @@
     {
       "symbol": "HBLENGINE.NS",
       "clean_symbol": "HBLENGINE",
-      "name": "hblengine",
+      "name": "HBL Engineering Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1187,7 +1187,7 @@
       "macd_val": 3.13,
       "macd_signal": -2.88,
       "macd_hist": 6.01,
-      "pe_ratio": 43.64,
+      "pe_ratio": 43.6,
       "roe": 0.0,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -1419,7 +1419,7 @@
     {
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "DELTACORP",
+      "name": "Delta Corp Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2031,7 +2031,7 @@
     {
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "JAMNAAUTO",
+      "name": "Jamna Auto Industries Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2472,7 +2472,7 @@
     {
       "symbol": "HBLENGINE.NS",
       "clean_symbol": "HBLENGINE",
-      "name": "hblengine",
+      "name": "HBL Engineering Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3006,7 +3006,7 @@
       "macd_val": 3.13,
       "macd_signal": -2.88,
       "macd_hist": 6.01,
-      "pe_ratio": 43.64,
+      "pe_ratio": 43.6,
       "roe": 0.0,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -3321,7 +3321,7 @@
     {
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "DELTACORP",
+      "name": "Delta Corp Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4604,7 +4604,7 @@
     {
       "symbol": "ITCHOTELS.NS",
       "clean_symbol": "ITCHOTELS",
-      "name": "ITCHOTELS",
+      "name": "ITC Hotels Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4853,7 +4853,7 @@
     {
       "symbol": "ACMESOLAR.NS",
       "clean_symbol": "ACMESOLAR",
-      "name": "acmesolar",
+      "name": "Acme Solar Holdings Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5101,7 +5101,7 @@
     {
       "symbol": "EDELWEISS.NS",
       "clean_symbol": "EDELWEISS",
-      "name": "EDELWEISS",
+      "name": "Edelweiss Financial Services Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5862,7 +5862,7 @@
     {
       "symbol": "INOXINDIA.NS",
       "clean_symbol": "INOXINDIA",
-      "name": "inoxindia",
+      "name": "INOX India Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -6520,7 +6520,7 @@
     {
       "symbol": "JINDALSAW.NS",
       "clean_symbol": "JINDALSAW",
-      "name": "JINDALSAW",
+      "name": "Jindal SAW Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8496,7 +8496,7 @@
     {
       "symbol": "DELHIVERY.NS",
       "clean_symbol": "DELHIVERY",
-      "name": "delhivery",
+      "name": "Delhivery",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -9999,7 +9999,7 @@
     {
       "symbol": "ORICONENT.NS",
       "clean_symbol": "ORICONENT",
-      "name": "ORICONENT",
+      "name": "Oricon Enterprises Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13575,7 +13575,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "DELTACORP"
+      "name": "Delta Corp Ltd"
     },
     {
       "date": "2026-09-25",
@@ -13744,7 +13744,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ITCHOTELS.NS",
       "clean_symbol": "ITCHOTELS",
-      "name": "ITCHOTELS"
+      "name": "ITC Hotels Ltd"
     },
     {
       "date": "2026-09-25",
@@ -13770,7 +13770,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ACMESOLAR.NS",
       "clean_symbol": "ACMESOLAR",
-      "name": "acmesolar"
+      "name": "Acme Solar Holdings Ltd"
     },
     {
       "date": "2026-09-25",
@@ -13809,7 +13809,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "EDELWEISS.NS",
       "clean_symbol": "EDELWEISS",
-      "name": "EDELWEISS"
+      "name": "Edelweiss Financial Services Ltd"
     },
     {
       "date": "2026-09-25",
@@ -13926,7 +13926,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "INOXINDIA.NS",
       "clean_symbol": "INOXINDIA",
-      "name": "inoxindia"
+      "name": "INOX India Ltd"
     },
     {
       "date": "2026-09-25",
@@ -14316,7 +14316,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "DELHIVERY.NS",
       "clean_symbol": "DELHIVERY",
-      "name": "delhivery"
+      "name": "Delhivery"
     },
     {
       "date": "2026-09-25",
@@ -14537,7 +14537,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ORICONENT.NS",
       "clean_symbol": "ORICONENT",
-      "name": "ORICONENT"
+      "name": "Oricon Enterprises Ltd"
     },
     {
       "date": "2026-09-25",
