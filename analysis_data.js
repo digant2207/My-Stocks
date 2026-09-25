@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "25-Sep-2026 04:45:52 PM IST (Indian Standard Time)",
+    "last_updated": "25-Sep-2026 08:36:22 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,140.50",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 17,
     "pattern_breakouts_count": 23,
     "upcoming_3d_events_count": 116,
-    "scan_time_seconds": 17.3
+    "scan_time_seconds": 18.5
   },
   "top_20_swing": [
     {
@@ -297,7 +297,7 @@ window.stockData = {
     {
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
+      "name": "JAMNAAUTO",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -653,7 +653,7 @@ window.stockData = {
     {
       "symbol": "HBLENGINE.NS",
       "clean_symbol": "HBLENGINE",
-      "name": "HBL Engineering Ltd",
+      "name": "hblengine",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -931,7 +931,7 @@ window.stockData = {
       "macd_val": 16.28,
       "macd_signal": 16.31,
       "macd_hist": -0.04,
-      "pe_ratio": 18.45,
+      "pe_ratio": 18.73,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -1419,7 +1419,7 @@ window.stockData = {
     {
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "Delta Corp Ltd",
+      "name": "DELTACORP",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2031,7 +2031,7 @@ window.stockData = {
     {
       "symbol": "JAMNAAUTO.NS",
       "clean_symbol": "JAMNAAUTO",
-      "name": "Jamna Auto Industries Ltd",
+      "name": "JAMNAAUTO",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2472,7 +2472,7 @@ window.stockData = {
     {
       "symbol": "HBLENGINE.NS",
       "clean_symbol": "HBLENGINE",
-      "name": "HBL Engineering Ltd",
+      "name": "hblengine",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2750,7 +2750,7 @@ window.stockData = {
       "macd_val": 16.28,
       "macd_signal": 16.31,
       "macd_hist": -0.04,
-      "pe_ratio": 18.45,
+      "pe_ratio": 18.73,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -3321,7 +3321,7 @@ window.stockData = {
     {
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "Delta Corp Ltd",
+      "name": "DELTACORP",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3428,7 +3428,7 @@ window.stockData = {
       "macd_val": 25.47,
       "macd_signal": 19.81,
       "macd_hist": 5.66,
-      "pe_ratio": 16.71,
+      "pe_ratio": 16.54,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -3689,7 +3689,7 @@ window.stockData = {
       "macd_val": -162.79,
       "macd_signal": -198.1,
       "macd_hist": 35.3,
-      "pe_ratio": 44.67,
+      "pe_ratio": 44.27,
       "roe": 25.5,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -4193,7 +4193,7 @@ window.stockData = {
       "macd_val": 40.06,
       "macd_signal": 37.88,
       "macd_hist": 2.18,
-      "pe_ratio": 76.96,
+      "pe_ratio": 75.22,
       "roe": 0.0,
       "debt_to_equity": 0.43,
       "debt_status": "Low Debt (Healthy)",
@@ -4250,7 +4250,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 77.0x"
+        "\u26a0\ufe0f High Valuation P/E: 75.2x"
       ]
     },
     {
@@ -4604,7 +4604,7 @@ window.stockData = {
     {
       "symbol": "ITCHOTELS.NS",
       "clean_symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd",
+      "name": "ITCHOTELS",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4625,7 +4625,7 @@ window.stockData = {
       "macd_val": -0.8,
       "macd_signal": -2.03,
       "macd_hist": 1.23,
-      "pe_ratio": 38.36,
+      "pe_ratio": 39.01,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -4853,7 +4853,7 @@ window.stockData = {
     {
       "symbol": "ACMESOLAR.NS",
       "clean_symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Ltd",
+      "name": "acmesolar",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5041,7 +5041,7 @@ window.stockData = {
       "macd_val": -5.9,
       "macd_signal": -15.47,
       "macd_hist": 9.58,
-      "pe_ratio": 27.41,
+      "pe_ratio": 27.42,
       "roe": 0.0,
       "debt_to_equity": 0.17,
       "debt_status": "Low Debt (Healthy)",
@@ -5101,7 +5101,7 @@ window.stockData = {
     {
       "symbol": "EDELWEISS.NS",
       "clean_symbol": "EDELWEISS",
-      "name": "Edelweiss Financial Services Ltd",
+      "name": "EDELWEISS",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5625,7 +5625,7 @@ window.stockData = {
       "macd_val": -4.64,
       "macd_signal": -5.03,
       "macd_hist": 0.39,
-      "pe_ratio": 12.43,
+      "pe_ratio": 12.42,
       "roe": 0.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -5798,7 +5798,7 @@ window.stockData = {
       "macd_val": 0.03,
       "macd_signal": 0.05,
       "macd_hist": -0.02,
-      "pe_ratio": 19.4,
+      "pe_ratio": 18.75,
       "roe": 7.5,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -5862,7 +5862,7 @@ window.stockData = {
     {
       "symbol": "INOXINDIA.NS",
       "clean_symbol": "INOXINDIA",
-      "name": "INOX India Ltd",
+      "name": "inoxindia",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -6520,7 +6520,7 @@ window.stockData = {
     {
       "symbol": "JINDALSAW.NS",
       "clean_symbol": "JINDALSAW",
-      "name": "Jindal SAW Ltd",
+      "name": "JINDALSAW",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7198,7 +7198,7 @@ window.stockData = {
       "macd_val": 0.75,
       "macd_signal": 2.3,
       "macd_hist": -1.56,
-      "pe_ratio": 34.94,
+      "pe_ratio": 34.41,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -7444,7 +7444,7 @@ window.stockData = {
       "macd_val": -16.03,
       "macd_signal": -16.29,
       "macd_hist": 0.26,
-      "pe_ratio": 12.61,
+      "pe_ratio": 12.6,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -7689,7 +7689,7 @@ window.stockData = {
       "macd_val": -59.55,
       "macd_signal": -54.99,
       "macd_hist": -4.56,
-      "pe_ratio": 33.65,
+      "pe_ratio": 33.2,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -7863,7 +7863,7 @@ window.stockData = {
       "macd_val": -45.75,
       "macd_signal": -43.73,
       "macd_hist": -2.01,
-      "pe_ratio": 19.07,
+      "pe_ratio": 18.82,
       "roe": 0.0,
       "debt_to_equity": 0.21,
       "debt_status": "Low Debt (Healthy)",
@@ -8027,7 +8027,7 @@ window.stockData = {
       "macd_val": -9.5,
       "macd_signal": 1.96,
       "macd_hist": -11.46,
-      "pe_ratio": 34.91,
+      "pe_ratio": 34.43,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -8496,7 +8496,7 @@ window.stockData = {
     {
       "symbol": "DELHIVERY.NS",
       "clean_symbol": "DELHIVERY",
-      "name": "Delhivery",
+      "name": "delhivery",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8773,7 +8773,7 @@ window.stockData = {
       "macd_val": -7.03,
       "macd_signal": -7.67,
       "macd_hist": 0.64,
-      "pe_ratio": 26.3,
+      "pe_ratio": 26.32,
       "roe": 0.0,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -8864,7 +8864,7 @@ window.stockData = {
       "macd_val": -47.59,
       "macd_signal": -50.99,
       "macd_hist": 3.41,
-      "pe_ratio": 21.83,
+      "pe_ratio": 21.87,
       "roe": 0.0,
       "debt_to_equity": 0.15,
       "debt_status": "Low Debt (Healthy)",
@@ -9026,7 +9026,7 @@ window.stockData = {
       "macd_val": -0.19,
       "macd_signal": -0.27,
       "macd_hist": 0.08,
-      "pe_ratio": 28.04,
+      "pe_ratio": 27.84,
       "roe": 0.0,
       "debt_to_equity": 1.13,
       "debt_status": "High Debt Warning",
@@ -9937,7 +9937,7 @@ window.stockData = {
       "macd_val": -1.0,
       "macd_signal": -1.74,
       "macd_hist": 0.74,
-      "pe_ratio": 30.93,
+      "pe_ratio": 30.45,
       "roe": 0.0,
       "debt_to_equity": 1.68,
       "debt_status": "High Debt Warning",
@@ -9999,7 +9999,7 @@ window.stockData = {
     {
       "symbol": "ORICONENT.NS",
       "clean_symbol": "ORICONENT",
-      "name": "Oricon Enterprises Ltd",
+      "name": "ORICONENT",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10774,7 +10774,7 @@ window.stockData = {
       "macd_val": -34.74,
       "macd_signal": -32.55,
       "macd_hist": -2.19,
-      "pe_ratio": 32.72,
+      "pe_ratio": 32.2,
       "roe": 0.0,
       "debt_to_equity": 0.98,
       "debt_status": "Moderate Debt",
@@ -10936,7 +10936,7 @@ window.stockData = {
       "macd_val": -2.52,
       "macd_signal": -2.46,
       "macd_hist": -0.07,
-      "pe_ratio": 383.02,
+      "pe_ratio": 369.09,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -10990,7 +10990,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 383.0x"
+        "\u26a0\ufe0f High Valuation P/E: 369.1x"
       ]
     },
     {
@@ -11759,7 +11759,7 @@ window.stockData = {
       "macd_val": -2.51,
       "macd_signal": -0.35,
       "macd_hist": -2.16,
-      "pe_ratio": 15.6,
+      "pe_ratio": 15.38,
       "roe": 0.0,
       "debt_to_equity": 0.35,
       "debt_status": "Low Debt (Healthy)",
@@ -13070,7 +13070,7 @@ window.stockData = {
       "macd_val": -1.06,
       "macd_signal": -0.79,
       "macd_hist": -0.27,
-      "pe_ratio": 35.7,
+      "pe_ratio": 35.09,
       "roe": 0.0,
       "debt_to_equity": 2.27,
       "debt_status": "High Debt Warning",
@@ -13575,7 +13575,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "DELTACORP.NS",
       "clean_symbol": "DELTACORP",
-      "name": "Delta Corp Ltd"
+      "name": "DELTACORP"
     },
     {
       "date": "2026-09-25",
@@ -13744,7 +13744,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ITCHOTELS.NS",
       "clean_symbol": "ITCHOTELS",
-      "name": "ITC Hotels Ltd"
+      "name": "ITCHOTELS"
     },
     {
       "date": "2026-09-25",
@@ -13770,7 +13770,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ACMESOLAR.NS",
       "clean_symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Ltd"
+      "name": "acmesolar"
     },
     {
       "date": "2026-09-25",
@@ -13809,7 +13809,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "EDELWEISS.NS",
       "clean_symbol": "EDELWEISS",
-      "name": "Edelweiss Financial Services Ltd"
+      "name": "EDELWEISS"
     },
     {
       "date": "2026-09-25",
@@ -13926,7 +13926,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "INOXINDIA.NS",
       "clean_symbol": "INOXINDIA",
-      "name": "INOX India Ltd"
+      "name": "inoxindia"
     },
     {
       "date": "2026-09-25",
@@ -14316,7 +14316,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "DELHIVERY.NS",
       "clean_symbol": "DELHIVERY",
-      "name": "Delhivery"
+      "name": "delhivery"
     },
     {
       "date": "2026-09-25",
@@ -14537,7 +14537,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ORICONENT.NS",
       "clean_symbol": "ORICONENT",
-      "name": "Oricon Enterprises Ltd"
+      "name": "ORICONENT"
     },
     {
       "date": "2026-09-25",
