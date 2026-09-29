@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "29-Sep-2026 04:01:01 PM IST (Indian Standard Time)",
+    "last_updated": "29-Sep-2026 04:03:36 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,716.20",
@@ -22,7 +22,7 @@
     "strong_buys_count": 8,
     "pattern_breakouts_count": 12,
     "upcoming_3d_events_count": 120,
-    "scan_time_seconds": 20.0
+    "scan_time_seconds": 19.8
   },
   "top_20_swing": [
     {
@@ -6189,7 +6189,7 @@
       "macd_val": -1.83,
       "macd_signal": -1.57,
       "macd_hist": -0.26,
-      "pe_ratio": 17.79,
+      "pe_ratio": 17.25,
       "roe": 39.4,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -7422,7 +7422,7 @@
       "macd_val": -24.74,
       "macd_signal": -18.77,
       "macd_hist": -5.97,
-      "pe_ratio": 21.93,
+      "pe_ratio": 21.41,
       "roe": 0.0,
       "debt_to_equity": 0.37,
       "debt_status": "Low Debt (Healthy)",
