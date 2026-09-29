@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "29-Sep-2026 03:39:53 PM IST (Indian Standard Time)",
+    "last_updated": "29-Sep-2026 03:45:59 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,716.20",
@@ -10,19 +10,19 @@
         "is_positive": false
       },
       "sensex": {
-        "price": "72,443.08",
-        "raw_price": 72443.08,
-        "change_pts": "-328.64",
-        "change_pct": "-0.45%",
+        "price": "72,529.07",
+        "raw_price": 72529.07,
+        "change_pts": "-242.65",
+        "change_pct": "-0.33%",
         "is_positive": false
       }
     },
-    "total_stocks_scanned": 138,
+    "total_stocks_scanned": 139,
     "swing_top_20_count": 20,
-    "strong_buys_count": 7,
+    "strong_buys_count": 8,
     "pattern_breakouts_count": 12,
-    "upcoming_3d_events_count": 119,
-    "scan_time_seconds": 17.9
+    "upcoming_3d_events_count": 120,
+    "scan_time_seconds": 24.8
   },
   "top_20_swing": [
     {
@@ -1586,7 +1586,7 @@
       "macd_val": -2.47,
       "macd_signal": -2.05,
       "macd_hist": -0.42,
-      "pe_ratio": 20.45,
+      "pe_ratio": 20.04,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -2240,6 +2240,91 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
+      ]
+    },
+    {
+      "symbol": "ACE.NS",
+      "clean_symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 1205.8,
+      "prev_close": 1210.5,
+      "day_change_pct": -0.39,
+      "day_high": 1229.7,
+      "day_low": 1199.0,
+      "volume": 232625,
+      "vol_1m_avg": 338991,
+      "vol_surge_ratio": 0.69,
+      "52w_high": 1268.0,
+      "52w_low": 743.73,
+      "sma_20": 1171.47,
+      "sma_50": 1129.96,
+      "sma_200": 958.64,
+      "rsi_14": 58.8,
+      "macd_val": 31.2,
+      "macd_signal": 29.05,
+      "macd_hist": 2.15,
+      "pe_ratio": 32.81,
+      "roe": 0.0,
+      "debt_to_equity": 0.0,
+      "debt_status": "Zero Debt",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 20.5,
+      "earnings_growth_yoy": 22.3,
+      "dividend_yield": 16.0,
+      "promoter_holding": 66.8,
+      "institutional_holding": 7.3,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 1268.0,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 1269.27,
+      "sell_trigger_price": 1153.9,
+      "buy_status": "\u26a1 BUY ABOVE \u20b91,269.27 (5.3% away)",
+      "swing_target_1": 1268.0,
+      "swing_target_2": 1456.36,
+      "swing_stoploss": 1153.9,
+      "breakout_proximity_pct": 5.2,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 41.2,
+      "composite_score": 60,
+      "long_term_signal": "ACCUMULATE",
+      "swing_signal": "MOMENTUM BUY \ud83d\udfe2",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-09-29",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +22.3%)",
+          "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,269.27** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.69x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,153.90 \u2022 **Target 1:** \u20b91,268.00 \u2022 **Target 2:** \u20b91,456.36",
+      "strengths": [
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+22.3%) & Revenue (+20.5%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +22.3%)",
+        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25",
+        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)",
+        "\ud83c\udfaf RSI Bullish Momentum Zone: 58.8"
+      ],
+      "weaknesses": [
+        "No major red flags detected"
       ]
     },
     {
@@ -4535,7 +4620,7 @@
       "macd_val": -2.47,
       "macd_signal": -2.05,
       "macd_hist": -0.42,
-      "pe_ratio": 20.45,
+      "pe_ratio": 20.04,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -6436,7 +6521,7 @@
       "macd_val": -34.25,
       "macd_signal": -8.0,
       "macd_hist": -26.26,
-      "pe_ratio": 33.11,
+      "pe_ratio": 32.66,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -7010,7 +7095,7 @@
       "macd_val": -9.79,
       "macd_signal": -15.53,
       "macd_hist": 5.74,
-      "pe_ratio": 13.37,
+      "pe_ratio": 13.2,
       "roe": 0.0,
       "debt_to_equity": 0.08,
       "debt_status": "Low Debt (Healthy)",
@@ -13203,6 +13288,19 @@
       "symbol": "SOTL.NS",
       "clean_symbol": "SOTL",
       "name": "Savita Oil Technologies Ltd"
+    },
+    {
+      "date": "2026-09-29",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +22.3%)",
+      "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "ACE.NS",
+      "clean_symbol": "ACE",
+      "name": "Action Construction Equipment Ltd"
     },
     {
       "date": "2026-09-29",
