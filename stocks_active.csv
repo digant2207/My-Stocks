@@ -9,11 +9,11 @@ ATGL.NS,Adani Total Gas Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 ATHERENERG.NS,Ather Energy Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 AWL.NS,AWL Agri Business Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 BAJAJHFL.NS,Bajaj Housing Finance Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
-BAJAJHLDNG.NS,Bajaj Holdings And Investment Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
-BAJFINANCE.NS,Bajaj Finance Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
-BANCOINDIA.NS,Banco Products (India) Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
+BAJAJHLDNG.NS,bajajhldng,Spark Watchlist,Equity,Google Sheet Spark Stock List
+BAJFINANCE.NS,BAJFINANCE,Spark Watchlist,Equity,Google Sheet Spark Stock List
+BANCOINDIA.NS,bancoindia,Spark Watchlist,Equity,Google Sheet Spark Stock List
 BBL.NS,Bharat Bijlee Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
-BHARATCOAL.NS,Bharat Coking Coal Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
+BHARATCOAL.NS,bharatcoal,Spark Watchlist,Equity,Google Sheet Spark Stock List
 BLUEJET.NS,Blue Jet Healthcare Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 BOROLTD.NS,Borosil Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 BOROSCI.NS,Borosil Scientific Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
@@ -21,21 +21,21 @@ CAMS.NS,Computer Age Management Services Ltd,Spark Watchlist,Equity,Google Sheet
 CANBK.NS,Canara Bank Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 CERA.NS,Cera Sanitaryware Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 CHEMCON.NS,Chemcon Speciality Chemicals Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
-COCHINSHIP.NS,Cochin Shipyard Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
+COCHINSHIP.NS,cochinship,Spark Watchlist,Equity,Google Sheet Spark Stock List
 DCAL.NS,Dishman Carbogen Amcis Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 DCW.NS,DCW Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
-DDEVPLSTIK.NS,Ddev Plastiks Industries Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
+DDEVPLSTIK.NS,ddevplstik,Spark Watchlist,Equity,Google Sheet Spark Stock List
 DELHIVERY.NS,Delhivery,Spark Watchlist,Equity,Google Sheet Spark Stock List
 DELTACORP.NS,Delta Corp Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 DEN.NS,DEN Networks Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 DHANBANK.NS,Dhanlaxmi Bank Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 EDELWEISS.NS,Edelweiss Financial Services Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 ELECON.NS,Elecon Engineering Company Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
-ENGINERSIN.NS,Engineers India Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
+ENGINERSIN.NS,ENGINERSIN,Spark Watchlist,Equity,Google Sheet Spark Stock List
 EXIDEIND.NS,Exide Industries Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 FCL.NS,Fineotex Chemical Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 FIEMIND.NS,Fiem Industries Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
-GENUSPOWER.NS,Genus Power Infrastructures Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
+GENUSPOWER.NS,genuspower,Spark Watchlist,Equity,Google Sheet Spark Stock List
 GESHIP.NS,Great Eastern Shipping Company Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 GMDCLTD.NS,Gujarat Mineral Development Corpn Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 GPPL.NS,Gujarat Pipavav Port Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
@@ -44,12 +44,12 @@ GRSE.NS,Garden Reach Shipbuilders & Enginers Ltd,Spark Watchlist,Equity,Google S
 GSFC.NS,Gujarat State Fertilizers & Chemicls Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 532540.BO,GSPL,Spark Watchlist,Equity,Google Sheet Spark Stock List
 HAL.NS,Hindustan Aeronautics Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
-HAPPSTMNDS.NS,Happiest Minds Technologies Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
+HAPPSTMNDS.NS,HAPPSTMNDS,Spark Watchlist,Equity,Google Sheet Spark Stock List
 HBLENGINE.NS,HBL Engineering Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 HDFCBANK.NS,HDFC Bank Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 HDIL.NS,Housing Development & Infrastructure,Spark Watchlist,Equity,Google Sheet Spark Stock List
 HEG.NS,HEG,Spark Watchlist,Equity,Google Sheet Spark Stock List
-HEROMOTOCO.NS,Hero Motocorp Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
+HEROMOTOCO.NS,HEROMOTOCO,Spark Watchlist,Equity,Google Sheet Spark Stock List
 HPL.NS,HPL Electric & Power Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 IFCI.NS,IFCI Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
 IKIO.NS,IKIO Technologies Ltd,Spark Watchlist,Equity,Google Sheet Spark Stock List
