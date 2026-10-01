@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "01-Oct-2026 04:46:04 PM IST (Indian Standard Time)",
+    "last_updated": "02-Oct-2026 12:02:51 AM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,421.95",
@@ -21,8 +21,8 @@ window.stockData = {
     "swing_top_20_count": 20,
     "strong_buys_count": 8,
     "pattern_breakouts_count": 10,
-    "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 21.6
+    "upcoming_3d_events_count": 122,
+    "scan_time_seconds": 19.8
   },
   "top_20_swing": [
     {
@@ -87,7 +87,7 @@ window.stockData = {
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b91583.00.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -135,7 +135,7 @@ window.stockData = {
       "macd_val": 77.81,
       "macd_signal": 64.09,
       "macd_hist": 13.73,
-      "pe_ratio": 113.36,
+      "pe_ratio": 113.48,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -173,7 +173,7 @@ window.stockData = {
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b91076.90.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -195,7 +195,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 113.4x"
+        "\u26a0\ufe0f High Valuation P/E: 113.5x"
       ]
     },
     {
@@ -260,7 +260,7 @@ window.stockData = {
       "swing_reason": "Classic Cup & Handle pattern. Rounded base (12.1% depth) with tight handle consolidation and 1.5x volume breakout.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -308,7 +308,7 @@ window.stockData = {
       "macd_val": 2.78,
       "macd_signal": 2.15,
       "macd_hist": 0.63,
-      "pe_ratio": 22.51,
+      "pe_ratio": 22.54,
       "roe": 0.0,
       "debt_to_equity": 0.13,
       "debt_status": "Low Debt (Healthy)",
@@ -346,7 +346,7 @@ window.stockData = {
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b9116.02 support zone with neckline at \u20b9132.41.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -431,7 +431,7 @@ window.stockData = {
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b91051.07 support zone with neckline at \u20b91189.81.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -518,7 +518,7 @@ window.stockData = {
       "swing_reason": "20-Day High range breakout above \u20b9132.00.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -605,7 +605,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -650,7 +650,7 @@ window.stockData = {
       "macd_val": 15.51,
       "macd_signal": 12.89,
       "macd_hist": 2.62,
-      "pe_ratio": 22.39,
+      "pe_ratio": 22.4,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -688,17 +688,7 @@ window.stockData = {
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b9321.40.",
       "events": [
         {
-          "date": "2026-09-24",
-          "date_tag": "24 Sep 2026",
-          "is_upcoming_3_days": false,
-          "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (161.00% Yield)",
-          "summary": "Ex-dividend date for payout.",
-          "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (161.00%) attracts income investors."
-        },
-        {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -711,7 +701,6 @@ window.stockData = {
       "ai_suggestion": "**\u26a1 WATCHLIST BREAKOUT ZONE - BUY TRIGGER: \u20b9321.72** \u2022 Coiling **2.8% away** from breakout level (\u20b9321.40) in **Ascending Triangle \ud83d\udcd0** setup. \u2022 **Sell/Stop Loss Trigger:** \u20b9287.73 \u2022 **Target 1:** \u20b9321.40 \u2022 **Target 2:** \u20b9428.53",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+142.2%) & Revenue (+-5.8%)",
-        "\ud83d\udcc5 Upcoming Event (24 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (161.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +142.2%)",
         "\ud83d\udcc8 Chart Pattern: Ascending Triangle \ud83d\udcd0 (Bullish Accumulation \ud83d\udfe2)",
         "\ud83d\ude80 Range Breakout: NR7 Volatility Expansion \ud83d\udca5",
@@ -785,7 +774,7 @@ window.stockData = {
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b9660.33 support zone with neckline at \u20b9771.73.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -869,7 +858,7 @@ window.stockData = {
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b9701.98.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -954,7 +943,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -1000,7 +989,7 @@ window.stockData = {
       "macd_val": 11.22,
       "macd_signal": 18.79,
       "macd_hist": -7.57,
-      "pe_ratio": 77.33,
+      "pe_ratio": 77.58,
       "roe": 0.0,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -1038,7 +1027,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -1056,7 +1045,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 77.3x"
+        "\u26a0\ufe0f High Valuation P/E: 77.6x"
       ]
     },
     {
@@ -1083,7 +1072,7 @@ window.stockData = {
       "macd_val": -0.24,
       "macd_signal": -1.05,
       "macd_hist": 0.81,
-      "pe_ratio": 39.04,
+      "pe_ratio": 38.2,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -1121,7 +1110,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1202,7 +1191,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -1285,7 +1274,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1367,7 +1356,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1449,7 +1438,7 @@ window.stockData = {
       "swing_reason": "Minervini VCP contraction setup: Volatility narrowed from 18.8% -> 13.6% -> 7.5% with volume compression.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1531,7 +1520,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1613,7 +1602,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1696,7 +1685,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1780,7 +1769,7 @@ window.stockData = {
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b91583.00.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1828,7 +1817,7 @@ window.stockData = {
       "macd_val": 77.81,
       "macd_signal": 64.09,
       "macd_hist": 13.73,
-      "pe_ratio": 113.36,
+      "pe_ratio": 113.48,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -1866,7 +1855,7 @@ window.stockData = {
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b91076.90.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1888,7 +1877,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 113.4x"
+        "\u26a0\ufe0f High Valuation P/E: 113.5x"
       ]
     },
     {
@@ -1953,7 +1942,7 @@ window.stockData = {
       "swing_reason": "Classic Cup & Handle pattern. Rounded base (12.1% depth) with tight handle consolidation and 1.5x volume breakout.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2001,7 +1990,7 @@ window.stockData = {
       "macd_val": 2.78,
       "macd_signal": 2.15,
       "macd_hist": 0.63,
-      "pe_ratio": 22.51,
+      "pe_ratio": 22.54,
       "roe": 0.0,
       "debt_to_equity": 0.13,
       "debt_status": "Low Debt (Healthy)",
@@ -2039,7 +2028,7 @@ window.stockData = {
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b9116.02 support zone with neckline at \u20b9132.41.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -2124,7 +2113,7 @@ window.stockData = {
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b91051.07 support zone with neckline at \u20b91189.81.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2211,7 +2200,7 @@ window.stockData = {
       "swing_reason": "20-Day High range breakout above \u20b9132.00.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -2298,7 +2287,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2382,7 +2371,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2428,7 +2417,7 @@ window.stockData = {
       "macd_val": 13.61,
       "macd_signal": 15.36,
       "macd_hist": -1.75,
-      "pe_ratio": 18.26,
+      "pe_ratio": 18.28,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -2466,7 +2455,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2550,7 +2539,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2595,7 +2584,7 @@ window.stockData = {
       "macd_val": 15.51,
       "macd_signal": 12.89,
       "macd_hist": 2.62,
-      "pe_ratio": 22.39,
+      "pe_ratio": 22.4,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -2633,17 +2622,7 @@ window.stockData = {
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b9321.40.",
       "events": [
         {
-          "date": "2026-09-24",
-          "date_tag": "24 Sep 2026",
-          "is_upcoming_3_days": false,
-          "type": "Dividend Ex-Date",
-          "title": "Ex-Dividend Event (161.00% Yield)",
-          "summary": "Ex-dividend date for payout.",
-          "impact": "Bullish Income",
-          "impact_reason": "High dividend yield (161.00%) attracts income investors."
-        },
-        {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2656,7 +2635,6 @@ window.stockData = {
       "ai_suggestion": "**\u26a1 WATCHLIST BREAKOUT ZONE - BUY TRIGGER: \u20b9321.72** \u2022 Coiling **2.8% away** from breakout level (\u20b9321.40) in **Ascending Triangle \ud83d\udcd0** setup. \u2022 **Sell/Stop Loss Trigger:** \u20b9287.73 \u2022 **Target 1:** \u20b9321.40 \u2022 **Target 2:** \u20b9428.53",
       "strengths": [
         "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+142.2%) & Revenue (+-5.8%)",
-        "\ud83d\udcc5 Upcoming Event (24 Sep 2026): Dividend Ex-Date - Ex-Dividend Event (161.00% Yield)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +142.2%)",
         "\ud83d\udcc8 Chart Pattern: Ascending Triangle \ud83d\udcd0 (Bullish Accumulation \ud83d\udfe2)",
         "\ud83d\ude80 Range Breakout: NR7 Volatility Expansion \ud83d\udca5",
@@ -2730,7 +2708,7 @@ window.stockData = {
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b9660.33 support zone with neckline at \u20b9771.73.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -2814,7 +2792,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2895,7 +2873,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2940,7 +2918,7 @@ window.stockData = {
       "macd_val": 14.35,
       "macd_signal": 11.79,
       "macd_hist": 2.56,
-      "pe_ratio": 236.5,
+      "pe_ratio": 237.36,
       "roe": 0.0,
       "debt_to_equity": 0.09,
       "debt_status": "Low Debt (Healthy)",
@@ -2978,7 +2956,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2996,7 +2974,7 @@ window.stockData = {
         "\ud83c\udfaf RSI Bullish Momentum Zone: 59.2"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 236.5x"
+        "\u26a0\ufe0f High Valuation P/E: 237.4x"
       ]
     },
     {
@@ -3061,7 +3039,7 @@ window.stockData = {
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b9701.98.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -3146,7 +3124,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -3192,7 +3170,7 @@ window.stockData = {
       "macd_val": 11.22,
       "macd_signal": 18.79,
       "macd_hist": -7.57,
-      "pe_ratio": 77.33,
+      "pe_ratio": 77.58,
       "roe": 0.0,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -3230,7 +3208,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -3248,7 +3226,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 77.3x"
+        "\u26a0\ufe0f High Valuation P/E: 77.6x"
       ]
     },
     {
@@ -3275,7 +3253,7 @@ window.stockData = {
       "macd_val": -0.24,
       "macd_signal": -1.05,
       "macd_hist": 0.81,
-      "pe_ratio": 39.04,
+      "pe_ratio": 38.2,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -3313,7 +3291,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3394,7 +3372,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -3477,7 +3455,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3559,7 +3537,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3641,7 +3619,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3686,7 +3664,7 @@ window.stockData = {
       "macd_val": 7.94,
       "macd_signal": 3.75,
       "macd_hist": 4.19,
-      "pe_ratio": 41.83,
+      "pe_ratio": 41.79,
       "roe": 0.0,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -3724,7 +3702,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -3767,7 +3745,7 @@ window.stockData = {
       "macd_val": -193.15,
       "macd_signal": -188.57,
       "macd_hist": -4.59,
-      "pe_ratio": 42.44,
+      "pe_ratio": 41.78,
       "roe": 25.5,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -3805,7 +3783,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3887,7 +3865,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3969,7 +3947,7 @@ window.stockData = {
       "swing_reason": "Minervini VCP contraction setup: Volatility narrowed from 18.8% -> 13.6% -> 7.5% with volume compression.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4051,7 +4029,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4134,7 +4112,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4216,7 +4194,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4300,7 +4278,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4383,7 +4361,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4465,7 +4443,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4549,7 +4527,7 @@ window.stockData = {
       "swing_reason": "NR7 (7-Day Narrowest Range) explosive expansion breakout.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4636,7 +4614,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4719,7 +4697,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -4762,7 +4740,7 @@ window.stockData = {
       "macd_val": -1.99,
       "macd_signal": -0.25,
       "macd_hist": -1.74,
-      "pe_ratio": 365.11,
+      "pe_ratio": 361.06,
       "roe": 0.0,
       "debt_to_equity": 0.83,
       "debt_status": "Moderate Debt",
@@ -4800,7 +4778,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4818,7 +4796,7 @@ window.stockData = {
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 365.1x"
+        "\u26a0\ufe0f High Valuation P/E: 361.1x"
       ]
     },
     {
@@ -4883,7 +4861,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4964,7 +4942,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5047,7 +5025,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5131,7 +5109,7 @@ window.stockData = {
       "swing_reason": "Insufficient history for pattern recognition.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -5176,7 +5154,7 @@ window.stockData = {
       "macd_val": -6.65,
       "macd_signal": -9.93,
       "macd_hist": 3.28,
-      "pe_ratio": 26.29,
+      "pe_ratio": 26.32,
       "roe": 0.0,
       "debt_to_equity": 0.17,
       "debt_status": "Low Debt (Healthy)",
@@ -5214,7 +5192,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5295,7 +5273,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5376,7 +5354,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5419,7 +5397,7 @@ window.stockData = {
       "macd_val": -8.25,
       "macd_signal": -6.34,
       "macd_hist": -1.91,
-      "pe_ratio": 9.12,
+      "pe_ratio": 9.11,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -5457,7 +5435,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5539,7 +5517,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5621,7 +5599,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5702,7 +5680,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5784,7 +5762,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5867,7 +5845,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5948,7 +5926,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6031,7 +6009,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6113,7 +6091,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6194,7 +6172,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6276,7 +6254,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6319,7 +6297,7 @@ window.stockData = {
       "macd_val": -21.68,
       "macd_signal": -19.94,
       "macd_hist": -1.74,
-      "pe_ratio": 57.96,
+      "pe_ratio": 59.33,
       "roe": 0.0,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -6357,7 +6335,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6400,7 +6378,7 @@ window.stockData = {
       "macd_val": -77.54,
       "macd_signal": -60.51,
       "macd_hist": -17.03,
-      "pe_ratio": 26.25,
+      "pe_ratio": 26.24,
       "roe": 0.0,
       "debt_to_equity": 0.3,
       "debt_status": "Low Debt (Healthy)",
@@ -6438,7 +6416,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6519,7 +6497,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -6562,7 +6540,7 @@ window.stockData = {
       "macd_val": -66.97,
       "macd_signal": -52.99,
       "macd_hist": -13.98,
-      "pe_ratio": 17.68,
+      "pe_ratio": 17.66,
       "roe": 0.0,
       "debt_to_equity": 0.21,
       "debt_status": "Low Debt (Healthy)",
@@ -6600,7 +6578,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6681,7 +6659,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6763,7 +6741,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6844,7 +6822,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6926,7 +6904,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -7009,7 +6987,7 @@ window.stockData = {
       "swing_reason": "NR7 (7-Day Narrowest Range) explosive expansion breakout.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -7094,7 +7072,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7174,7 +7152,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -7256,7 +7234,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -7338,7 +7316,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7420,7 +7398,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -7502,7 +7480,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7583,7 +7561,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7666,7 +7644,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7747,7 +7725,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7830,7 +7808,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7911,7 +7889,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7994,7 +7972,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -8075,7 +8053,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -8157,7 +8135,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -8239,7 +8217,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -8320,7 +8298,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8403,7 +8381,7 @@ window.stockData = {
       "swing_reason": "NR7 (7-Day Narrowest Range) explosive expansion breakout.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -8449,7 +8427,7 @@ window.stockData = {
       "macd_val": -29.2,
       "macd_signal": -21.87,
       "macd_hist": -7.34,
-      "pe_ratio": 11.98,
+      "pe_ratio": 11.97,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -8487,7 +8465,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8569,7 +8547,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8612,7 +8590,7 @@ window.stockData = {
       "macd_val": 0.06,
       "macd_signal": 0.25,
       "macd_hist": -0.19,
-      "pe_ratio": 18.36,
+      "pe_ratio": 18.51,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -8650,7 +8628,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8732,7 +8710,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8813,7 +8791,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8857,7 +8835,7 @@ window.stockData = {
       "macd_val": -172.22,
       "macd_signal": -129.33,
       "macd_hist": -42.9,
-      "pe_ratio": 32.4,
+      "pe_ratio": 32.42,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -8895,7 +8873,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8976,7 +8954,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9057,7 +9035,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9139,7 +9117,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9220,7 +9198,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9301,7 +9279,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9345,7 +9323,7 @@ window.stockData = {
       "macd_val": -4.15,
       "macd_signal": -3.94,
       "macd_hist": -0.21,
-      "pe_ratio": 46.68,
+      "pe_ratio": 45.6,
       "roe": 0.0,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -9383,7 +9361,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -9464,7 +9442,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9545,7 +9523,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9627,7 +9605,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -9710,7 +9688,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -9753,7 +9731,7 @@ window.stockData = {
       "macd_val": -45.52,
       "macd_signal": -47.14,
       "macd_hist": 1.62,
-      "pe_ratio": 29.11,
+      "pe_ratio": 29.16,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -9791,7 +9769,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -9871,7 +9849,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9953,7 +9931,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9997,7 +9975,7 @@ window.stockData = {
       "macd_val": -25.25,
       "macd_signal": -18.72,
       "macd_hist": -6.53,
-      "pe_ratio": 28.14,
+      "pe_ratio": 29.09,
       "roe": 0.0,
       "debt_to_equity": 3.15,
       "debt_status": "High Debt Warning",
@@ -10035,7 +10013,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10117,7 +10095,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10161,7 +10139,7 @@ window.stockData = {
       "macd_val": -2.13,
       "macd_signal": -1.55,
       "macd_hist": -0.57,
-      "pe_ratio": 8.8,
+      "pe_ratio": 8.93,
       "roe": 0.0,
       "debt_to_equity": 0.19,
       "debt_status": "Low Debt (Healthy)",
@@ -10200,8 +10178,8 @@ window.stockData = {
       "events": [
         {
           "date": "2026-10-01",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
+          "date_tag": "01 Oct 2026",
+          "is_upcoming_3_days": false,
           "type": "Dividend Ex-Date",
           "title": "Ex-Dividend Event (261.00% Yield)",
           "summary": "Ex-dividend date for payout.",
@@ -10212,7 +10190,7 @@ window.stockData = {
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b986.21** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 1.43x. \u2022 **Sell/Stop Loss Trigger:** \u20b973.52 \u2022 **Target 1:** \u20b981.66 \u2022 **Target 2:** \u20b987.41",
       "strengths": [
         "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+0.4%) & Revenue (+0.8%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (261.00% Yield)"
+        "\ud83d\udcc5 Upcoming Event (01 Oct 2026): Dividend Ex-Date - Ex-Dividend Event (261.00% Yield)"
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
@@ -10280,7 +10258,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10362,7 +10340,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10443,7 +10421,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10525,7 +10503,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10569,7 +10547,7 @@ window.stockData = {
       "macd_val": -111.71,
       "macd_signal": -97.78,
       "macd_hist": -13.93,
-      "pe_ratio": 50.46,
+      "pe_ratio": 50.41,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -10607,7 +10585,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10689,7 +10667,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -10770,7 +10748,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10850,7 +10828,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10932,7 +10910,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10975,7 +10953,7 @@ window.stockData = {
       "macd_val": 0.57,
       "macd_signal": 0.87,
       "macd_hist": -0.3,
-      "pe_ratio": 18.44,
+      "pe_ratio": 18.53,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -11013,7 +10991,7 @@ window.stockData = {
       "swing_reason": "NR7 (7-Day Narrowest Range) explosive expansion breakout.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -11059,7 +11037,7 @@ window.stockData = {
       "macd_val": -39.09,
       "macd_signal": -31.17,
       "macd_hist": -7.92,
-      "pe_ratio": 49.71,
+      "pe_ratio": 49.67,
       "roe": 0.0,
       "debt_to_equity": 0.28,
       "debt_status": "Low Debt (Healthy)",
@@ -11097,7 +11075,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -11178,7 +11156,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -11259,7 +11237,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -11340,7 +11318,7 @@ window.stockData = {
       "swing_reason": "NR7 (7-Day Narrowest Range) explosive expansion breakout.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11424,7 +11402,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11505,7 +11483,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -11588,7 +11566,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -11669,7 +11647,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11749,7 +11727,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11830,7 +11808,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11910,7 +11888,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11953,7 +11931,7 @@ window.stockData = {
       "macd_val": -3.57,
       "macd_signal": -2.8,
       "macd_hist": -0.77,
-      "pe_ratio": 9.64,
+      "pe_ratio": 9.62,
       "roe": 0.0,
       "debt_to_equity": 1.28,
       "debt_status": "High Debt Warning",
@@ -11991,7 +11969,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12072,7 +12050,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -12154,7 +12132,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12236,7 +12214,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -12317,7 +12295,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -12399,7 +12377,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12480,7 +12458,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -12561,7 +12539,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12642,7 +12620,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12686,7 +12664,7 @@ window.stockData = {
       "macd_val": -0.89,
       "macd_signal": -0.43,
       "macd_hist": -0.46,
-      "pe_ratio": 6.22,
+      "pe_ratio": 6.18,
       "roe": 0.0,
       "debt_to_equity": 0.51,
       "debt_status": "Moderate Debt",
@@ -12724,7 +12702,7 @@ window.stockData = {
       "swing_reason": "NR7 (7-Day Narrowest Range) explosive expansion breakout.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12808,7 +12786,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12891,7 +12869,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12971,7 +12949,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -13052,7 +13030,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -13134,7 +13112,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -13215,7 +13193,7 @@ window.stockData = {
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -13236,7 +13214,7 @@ window.stockData = {
   ],
   "upcoming_3d_events": [
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13249,7 +13227,7 @@ window.stockData = {
       "name": "Great Eastern Shipping Company Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13262,7 +13240,7 @@ window.stockData = {
       "name": "Sigma Advanced Systems Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13275,7 +13253,7 @@ window.stockData = {
       "name": "Gujarat Pipavav Port Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13288,7 +13266,7 @@ window.stockData = {
       "name": "Jamna Auto Industries Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13301,7 +13279,7 @@ window.stockData = {
       "name": "Action Construction Equipment Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13314,7 +13292,7 @@ window.stockData = {
       "name": "Jay Bharat Maruti Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13327,7 +13305,7 @@ window.stockData = {
       "name": "Savita Oil Technologies Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13340,7 +13318,7 @@ window.stockData = {
       "name": "Kross Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13353,7 +13331,7 @@ window.stockData = {
       "name": "Redington Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13366,7 +13344,7 @@ window.stockData = {
       "name": "HDFC Bank Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13379,7 +13357,7 @@ window.stockData = {
       "name": "Engineers India Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13392,7 +13370,7 @@ window.stockData = {
       "name": "Sharda Motor Industries Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13405,7 +13383,7 @@ window.stockData = {
       "name": "International Conveyors Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13418,7 +13396,7 @@ window.stockData = {
       "name": "E2E Networks Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13431,7 +13409,7 @@ window.stockData = {
       "name": "Delta Corp Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13444,7 +13422,7 @@ window.stockData = {
       "name": "INOX India Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13457,7 +13435,7 @@ window.stockData = {
       "name": "ITC Hotels Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13470,7 +13448,7 @@ window.stockData = {
       "name": "Chemcon Speciality Chemicals Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13483,7 +13461,7 @@ window.stockData = {
       "name": "Fineotex Chemical Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13496,7 +13474,7 @@ window.stockData = {
       "name": "Jyoti CNC Automation Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13509,7 +13487,7 @@ window.stockData = {
       "name": "Polycab India Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13522,7 +13500,7 @@ window.stockData = {
       "name": "Gujarat Ambuja Exports Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13535,7 +13513,7 @@ window.stockData = {
       "name": "Hero Motocorp Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13548,7 +13526,7 @@ window.stockData = {
       "name": "Strides Pharma Science Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13561,7 +13539,7 @@ window.stockData = {
       "name": "Fiem Industries Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13574,7 +13552,7 @@ window.stockData = {
       "name": "Rane (Madras) Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13587,7 +13565,7 @@ window.stockData = {
       "name": "Jio Financial Services Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13600,7 +13578,7 @@ window.stockData = {
       "name": "Garden Reach Shipbuilders & Enginers Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13613,7 +13591,7 @@ window.stockData = {
       "name": "Edelweiss Financial Services Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13626,7 +13604,7 @@ window.stockData = {
       "name": "Acme Solar Holdings Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13639,7 +13617,7 @@ window.stockData = {
       "name": "Mahanagar Telephone Nigam Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13652,7 +13630,7 @@ window.stockData = {
       "name": "Happiest Minds Technologies Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13665,7 +13643,7 @@ window.stockData = {
       "name": "Fsn E-Commerce Ventures Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13678,7 +13656,7 @@ window.stockData = {
       "name": "Vishal Mega Mart Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13691,7 +13669,7 @@ window.stockData = {
       "name": "Vijaya Diagnostic Centre Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13704,7 +13682,7 @@ window.stockData = {
       "name": "Jullundur Motor Agency (Delhi) Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13717,7 +13695,7 @@ window.stockData = {
       "name": "HEG"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13730,7 +13708,7 @@ window.stockData = {
       "name": "NDR Auto Components Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13743,7 +13721,7 @@ window.stockData = {
       "name": "Oil and Natural Gas Corporation Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13756,7 +13734,7 @@ window.stockData = {
       "name": "AWL Agri Business Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13769,7 +13747,7 @@ window.stockData = {
       "name": "National Aluminium Co Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13782,7 +13760,7 @@ window.stockData = {
       "name": "Suzlon Energy Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13795,7 +13773,7 @@ window.stockData = {
       "name": "Ddev Plastiks Industries Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13808,7 +13786,7 @@ window.stockData = {
       "name": "Exide Industries Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13821,7 +13799,7 @@ window.stockData = {
       "name": "IKIO Technologies Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13834,7 +13812,7 @@ window.stockData = {
       "name": "Symphony Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13847,7 +13825,7 @@ window.stockData = {
       "name": "Dhanlaxmi Bank Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13860,7 +13838,7 @@ window.stockData = {
       "name": "Bajaj Housing Finance Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13873,7 +13851,7 @@ window.stockData = {
       "name": "Sun Pharma Advanced Research Co Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13886,7 +13864,7 @@ window.stockData = {
       "name": "Rainbow Children's Medicare Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13899,7 +13877,7 @@ window.stockData = {
       "name": "Indian Railway Ctrng nd Trsm Corp Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13912,7 +13890,7 @@ window.stockData = {
       "name": "Tata Consumer Products Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13925,7 +13903,7 @@ window.stockData = {
       "name": "Gravita India Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13938,7 +13916,7 @@ window.stockData = {
       "name": "Computer Age Management Services Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13951,7 +13929,7 @@ window.stockData = {
       "name": "Waaree Energies Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13964,7 +13942,7 @@ window.stockData = {
       "name": "Gujarat State Fertilizers & Chemicls Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13977,7 +13955,7 @@ window.stockData = {
       "name": "Mazagon Dock Shipbuilders Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13990,7 +13968,7 @@ window.stockData = {
       "name": "Bajaj Holdings And Investment Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14003,7 +13981,7 @@ window.stockData = {
       "name": "Hindustan Aeronautics Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14016,7 +13994,7 @@ window.stockData = {
       "name": "Anant Raj Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14029,7 +14007,7 @@ window.stockData = {
       "name": "Rajoo Engineers Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14042,7 +14020,7 @@ window.stockData = {
       "name": "Transformers and Rectifiers (India) Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14055,7 +14033,7 @@ window.stockData = {
       "name": "Shyam Century Ferrous Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14068,7 +14046,7 @@ window.stockData = {
       "name": "Shalby Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14081,7 +14059,7 @@ window.stockData = {
       "name": "Oil India Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14094,7 +14072,7 @@ window.stockData = {
       "name": "Muthoot Finance Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14107,7 +14085,7 @@ window.stockData = {
       "name": "Indian Oil Corporation Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14120,7 +14098,7 @@ window.stockData = {
       "name": "NMDC Steel Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14133,7 +14111,7 @@ window.stockData = {
       "name": "Ather Energy Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14146,7 +14124,7 @@ window.stockData = {
       "name": "Punjab National Bank"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14159,7 +14137,7 @@ window.stockData = {
       "name": "Wipro Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14172,7 +14150,7 @@ window.stockData = {
       "name": "Indraprastha Medical Corporation Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14185,7 +14163,7 @@ window.stockData = {
       "name": "Lumax Industries Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14198,7 +14176,7 @@ window.stockData = {
       "name": "Zenith Exports Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14211,7 +14189,7 @@ window.stockData = {
       "name": "Summit Securities Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14224,7 +14202,7 @@ window.stockData = {
       "name": "Banco Products (India) Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14237,7 +14215,7 @@ window.stockData = {
       "name": "DCW Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14250,7 +14228,7 @@ window.stockData = {
       "name": "Reliance Industries Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14263,7 +14241,7 @@ window.stockData = {
       "name": "Canara Bank Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14276,7 +14254,7 @@ window.stockData = {
       "name": "Cera Sanitaryware Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14289,7 +14267,7 @@ window.stockData = {
       "name": "Delhivery"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14302,7 +14280,7 @@ window.stockData = {
       "name": "Utkarsh Small Finance Bank Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14315,7 +14293,7 @@ window.stockData = {
       "name": "Rashtriya Chemicals and Fertilizers Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14328,7 +14306,7 @@ window.stockData = {
       "name": "Sanstar Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14341,7 +14319,7 @@ window.stockData = {
       "name": "Bharat Bijlee Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14354,7 +14332,7 @@ window.stockData = {
       "name": "Rail Vikas Nigam Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14367,7 +14345,7 @@ window.stockData = {
       "name": "HPL Electric & Power Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14380,7 +14358,7 @@ window.stockData = {
       "name": "Yes Bank Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14393,7 +14371,7 @@ window.stockData = {
       "name": "Universus Photo Imagings Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14406,7 +14384,7 @@ window.stockData = {
       "name": "Larsen and Toubro Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14419,7 +14397,7 @@ window.stockData = {
       "name": "Genus Power Infrastructures Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14432,7 +14410,7 @@ window.stockData = {
       "name": "L&T Finance Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14445,7 +14423,7 @@ window.stockData = {
       "name": "Bajaj Finance Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14458,20 +14436,7 @@ window.stockData = {
       "name": "SBI Cards and Payment Services Ltd"
     },
     {
-      "date": "2026-10-01",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Dividend Ex-Date",
-      "title": "Ex-Dividend Event (261.00% Yield)",
-      "summary": "Ex-dividend date for payout.",
-      "impact": "Bullish Income",
-      "impact_reason": "High dividend yield (261.00%) attracts income investors.",
-      "symbol": "NMDC.NS",
-      "clean_symbol": "NMDC",
-      "name": "NMDC Ltd"
-    },
-    {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14484,7 +14449,7 @@ window.stockData = {
       "name": "Reliance Communications Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14497,7 +14462,7 @@ window.stockData = {
       "name": "Gujarat Mineral Development Corpn Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14510,7 +14475,7 @@ window.stockData = {
       "name": "Asian Granito India Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14523,7 +14488,7 @@ window.stockData = {
       "name": "Oricon Enterprises Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14536,7 +14501,7 @@ window.stockData = {
       "name": "Kalyani Investment Company Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14549,7 +14514,7 @@ window.stockData = {
       "name": "Onmobile Global Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14562,7 +14527,7 @@ window.stockData = {
       "name": "Sarda Energy & Minerals Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14575,7 +14540,7 @@ window.stockData = {
       "name": "Reliance Power Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14588,7 +14553,7 @@ window.stockData = {
       "name": "Kuantum Papers Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14601,7 +14566,7 @@ window.stockData = {
       "name": "Sigachi Industries Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14614,7 +14579,7 @@ window.stockData = {
       "name": "Dishman Carbogen Amcis Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14627,7 +14592,7 @@ window.stockData = {
       "name": "SJVN Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14640,7 +14605,7 @@ window.stockData = {
       "name": "Bharat Coking Coal Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14653,7 +14618,7 @@ window.stockData = {
       "name": "Saksoft Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14666,7 +14631,7 @@ window.stockData = {
       "name": "Borosil Scientific Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14679,7 +14644,7 @@ window.stockData = {
       "name": "Shrenik Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14692,7 +14657,7 @@ window.stockData = {
       "name": "NTPC Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14705,7 +14670,7 @@ window.stockData = {
       "name": "Adani Total Gas Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14718,7 +14683,7 @@ window.stockData = {
       "name": "Indian Railway Finance Corp Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14731,7 +14696,7 @@ window.stockData = {
       "name": "NHPC Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14744,7 +14709,7 @@ window.stockData = {
       "name": "Simbhaoli Sugars Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14757,7 +14722,7 @@ window.stockData = {
       "name": "Housing Development & Infrastructure"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14770,7 +14735,7 @@ window.stockData = {
       "name": "Tata Power Company Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14783,7 +14748,7 @@ window.stockData = {
       "name": "Southern Petrochemical Industries CorpLd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14796,7 +14761,7 @@ window.stockData = {
       "name": "Reliance Industrial Infrastructure Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14809,7 +14774,7 @@ window.stockData = {
       "name": "Sadhana Nitro Chem Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14822,7 +14787,7 @@ window.stockData = {
       "name": "Reliance Home Finance Ltd"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
