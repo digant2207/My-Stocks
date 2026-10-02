@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "02-Oct-2026 12:01:05 PM IST (Indian Standard Time)",
+    "last_updated": "02-Oct-2026 12:15:54 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,421.95",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 5,
     "pattern_breakouts_count": 6,
     "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 20.4
+    "scan_time_seconds": 19.3
   },
   "top_20_swing": [
     {
@@ -6172,6 +6172,87 @@ window.stockData = {
       ]
     },
     {
+      "symbol": "GRAVITA.NS",
+      "clean_symbol": "GRAVITA",
+      "name": "Gravita India Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 1413.1,
+      "prev_close": 1447.0,
+      "day_change_pct": -2.34,
+      "day_high": 1413.1,
+      "day_low": 1413.1,
+      "volume": 1,
+      "vol_1m_avg": 182454,
+      "vol_surge_ratio": 0.0,
+      "52w_high": 1913.6,
+      "52w_low": 1266.9,
+      "sma_20": 1573.73,
+      "sma_50": 1679.82,
+      "sma_200": 1651.51,
+      "rsi_14": 14.6,
+      "macd_val": -80.19,
+      "macd_signal": -64.45,
+      "macd_hist": -15.74,
+      "pe_ratio": 26.89,
+      "roe": 0.0,
+      "debt_to_equity": 0.3,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 41.8,
+      "earnings_growth_yoy": 14.0,
+      "dividend_yield": 64.0,
+      "promoter_holding": 59.4,
+      "institutional_holding": 10.9,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 1724.0,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 1725.72,
+      "sell_trigger_price": 1367.18,
+      "buy_status": "\u26a1 BUY ABOVE \u20b91,725.72 (22.1% away)",
+      "swing_target_1": 1665.61,
+      "swing_target_2": 1872.21,
+      "swing_stoploss": 1367.18,
+      "breakout_proximity_pct": 22.0,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 11.6,
+      "composite_score": 29,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-10-02",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +14.0%)",
+          "summary": "Company declared strong YoY revenue growth of 41.8% and Net Profit growth of 14.0%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,725.72** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,367.18 \u2022 **Target 1:** \u20b91,665.61 \u2022 **Target 2:** \u20b91,872.21",
+      "strengths": [
+        "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+14.0%) & Revenue (+41.8%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +14.0%)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
+      ]
+    },
+    {
       "symbol": "GSFC.NS",
       "clean_symbol": "GSFC",
       "name": "Gujarat State Fertilizers & Chemicls Ltd",
@@ -6251,87 +6332,6 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
-      ]
-    },
-    {
-      "symbol": "GRAVITA.NS",
-      "clean_symbol": "GRAVITA",
-      "name": "Gravita India Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 1413.1,
-      "prev_close": 1447.0,
-      "day_change_pct": -2.34,
-      "day_high": 1413.1,
-      "day_low": 1413.1,
-      "volume": 1,
-      "vol_1m_avg": 182454,
-      "vol_surge_ratio": 0.0,
-      "52w_high": 1913.6,
-      "52w_low": 1266.9,
-      "sma_20": 1573.73,
-      "sma_50": 1679.82,
-      "sma_200": 1651.51,
-      "rsi_14": 14.6,
-      "macd_val": -80.19,
-      "macd_signal": -64.45,
-      "macd_hist": -15.74,
-      "pe_ratio": 26.89,
-      "roe": 0.0,
-      "debt_to_equity": 0.3,
-      "debt_status": "Low Debt (Healthy)",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 41.8,
-      "earnings_growth_yoy": 14.0,
-      "dividend_yield": 64.0,
-      "promoter_holding": 59.4,
-      "institutional_holding": 10.9,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 1724.0,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 1725.72,
-      "sell_trigger_price": 1367.18,
-      "buy_status": "\u26a1 BUY ABOVE \u20b91,725.72 (22.1% away)",
-      "swing_target_1": 1665.61,
-      "swing_target_2": 1872.21,
-      "swing_stoploss": 1367.18,
-      "breakout_proximity_pct": 22.0,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 11.6,
-      "composite_score": 29,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-10-02",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +14.0%)",
-          "summary": "Company declared strong YoY revenue growth of 41.8% and Net Profit growth of 14.0%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,725.72** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,367.18 \u2022 **Target 1:** \u20b91,665.61 \u2022 **Target 2:** \u20b91,872.21",
-      "strengths": [
-        "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+14.0%) & Revenue (+41.8%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +14.0%)"
-      ],
-      "weaknesses": [
-        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
       ]
     },
     {
@@ -13817,19 +13817,6 @@ window.stockData = {
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
-      "title": "Strong Earnings Growth (YoY Profit +14.4%)",
-      "summary": "Company declared strong YoY revenue growth of 64.0% and Net Profit growth of 14.4%.",
-      "impact": "Bullish Re-rating \ud83d\ude80",
-      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
-      "symbol": "GSFC.NS",
-      "clean_symbol": "GSFC",
-      "name": "Gujarat State Fertilizers & Chemicls Ltd"
-    },
-    {
-      "date": "2026-10-02",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Quarterly Earnings Growth",
       "title": "Strong Earnings Growth (YoY Profit +14.0%)",
       "summary": "Company declared strong YoY revenue growth of 41.8% and Net Profit growth of 14.0%.",
       "impact": "Bullish Re-rating \ud83d\ude80",
@@ -13837,6 +13824,19 @@ window.stockData = {
       "symbol": "GRAVITA.NS",
       "clean_symbol": "GRAVITA",
       "name": "Gravita India Ltd"
+    },
+    {
+      "date": "2026-10-02",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +14.4%)",
+      "summary": "Company declared strong YoY revenue growth of 64.0% and Net Profit growth of 14.4%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "GSFC.NS",
+      "clean_symbol": "GSFC",
+      "name": "Gujarat State Fertilizers & Chemicls Ltd"
     },
     {
       "date": "2026-10-02",
