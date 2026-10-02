@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "02-Oct-2026 04:01:05 PM IST (Indian Standard Time)",
+    "last_updated": "02-Oct-2026 04:15:55 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,421.95",
@@ -22,7 +22,7 @@
     "strong_buys_count": 5,
     "pattern_breakouts_count": 6,
     "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 17.3
+    "scan_time_seconds": 20.5
   },
   "top_20_swing": [
     {
@@ -307,7 +307,7 @@
       "macd_val": 17.75,
       "macd_signal": 20.74,
       "macd_hist": -2.98,
-      "pe_ratio": 16.64,
+      "pe_ratio": 16.13,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -874,7 +874,7 @@
     {
       "symbol": "KROSS.NS",
       "clean_symbol": "KROSS",
-      "name": "Kross Ltd",
+      "name": "KROSS",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1986,7 +1986,7 @@
       "macd_val": 17.75,
       "macd_signal": 20.74,
       "macd_hist": -2.98,
-      "pe_ratio": 16.64,
+      "pe_ratio": 16.13,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -2553,7 +2553,7 @@
     {
       "symbol": "KROSS.NS",
       "clean_symbol": "KROSS",
-      "name": "Kross Ltd",
+      "name": "KROSS",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3734,7 +3734,7 @@
       "macd_val": -2.25,
       "macd_signal": -2.08,
       "macd_hist": -0.17,
-      "pe_ratio": 17.62,
+      "pe_ratio": 17.35,
       "roe": 0.0,
       "debt_to_equity": 0.13,
       "debt_status": "Low Debt (Healthy)",
@@ -3795,7 +3795,7 @@
     {
       "symbol": "STAR.NS",
       "clean_symbol": "STAR",
-      "name": "Strides Pharma Science Ltd",
+      "name": "star",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4376,7 +4376,7 @@
     {
       "symbol": "TARIL.NS",
       "clean_symbol": "TARIL",
-      "name": "Transformers and Rectifiers (India) Ltd",
+      "name": "taril",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5133,7 +5133,7 @@
       "macd_val": -6.23,
       "macd_signal": -4.92,
       "macd_hist": -1.32,
-      "pe_ratio": 67.46,
+      "pe_ratio": 65.79,
       "roe": 0.0,
       "debt_to_equity": 0.16,
       "debt_status": "Low Debt (Healthy)",
@@ -5188,7 +5188,7 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 67.5x"
+        "\u26a0\ufe0f High Valuation P/E: 65.8x"
       ]
     },
     {
@@ -5684,7 +5684,7 @@
     {
       "symbol": "SPARC.NS",
       "clean_symbol": "SPARC",
-      "name": "Sun Pharma Advanced Research Co Ltd",
+      "name": "sparc",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5765,7 +5765,7 @@
     {
       "symbol": "NYKAA.NS",
       "clean_symbol": "NYKAA",
-      "name": "Fsn E-Commerce Ventures Ltd",
+      "name": "NYKAA",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -6419,7 +6419,7 @@
     {
       "symbol": "IRCTC.NS",
       "clean_symbol": "IRCTC",
-      "name": "Indian Railway Ctrng nd Trsm Corp Ltd",
+      "name": "IRCTC",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -6926,7 +6926,7 @@
       "macd_val": -6.8,
       "macd_signal": -1.7,
       "macd_hist": -5.1,
-      "pe_ratio": 8.73,
+      "pe_ratio": 8.64,
       "roe": 0.0,
       "debt_to_equity": 0.59,
       "debt_status": "Moderate Debt",
@@ -7088,7 +7088,7 @@
       "macd_val": -1.06,
       "macd_signal": -0.12,
       "macd_hist": -0.93,
-      "pe_ratio": 5.88,
+      "pe_ratio": 5.7,
       "roe": 15.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -7311,7 +7311,7 @@
     {
       "symbol": "WIPRO.NS",
       "clean_symbol": "WIPRO",
-      "name": "Wipro Ltd",
+      "name": "WIPRO",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7905,7 +7905,7 @@
       "macd_val": -6.42,
       "macd_signal": -6.01,
       "macd_hist": -0.4,
-      "pe_ratio": 17.56,
+      "pe_ratio": 17.08,
       "roe": 0.0,
       "debt_to_equity": 0.36,
       "debt_status": "Low Debt (Healthy)",
@@ -8148,7 +8148,7 @@
       "macd_val": -39.92,
       "macd_signal": -23.56,
       "macd_hist": -16.36,
-      "pe_ratio": 46.73,
+      "pe_ratio": 45.45,
       "roe": 0.0,
       "debt_to_equity": 0.54,
       "debt_status": "Moderate Debt",
@@ -8208,7 +8208,7 @@
     {
       "symbol": "CANBK.NS",
       "clean_symbol": "CANBK",
-      "name": "Canara Bank Ltd",
+      "name": "CANBK",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8960,7 +8960,7 @@
       "macd_val": -10.69,
       "macd_signal": -10.51,
       "macd_hist": -0.18,
-      "pe_ratio": 19.03,
+      "pe_ratio": 18.89,
       "roe": 0.0,
       "debt_to_equity": 0.75,
       "debt_status": "Moderate Debt",
@@ -9537,7 +9537,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 9.3,
       "earnings_growth_yoy": -14.6,
-      "dividend_yield": 17.0,
+      "dividend_yield": 18.0,
       "promoter_holding": 60.3,
       "institutional_holding": 26.1,
       "pledged_pct": 0.0,
@@ -9864,7 +9864,7 @@
       "debt_score_penalty": 15,
       "rev_growth_yoy": 23.4,
       "earnings_growth_yoy": 19.5,
-      "dividend_yield": 43.0,
+      "dividend_yield": 44.0,
       "promoter_holding": 68.6,
       "institutional_holding": 25.0,
       "pledged_pct": 0.0,
@@ -10182,7 +10182,7 @@
       "macd_val": -4.1,
       "macd_signal": -3.88,
       "macd_hist": -0.21,
-      "pe_ratio": 39.63,
+      "pe_ratio": 38.16,
       "roe": 0.0,
       "debt_to_equity": 0.59,
       "debt_status": "Moderate Debt",
@@ -10588,7 +10588,7 @@
       "macd_val": -0.69,
       "macd_signal": -0.11,
       "macd_hist": -0.58,
-      "pe_ratio": 43.09,
+      "pe_ratio": 42.45,
       "roe": 0.0,
       "debt_to_equity": 0.31,
       "debt_status": "Low Debt (Healthy)",
@@ -10669,7 +10669,7 @@
       "macd_val": -3.66,
       "macd_signal": -2.29,
       "macd_hist": -1.37,
-      "pe_ratio": 15.57,
+      "pe_ratio": 15.47,
       "roe": 0.0,
       "debt_to_equity": 0.35,
       "debt_status": "Low Debt (Healthy)",
@@ -10974,7 +10974,7 @@
     {
       "symbol": "PIIND.NS",
       "clean_symbol": "PIIND",
-      "name": "PI Industries Ltd",
+      "name": "PIIND",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12349,7 +12349,7 @@
     {
       "symbol": "SPIC.NS",
       "clean_symbol": "SPIC",
-      "name": "Southern Petrochemical Industries CorpLd",
+      "name": "SPIC",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12693,7 +12693,7 @@
       "macd_val": -18.77,
       "macd_signal": -15.63,
       "macd_hist": -3.14,
-      "pe_ratio": 83.76,
+      "pe_ratio": 82.41,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -12749,7 +12749,7 @@
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.3% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 83.8x"
+        "\u26a0\ufe0f High Valuation P/E: 82.4x"
       ]
     },
     {
@@ -13020,7 +13020,7 @@
       "macd_val": -1.58,
       "macd_signal": -1.17,
       "macd_hist": -0.42,
-      "pe_ratio": 13.0,
+      "pe_ratio": 12.59,
       "roe": 0.0,
       "debt_to_equity": 14.8,
       "debt_status": "High Debt Warning",
@@ -13300,7 +13300,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "KROSS.NS",
       "clean_symbol": "KROSS",
-      "name": "Kross Ltd"
+      "name": "KROSS"
     },
     {
       "date": "2026-10-02",
@@ -13443,7 +13443,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "STAR.NS",
       "clean_symbol": "STAR",
-      "name": "Strides Pharma Science Ltd"
+      "name": "star"
     },
     {
       "date": "2026-10-02",
@@ -13534,7 +13534,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "TARIL.NS",
       "clean_symbol": "TARIL",
-      "name": "Transformers and Rectifiers (India) Ltd"
+      "name": "taril"
     },
     {
       "date": "2026-10-02",
@@ -13742,7 +13742,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SPARC.NS",
       "clean_symbol": "SPARC",
-      "name": "Sun Pharma Advanced Research Co Ltd"
+      "name": "sparc"
     },
     {
       "date": "2026-10-02",
@@ -13755,7 +13755,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "NYKAA.NS",
       "clean_symbol": "NYKAA",
-      "name": "Fsn E-Commerce Ventures Ltd"
+      "name": "NYKAA"
     },
     {
       "date": "2026-10-02",
@@ -13859,7 +13859,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "IRCTC.NS",
       "clean_symbol": "IRCTC",
-      "name": "Indian Railway Ctrng nd Trsm Corp Ltd"
+      "name": "IRCTC"
     },
     {
       "date": "2026-10-02",
@@ -13989,7 +13989,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "WIPRO.NS",
       "clean_symbol": "WIPRO",
-      "name": "Wipro Ltd"
+      "name": "WIPRO"
     },
     {
       "date": "2026-10-02",
@@ -14132,7 +14132,7 @@
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "CANBK.NS",
       "clean_symbol": "CANBK",
-      "name": "Canara Bank Ltd"
+      "name": "CANBK"
     },
     {
       "date": "2026-10-02",
@@ -14665,7 +14665,7 @@
       "impact_reason": "Standard price discovery.",
       "symbol": "SPIC.NS",
       "clean_symbol": "SPIC",
-      "name": "Southern Petrochemical Industries CorpLd"
+      "name": "SPIC"
     },
     {
       "date": "2026-10-02",
