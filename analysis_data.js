@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "02-Oct-2026 02:31:25 PM IST (Indian Standard Time)",
+    "last_updated": "02-Oct-2026 02:46:08 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,421.95",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 5,
     "pattern_breakouts_count": 6,
     "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 30.1
+    "scan_time_seconds": 20.6
   },
   "top_20_swing": [
     {
@@ -390,7 +390,7 @@ window.stockData = {
       "macd_val": 2.46,
       "macd_signal": 2.21,
       "macd_hist": 0.25,
-      "pe_ratio": 22.47,
+      "pe_ratio": 22.51,
       "roe": 0.0,
       "debt_to_equity": 0.13,
       "debt_status": "Low Debt (Healthy)",
@@ -473,7 +473,7 @@ window.stockData = {
       "macd_val": 12.5,
       "macd_signal": 14.78,
       "macd_hist": -2.28,
-      "pe_ratio": 18.27,
+      "pe_ratio": 18.7,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -557,7 +557,7 @@ window.stockData = {
       "macd_val": 82.5,
       "macd_signal": 67.77,
       "macd_hist": 14.73,
-      "pe_ratio": 113.36,
+      "pe_ratio": 113.48,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -616,7 +616,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 113.4x"
+        "\u26a0\ufe0f High Valuation P/E: 113.5x"
       ]
     },
     {
@@ -726,7 +726,7 @@ window.stockData = {
       "macd_val": 15.46,
       "macd_signal": 13.41,
       "macd_hist": 2.06,
-      "pe_ratio": 22.33,
+      "pe_ratio": 22.11,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -979,7 +979,7 @@ window.stockData = {
       "macd_val": 14.68,
       "macd_signal": 12.37,
       "macd_hist": 2.31,
-      "pe_ratio": 238.1,
+      "pe_ratio": 238.97,
       "roe": 0.0,
       "debt_to_equity": 0.09,
       "debt_status": "Low Debt (Healthy)",
@@ -1035,7 +1035,7 @@ window.stockData = {
         "\ud83c\udfaf RSI Bullish Momentum Zone: 59.7"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 238.1x"
+        "\u26a0\ufe0f High Valuation P/E: 239.0x"
       ]
     },
     {
@@ -1480,7 +1480,7 @@ window.stockData = {
       "macd_val": 2.03,
       "macd_signal": 2.57,
       "macd_hist": -0.54,
-      "pe_ratio": 214.69,
+      "pe_ratio": 206.74,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -1536,7 +1536,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 214.7x"
+        "\u26a0\ufe0f High Valuation P/E: 206.7x"
       ]
     },
     {
@@ -1563,7 +1563,7 @@ window.stockData = {
       "macd_val": 22.83,
       "macd_signal": 20.04,
       "macd_hist": 2.79,
-      "pe_ratio": 27.59,
+      "pe_ratio": 28.12,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -1645,7 +1645,7 @@ window.stockData = {
       "macd_val": -0.3,
       "macd_signal": -0.9,
       "macd_hist": 0.6,
-      "pe_ratio": 39.1,
+      "pe_ratio": 39.59,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -2069,7 +2069,7 @@ window.stockData = {
       "macd_val": 2.46,
       "macd_signal": 2.21,
       "macd_hist": 0.25,
-      "pe_ratio": 22.47,
+      "pe_ratio": 22.51,
       "roe": 0.0,
       "debt_to_equity": 0.13,
       "debt_status": "Low Debt (Healthy)",
@@ -2152,7 +2152,7 @@ window.stockData = {
       "macd_val": 12.5,
       "macd_signal": 14.78,
       "macd_hist": -2.28,
-      "pe_ratio": 18.27,
+      "pe_ratio": 18.7,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -2236,7 +2236,7 @@ window.stockData = {
       "macd_val": 82.5,
       "macd_signal": 67.77,
       "macd_hist": 14.73,
-      "pe_ratio": 113.36,
+      "pe_ratio": 113.48,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -2295,7 +2295,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 113.4x"
+        "\u26a0\ufe0f High Valuation P/E: 113.5x"
       ]
     },
     {
@@ -2405,7 +2405,7 @@ window.stockData = {
       "macd_val": 15.46,
       "macd_signal": 13.41,
       "macd_hist": 2.06,
-      "pe_ratio": 22.33,
+      "pe_ratio": 22.11,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -2658,7 +2658,7 @@ window.stockData = {
       "macd_val": 14.68,
       "macd_signal": 12.37,
       "macd_hist": 2.31,
-      "pe_ratio": 238.1,
+      "pe_ratio": 238.97,
       "roe": 0.0,
       "debt_to_equity": 0.09,
       "debt_status": "Low Debt (Healthy)",
@@ -2714,7 +2714,7 @@ window.stockData = {
         "\ud83c\udfaf RSI Bullish Momentum Zone: 59.7"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 238.1x"
+        "\u26a0\ufe0f High Valuation P/E: 239.0x"
       ]
     },
     {
@@ -3159,7 +3159,7 @@ window.stockData = {
       "macd_val": 2.03,
       "macd_signal": 2.57,
       "macd_hist": -0.54,
-      "pe_ratio": 214.69,
+      "pe_ratio": 206.74,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -3215,7 +3215,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 214.7x"
+        "\u26a0\ufe0f High Valuation P/E: 206.7x"
       ]
     },
     {
@@ -3242,7 +3242,7 @@ window.stockData = {
       "macd_val": 22.83,
       "macd_signal": 20.04,
       "macd_hist": 2.79,
-      "pe_ratio": 27.59,
+      "pe_ratio": 28.12,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -3324,7 +3324,7 @@ window.stockData = {
       "macd_val": -0.3,
       "macd_signal": -0.9,
       "macd_hist": 0.6,
-      "pe_ratio": 39.1,
+      "pe_ratio": 39.59,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -3405,7 +3405,7 @@ window.stockData = {
       "macd_val": 6.65,
       "macd_signal": 4.33,
       "macd_hist": 2.32,
-      "pe_ratio": 41.83,
+      "pe_ratio": 41.79,
       "roe": 0.0,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -3652,7 +3652,7 @@ window.stockData = {
       "macd_val": -197.86,
       "macd_signal": -190.42,
       "macd_hist": -7.44,
-      "pe_ratio": 42.44,
+      "pe_ratio": 42.37,
       "roe": 25.5,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -3816,7 +3816,7 @@ window.stockData = {
       "macd_val": 11.85,
       "macd_signal": 31.09,
       "macd_hist": -19.24,
-      "pe_ratio": 16.31,
+      "pe_ratio": 16.84,
       "roe": 0.0,
       "debt_to_equity": 0.56,
       "debt_status": "Moderate Debt",
@@ -4066,7 +4066,7 @@ window.stockData = {
       "macd_val": 14.39,
       "macd_signal": 17.91,
       "macd_hist": -3.52,
-      "pe_ratio": 76.89,
+      "pe_ratio": 77.14,
       "roe": 0.0,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -4121,7 +4121,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 76.9x"
+        "\u26a0\ufe0f High Valuation P/E: 77.1x"
       ]
     },
     {
@@ -5215,7 +5215,7 @@ window.stockData = {
       "macd_val": -8.94,
       "macd_signal": -6.86,
       "macd_hist": -2.08,
-      "pe_ratio": 9.12,
+      "pe_ratio": 9.11,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -5378,7 +5378,7 @@ window.stockData = {
       "macd_val": -1.98,
       "macd_signal": -1.75,
       "macd_hist": -0.23,
-      "pe_ratio": 16.99,
+      "pe_ratio": 17.22,
       "roe": 39.4,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -5460,7 +5460,7 @@ window.stockData = {
       "macd_val": -6.85,
       "macd_signal": -6.27,
       "macd_hist": -0.58,
-      "pe_ratio": 37.29,
+      "pe_ratio": 37.59,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -5786,7 +5786,7 @@ window.stockData = {
       "macd_val": -2.23,
       "macd_signal": -0.65,
       "macd_hist": -1.59,
-      "pe_ratio": 365.11,
+      "pe_ratio": 361.06,
       "roe": 0.0,
       "debt_to_equity": 0.83,
       "debt_status": "Moderate Debt",
@@ -5841,7 +5841,7 @@ window.stockData = {
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 365.1x"
+        "\u26a0\ufe0f High Valuation P/E: 361.1x"
       ]
     },
     {
@@ -6113,7 +6113,7 @@ window.stockData = {
       "macd_val": -78.29,
       "macd_signal": -75.15,
       "macd_hist": -3.14,
-      "pe_ratio": 17.97,
+      "pe_ratio": 18.79,
       "roe": 0.0,
       "debt_to_equity": 0.05,
       "debt_status": "Low Debt (Healthy)",
@@ -6165,87 +6165,6 @@ window.stockData = {
       "strengths": [
         "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+12.8%) & Revenue (+18.5%)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +12.8%)"
-      ],
-      "weaknesses": [
-        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
-    },
-    {
-      "symbol": "GRAVITA.NS",
-      "clean_symbol": "GRAVITA",
-      "name": "Gravita India Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 1413.1,
-      "prev_close": 1447.0,
-      "day_change_pct": -2.34,
-      "day_high": 1413.1,
-      "day_low": 1413.1,
-      "volume": 1,
-      "vol_1m_avg": 182454,
-      "vol_surge_ratio": 0.0,
-      "52w_high": 1913.6,
-      "52w_low": 1266.9,
-      "sma_20": 1573.73,
-      "sma_50": 1679.82,
-      "sma_200": 1651.51,
-      "rsi_14": 14.6,
-      "macd_val": -80.19,
-      "macd_signal": -64.45,
-      "macd_hist": -15.74,
-      "pe_ratio": 26.26,
-      "roe": 0.0,
-      "debt_to_equity": 0.3,
-      "debt_status": "Low Debt (Healthy)",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 41.8,
-      "earnings_growth_yoy": 14.0,
-      "dividend_yield": 64.0,
-      "promoter_holding": 59.4,
-      "institutional_holding": 10.9,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 1724.0,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 1725.72,
-      "sell_trigger_price": 1367.18,
-      "buy_status": "\u26a1 BUY ABOVE \u20b91,725.72 (22.1% away)",
-      "swing_target_1": 1665.61,
-      "swing_target_2": 1872.21,
-      "swing_stoploss": 1367.18,
-      "breakout_proximity_pct": 22.0,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 11.6,
-      "composite_score": 29,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-10-02",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +14.0%)",
-          "summary": "Company declared strong YoY revenue growth of 41.8% and Net Profit growth of 14.0%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,725.72** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,367.18 \u2022 **Target 1:** \u20b91,665.61 \u2022 **Target 2:** \u20b91,872.21",
-      "strengths": [
-        "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+14.0%) & Revenue (+41.8%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +14.0%)"
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
@@ -6331,6 +6250,87 @@ window.stockData = {
       ],
       "weaknesses": [
         "No major red flags detected"
+      ]
+    },
+    {
+      "symbol": "GRAVITA.NS",
+      "clean_symbol": "GRAVITA",
+      "name": "Gravita India Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 1413.1,
+      "prev_close": 1447.0,
+      "day_change_pct": -2.34,
+      "day_high": 1413.1,
+      "day_low": 1413.1,
+      "volume": 1,
+      "vol_1m_avg": 182454,
+      "vol_surge_ratio": 0.0,
+      "52w_high": 1913.6,
+      "52w_low": 1266.9,
+      "sma_20": 1573.73,
+      "sma_50": 1679.82,
+      "sma_200": 1651.51,
+      "rsi_14": 14.6,
+      "macd_val": -80.19,
+      "macd_signal": -64.45,
+      "macd_hist": -15.74,
+      "pe_ratio": 26.89,
+      "roe": 0.0,
+      "debt_to_equity": 0.3,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 41.8,
+      "earnings_growth_yoy": 14.0,
+      "dividend_yield": 64.0,
+      "promoter_holding": 59.4,
+      "institutional_holding": 10.9,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 1724.0,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 1725.72,
+      "sell_trigger_price": 1367.18,
+      "buy_status": "\u26a1 BUY ABOVE \u20b91,725.72 (22.1% away)",
+      "swing_target_1": 1665.61,
+      "swing_target_2": 1872.21,
+      "swing_stoploss": 1367.18,
+      "breakout_proximity_pct": 22.0,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 11.6,
+      "composite_score": 29,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-10-02",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +14.0%)",
+          "summary": "Company declared strong YoY revenue growth of 41.8% and Net Profit growth of 14.0%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,725.72** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,367.18 \u2022 **Target 1:** \u20b91,665.61 \u2022 **Target 2:** \u20b91,872.21",
+      "strengths": [
+        "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+14.0%) & Revenue (+41.8%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +14.0%)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
       ]
     },
     {
@@ -6601,7 +6601,7 @@ window.stockData = {
       "macd_val": -21.72,
       "macd_signal": -20.3,
       "macd_hist": -1.42,
-      "pe_ratio": 57.96,
+      "pe_ratio": 59.33,
       "roe": 0.0,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -6682,7 +6682,7 @@ window.stockData = {
       "macd_val": -71.16,
       "macd_signal": -56.62,
       "macd_hist": -14.54,
-      "pe_ratio": 17.68,
+      "pe_ratio": 17.92,
       "roe": 0.0,
       "debt_to_equity": 0.21,
       "debt_status": "Low Debt (Healthy)",
@@ -7495,7 +7495,7 @@ window.stockData = {
       "macd_val": -0.49,
       "macd_signal": -0.48,
       "macd_hist": -0.02,
-      "pe_ratio": 25.75,
+      "pe_ratio": 25.43,
       "roe": 12.7,
       "debt_to_equity": 4.61,
       "debt_status": "High Debt Warning",
@@ -7659,7 +7659,7 @@ window.stockData = {
       "macd_val": -3.6,
       "macd_signal": -1.45,
       "macd_hist": -2.15,
-      "pe_ratio": 16.47,
+      "pe_ratio": 16.98,
       "roe": 0.0,
       "debt_to_equity": 0.05,
       "debt_status": "Low Debt (Healthy)",
@@ -7993,7 +7993,7 @@ window.stockData = {
       "debt_score_penalty": 0,
       "rev_growth_yoy": 14.0,
       "earnings_growth_yoy": 200.0,
-      "dividend_yield": 88.0,
+      "dividend_yield": 90.0,
       "promoter_holding": 50.5,
       "institutional_holding": 3.7,
       "pledged_pct": 0.0,
@@ -8628,14 +8628,14 @@ window.stockData = {
       "vol_1m_avg": 441268,
       "vol_surge_ratio": 0.0,
       "52w_high": 1226.8,
-      "52w_low": 787.98,
+      "52w_low": 787.94,
       "sma_20": 821.97,
       "sma_50": 863.76,
-      "sma_200": 940.09,
+      "sma_200": 940.08,
       "rsi_14": 41.5,
-      "macd_val": -10.46,
+      "macd_val": -10.45,
       "macd_signal": -13.83,
-      "macd_hist": 3.38,
+      "macd_hist": 3.37,
       "pe_ratio": 12.92,
       "roe": 0.0,
       "debt_to_equity": 0.08,
@@ -9041,7 +9041,7 @@ window.stockData = {
       "macd_val": -1.26,
       "macd_signal": -0.9,
       "macd_hist": -0.36,
-      "pe_ratio": 5.37,
+      "pe_ratio": 5.52,
       "roe": 0.0,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
@@ -9203,7 +9203,7 @@ window.stockData = {
       "macd_val": -4.39,
       "macd_signal": -4.03,
       "macd_hist": -0.36,
-      "pe_ratio": 46.68,
+      "pe_ratio": 45.6,
       "roe": 0.0,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -9530,7 +9530,7 @@ window.stockData = {
       "macd_val": -69.43,
       "macd_signal": -52.86,
       "macd_hist": -16.58,
-      "pe_ratio": 2.49,
+      "pe_ratio": 2.6,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -9611,7 +9611,7 @@ window.stockData = {
       "macd_val": -26.93,
       "macd_signal": -20.36,
       "macd_hist": -6.57,
-      "pe_ratio": 28.14,
+      "pe_ratio": 29.09,
       "roe": 0.0,
       "debt_to_equity": 3.15,
       "debt_status": "High Debt Warning",
@@ -9939,7 +9939,7 @@ window.stockData = {
       "macd_val": -4.81,
       "macd_signal": -4.83,
       "macd_hist": 0.02,
-      "pe_ratio": 23.59,
+      "pe_ratio": 23.83,
       "roe": 0.0,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -10019,7 +10019,7 @@ window.stockData = {
       "macd_val": -2.3,
       "macd_signal": -1.7,
       "macd_hist": -0.6,
-      "pe_ratio": 8.8,
+      "pe_ratio": 8.93,
       "roe": 0.0,
       "debt_to_equity": 0.19,
       "debt_status": "Low Debt (Healthy)",
@@ -10425,7 +10425,7 @@ window.stockData = {
       "macd_val": -15.8,
       "macd_signal": -9.59,
       "macd_hist": -6.21,
-      "pe_ratio": 16.25,
+      "pe_ratio": 16.24,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -10914,7 +10914,7 @@ window.stockData = {
       "macd_val": -41.74,
       "macd_signal": -33.28,
       "macd_hist": -8.46,
-      "pe_ratio": 49.71,
+      "pe_ratio": 49.67,
       "roe": 0.0,
       "debt_to_equity": 0.28,
       "debt_status": "Low Debt (Healthy)",
@@ -10995,7 +10995,7 @@ window.stockData = {
       "macd_val": -49.58,
       "macd_signal": -47.63,
       "macd_hist": -1.96,
-      "pe_ratio": 29.11,
+      "pe_ratio": 29.16,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -11722,7 +11722,7 @@ window.stockData = {
       "macd_val": -4.03,
       "macd_signal": -3.04,
       "macd_hist": -0.99,
-      "pe_ratio": 9.64,
+      "pe_ratio": 9.62,
       "roe": 0.0,
       "debt_to_equity": 1.28,
       "debt_status": "High Debt Warning",
@@ -11965,7 +11965,7 @@ window.stockData = {
       "macd_val": -116.72,
       "macd_signal": -101.57,
       "macd_hist": -15.15,
-      "pe_ratio": 50.75,
+      "pe_ratio": 50.7,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -12046,7 +12046,7 @@ window.stockData = {
       "macd_val": -1.51,
       "macd_signal": -1.51,
       "macd_hist": -0.0,
-      "pe_ratio": 33.92,
+      "pe_ratio": 34.39,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -12288,7 +12288,7 @@ window.stockData = {
       "macd_val": -3.74,
       "macd_signal": -2.36,
       "macd_hist": -1.39,
-      "pe_ratio": 29.03,
+      "pe_ratio": 29.75,
       "roe": 0.0,
       "debt_to_equity": 1.68,
       "debt_status": "High Debt Warning",
@@ -12530,7 +12530,7 @@ window.stockData = {
       "macd_val": -4.38,
       "macd_signal": -2.75,
       "macd_hist": -1.63,
-      "pe_ratio": 98.5,
+      "pe_ratio": 103.19,
       "roe": 0.0,
       "debt_to_equity": 0.23,
       "debt_status": "Low Debt (Healthy)",
@@ -12585,7 +12585,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 98.5x"
+        "\u26a0\ufe0f High Valuation P/E: 103.2x"
       ]
     },
     {
@@ -13027,7 +13027,7 @@ window.stockData = {
       "debt_score_penalty": 15,
       "rev_growth_yoy": -48.1,
       "earnings_growth_yoy": -49.6,
-      "dividend_yield": 270.0,
+      "dividend_yield": 279.0,
       "promoter_holding": 75.9,
       "institutional_holding": 0.0,
       "pledged_pct": 0.0,
@@ -13814,19 +13814,6 @@ window.stockData = {
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
-      "title": "Strong Earnings Growth (YoY Profit +14.0%)",
-      "summary": "Company declared strong YoY revenue growth of 41.8% and Net Profit growth of 14.0%.",
-      "impact": "Bullish Re-rating \ud83d\ude80",
-      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
-      "symbol": "GRAVITA.NS",
-      "clean_symbol": "GRAVITA",
-      "name": "Gravita India Ltd"
-    },
-    {
-      "date": "2026-10-02",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Quarterly Earnings Growth",
       "title": "Strong Earnings Growth (YoY Profit +14.4%)",
       "summary": "Company declared strong YoY revenue growth of 64.0% and Net Profit growth of 14.4%.",
       "impact": "Bullish Re-rating \ud83d\ude80",
@@ -13834,6 +13821,19 @@ window.stockData = {
       "symbol": "GSFC.NS",
       "clean_symbol": "GSFC",
       "name": "Gujarat State Fertilizers & Chemicls Ltd"
+    },
+    {
+      "date": "2026-10-02",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +14.0%)",
+      "summary": "Company declared strong YoY revenue growth of 41.8% and Net Profit growth of 14.0%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "GRAVITA.NS",
+      "clean_symbol": "GRAVITA",
+      "name": "Gravita India Ltd"
     },
     {
       "date": "2026-10-02",
