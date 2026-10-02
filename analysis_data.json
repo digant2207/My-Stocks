@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "02-Oct-2026 10:31:00 AM IST (Indian Standard Time)",
+    "last_updated": "02-Oct-2026 10:45:53 AM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,421.95",
@@ -22,7 +22,7 @@
     "strong_buys_count": 5,
     "pattern_breakouts_count": 6,
     "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 18.2
+    "scan_time_seconds": 19.5
   },
   "top_20_swing": [
     {
