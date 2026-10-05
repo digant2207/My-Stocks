@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "02-Oct-2026 11:29:49 PM IST (Indian Standard Time)",
+    "last_updated": "05-Oct-2026 09:01:12 AM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,421.95",
@@ -22,7 +22,7 @@
     "strong_buys_count": 5,
     "pattern_breakouts_count": 6,
     "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 20.4
+    "scan_time_seconds": 27.3
   },
   "top_20_swing": [
     {
@@ -87,7 +87,7 @@
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b91583.00.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -173,7 +173,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -220,14 +220,14 @@
       "macd_val": 27.25,
       "macd_signal": 28.97,
       "macd_hist": -1.71,
-      "pe_ratio": 33.01,
+      "pe_ratio": 33.04,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
       "debt_score_penalty": 0,
       "rev_growth_yoy": 20.5,
       "earnings_growth_yoy": 22.3,
-      "dividend_yield": 16.0,
+      "dividend_yield": 17.0,
       "promoter_holding": 66.8,
       "institutional_holding": 7.3,
       "pledged_pct": 0.0,
@@ -258,7 +258,7 @@
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b91060.35 support zone with neckline at \u20b91189.81.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -307,7 +307,7 @@
       "macd_val": 17.75,
       "macd_signal": 20.74,
       "macd_hist": -2.98,
-      "pe_ratio": 16.13,
+      "pe_ratio": 16.14,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -345,7 +345,7 @@
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b9835.26 support zone with neckline at \u20b9938.78.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -390,7 +390,7 @@
       "macd_val": 2.46,
       "macd_signal": 2.21,
       "macd_hist": 0.25,
-      "pe_ratio": 22.51,
+      "pe_ratio": 22.47,
       "roe": 0.0,
       "debt_to_equity": 0.13,
       "debt_status": "Low Debt (Healthy)",
@@ -428,7 +428,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -473,7 +473,7 @@
       "macd_val": 12.5,
       "macd_signal": 14.78,
       "macd_hist": -2.28,
-      "pe_ratio": 18.29,
+      "pe_ratio": 18.3,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -482,7 +482,7 @@
       "earnings_growth_yoy": 76.7,
       "dividend_yield": 151.0,
       "promoter_holding": 26.0,
-      "institutional_holding": 37.8,
+      "institutional_holding": 37.7,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -511,7 +511,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -557,7 +557,7 @@
       "macd_val": 82.5,
       "macd_signal": 67.77,
       "macd_hist": 14.73,
-      "pe_ratio": 113.6,
+      "pe_ratio": 116.55,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -595,7 +595,7 @@
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b91076.90.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -616,7 +616,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 113.6x"
+        "\u26a0\ufe0f High Valuation P/E: 116.5x"
       ]
     },
     {
@@ -643,7 +643,7 @@
       "macd_val": -0.4,
       "macd_signal": -0.72,
       "macd_hist": 0.32,
-      "pe_ratio": 15.77,
+      "pe_ratio": 15.76,
       "roe": 13.8,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -681,7 +681,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -764,7 +764,7 @@
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b9321.40.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -820,7 +820,7 @@
       "earnings_growth_yoy": 41.7,
       "dividend_yield": 603.0,
       "promoter_holding": 44.0,
-      "institutional_holding": 25.8,
+      "institutional_holding": 25.7,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -849,7 +849,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -895,7 +895,7 @@
       "macd_val": 13.06,
       "macd_signal": 13.33,
       "macd_hist": -0.26,
-      "pe_ratio": 28.76,
+      "pe_ratio": 28.79,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -933,7 +933,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -979,7 +979,7 @@
       "macd_val": 14.68,
       "macd_signal": 12.37,
       "macd_hist": 2.31,
-      "pe_ratio": 238.97,
+      "pe_ratio": 448.28,
       "roe": 0.0,
       "debt_to_equity": 0.09,
       "debt_status": "Low Debt (Healthy)",
@@ -1017,7 +1017,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1035,7 +1035,7 @@
         "\ud83c\udfaf RSI Bullish Momentum Zone: 59.7"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 239.0x"
+        "\u26a0\ufe0f High Valuation P/E: 448.3x"
       ]
     },
     {
@@ -1062,7 +1062,7 @@
       "macd_val": 0.88,
       "macd_signal": 0.67,
       "macd_hist": 0.22,
-      "pe_ratio": 3.78,
+      "pe_ratio": 3.77,
       "roe": 0.0,
       "debt_to_equity": 0.17,
       "debt_status": "Low Debt (Healthy)",
@@ -1100,7 +1100,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1145,7 +1145,7 @@
       "macd_val": 3.76,
       "macd_signal": 2.76,
       "macd_hist": 1.0,
-      "pe_ratio": 109.5,
+      "pe_ratio": 108.97,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -1183,7 +1183,7 @@
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b9701.98.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -1204,7 +1204,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -80.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 109.5x"
+        "\u26a0\ufe0f High Valuation P/E: 109.0x"
       ]
     },
     {
@@ -1231,7 +1231,7 @@
       "macd_val": 39.93,
       "macd_signal": 45.45,
       "macd_hist": -5.52,
-      "pe_ratio": 31.65,
+      "pe_ratio": 31.63,
       "roe": 0.0,
       "debt_to_equity": 1.0,
       "debt_status": "Moderate Debt",
@@ -1269,7 +1269,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1315,7 +1315,7 @@
       "macd_val": 8.54,
       "macd_signal": 6.36,
       "macd_hist": 2.18,
-      "pe_ratio": 47.85,
+      "pe_ratio": 47.93,
       "roe": 0.0,
       "debt_to_equity": 0.17,
       "debt_status": "Low Debt (Healthy)",
@@ -1324,7 +1324,7 @@
       "earnings_growth_yoy": -26.7,
       "dividend_yield": 0.0,
       "promoter_holding": 67.9,
-      "institutional_holding": 3.6,
+      "institutional_holding": 3.7,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -1353,7 +1353,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -1436,7 +1436,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1480,7 +1480,7 @@
       "macd_val": 2.03,
       "macd_signal": 2.57,
       "macd_hist": -0.54,
-      "pe_ratio": 206.74,
+      "pe_ratio": 43.61,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -1518,7 +1518,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1535,8 +1535,7 @@
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 206.7x"
+        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
       ]
     },
     {
@@ -1563,14 +1562,14 @@
       "macd_val": 22.83,
       "macd_signal": 20.04,
       "macd_hist": 2.79,
-      "pe_ratio": 27.58,
+      "pe_ratio": 27.63,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
       "debt_score_penalty": 0,
       "rev_growth_yoy": 6.0,
       "earnings_growth_yoy": -23.5,
-      "dividend_yield": 51.0,
+      "dividend_yield": 38.0,
       "promoter_holding": 8.1,
       "institutional_holding": 55.4,
       "pledged_pct": 0.0,
@@ -1601,7 +1600,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -1645,7 +1644,7 @@
       "macd_val": -0.3,
       "macd_signal": -0.9,
       "macd_hist": 0.6,
-      "pe_ratio": 38.25,
+      "pe_ratio": 38.16,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -1683,7 +1682,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1766,7 +1765,7 @@
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b91583.00.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1852,7 +1851,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1899,14 +1898,14 @@
       "macd_val": 27.25,
       "macd_signal": 28.97,
       "macd_hist": -1.71,
-      "pe_ratio": 33.01,
+      "pe_ratio": 33.04,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
       "debt_score_penalty": 0,
       "rev_growth_yoy": 20.5,
       "earnings_growth_yoy": 22.3,
-      "dividend_yield": 16.0,
+      "dividend_yield": 17.0,
       "promoter_holding": 66.8,
       "institutional_holding": 7.3,
       "pledged_pct": 0.0,
@@ -1937,7 +1936,7 @@
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b91060.35 support zone with neckline at \u20b91189.81.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -1986,7 +1985,7 @@
       "macd_val": 17.75,
       "macd_signal": 20.74,
       "macd_hist": -2.98,
-      "pe_ratio": 16.13,
+      "pe_ratio": 16.14,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -2024,7 +2023,7 @@
       "swing_reason": "Double Bottom W-reversal pattern formed around \u20b9835.26 support zone with neckline at \u20b9938.78.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2069,7 +2068,7 @@
       "macd_val": 2.46,
       "macd_signal": 2.21,
       "macd_hist": 0.25,
-      "pe_ratio": 22.51,
+      "pe_ratio": 22.47,
       "roe": 0.0,
       "debt_to_equity": 0.13,
       "debt_status": "Low Debt (Healthy)",
@@ -2107,7 +2106,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -2152,7 +2151,7 @@
       "macd_val": 12.5,
       "macd_signal": 14.78,
       "macd_hist": -2.28,
-      "pe_ratio": 18.29,
+      "pe_ratio": 18.3,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -2161,7 +2160,7 @@
       "earnings_growth_yoy": 76.7,
       "dividend_yield": 151.0,
       "promoter_holding": 26.0,
-      "institutional_holding": 37.8,
+      "institutional_holding": 37.7,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -2190,7 +2189,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2236,7 +2235,7 @@
       "macd_val": 82.5,
       "macd_signal": 67.77,
       "macd_hist": 14.73,
-      "pe_ratio": 113.6,
+      "pe_ratio": 116.55,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -2274,7 +2273,7 @@
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b91076.90.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2295,7 +2294,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 113.6x"
+        "\u26a0\ufe0f High Valuation P/E: 116.5x"
       ]
     },
     {
@@ -2322,7 +2321,7 @@
       "macd_val": -0.4,
       "macd_signal": -0.72,
       "macd_hist": 0.32,
-      "pe_ratio": 15.77,
+      "pe_ratio": 15.76,
       "roe": 13.8,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -2360,7 +2359,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2443,7 +2442,7 @@
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b9321.40.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2499,7 +2498,7 @@
       "earnings_growth_yoy": 41.7,
       "dividend_yield": 603.0,
       "promoter_holding": 44.0,
-      "institutional_holding": 25.8,
+      "institutional_holding": 25.7,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -2528,7 +2527,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2574,7 +2573,7 @@
       "macd_val": 13.06,
       "macd_signal": 13.33,
       "macd_hist": -0.26,
-      "pe_ratio": 28.76,
+      "pe_ratio": 28.79,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -2612,7 +2611,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2658,7 +2657,7 @@
       "macd_val": 14.68,
       "macd_signal": 12.37,
       "macd_hist": 2.31,
-      "pe_ratio": 238.97,
+      "pe_ratio": 448.28,
       "roe": 0.0,
       "debt_to_equity": 0.09,
       "debt_status": "Low Debt (Healthy)",
@@ -2696,7 +2695,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2714,7 +2713,7 @@
         "\ud83c\udfaf RSI Bullish Momentum Zone: 59.7"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 239.0x"
+        "\u26a0\ufe0f High Valuation P/E: 448.3x"
       ]
     },
     {
@@ -2741,7 +2740,7 @@
       "macd_val": 0.88,
       "macd_signal": 0.67,
       "macd_hist": 0.22,
-      "pe_ratio": 3.78,
+      "pe_ratio": 3.77,
       "roe": 0.0,
       "debt_to_equity": 0.17,
       "debt_status": "Low Debt (Healthy)",
@@ -2779,7 +2778,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2824,7 +2823,7 @@
       "macd_val": 3.76,
       "macd_signal": 2.76,
       "macd_hist": 1.0,
-      "pe_ratio": 109.5,
+      "pe_ratio": 108.97,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -2862,7 +2861,7 @@
       "swing_reason": "Ascending Triangle pattern with higher lows support line coiling under flat resistance at \u20b9701.98.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -2883,7 +2882,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -80.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 109.5x"
+        "\u26a0\ufe0f High Valuation P/E: 109.0x"
       ]
     },
     {
@@ -2910,7 +2909,7 @@
       "macd_val": 39.93,
       "macd_signal": 45.45,
       "macd_hist": -5.52,
-      "pe_ratio": 31.65,
+      "pe_ratio": 31.63,
       "roe": 0.0,
       "debt_to_equity": 1.0,
       "debt_status": "Moderate Debt",
@@ -2948,7 +2947,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -2994,7 +2993,7 @@
       "macd_val": 8.54,
       "macd_signal": 6.36,
       "macd_hist": 2.18,
-      "pe_ratio": 47.85,
+      "pe_ratio": 47.93,
       "roe": 0.0,
       "debt_to_equity": 0.17,
       "debt_status": "Low Debt (Healthy)",
@@ -3003,7 +3002,7 @@
       "earnings_growth_yoy": -26.7,
       "dividend_yield": 0.0,
       "promoter_holding": 67.9,
-      "institutional_holding": 3.6,
+      "institutional_holding": 3.7,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -3032,7 +3031,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -3115,7 +3114,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3159,7 +3158,7 @@
       "macd_val": 2.03,
       "macd_signal": 2.57,
       "macd_hist": -0.54,
-      "pe_ratio": 206.74,
+      "pe_ratio": 43.61,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -3197,7 +3196,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3214,8 +3213,7 @@
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 206.7x"
+        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
       ]
     },
     {
@@ -3242,14 +3240,14 @@
       "macd_val": 22.83,
       "macd_signal": 20.04,
       "macd_hist": 2.79,
-      "pe_ratio": 27.58,
+      "pe_ratio": 27.63,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
       "debt_score_penalty": 0,
       "rev_growth_yoy": 6.0,
       "earnings_growth_yoy": -23.5,
-      "dividend_yield": 51.0,
+      "dividend_yield": 38.0,
       "promoter_holding": 8.1,
       "institutional_holding": 55.4,
       "pledged_pct": 0.0,
@@ -3280,7 +3278,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -3324,7 +3322,7 @@
       "macd_val": -0.3,
       "macd_signal": -0.9,
       "macd_hist": 0.6,
-      "pe_ratio": 38.25,
+      "pe_ratio": 38.16,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -3362,7 +3360,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3443,7 +3441,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -3524,7 +3522,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3607,7 +3605,7 @@
       "swing_reason": "Insufficient history for pattern recognition.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -3652,7 +3650,7 @@
       "macd_val": -197.86,
       "macd_signal": -190.42,
       "macd_hist": -7.44,
-      "pe_ratio": 42.19,
+      "pe_ratio": 41.92,
       "roe": 25.5,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -3690,7 +3688,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3772,7 +3770,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3816,7 +3814,7 @@
       "macd_val": 11.85,
       "macd_signal": 31.09,
       "macd_hist": -19.24,
-      "pe_ratio": 16.32,
+      "pe_ratio": 16.3,
       "roe": 0.0,
       "debt_to_equity": 0.56,
       "debt_status": "Moderate Debt",
@@ -3854,7 +3852,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -3937,7 +3935,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -4021,7 +4019,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -4066,7 +4064,7 @@
       "macd_val": 14.39,
       "macd_signal": 17.91,
       "macd_hist": -3.52,
-      "pe_ratio": 77.14,
+      "pe_ratio": 77.0,
       "roe": 0.0,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -4104,7 +4102,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -4121,7 +4119,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 77.1x"
+        "\u26a0\ufe0f High Valuation P/E: 77.0x"
       ]
     },
     {
@@ -4157,7 +4155,7 @@
       "earnings_growth_yoy": 71.5,
       "dividend_yield": 5.0,
       "promoter_holding": 71.7,
-      "institutional_holding": 19.8,
+      "institutional_holding": 20.0,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -4186,7 +4184,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4232,7 +4230,7 @@
       "macd_val": 3.31,
       "macd_signal": 3.52,
       "macd_hist": -0.2,
-      "pe_ratio": 18.43,
+      "pe_ratio": 18.38,
       "roe": 0.0,
       "debt_to_equity": 3.2,
       "debt_status": "High Debt Warning",
@@ -4270,7 +4268,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4316,7 +4314,7 @@
       "macd_val": -18.43,
       "macd_signal": -19.03,
       "macd_hist": 0.59,
-      "pe_ratio": 20.59,
+      "pe_ratio": 20.61,
       "roe": 13.3,
       "debt_to_equity": 0.99,
       "debt_status": "Moderate Debt",
@@ -4354,7 +4352,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -4397,7 +4395,7 @@
       "macd_val": -5.47,
       "macd_signal": -6.03,
       "macd_hist": 0.56,
-      "pe_ratio": 30.74,
+      "pe_ratio": 32.95,
       "roe": 0.0,
       "debt_to_equity": 0.3,
       "debt_status": "Low Debt (Healthy)",
@@ -4435,7 +4433,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -4478,7 +4476,7 @@
       "macd_val": -1.5,
       "macd_signal": -1.37,
       "macd_hist": -0.13,
-      "pe_ratio": 52.37,
+      "pe_ratio": 52.65,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -4487,7 +4485,7 @@
       "earnings_growth_yoy": 25.0,
       "dividend_yield": 0.0,
       "promoter_holding": 40.0,
-      "institutional_holding": 47.9,
+      "institutional_holding": 47.8,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -4516,7 +4514,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4559,7 +4557,7 @@
       "macd_val": -2.98,
       "macd_signal": -0.52,
       "macd_hist": -2.45,
-      "pe_ratio": 32.55,
+      "pe_ratio": 31.44,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -4597,7 +4595,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4680,7 +4678,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4726,7 +4724,7 @@
       "macd_val": -3.93,
       "macd_signal": 10.19,
       "macd_hist": -14.12,
-      "pe_ratio": 78.45,
+      "pe_ratio": 78.23,
       "roe": 0.0,
       "debt_to_equity": 0.44,
       "debt_status": "Low Debt (Healthy)",
@@ -4764,7 +4762,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4782,7 +4780,7 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 78.5x"
+        "\u26a0\ufe0f High Valuation P/E: 78.2x"
       ]
     },
     {
@@ -4809,7 +4807,7 @@
       "macd_val": -7.82,
       "macd_signal": -9.51,
       "macd_hist": 1.69,
-      "pe_ratio": 25.99,
+      "pe_ratio": 25.91,
       "roe": 0.0,
       "debt_to_equity": 0.17,
       "debt_status": "Low Debt (Healthy)",
@@ -4847,7 +4845,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4890,7 +4888,7 @@
       "macd_val": -3.4,
       "macd_signal": -2.59,
       "macd_hist": -0.81,
-      "pe_ratio": 19.68,
+      "pe_ratio": 19.65,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -4928,7 +4926,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -4971,7 +4969,7 @@
       "macd_val": -5.76,
       "macd_signal": -5.32,
       "macd_hist": -0.44,
-      "pe_ratio": 12.0,
+      "pe_ratio": 12.01,
       "roe": 0.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -5009,7 +5007,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5052,7 +5050,7 @@
       "macd_val": -98.56,
       "macd_signal": -75.84,
       "macd_hist": -22.72,
-      "pe_ratio": 30.24,
+      "pe_ratio": 30.23,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -5061,7 +5059,7 @@
       "earnings_growth_yoy": 43.9,
       "dividend_yield": 93.0,
       "promoter_holding": 74.5,
-      "institutional_holding": 3.9,
+      "institutional_holding": 4.0,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -5090,7 +5088,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5133,7 +5131,7 @@
       "macd_val": -6.23,
       "macd_signal": -4.92,
       "macd_hist": -1.32,
-      "pe_ratio": 65.79,
+      "pe_ratio": 65.99,
       "roe": 0.0,
       "debt_to_equity": 0.16,
       "debt_status": "Low Debt (Healthy)",
@@ -5142,7 +5140,7 @@
       "earnings_growth_yoy": 170.2,
       "dividend_yield": 28.0,
       "promoter_holding": 50.2,
-      "institutional_holding": 19.7,
+      "institutional_holding": 19.6,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -5171,7 +5169,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5188,7 +5186,7 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 65.8x"
+        "\u26a0\ufe0f High Valuation P/E: 66.0x"
       ]
     },
     {
@@ -5253,7 +5251,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5335,7 +5333,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5378,7 +5376,7 @@
       "macd_val": -1.98,
       "macd_signal": -1.75,
       "macd_hist": -0.23,
-      "pe_ratio": 16.99,
+      "pe_ratio": 17.07,
       "roe": 39.4,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -5416,7 +5414,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5460,7 +5458,7 @@
       "macd_val": -6.85,
       "macd_signal": -6.27,
       "macd_hist": -0.58,
-      "pe_ratio": 37.32,
+      "pe_ratio": 37.35,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -5498,7 +5496,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5580,7 +5578,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5662,7 +5660,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5743,7 +5741,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5786,7 +5784,7 @@
       "macd_val": -2.23,
       "macd_signal": -0.65,
       "macd_hist": -1.59,
-      "pe_ratio": 361.06,
+      "pe_ratio": 365.11,
       "roe": 0.0,
       "debt_to_equity": 0.83,
       "debt_status": "Moderate Debt",
@@ -5824,7 +5822,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -5841,7 +5839,7 @@
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 361.1x"
+        "\u26a0\ufe0f High Valuation P/E: 365.1x"
       ]
     },
     {
@@ -5868,7 +5866,7 @@
       "macd_val": -4.52,
       "macd_signal": -1.24,
       "macd_hist": -3.28,
-      "pe_ratio": 35.4,
+      "pe_ratio": 34.97,
       "roe": 0.0,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -5906,7 +5904,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -5988,7 +5986,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6032,7 +6030,7 @@
       "macd_val": -18.61,
       "macd_signal": -16.42,
       "macd_hist": -2.19,
-      "pe_ratio": 34.02,
+      "pe_ratio": 34.07,
       "roe": 0.0,
       "debt_to_equity": 0.05,
       "debt_status": "Low Debt (Healthy)",
@@ -6041,7 +6039,7 @@
       "earnings_growth_yoy": 17.0,
       "dividend_yield": 189.0,
       "promoter_holding": 3.1,
-      "institutional_holding": 58.3,
+      "institutional_holding": 58.2,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -6070,7 +6068,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -6113,7 +6111,7 @@
       "macd_val": -78.29,
       "macd_signal": -75.15,
       "macd_hist": -3.14,
-      "pe_ratio": 17.95,
+      "pe_ratio": 17.96,
       "roe": 0.0,
       "debt_to_equity": 0.05,
       "debt_status": "Low Debt (Healthy)",
@@ -6151,7 +6149,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6168,88 +6166,6 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
-    },
-    {
-      "symbol": "GSFC.NS",
-      "clean_symbol": "GSFC",
-      "name": "Gujarat State Fertilizers & Chemicls Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 147.4,
-      "prev_close": 150.5,
-      "day_change_pct": -2.06,
-      "day_high": 147.4,
-      "day_low": 147.4,
-      "volume": 1,
-      "vol_1m_avg": 910520,
-      "vol_surge_ratio": 0.0,
-      "52w_high": 199.99,
-      "52w_low": 134.5,
-      "sma_20": 153.01,
-      "sma_50": 154.35,
-      "sma_200": 160.51,
-      "rsi_14": 36.3,
-      "macd_val": -1.38,
-      "macd_signal": -0.76,
-      "macd_hist": -0.62,
-      "pe_ratio": 8.48,
-      "roe": 0.0,
-      "debt_to_equity": 0.0,
-      "debt_status": "Zero Debt",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 64.0,
-      "earnings_growth_yoy": 14.4,
-      "dividend_yield": 340.0,
-      "promoter_holding": 42.9,
-      "institutional_holding": 11.7,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 158.64,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Neutral Balance \u2696\ufe0f",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 158.8,
-      "sell_trigger_price": 143.02,
-      "buy_status": "\u26a1 BUY ABOVE \u20b9158.80 (7.7% away)",
-      "swing_target_1": 156.42,
-      "swing_target_2": 163.8,
-      "swing_stoploss": 143.02,
-      "breakout_proximity_pct": 7.6,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 11.6,
-      "composite_score": 29,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-10-02",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +14.4%)",
-          "summary": "Company declared strong YoY revenue growth of 64.0% and Net Profit growth of 14.4%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9158.80** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b9143.02 \u2022 **Target 1:** \u20b9156.42 \u2022 **Target 2:** \u20b9163.80",
-      "strengths": [
-        "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+14.4%) & Revenue (+64.0%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +14.4%)",
-        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet"
-      ],
-      "weaknesses": [
-        "No major red flags detected"
       ]
     },
     {
@@ -6283,7 +6199,7 @@
       "debt_score_penalty": 0,
       "rev_growth_yoy": 41.8,
       "earnings_growth_yoy": 14.0,
-      "dividend_yield": 64.0,
+      "dividend_yield": 0.0,
       "promoter_holding": 59.4,
       "institutional_holding": 10.9,
       "pledged_pct": 0.0,
@@ -6314,7 +6230,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6331,6 +6247,88 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
+      ]
+    },
+    {
+      "symbol": "GSFC.NS",
+      "clean_symbol": "GSFC",
+      "name": "Gujarat State Fertilizers & Chemicls Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 147.4,
+      "prev_close": 150.5,
+      "day_change_pct": -2.06,
+      "day_high": 147.4,
+      "day_low": 147.4,
+      "volume": 1,
+      "vol_1m_avg": 910520,
+      "vol_surge_ratio": 0.0,
+      "52w_high": 199.87,
+      "52w_low": 134.5,
+      "sma_20": 153.01,
+      "sma_50": 154.35,
+      "sma_200": 160.51,
+      "rsi_14": 36.3,
+      "macd_val": -1.38,
+      "macd_signal": -0.76,
+      "macd_hist": -0.62,
+      "pe_ratio": 8.48,
+      "roe": 0.0,
+      "debt_to_equity": 0.0,
+      "debt_status": "Zero Debt",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 64.0,
+      "earnings_growth_yoy": 14.4,
+      "dividend_yield": 340.0,
+      "promoter_holding": 42.9,
+      "institutional_holding": 11.8,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 158.64,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Neutral Balance \u2696\ufe0f",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 158.8,
+      "sell_trigger_price": 143.02,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9158.80 (7.7% away)",
+      "swing_target_1": 156.42,
+      "swing_target_2": 163.8,
+      "swing_stoploss": 143.02,
+      "breakout_proximity_pct": 7.6,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 11.6,
+      "composite_score": 29,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-10-05",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +14.4%)",
+          "summary": "Company declared strong YoY revenue growth of 64.0% and Net Profit growth of 14.4%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9158.80** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b9143.02 \u2022 **Target 1:** \u20b9156.42 \u2022 **Target 2:** \u20b9163.80",
+      "strengths": [
+        "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+14.4%) & Revenue (+64.0%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +14.4%)",
+        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet"
+      ],
+      "weaknesses": [
+        "No major red flags detected"
       ]
     },
     {
@@ -6357,7 +6355,7 @@
       "macd_val": -54.9,
       "macd_signal": -27.87,
       "macd_hist": -27.02,
-      "pe_ratio": 33.0,
+      "pe_ratio": 33.01,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -6366,7 +6364,7 @@
       "earnings_growth_yoy": 14.9,
       "dividend_yield": 43.0,
       "promoter_holding": 71.6,
-      "institutional_holding": 16.3,
+      "institutional_holding": 16.2,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -6395,7 +6393,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -6440,7 +6438,7 @@
       "macd_val": -7.56,
       "macd_signal": -7.65,
       "macd_hist": 0.08,
-      "pe_ratio": 26.03,
+      "pe_ratio": 26.06,
       "roe": 0.0,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -6478,7 +6476,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6520,14 +6518,14 @@
       "macd_val": -96.86,
       "macd_signal": -81.99,
       "macd_hist": -14.87,
-      "pe_ratio": 31.06,
+      "pe_ratio": 29.13,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
       "debt_score_penalty": 0,
       "rev_growth_yoy": 12.1,
       "earnings_growth_yoy": 21.5,
-      "dividend_yield": 101.0,
+      "dividend_yield": 88.0,
       "promoter_holding": 81.2,
       "institutional_holding": 6.3,
       "pledged_pct": 0.0,
@@ -6558,7 +6556,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6601,7 +6599,7 @@
       "macd_val": -21.72,
       "macd_signal": -20.3,
       "macd_hist": -1.42,
-      "pe_ratio": 59.33,
+      "pe_ratio": 57.93,
       "roe": 0.0,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -6639,7 +6637,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6682,7 +6680,7 @@
       "macd_val": -71.16,
       "macd_signal": -56.62,
       "macd_hist": -14.54,
-      "pe_ratio": 17.67,
+      "pe_ratio": 17.66,
       "roe": 0.0,
       "debt_to_equity": 0.21,
       "debt_status": "Low Debt (Healthy)",
@@ -6691,7 +6689,7 @@
       "earnings_growth_yoy": 14.2,
       "dividend_yield": 17.0,
       "promoter_holding": 68.2,
-      "institutional_holding": 9.1,
+      "institutional_holding": 9.0,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -6720,7 +6718,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6763,7 +6761,7 @@
       "macd_val": 0.46,
       "macd_signal": 0.64,
       "macd_hist": -0.19,
-      "pe_ratio": 19.78,
+      "pe_ratio": 19.63,
       "roe": 0.0,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -6801,7 +6799,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6852,7 +6850,7 @@
       "earnings_growth_yoy": 38.8,
       "dividend_yield": 111.0,
       "promoter_holding": 73.4,
-      "institutional_holding": 16.9,
+      "institutional_holding": 16.8,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -6881,7 +6879,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -6964,7 +6962,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7016,7 +7014,7 @@
       "earnings_growth_yoy": 0.0,
       "dividend_yield": 0.0,
       "promoter_holding": 50.6,
-      "institutional_holding": 25.0,
+      "institutional_holding": 25.5,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -7045,7 +7043,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7088,7 +7086,7 @@
       "macd_val": -1.06,
       "macd_signal": -0.12,
       "macd_hist": -0.93,
-      "pe_ratio": 5.7,
+      "pe_ratio": 5.71,
       "roe": 15.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -7126,7 +7124,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7171,7 +7169,7 @@
       "macd_val": -50.4,
       "macd_signal": -39.28,
       "macd_hist": -11.12,
-      "pe_ratio": 18.98,
+      "pe_ratio": 18.99,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -7209,7 +7207,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7251,7 +7249,7 @@
       "macd_val": -4.64,
       "macd_signal": -1.16,
       "macd_hist": -3.47,
-      "pe_ratio": 26.52,
+      "pe_ratio": 26.49,
       "roe": 0.0,
       "debt_to_equity": 0.38,
       "debt_status": "Low Debt (Healthy)",
@@ -7289,7 +7287,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -7332,7 +7330,7 @@
       "macd_val": -1.19,
       "macd_signal": -1.92,
       "macd_hist": 0.73,
-      "pe_ratio": 370.91,
+      "pe_ratio": 377.78,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -7370,7 +7368,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -7386,7 +7384,7 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 370.9x"
+        "\u26a0\ufe0f High Valuation P/E: 377.8x"
       ]
     },
     {
@@ -7451,7 +7449,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7495,7 +7493,7 @@
       "macd_val": -1.17,
       "macd_signal": -0.96,
       "macd_hist": -0.2,
-      "pe_ratio": 9.29,
+      "pe_ratio": 9.26,
       "roe": 7.9,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -7533,7 +7531,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7577,7 +7575,7 @@
       "macd_val": -3.6,
       "macd_signal": -1.45,
       "macd_hist": -2.15,
-      "pe_ratio": 16.47,
+      "pe_ratio": 16.48,
       "roe": 0.0,
       "debt_to_equity": 0.05,
       "debt_status": "Low Debt (Healthy)",
@@ -7615,7 +7613,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -7658,7 +7656,7 @@
       "macd_val": -82.44,
       "macd_signal": -39.3,
       "macd_hist": -43.15,
-      "pe_ratio": 27.62,
+      "pe_ratio": 27.61,
       "roe": 0.0,
       "debt_to_equity": 1.06,
       "debt_status": "High Debt Warning",
@@ -7696,7 +7694,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7779,7 +7777,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7823,7 +7821,7 @@
       "macd_val": -6.42,
       "macd_signal": -6.01,
       "macd_hist": -0.4,
-      "pe_ratio": 17.08,
+      "pe_ratio": 17.2,
       "roe": 0.0,
       "debt_to_equity": 0.36,
       "debt_status": "Low Debt (Healthy)",
@@ -7832,7 +7830,7 @@
       "earnings_growth_yoy": 11.7,
       "dividend_yield": 271.0,
       "promoter_holding": 70.0,
-      "institutional_holding": 1.3,
+      "institutional_holding": 1.2,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -7861,7 +7859,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7904,14 +7902,14 @@
       "macd_val": -0.08,
       "macd_signal": 0.18,
       "macd_hist": -0.27,
-      "pe_ratio": 18.54,
+      "pe_ratio": 18.46,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
       "debt_score_penalty": 0,
       "rev_growth_yoy": 14.0,
       "earnings_growth_yoy": 200.0,
-      "dividend_yield": 90.0,
+      "dividend_yield": 67.0,
       "promoter_holding": 50.5,
       "institutional_holding": 3.7,
       "pledged_pct": 0.0,
@@ -7942,7 +7940,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -7976,7 +7974,7 @@
       "volume": 1,
       "vol_1m_avg": 150438,
       "vol_surge_ratio": 0.0,
-      "52w_high": 113.0,
+      "52w_high": 112.2,
       "52w_low": 62.94,
       "sma_20": 77.89,
       "sma_50": 76.82,
@@ -8023,7 +8021,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8066,7 +8064,7 @@
       "macd_val": -39.92,
       "macd_signal": -23.56,
       "macd_hist": -16.36,
-      "pe_ratio": 45.45,
+      "pe_ratio": 45.54,
       "roe": 0.0,
       "debt_to_equity": 0.54,
       "debt_status": "Moderate Debt",
@@ -8104,7 +8102,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8147,7 +8145,7 @@
       "macd_val": -1.91,
       "macd_signal": -1.4,
       "macd_hist": -0.51,
-      "pe_ratio": 5.4,
+      "pe_ratio": 5.41,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -8185,7 +8183,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8229,7 +8227,7 @@
       "macd_val": -179.9,
       "macd_signal": -139.44,
       "macd_hist": -40.46,
-      "pe_ratio": 32.3,
+      "pe_ratio": 32.32,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -8267,7 +8265,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8310,7 +8308,7 @@
       "macd_val": -13.18,
       "macd_signal": -10.88,
       "macd_hist": -2.3,
-      "pe_ratio": 322.58,
+      "pe_ratio": 330.58,
       "roe": 0.0,
       "debt_to_equity": 0.15,
       "debt_status": "Low Debt (Healthy)",
@@ -8319,7 +8317,7 @@
       "earnings_growth_yoy": -65.0,
       "dividend_yield": 0.0,
       "promoter_holding": 16.7,
-      "institutional_holding": 56.7,
+      "institutional_holding": 56.8,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -8348,7 +8346,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8364,7 +8362,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -65.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 322.6x"
+        "\u26a0\ufe0f High Valuation P/E: 330.6x"
       ]
     },
     {
@@ -8391,7 +8389,7 @@
       "macd_val": -30.41,
       "macd_signal": -23.67,
       "macd_hist": -6.74,
-      "pe_ratio": 21.14,
+      "pe_ratio": 21.15,
       "roe": 0.0,
       "debt_to_equity": 0.46,
       "debt_status": "Low Debt (Healthy)",
@@ -8400,7 +8398,7 @@
       "earnings_growth_yoy": -22.4,
       "dividend_yield": 51.0,
       "promoter_holding": 51.8,
-      "institutional_holding": 28.1,
+      "institutional_holding": 28.0,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -8429,7 +8427,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8481,7 +8479,7 @@
       "earnings_growth_yoy": 0.0,
       "dividend_yield": 0.0,
       "promoter_holding": 53.1,
-      "institutional_holding": 11.9,
+      "institutional_holding": 12.0,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -8510,7 +8508,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8592,7 +8590,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -8673,7 +8671,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8716,7 +8714,7 @@
       "macd_val": -1.61,
       "macd_signal": -0.57,
       "macd_hist": -1.04,
-      "pe_ratio": 42.41,
+      "pe_ratio": 42.58,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -8754,7 +8752,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8835,7 +8833,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -8878,7 +8876,7 @@
       "macd_val": -10.69,
       "macd_signal": -10.51,
       "macd_hist": -0.18,
-      "pe_ratio": 18.89,
+      "pe_ratio": 18.9,
       "roe": 0.0,
       "debt_to_equity": 0.75,
       "debt_status": "Moderate Debt",
@@ -8916,7 +8914,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -8959,16 +8957,16 @@
       "macd_val": -1.26,
       "macd_signal": -0.9,
       "macd_hist": -0.36,
-      "pe_ratio": 5.52,
+      "pe_ratio": 5.37,
       "roe": 0.0,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
       "debt_score_penalty": 5,
       "rev_growth_yoy": 38.5,
       "earnings_growth_yoy": 0.0,
-      "dividend_yield": 628.0,
+      "dividend_yield": 247.0,
       "promoter_holding": 73.4,
-      "institutional_holding": 14.3,
+      "institutional_holding": 14.2,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -8997,7 +8995,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9039,7 +9037,7 @@
       "macd_val": -0.65,
       "macd_signal": -0.42,
       "macd_hist": -0.22,
-      "pe_ratio": 145.61,
+      "pe_ratio": 140.59,
       "roe": 0.0,
       "debt_to_equity": 0.35,
       "debt_status": "Low Debt (Healthy)",
@@ -9077,7 +9075,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9094,7 +9092,7 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 145.6x"
+        "\u26a0\ufe0f High Valuation P/E: 140.6x"
       ]
     },
     {
@@ -9121,14 +9119,14 @@
       "macd_val": -4.39,
       "macd_signal": -4.03,
       "macd_hist": -0.36,
-      "pe_ratio": 45.6,
+      "pe_ratio": 45.71,
       "roe": 0.0,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
       "debt_score_penalty": 0,
       "rev_growth_yoy": 10.6,
       "earnings_growth_yoy": 16.9,
-      "dividend_yield": 174.0,
+      "dividend_yield": 87.0,
       "promoter_holding": 72.8,
       "institutional_holding": 8.3,
       "pledged_pct": 0.0,
@@ -9159,7 +9157,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -9240,7 +9238,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -9294,7 +9292,7 @@
       "earnings_growth_yoy": 30.8,
       "dividend_yield": 0.0,
       "promoter_holding": 44.2,
-      "institutional_holding": 18.1,
+      "institutional_holding": 18.0,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -9323,7 +9321,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9405,7 +9403,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -9449,7 +9447,7 @@
       "macd_val": -66.81,
       "macd_signal": -49.24,
       "macd_hist": -17.57,
-      "pe_ratio": 30.68,
+      "pe_ratio": 30.64,
       "roe": 0.0,
       "debt_to_equity": 0.98,
       "debt_status": "Moderate Debt",
@@ -9458,7 +9456,7 @@
       "earnings_growth_yoy": 14.0,
       "dividend_yield": 103.0,
       "promoter_holding": 14.8,
-      "institutional_holding": 52.7,
+      "institutional_holding": 52.6,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -9487,7 +9485,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -9530,7 +9528,7 @@
       "macd_val": -69.43,
       "macd_signal": -52.86,
       "macd_hist": -16.58,
-      "pe_ratio": 2.49,
+      "pe_ratio": 2.35,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -9568,7 +9566,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -9611,7 +9609,7 @@
       "macd_val": -26.93,
       "macd_signal": -20.36,
       "macd_hist": -6.57,
-      "pe_ratio": 29.09,
+      "pe_ratio": 29.12,
       "roe": 0.0,
       "debt_to_equity": 3.15,
       "debt_status": "High Debt Warning",
@@ -9649,7 +9647,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9693,7 +9691,7 @@
       "macd_val": -10.05,
       "macd_signal": -6.63,
       "macd_hist": -3.42,
-      "pe_ratio": 11.95,
+      "pe_ratio": 11.96,
       "roe": 0.0,
       "debt_to_equity": 1.04,
       "debt_status": "High Debt Warning",
@@ -9731,7 +9729,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9775,7 +9773,7 @@
       "macd_val": -11.83,
       "macd_signal": -7.66,
       "macd_hist": -4.18,
-      "pe_ratio": 20.88,
+      "pe_ratio": 20.86,
       "roe": 0.0,
       "debt_to_equity": 3.93,
       "debt_status": "High Debt Warning",
@@ -9813,7 +9811,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9857,7 +9855,7 @@
       "macd_val": -19.67,
       "macd_signal": -11.3,
       "macd_hist": -8.37,
-      "pe_ratio": 23.53,
+      "pe_ratio": 23.56,
       "roe": 0.0,
       "debt_to_equity": 2.8,
       "debt_status": "High Debt Warning",
@@ -9866,7 +9864,7 @@
       "earnings_growth_yoy": 19.5,
       "dividend_yield": 44.0,
       "promoter_holding": 68.6,
-      "institutional_holding": 25.0,
+      "institutional_holding": 24.5,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -9895,7 +9893,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -9977,7 +9975,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10019,7 +10017,7 @@
       "macd_val": -2.3,
       "macd_signal": -1.7,
       "macd_hist": -0.6,
-      "pe_ratio": 8.93,
+      "pe_ratio": 8.79,
       "roe": 0.0,
       "debt_to_equity": 0.19,
       "debt_status": "Low Debt (Healthy)",
@@ -10058,7 +10056,7 @@
       "events": [
         {
           "date": "2026-10-05",
-          "date_tag": "05 Oct 2026",
+          "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Dividend Ex-Date",
           "title": "Ex-Dividend Event (268.00% Yield)",
@@ -10070,7 +10068,7 @@
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b986.21** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b972.60 \u2022 **Target 1:** \u20b982.16 \u2022 **Target 2:** \u20b988.31",
       "strengths": [
         "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+0.4%) & Revenue (+0.8%)",
-        "\ud83d\udcc5 Upcoming Event (05 Oct 2026): Dividend Ex-Date - Ex-Dividend Event (268.00% Yield)"
+        "\ud83d\udcc5 Upcoming Event (Today): Dividend Ex-Date - Ex-Dividend Event (268.00% Yield)"
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
@@ -10138,7 +10136,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10220,7 +10218,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10263,7 +10261,7 @@
       "macd_val": -0.32,
       "macd_signal": -0.06,
       "macd_hist": -0.27,
-      "pe_ratio": 81.9,
+      "pe_ratio": 62.5,
       "roe": 0.0,
       "debt_to_equity": 0.28,
       "debt_status": "Low Debt (Healthy)",
@@ -10272,7 +10270,7 @@
       "earnings_growth_yoy": -15.6,
       "dividend_yield": 0.0,
       "promoter_holding": 53.1,
-      "institutional_holding": 0.5,
+      "institutional_holding": 0.6,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -10301,7 +10299,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10318,7 +10316,7 @@
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -15.6% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 81.9x"
+        "\u26a0\ufe0f High Valuation P/E: 62.5x"
       ]
     },
     {
@@ -10383,7 +10381,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10463,7 +10461,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10506,7 +10504,7 @@
       "macd_val": -0.83,
       "macd_signal": -0.62,
       "macd_hist": -0.21,
-      "pe_ratio": 33.78,
+      "pe_ratio": 57.47,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -10544,7 +10542,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -10579,7 +10577,7 @@
       "volume": 1,
       "vol_1m_avg": 5796026,
       "vol_surge_ratio": 0.0,
-      "52w_high": 40.85,
+      "52w_high": 40.8,
       "52w_low": 16.6,
       "sma_20": 31.71,
       "sma_50": 29.93,
@@ -10597,7 +10595,7 @@
       "earnings_growth_yoy": 0.0,
       "dividend_yield": 35.0,
       "promoter_holding": 41.9,
-      "institutional_holding": 1.1,
+      "institutional_holding": 1.0,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -10626,7 +10624,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10669,7 +10667,7 @@
       "macd_val": -3.66,
       "macd_signal": -2.29,
       "macd_hist": -1.37,
-      "pe_ratio": 15.47,
+      "pe_ratio": 15.48,
       "roe": 0.0,
       "debt_to_equity": 0.35,
       "debt_status": "Low Debt (Healthy)",
@@ -10707,7 +10705,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10751,7 +10749,7 @@
       "macd_val": -0.0,
       "macd_signal": -0.01,
       "macd_hist": 0.0,
-      "pe_ratio": 4.83,
+      "pe_ratio": 14.5,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -10789,7 +10787,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10871,7 +10869,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -10905,7 +10903,7 @@
       "volume": 1,
       "vol_1m_avg": 1112348,
       "vol_surge_ratio": 0.0,
-      "52w_high": 1890.0,
+      "52w_high": 1882.3,
       "52w_low": 1185.67,
       "sma_20": 1385.15,
       "sma_50": 1439.41,
@@ -10914,7 +10912,7 @@
       "macd_val": -41.74,
       "macd_signal": -33.28,
       "macd_hist": -8.46,
-      "pe_ratio": 49.67,
+      "pe_ratio": 49.77,
       "roe": 0.0,
       "debt_to_equity": 0.28,
       "debt_status": "Low Debt (Healthy)",
@@ -10952,7 +10950,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -10995,7 +10993,7 @@
       "macd_val": -49.58,
       "macd_signal": -47.63,
       "macd_hist": -1.96,
-      "pe_ratio": 29.16,
+      "pe_ratio": 29.11,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -11033,7 +11031,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -11113,7 +11111,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -11194,7 +11192,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -11237,7 +11235,7 @@
       "macd_val": -0.91,
       "macd_signal": -1.25,
       "macd_hist": 0.34,
-      "pe_ratio": 39.04,
+      "pe_ratio": 35.13,
       "roe": 0.0,
       "debt_to_equity": 0.76,
       "debt_status": "Moderate Debt",
@@ -11275,7 +11273,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -11356,7 +11354,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11436,7 +11434,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -11517,7 +11515,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11597,7 +11595,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11640,7 +11638,7 @@
       "macd_val": -11.51,
       "macd_signal": -10.05,
       "macd_hist": -1.46,
-      "pe_ratio": 101.04,
+      "pe_ratio": 101.39,
       "roe": 0.0,
       "debt_to_equity": 0.59,
       "debt_status": "Moderate Debt",
@@ -11678,7 +11676,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -11695,7 +11693,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -14.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 101.0x"
+        "\u26a0\ufe0f High Valuation P/E: 101.4x"
       ]
     },
     {
@@ -11722,7 +11720,7 @@
       "macd_val": -4.03,
       "macd_signal": -3.04,
       "macd_hist": -0.99,
-      "pe_ratio": 9.62,
+      "pe_ratio": 11.01,
       "roe": 0.0,
       "debt_to_equity": 1.28,
       "debt_status": "High Debt Warning",
@@ -11760,7 +11758,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11803,7 +11801,7 @@
       "macd_val": -0.53,
       "macd_signal": -0.41,
       "macd_hist": -0.12,
-      "pe_ratio": 8.08,
+      "pe_ratio": 8.05,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -11841,7 +11839,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -11922,7 +11920,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -11942,87 +11940,6 @@
       ]
     },
     {
-      "symbol": "KICL.NS",
-      "clean_symbol": "KICL",
-      "name": "Kalyani Investment Company Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 4720.0,
-      "prev_close": 4799.0,
-      "day_change_pct": -1.65,
-      "day_high": 4720.0,
-      "day_low": 4720.0,
-      "volume": 1,
-      "vol_1m_avg": 1382,
-      "vol_surge_ratio": 0.0,
-      "52w_high": 6554.9,
-      "52w_low": 4003.65,
-      "sma_20": 4937.39,
-      "sma_50": 5178.81,
-      "sma_200": 4975.87,
-      "rsi_14": 34.6,
-      "macd_val": -116.72,
-      "macd_signal": -101.57,
-      "macd_hist": -15.15,
-      "pe_ratio": 50.7,
-      "roe": 0.0,
-      "debt_to_equity": 0.0,
-      "debt_status": "Zero Debt",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 2.9,
-      "earnings_growth_yoy": 0.0,
-      "dividend_yield": 21.0,
-      "promoter_holding": 76.1,
-      "institutional_holding": 0.0,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 5246.0,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 5251.25,
-      "sell_trigger_price": 4463.03,
-      "buy_status": "\u26a1 BUY ABOVE \u20b95,251.25 (11.3% away)",
-      "swing_target_1": 5078.62,
-      "swing_target_2": 5372.04,
-      "swing_stoploss": 4463.03,
-      "breakout_proximity_pct": 11.1,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 3.2,
-      "composite_score": 8,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-10-02",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Trading Monitoring",
-          "title": "Normal Volume & Price Watch",
-          "summary": "Stock trading smoothly at \u20b94720.00.",
-          "impact": "Neutral \u2696\ufe0f",
-          "impact_reason": "Standard price discovery."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b95,251.25** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b94,463.03 \u2022 **Target 1:** \u20b95,078.62 \u2022 **Target 2:** \u20b95,372.04",
-      "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Today): Trading Monitoring - Normal Volume & Price Watch",
-        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet"
-      ],
-      "weaknesses": [
-        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
-    },
-    {
       "symbol": "KOKUYOCMLN.NS",
       "clean_symbol": "KOKUYOCMLN",
       "name": "Kokuyo Camlin Ltd",
@@ -12037,7 +11954,7 @@
       "volume": 1,
       "vol_1m_avg": 23459,
       "vol_surge_ratio": 0.0,
-      "52w_high": 111.0,
+      "52w_high": 110.89,
       "52w_low": 70.8,
       "sma_20": 76.77,
       "sma_50": 80.24,
@@ -12084,7 +12001,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -12103,44 +12020,44 @@
       ]
     },
     {
-      "symbol": "NHPC.NS",
-      "clean_symbol": "NHPC",
-      "name": "NHPC Ltd",
+      "symbol": "KICL.NS",
+      "clean_symbol": "KICL",
+      "name": "Kalyani Investment Company Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 71.75,
-      "prev_close": 72.81,
-      "day_change_pct": -1.46,
-      "day_high": 71.75,
-      "day_low": 71.75,
+      "current_price": 4720.0,
+      "prev_close": 4799.0,
+      "day_change_pct": -1.65,
+      "day_high": 4720.0,
+      "day_low": 4720.0,
       "volume": 1,
-      "vol_1m_avg": 9165306,
+      "vol_1m_avg": 1382,
       "vol_surge_ratio": 0.0,
-      "52w_high": 88.12,
-      "52w_low": 70.25,
-      "sma_20": 75.31,
-      "sma_50": 76.38,
-      "sma_200": 77.32,
-      "rsi_14": 28.7,
-      "macd_val": -1.05,
-      "macd_signal": -0.6,
-      "macd_hist": -0.45,
-      "pe_ratio": 26.28,
+      "52w_high": 6554.9,
+      "52w_low": 4003.65,
+      "sma_20": 4937.39,
+      "sma_50": 5178.81,
+      "sma_200": 4975.87,
+      "rsi_14": 34.6,
+      "macd_val": -116.72,
+      "macd_signal": -101.57,
+      "macd_hist": -15.15,
+      "pe_ratio": 50.71,
       "roe": 0.0,
-      "debt_to_equity": 1.13,
-      "debt_status": "High Debt Warning",
-      "debt_score_penalty": 15,
-      "rev_growth_yoy": 18.5,
-      "earnings_growth_yoy": 2.8,
-      "dividend_yield": 224.0,
-      "promoter_holding": 62.5,
-      "institutional_holding": 21.5,
+      "debt_to_equity": 0.0,
+      "debt_status": "Zero Debt",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 2.9,
+      "earnings_growth_yoy": 0.0,
+      "dividend_yield": 21.0,
+      "promoter_holding": 76.1,
+      "institutional_holding": 0.0,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
       "pattern_confidence": 60,
-      "breakout_level": 77.89,
+      "breakout_level": 5246.0,
       "pattern_description": "Stock trading in a sideways consolidation range.",
       "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
       "is_volume_dryup": false,
@@ -12149,13 +12066,13 @@
       "is_50d_box_breakout": false,
       "is_nr7_expansion": false,
       "is_52w_high_breakout": false,
-      "buy_trigger_price": 77.97,
-      "sell_trigger_price": 69.2,
-      "buy_status": "\u26a1 BUY ABOVE \u20b977.97 (8.7% away)",
-      "swing_target_1": 77.41,
-      "swing_target_2": 82.04,
-      "swing_stoploss": 69.2,
-      "breakout_proximity_pct": 8.6,
+      "buy_trigger_price": 5251.25,
+      "sell_trigger_price": 4463.03,
+      "buy_status": "\u26a1 BUY ABOVE \u20b95,251.25 (11.3% away)",
+      "swing_target_1": 5078.62,
+      "swing_target_2": 5372.04,
+      "swing_stoploss": 4463.03,
+      "breakout_proximity_pct": 11.1,
       "is_near_breakout_zone": false,
       "breakout_readiness_score": 3.2,
       "composite_score": 8,
@@ -12164,24 +12081,23 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +2.8%)",
-          "summary": "Company declared strong YoY revenue growth of 18.5% and Net Profit growth of 2.8%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+          "type": "Trading Monitoring",
+          "title": "Normal Volume & Price Watch",
+          "summary": "Stock trading smoothly at \u20b94720.00.",
+          "impact": "Neutral \u2696\ufe0f",
+          "impact_reason": "Standard price discovery."
         }
       ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b977.97** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b969.20 \u2022 **Target 1:** \u20b977.41 \u2022 **Target 2:** \u20b982.04",
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b95,251.25** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b94,463.03 \u2022 **Target 1:** \u20b95,078.62 \u2022 **Target 2:** \u20b95,372.04",
       "strengths": [
-        "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+2.8%) & Revenue (+18.5%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +2.8%)"
+        "\ud83d\udcc5 Upcoming Event (Today): Trading Monitoring - Normal Volume & Price Watch",
+        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Debt Ratio: 1.13"
+        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
       ]
     },
     {
@@ -12208,7 +12124,7 @@
       "macd_val": -0.63,
       "macd_signal": -0.13,
       "macd_hist": -0.5,
-      "pe_ratio": 6.42,
+      "pe_ratio": 6.45,
       "roe": 0.0,
       "debt_to_equity": 0.32,
       "debt_status": "Low Debt (Healthy)",
@@ -12246,7 +12162,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -12262,6 +12178,88 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -14.3% YoY)"
+      ]
+    },
+    {
+      "symbol": "NHPC.NS",
+      "clean_symbol": "NHPC",
+      "name": "NHPC Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 71.75,
+      "prev_close": 72.81,
+      "day_change_pct": -1.46,
+      "day_high": 71.75,
+      "day_low": 71.75,
+      "volume": 1,
+      "vol_1m_avg": 9165306,
+      "vol_surge_ratio": 0.0,
+      "52w_high": 88.12,
+      "52w_low": 70.25,
+      "sma_20": 75.31,
+      "sma_50": 76.38,
+      "sma_200": 77.32,
+      "rsi_14": 28.7,
+      "macd_val": -1.05,
+      "macd_signal": -0.6,
+      "macd_hist": -0.45,
+      "pe_ratio": 18.98,
+      "roe": 0.0,
+      "debt_to_equity": 1.13,
+      "debt_status": "High Debt Warning",
+      "debt_score_penalty": 15,
+      "rev_growth_yoy": 18.5,
+      "earnings_growth_yoy": 2.8,
+      "dividend_yield": 224.0,
+      "promoter_holding": 62.5,
+      "institutional_holding": 21.5,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 77.89,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 77.97,
+      "sell_trigger_price": 69.2,
+      "buy_status": "\u26a1 BUY ABOVE \u20b977.97 (8.7% away)",
+      "swing_target_1": 77.41,
+      "swing_target_2": 82.04,
+      "swing_stoploss": 69.2,
+      "breakout_proximity_pct": 8.6,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 3.2,
+      "composite_score": 8,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-10-05",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +2.8%)",
+          "summary": "Company declared strong YoY revenue growth of 18.5% and Net Profit growth of 2.8%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b977.97** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.0x. \u2022 **Sell/Stop Loss Trigger:** \u20b969.20 \u2022 **Target 1:** \u20b977.41 \u2022 **Target 2:** \u20b982.04",
+      "strengths": [
+        "\ud83d\udcca Last Result: Positive YoY Net Profit Growth (+2.8%) & Revenue (+18.5%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +2.8%)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
+        "\u26a0\ufe0f High Debt Ratio: 1.13"
       ]
     },
     {
@@ -12288,7 +12286,7 @@
       "macd_val": -3.74,
       "macd_signal": -2.36,
       "macd_hist": -1.39,
-      "pe_ratio": 28.99,
+      "pe_ratio": 29.01,
       "roe": 0.0,
       "debt_to_equity": 1.68,
       "debt_status": "High Debt Warning",
@@ -12326,7 +12324,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12370,7 +12368,7 @@
       "macd_val": -1.01,
       "macd_signal": -0.54,
       "macd_hist": -0.47,
-      "pe_ratio": 6.19,
+      "pe_ratio": 6.18,
       "roe": 0.0,
       "debt_to_equity": 0.51,
       "debt_status": "Moderate Debt",
@@ -12408,7 +12406,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12488,7 +12486,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12530,7 +12528,7 @@
       "macd_val": -4.38,
       "macd_signal": -2.75,
       "macd_hist": -1.63,
-      "pe_ratio": 98.5,
+      "pe_ratio": 101.58,
       "roe": 0.0,
       "debt_to_equity": 0.23,
       "debt_status": "Low Debt (Healthy)",
@@ -12568,7 +12566,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -12585,7 +12583,7 @@
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 98.5x"
+        "\u26a0\ufe0f High Valuation P/E: 101.6x"
       ]
     },
     {
@@ -12612,7 +12610,7 @@
       "macd_val": -0.07,
       "macd_signal": -0.05,
       "macd_hist": -0.01,
-      "pe_ratio": 0.0,
+      "pe_ratio": 3.2,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -12650,7 +12648,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12693,7 +12691,7 @@
       "macd_val": -18.77,
       "macd_signal": -15.63,
       "macd_hist": -3.14,
-      "pe_ratio": 82.41,
+      "pe_ratio": 82.82,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -12731,7 +12729,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12749,7 +12747,7 @@
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.3% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 82.4x"
+        "\u26a0\ufe0f High Valuation P/E: 82.8x"
       ]
     },
     {
@@ -12814,7 +12812,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -12847,7 +12845,7 @@
       "volume": 1,
       "vol_1m_avg": 2706654,
       "vol_surge_ratio": 0.0,
-      "52w_high": 92.16,
+      "52w_high": 91.9,
       "52w_low": 56.73,
       "sma_20": 63.25,
       "sma_50": 65.25,
@@ -12856,7 +12854,7 @@
       "macd_val": -1.95,
       "macd_signal": -1.37,
       "macd_hist": -0.57,
-      "pe_ratio": 32.9,
+      "pe_ratio": 35.74,
       "roe": 0.0,
       "debt_to_equity": 2.27,
       "debt_status": "High Debt Warning",
@@ -12894,7 +12892,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
@@ -12938,14 +12936,14 @@
       "macd_val": -1.67,
       "macd_signal": -1.6,
       "macd_hist": -0.07,
-      "pe_ratio": 14.04,
+      "pe_ratio": 14.01,
       "roe": 0.0,
       "debt_to_equity": 7.73,
       "debt_status": "High Debt Warning",
       "debt_score_penalty": 15,
       "rev_growth_yoy": 10.3,
       "earnings_growth_yoy": 9.7,
-      "dividend_yield": 376.0,
+      "dividend_yield": 273.0,
       "promoter_holding": 82.9,
       "institutional_holding": 4.8,
       "pledged_pct": 0.0,
@@ -12976,7 +12974,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -13020,7 +13018,7 @@
       "macd_val": -1.58,
       "macd_signal": -1.17,
       "macd_hist": -0.42,
-      "pe_ratio": 12.59,
+      "pe_ratio": 12.61,
       "roe": 0.0,
       "debt_to_equity": 14.8,
       "debt_status": "High Debt Warning",
@@ -13058,7 +13056,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-01",
+          "date": "2026-10-04",
           "date_tag": "Yesterday",
           "is_upcoming_3_days": false,
           "type": "Earnings Caution",
@@ -13139,7 +13137,7 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-02",
+          "date": "2026-10-05",
           "date_tag": "Today",
           "is_upcoming_3_days": true,
           "type": "Trading Monitoring",
@@ -13160,7 +13158,7 @@
   ],
   "upcoming_3d_events": [
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13173,7 +13171,7 @@
       "name": "Great Eastern Shipping Company Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13186,7 +13184,7 @@
       "name": "Savita Oil Technologies Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13199,7 +13197,7 @@
       "name": "Action Construction Equipment Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13212,7 +13210,7 @@
       "name": "Sharda Motor Industries Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13225,7 +13223,7 @@
       "name": "Jamna Auto Industries Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13238,7 +13236,7 @@
       "name": "Redington Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13251,7 +13249,7 @@
       "name": "Sigma Advanced Systems Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13264,7 +13262,7 @@
       "name": "HDFC Bank Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13277,7 +13275,7 @@
       "name": "Engineers India Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13290,7 +13288,7 @@
       "name": "Gujarat Pipavav Port Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13303,7 +13301,7 @@
       "name": "Kross Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13316,7 +13314,7 @@
       "name": "E2E Networks Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13329,7 +13327,7 @@
       "name": "International Conveyors Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13342,7 +13340,7 @@
       "name": "Rane (Madras) Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13355,7 +13353,7 @@
       "name": "Chemcon Speciality Chemicals Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13368,7 +13366,7 @@
       "name": "Fineotex Chemical Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13381,7 +13379,7 @@
       "name": "ITC Hotels Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13394,7 +13392,7 @@
       "name": "Jyoti CNC Automation Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13407,7 +13405,7 @@
       "name": "HEG"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13420,7 +13418,7 @@
       "name": "Polycab India Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13433,7 +13431,7 @@
       "name": "Gujarat Ambuja Exports Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13446,7 +13444,7 @@
       "name": "Strides Pharma Science Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13459,7 +13457,7 @@
       "name": "Jay Bharat Maruti Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13472,7 +13470,7 @@
       "name": "Delta Corp Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13485,7 +13483,7 @@
       "name": "INOX India Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13498,7 +13496,7 @@
       "name": "Acme Solar Holdings Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13511,7 +13509,7 @@
       "name": "Edelweiss Financial Services Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13524,7 +13522,7 @@
       "name": "Happiest Minds Technologies Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13537,7 +13535,7 @@
       "name": "Transformers and Rectifiers (India) Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13550,7 +13548,7 @@
       "name": "Vishal Mega Mart Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13563,7 +13561,7 @@
       "name": "IKIO Technologies Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13576,7 +13574,7 @@
       "name": "Jullundur Motor Agency (Delhi) Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13589,7 +13587,7 @@
       "name": "Vijaya Diagnostic Centre Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13602,7 +13600,7 @@
       "name": "NDR Auto Components Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13615,7 +13613,7 @@
       "name": "AWL Agri Business Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13628,7 +13626,7 @@
       "name": "Ddev Plastiks Industries Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13641,7 +13639,7 @@
       "name": "Garden Reach Shipbuilders & Enginers Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13654,7 +13652,7 @@
       "name": "Jio Financial Services Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13667,7 +13665,7 @@
       "name": "National Aluminium Co Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13680,7 +13678,7 @@
       "name": "Oil and Natural Gas Corporation Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13693,7 +13691,7 @@
       "name": "Suzlon Energy Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13706,7 +13704,7 @@
       "name": "Exide Industries Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13719,7 +13717,7 @@
       "name": "Mahanagar Telephone Nigam Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13732,7 +13730,7 @@
       "name": "Symphony Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13745,7 +13743,7 @@
       "name": "Sun Pharma Advanced Research Co Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13758,7 +13756,7 @@
       "name": "Fsn E-Commerce Ventures Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13771,7 +13769,7 @@
       "name": "Anant Raj Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13784,7 +13782,7 @@
       "name": "Bajaj Holdings And Investment Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13797,7 +13795,7 @@
       "name": "Computer Age Management Services Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13810,20 +13808,7 @@
       "name": "Fiem Industries Ltd"
     },
     {
-      "date": "2026-10-02",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Quarterly Earnings Growth",
-      "title": "Strong Earnings Growth (YoY Profit +14.4%)",
-      "summary": "Company declared strong YoY revenue growth of 64.0% and Net Profit growth of 14.4%.",
-      "impact": "Bullish Re-rating \ud83d\ude80",
-      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
-      "symbol": "GSFC.NS",
-      "clean_symbol": "GSFC",
-      "name": "Gujarat State Fertilizers & Chemicls Ltd"
-    },
-    {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13836,7 +13821,20 @@
       "name": "Gravita India Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +14.4%)",
+      "summary": "Company declared strong YoY revenue growth of 64.0% and Net Profit growth of 14.4%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "GSFC.NS",
+      "clean_symbol": "GSFC",
+      "name": "Gujarat State Fertilizers & Chemicls Ltd"
+    },
+    {
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13849,7 +13847,7 @@
       "name": "Hindustan Aeronautics Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13862,7 +13860,7 @@
       "name": "Indian Railway Ctrng nd Trsm Corp Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13875,7 +13873,7 @@
       "name": "Mazagon Dock Shipbuilders Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13888,7 +13886,7 @@
       "name": "Tata Consumer Products Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13901,7 +13899,7 @@
       "name": "Waaree Energies Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13914,7 +13912,7 @@
       "name": "Rajoo Engineers Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13927,7 +13925,7 @@
       "name": "Muthoot Finance Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13940,7 +13938,7 @@
       "name": "Oil India Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13953,7 +13951,7 @@
       "name": "Ather Energy Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13966,7 +13964,7 @@
       "name": "Punjab National Bank"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -13979,7 +13977,7 @@
       "name": "Hero Motocorp Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -13992,7 +13990,7 @@
       "name": "Zenith Exports Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14005,7 +14003,7 @@
       "name": "Bajaj Housing Finance Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14018,7 +14016,7 @@
       "name": "Dhanlaxmi Bank Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14031,7 +14029,7 @@
       "name": "Indraprastha Medical Corporation Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14044,7 +14042,7 @@
       "name": "Lumax Industries Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14057,7 +14055,7 @@
       "name": "Summit Securities Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14070,7 +14068,7 @@
       "name": "Banco Products (India) Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14083,7 +14081,7 @@
       "name": "DCW Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14096,7 +14094,7 @@
       "name": "Kuantum Papers Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14109,7 +14107,7 @@
       "name": "Rainbow Children's Medicare Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14122,7 +14120,7 @@
       "name": "Canara Bank Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14135,7 +14133,7 @@
       "name": "Cera Sanitaryware Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14148,7 +14146,7 @@
       "name": "Delhivery"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14161,7 +14159,7 @@
       "name": "Reliance Industries Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14174,7 +14172,7 @@
       "name": "Utkarsh Small Finance Bank Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14187,7 +14185,7 @@
       "name": "Rashtriya Chemicals and Fertilizers Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14200,7 +14198,7 @@
       "name": "Sanstar Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14213,7 +14211,7 @@
       "name": "Shyam Century Ferrous Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14226,7 +14224,7 @@
       "name": "HPL Electric & Power Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14239,7 +14237,7 @@
       "name": "Indian Oil Corporation Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14252,7 +14250,7 @@
       "name": "NMDC Steel Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14265,7 +14263,7 @@
       "name": "Rail Vikas Nigam Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14278,7 +14276,7 @@
       "name": "Universus Photo Imagings Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14291,7 +14289,7 @@
       "name": "Yes Bank Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14304,7 +14302,7 @@
       "name": "Wipro Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14317,7 +14315,7 @@
       "name": "Larsen and Toubro Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14330,7 +14328,7 @@
       "name": "Bajaj Finance Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14343,7 +14341,7 @@
       "name": "Genus Power Infrastructures Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14356,7 +14354,7 @@
       "name": "L&T Finance Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14369,7 +14367,7 @@
       "name": "SBI Cards and Payment Services Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14383,7 +14381,7 @@
     },
     {
       "date": "2026-10-05",
-      "date_tag": "05 Oct 2026",
+      "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Dividend Ex-Date",
       "title": "Ex-Dividend Event (268.00% Yield)",
@@ -14395,7 +14393,7 @@
       "name": "NMDC Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14408,7 +14406,7 @@
       "name": "Reliance Communications Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14421,7 +14419,7 @@
       "name": "Shalby Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14434,7 +14432,7 @@
       "name": "Asian Granito India Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14447,7 +14445,7 @@
       "name": "Bharat Bijlee Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14460,7 +14458,7 @@
       "name": "Gujarat Mineral Development Corpn Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14473,7 +14471,7 @@
       "name": "Oricon Enterprises Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14486,7 +14484,7 @@
       "name": "Sigachi Industries Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14499,7 +14497,7 @@
       "name": "Sarda Energy & Minerals Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14512,7 +14510,7 @@
       "name": "Shrenik Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14525,7 +14523,7 @@
       "name": "Simbhaoli Sugars Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14538,7 +14536,7 @@
       "name": "Reliance Power Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14551,7 +14549,7 @@
       "name": "Bharat Coking Coal Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14564,7 +14562,7 @@
       "name": "Onmobile Global Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14577,7 +14575,7 @@
       "name": "Saksoft Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14590,7 +14588,7 @@
       "name": "Adani Total Gas Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14603,7 +14601,7 @@
       "name": "NTPC Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14616,7 +14614,7 @@
       "name": "Housing Development & Infrastructure"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14629,7 +14627,7 @@
       "name": "Kalyani Investment Company Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14642,7 +14640,7 @@
       "name": "NHPC Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14655,7 +14653,7 @@
       "name": "Tata Power Company Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14668,7 +14666,7 @@
       "name": "Southern Petrochemical Industries CorpLd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14681,7 +14679,7 @@
       "name": "Dishman Carbogen Amcis Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14694,7 +14692,7 @@
       "name": "Reliance Home Finance Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14707,7 +14705,7 @@
       "name": "Reliance Industrial Infrastructure Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14720,7 +14718,7 @@
       "name": "Sadhana Nitro Chem Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
@@ -14733,7 +14731,7 @@
       "name": "SJVN Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
@@ -14746,7 +14744,7 @@
       "name": "Indian Railway Finance Corp Ltd"
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-05",
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Trading Monitoring",
