@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "06-Oct-2026 03:37:08 PM IST (Indian Standard Time)",
+    "last_updated": "06-Oct-2026 03:45:59 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,776.10",
@@ -10,10 +10,10 @@
         "is_positive": true
       },
       "sensex": {
-        "price": "73,027.28",
-        "raw_price": 73027.28,
-        "change_pts": "+644.89",
-        "change_pct": "+0.89%",
+        "price": "73,067.81",
+        "raw_price": 73067.81,
+        "change_pts": "+685.42",
+        "change_pct": "+0.95%",
         "is_positive": true
       }
     },
@@ -22,7 +22,7 @@
     "strong_buys_count": 10,
     "pattern_breakouts_count": 13,
     "upcoming_3d_events_count": 122,
-    "scan_time_seconds": 23.0
+    "scan_time_seconds": 20.8
   },
   "top_20_swing": [
     {
