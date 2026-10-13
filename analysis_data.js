@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "13-Oct-2026 02:52:45 AM IST (Indian Standard Time)",
+    "last_updated": "13-Oct-2026 09:01:07 AM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,363.35",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 12,
     "pattern_breakouts_count": 8,
     "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 25.3
+    "scan_time_seconds": 24.2
   },
   "top_20_swing": [
     {
@@ -2573,7 +2573,7 @@ window.stockData = {
       "macd_val": 5.18,
       "macd_signal": 4.0,
       "macd_hist": 1.18,
-      "pe_ratio": 24.99,
+      "pe_ratio": 24.36,
       "roe": 0.0,
       "debt_to_equity": 0.13,
       "debt_status": "Low Debt (Healthy)",
@@ -4655,7 +4655,7 @@ window.stockData = {
       "macd_val": 72.13,
       "macd_signal": 79.38,
       "macd_hist": -7.25,
-      "pe_ratio": 104.08,
+      "pe_ratio": 101.23,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -4711,7 +4711,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 104.1x"
+        "\u26a0\ufe0f High Valuation P/E: 101.2x"
       ]
     },
     {
@@ -6458,7 +6458,7 @@ window.stockData = {
       "macd_val": -5.96,
       "macd_signal": -3.42,
       "macd_hist": -2.55,
-      "pe_ratio": 29.84,
+      "pe_ratio": 30.13,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
