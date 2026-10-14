@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "14-Oct-2026 04:01:13 PM IST (Indian Standard Time)",
+    "last_updated": "14-Oct-2026 04:16:14 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,622.70",
@@ -22,7 +22,7 @@
     "strong_buys_count": 16,
     "pattern_breakouts_count": 13,
     "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 28.0
+    "scan_time_seconds": 21.9
   },
   "top_20_swing": [
     {
@@ -4144,7 +4144,7 @@
       "macd_val": 5.34,
       "macd_signal": 4.67,
       "macd_hist": 0.67,
-      "pe_ratio": 111.14,
+      "pe_ratio": 110.6,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -4203,7 +4203,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -80.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 111.1x"
+        "\u26a0\ufe0f High Valuation P/E: 110.6x"
       ]
     },
     {
@@ -8020,7 +8020,7 @@
       "macd_val": -8.48,
       "macd_signal": -6.82,
       "macd_hist": -1.66,
-      "pe_ratio": 8.79,
+      "pe_ratio": 8.72,
       "roe": 0.0,
       "debt_to_equity": 0.59,
       "debt_status": "Moderate Debt",
@@ -9819,7 +9819,7 @@
       "macd_val": 0.01,
       "macd_signal": -0.15,
       "macd_hist": 0.16,
-      "pe_ratio": 9.33,
+      "pe_ratio": 9.44,
       "roe": 0.0,
       "debt_to_equity": 0.76,
       "debt_status": "Moderate Debt",
@@ -10470,7 +10470,7 @@
       "macd_val": -154.05,
       "macd_signal": -121.57,
       "macd_hist": -32.47,
-      "pe_ratio": 26.55,
+      "pe_ratio": 26.67,
       "roe": 0.0,
       "debt_to_equity": 1.06,
       "debt_status": "High Debt Warning",
@@ -13151,7 +13151,7 @@
       "macd_val": -0.06,
       "macd_signal": -0.07,
       "macd_hist": 0.0,
-      "pe_ratio": 3.18,
+      "pe_ratio": 3.12,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
