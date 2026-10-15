@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "15-Oct-2026 04:15:59 PM IST (Indian Standard Time)",
+    "last_updated": "15-Oct-2026 04:31:08 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,997.35",
@@ -22,7 +22,7 @@
     "strong_buys_count": 15,
     "pattern_breakouts_count": 12,
     "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 24.1
+    "scan_time_seconds": 21.2
   },
   "top_20_swing": [
     {
@@ -218,7 +218,7 @@
       "macd_val": 6.57,
       "macd_signal": 2.77,
       "macd_hist": 3.8,
-      "pe_ratio": 46.82,
+      "pe_ratio": 45.19,
       "roe": 10.3,
       "debt_to_equity": 0.14,
       "debt_status": "Low Debt (Healthy)",
@@ -1910,7 +1910,7 @@
       "macd_val": 6.57,
       "macd_signal": 2.77,
       "macd_hist": 3.8,
-      "pe_ratio": 46.82,
+      "pe_ratio": 45.19,
       "roe": 10.3,
       "debt_to_equity": 0.14,
       "debt_status": "Low Debt (Healthy)",
@@ -7973,7 +7973,7 @@
       "macd_val": 50.22,
       "macd_signal": 68.81,
       "macd_hist": -18.59,
-      "pe_ratio": 103.84,
+      "pe_ratio": 101.36,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -8029,7 +8029,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 103.8x"
+        "\u26a0\ufe0f High Valuation P/E: 101.4x"
       ]
     },
     {
