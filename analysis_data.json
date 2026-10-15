@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "15-Oct-2026 04:01:10 PM IST (Indian Standard Time)",
+    "last_updated": "15-Oct-2026 04:15:59 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,997.35",
@@ -22,7 +22,7 @@
     "strong_buys_count": 15,
     "pattern_breakouts_count": 12,
     "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 25.2
+    "scan_time_seconds": 24.1
   },
   "top_20_swing": [
     {
@@ -304,7 +304,7 @@
       "macd_val": -52.35,
       "macd_signal": -88.45,
       "macd_hist": 36.1,
-      "pe_ratio": 14.06,
+      "pe_ratio": 14.1,
       "roe": 11.6,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -1996,7 +1996,7 @@
       "macd_val": -52.35,
       "macd_signal": -88.45,
       "macd_hist": 36.1,
-      "pe_ratio": 14.06,
+      "pe_ratio": 14.1,
       "roe": 11.6,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -6911,7 +6911,7 @@
       "macd_val": -9.64,
       "macd_signal": -11.48,
       "macd_hist": 1.84,
-      "pe_ratio": 333.66,
+      "pe_ratio": 339.17,
       "roe": 0.0,
       "debt_to_equity": 0.15,
       "debt_status": "Low Debt (Healthy)",
@@ -6965,7 +6965,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -65.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 333.7x"
+        "\u26a0\ufe0f High Valuation P/E: 339.2x"
       ]
     },
     {
@@ -9868,7 +9868,7 @@
       "macd_val": -3.4,
       "macd_signal": -4.12,
       "macd_hist": 0.72,
-      "pe_ratio": 14.04,
+      "pe_ratio": 14.06,
       "roe": 0.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -10279,7 +10279,7 @@
       "macd_val": -90.9,
       "macd_signal": -87.12,
       "macd_hist": -3.78,
-      "pe_ratio": 2.29,
+      "pe_ratio": 2.27,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -13039,7 +13039,7 @@
       "macd_val": -0.06,
       "macd_signal": -0.06,
       "macd_hist": 0.0,
-      "pe_ratio": 3.06,
+      "pe_ratio": 3.12,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
