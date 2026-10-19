@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "19-Oct-2026 04:15:59 PM IST (Indian Standard Time)",
+    "last_updated": "19-Oct-2026 04:31:19 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,888.95",
@@ -22,7 +22,7 @@
     "strong_buys_count": 10,
     "pattern_breakouts_count": 10,
     "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 24.5
+    "scan_time_seconds": 33.8
   },
   "top_20_swing": [
     {
@@ -49,7 +49,7 @@
       "macd_val": 1.3,
       "macd_signal": 0.49,
       "macd_hist": 0.81,
-      "pe_ratio": 12.65,
+      "pe_ratio": 13.0,
       "roe": 7.9,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -1330,7 +1330,7 @@
       "macd_val": 25.02,
       "macd_signal": 27.64,
       "macd_hist": -2.61,
-      "pe_ratio": 446.05,
+      "pe_ratio": 117.67,
       "roe": 6.9,
       "debt_to_equity": 0.28,
       "debt_status": "Low Debt (Healthy)",
@@ -1386,7 +1386,7 @@
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 446.1x"
+        "\u26a0\ufe0f High Valuation P/E: 117.7x"
       ]
     },
     {
@@ -1747,7 +1747,7 @@
       "macd_val": 1.3,
       "macd_signal": 0.49,
       "macd_hist": 0.81,
-      "pe_ratio": 12.65,
+      "pe_ratio": 13.0,
       "roe": 7.9,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -2351,7 +2351,7 @@
       "macd_val": 8.28,
       "macd_signal": 4.78,
       "macd_hist": 3.49,
-      "pe_ratio": 43.75,
+      "pe_ratio": 42.23,
       "roe": 10.3,
       "debt_to_equity": 0.14,
       "debt_status": "Low Debt (Healthy)",
@@ -3523,7 +3523,7 @@
       "macd_val": -97.29,
       "macd_signal": -116.65,
       "macd_hist": 19.36,
-      "pe_ratio": 42.11,
+      "pe_ratio": 38.24,
       "roe": 26.8,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -4352,7 +4352,7 @@
       "macd_val": 25.02,
       "macd_signal": 27.64,
       "macd_hist": -2.61,
-      "pe_ratio": 446.05,
+      "pe_ratio": 117.67,
       "roe": 6.9,
       "debt_to_equity": 0.28,
       "debt_status": "Low Debt (Healthy)",
@@ -4408,7 +4408,7 @@
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 446.1x"
+        "\u26a0\ufe0f High Valuation P/E: 117.7x"
       ]
     },
     {
@@ -4931,7 +4931,7 @@
       "macd_val": -59.35,
       "macd_signal": -84.65,
       "macd_hist": 25.3,
-      "pe_ratio": 19.22,
+      "pe_ratio": 19.28,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -8130,7 +8130,7 @@
       "macd_val": 34.5,
       "macd_signal": 57.94,
       "macd_hist": -23.44,
-      "pe_ratio": 95.91,
+      "pe_ratio": 98.6,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -8185,7 +8185,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 95.9x"
+        "\u26a0\ufe0f High Valuation P/E: 98.6x"
       ]
     },
     {
@@ -8458,7 +8458,7 @@
       "macd_val": -2.02,
       "macd_signal": -2.16,
       "macd_hist": 0.15,
-      "pe_ratio": 5.26,
+      "pe_ratio": 5.33,
       "roe": 0.0,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
@@ -13107,7 +13107,7 @@
       "macd_val": -6.03,
       "macd_signal": -5.98,
       "macd_hist": -0.05,
-      "pe_ratio": 141.55,
+      "pe_ratio": 142.94,
       "roe": 0.0,
       "debt_to_equity": 0.46,
       "debt_status": "Low Debt (Healthy)",
@@ -13164,7 +13164,7 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 141.6x"
+        "\u26a0\ufe0f High Valuation P/E: 142.9x"
       ]
     },
     {
