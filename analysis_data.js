@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "20-Oct-2026 04:45:58 PM IST (Indian Standard Time)",
+    "last_updated": "20-Oct-2026 07:57:40 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,888.95",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 9,
     "pattern_breakouts_count": 9,
     "upcoming_3d_events_count": 126,
-    "scan_time_seconds": 18.8
+    "scan_time_seconds": 28.2
   },
   "top_20_swing": [
     {
@@ -478,7 +478,7 @@ window.stockData = {
       "macd_val": 33.09,
       "macd_signal": -39.82,
       "macd_hist": 72.91,
-      "pe_ratio": 14.24,
+      "pe_ratio": 14.15,
       "roe": 11.6,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -1150,7 +1150,7 @@ window.stockData = {
       "macd_val": 0.46,
       "macd_signal": -0.06,
       "macd_hist": 0.51,
-      "pe_ratio": 10.91,
+      "pe_ratio": 10.15,
       "roe": 0.0,
       "debt_to_equity": 0.76,
       "debt_status": "Moderate Debt",
@@ -2249,7 +2249,7 @@ window.stockData = {
       "macd_val": 33.09,
       "macd_signal": -39.82,
       "macd_hist": 72.91,
-      "pe_ratio": 14.24,
+      "pe_ratio": 14.15,
       "roe": 11.6,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -2752,7 +2752,7 @@ window.stockData = {
       "macd_val": 26.04,
       "macd_signal": 35.15,
       "macd_hist": -9.11,
-      "pe_ratio": 5.85,
+      "pe_ratio": 5.8,
       "roe": 0.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -3582,7 +3582,7 @@ window.stockData = {
       "macd_val": -5.35,
       "macd_signal": -10.3,
       "macd_hist": 4.94,
-      "pe_ratio": 20.9,
+      "pe_ratio": 21.78,
       "roe": 13.3,
       "debt_to_equity": 0.99,
       "debt_status": "Moderate Debt",
@@ -3664,7 +3664,7 @@ window.stockData = {
       "macd_val": 0.46,
       "macd_signal": -0.06,
       "macd_hist": 0.51,
-      "pe_ratio": 10.91,
+      "pe_ratio": 10.15,
       "roe": 0.0,
       "debt_to_equity": 0.76,
       "debt_status": "Moderate Debt",
@@ -5802,7 +5802,7 @@ window.stockData = {
       "macd_val": -45.03,
       "macd_signal": -51.67,
       "macd_hist": 6.64,
-      "pe_ratio": 26.32,
+      "pe_ratio": 26.9,
       "roe": 0.0,
       "debt_to_equity": 0.3,
       "debt_status": "Low Debt (Healthy)",
@@ -6537,7 +6537,7 @@ window.stockData = {
       "macd_val": 20.5,
       "macd_signal": 26.21,
       "macd_hist": -5.71,
-      "pe_ratio": 446.05,
+      "pe_ratio": 117.67,
       "roe": 6.9,
       "debt_to_equity": 0.28,
       "debt_status": "Low Debt (Healthy)",
@@ -6591,7 +6591,7 @@ window.stockData = {
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 446.1x"
+        "\u26a0\ufe0f High Valuation P/E: 117.7x"
       ]
     },
     {
@@ -7187,7 +7187,7 @@ window.stockData = {
       "macd_val": -21.45,
       "macd_signal": -24.16,
       "macd_hist": 2.71,
-      "pe_ratio": 11.82,
+      "pe_ratio": 11.99,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -9066,7 +9066,7 @@ window.stockData = {
       "macd_val": -81.53,
       "macd_signal": -85.6,
       "macd_hist": 4.07,
-      "pe_ratio": 2.23,
+      "pe_ratio": 2.25,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -9391,7 +9391,7 @@ window.stockData = {
       "macd_val": -4.03,
       "macd_signal": 7.63,
       "macd_hist": -11.66,
-      "pe_ratio": 67.53,
+      "pe_ratio": 69.01,
       "roe": 0.0,
       "debt_to_equity": 0.43,
       "debt_status": "Low Debt (Healthy)",
@@ -9447,7 +9447,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.1% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 67.5x"
+        "\u26a0\ufe0f High Valuation P/E: 69.0x"
       ]
     },
     {
@@ -9879,7 +9879,7 @@ window.stockData = {
       "macd_val": -0.61,
       "macd_signal": -0.37,
       "macd_hist": -0.23,
-      "pe_ratio": 17.35,
+      "pe_ratio": 17.93,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -10530,7 +10530,7 @@ window.stockData = {
       "macd_val": 0.17,
       "macd_signal": 0.49,
       "macd_hist": -0.33,
-      "pe_ratio": 3.61,
+      "pe_ratio": 3.64,
       "roe": 0.0,
       "debt_to_equity": 0.17,
       "debt_status": "Low Debt (Healthy)",
@@ -12970,7 +12970,7 @@ window.stockData = {
       "macd_val": -0.07,
       "macd_signal": -0.07,
       "macd_hist": -0.0,
-      "pe_ratio": 3.04,
+      "pe_ratio": 3.17,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
