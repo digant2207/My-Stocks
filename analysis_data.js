@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "20-Oct-2026 12:31:18 PM IST (Indian Standard Time)",
+    "last_updated": "20-Oct-2026 12:46:09 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,888.95",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 9,
     "pattern_breakouts_count": 8,
     "upcoming_3d_events_count": 126,
-    "scan_time_seconds": 26.3
+    "scan_time_seconds": 30.2
   },
   "top_20_swing": [
     {
@@ -403,7 +403,7 @@ window.stockData = {
       "earnings_growth_yoy": 250.0,
       "dividend_yield": 0.0,
       "promoter_holding": 56.1,
-      "institutional_holding": 32.4,
+      "institutional_holding": 32.3,
       "pledged_pct": 0.0,
       "primary_pattern": "Double Bottom (W-Pattern) \ud83d\udd04",
       "pattern_bias": "Bullish Reversal \ud83d\udfe2",
@@ -2176,7 +2176,7 @@ window.stockData = {
       "earnings_growth_yoy": 250.0,
       "dividend_yield": 0.0,
       "promoter_holding": 56.1,
-      "institutional_holding": 32.4,
+      "institutional_holding": 32.3,
       "pledged_pct": 0.0,
       "primary_pattern": "Double Bottom (W-Pattern) \ud83d\udd04",
       "pattern_bias": "Bullish Reversal \ud83d\udfe2",
@@ -2344,7 +2344,7 @@ window.stockData = {
       "rev_growth_yoy": 10.5,
       "earnings_growth_yoy": 9.7,
       "dividend_yield": 43.0,
-      "promoter_holding": 63.2,
+      "promoter_holding": 63.1,
       "institutional_holding": 11.6,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
@@ -7205,7 +7205,7 @@ window.stockData = {
       "earnings_growth_yoy": 19.5,
       "dividend_yield": 44.0,
       "promoter_holding": 68.6,
-      "institutional_holding": 25.2,
+      "institutional_holding": 25.0,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
