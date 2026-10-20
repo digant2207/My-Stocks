@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "20-Oct-2026 12:16:03 PM IST (Indian Standard Time)",
+    "last_updated": "20-Oct-2026 12:31:18 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,888.95",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 9,
     "pattern_breakouts_count": 8,
     "upcoming_3d_events_count": 126,
-    "scan_time_seconds": 25.4
+    "scan_time_seconds": 26.3
   },
   "top_20_swing": [
     {
@@ -9246,7 +9246,7 @@ window.stockData = {
       "earnings_growth_yoy": -20.1,
       "dividend_yield": 0.0,
       "promoter_holding": 67.3,
-      "institutional_holding": 14.6,
+      "institutional_holding": 14.3,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -11292,7 +11292,7 @@ window.stockData = {
       "rev_growth_yoy": 11.7,
       "earnings_growth_yoy": 38.0,
       "dividend_yield": 0.0,
-      "promoter_holding": 76.6,
+      "promoter_holding": 76.5,
       "institutional_holding": 0.1,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
