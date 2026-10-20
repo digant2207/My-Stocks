@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "20-Oct-2026 10:45:56 AM IST (Indian Standard Time)",
+    "last_updated": "20-Oct-2026 11:00:56 AM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,888.95",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 9,
     "pattern_breakouts_count": 8,
     "upcoming_3d_events_count": 126,
-    "scan_time_seconds": 20.2
+    "scan_time_seconds": 20.4
   },
   "top_20_swing": [
     {
@@ -4085,7 +4085,7 @@ window.stockData = {
       "macd_val": 2.21,
       "macd_signal": 2.62,
       "macd_hist": -0.4,
-      "pe_ratio": 14.37,
+      "pe_ratio": 14.35,
       "roe": 0.0,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -4497,7 +4497,7 @@ window.stockData = {
       "macd_val": 6.81,
       "macd_signal": 18.69,
       "macd_hist": -11.88,
-      "pe_ratio": 30.53,
+      "pe_ratio": 31.35,
       "roe": 0.0,
       "debt_to_equity": 1.0,
       "debt_status": "Moderate Debt",
@@ -4660,7 +4660,7 @@ window.stockData = {
       "macd_val": 2.04,
       "macd_signal": 6.81,
       "macd_hist": -4.77,
-      "pe_ratio": 17.05,
+      "pe_ratio": 16.5,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -4907,7 +4907,7 @@ window.stockData = {
       "macd_val": -56.99,
       "macd_signal": -75.24,
       "macd_hist": 18.25,
-      "pe_ratio": 18.25,
+      "pe_ratio": 17.34,
       "roe": 0.0,
       "debt_to_equity": 0.05,
       "debt_status": "Low Debt (Healthy)",
@@ -7849,7 +7849,7 @@ window.stockData = {
       "macd_val": -160.55,
       "macd_signal": -173.69,
       "macd_hist": 13.14,
-      "pe_ratio": 31.59,
+      "pe_ratio": 30.8,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -10142,7 +10142,7 @@ window.stockData = {
       "macd_val": -8.7,
       "macd_signal": -13.9,
       "macd_hist": 5.2,
-      "pe_ratio": 1.21,
+      "pe_ratio": 1.18,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
