@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "22-Oct-2026 08:07:40 PM IST (Indian Standard Time)",
+    "last_updated": "22-Oct-2026 11:01:18 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,687.65",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 7,
     "pattern_breakouts_count": 6,
     "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 28.2
+    "scan_time_seconds": 26.9
   },
   "top_20_swing": [
     {
@@ -4791,7 +4791,7 @@ window.stockData = {
       "macd_val": -1.61,
       "macd_signal": -2.0,
       "macd_hist": 0.39,
-      "pe_ratio": 5.29,
+      "pe_ratio": 5.36,
       "roe": 0.0,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
@@ -5688,7 +5688,7 @@ window.stockData = {
       "macd_val": -48.76,
       "macd_signal": -72.35,
       "macd_hist": 23.58,
-      "pe_ratio": 18.85,
+      "pe_ratio": 18.9,
       "roe": 0.0,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -10335,7 +10335,7 @@ window.stockData = {
       "macd_val": 10.67,
       "macd_signal": 42.93,
       "macd_hist": -32.26,
-      "pe_ratio": 86.57,
+      "pe_ratio": 89.0,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -10390,7 +10390,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 86.6x"
+        "\u26a0\ufe0f High Valuation P/E: 89.0x"
       ]
     },
     {
@@ -12529,7 +12529,7 @@ window.stockData = {
       "macd_val": -6.73,
       "macd_signal": -6.19,
       "macd_hist": -0.54,
-      "pe_ratio": 135.94,
+      "pe_ratio": 137.27,
       "roe": 0.0,
       "debt_to_equity": 0.46,
       "debt_status": "Low Debt (Healthy)",
@@ -12583,7 +12583,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 135.9x"
+        "\u26a0\ufe0f High Valuation P/E: 137.3x"
       ]
     },
     {
