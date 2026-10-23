@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "23-Oct-2026 04:31:12 PM IST (Indian Standard Time)",
+    "last_updated": "23-Oct-2026 04:45:59 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,600.00",
@@ -22,7 +22,7 @@
     "strong_buys_count": 5,
     "pattern_breakouts_count": 4,
     "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 20.7
+    "scan_time_seconds": 20.6
   },
   "top_20_swing": [
     {
@@ -4947,7 +4947,7 @@
       "macd_val": -0.22,
       "macd_signal": 0.96,
       "macd_hist": -1.18,
-      "pe_ratio": 39.3,
+      "pe_ratio": 38.38,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -5110,7 +5110,7 @@
       "macd_val": -1.02,
       "macd_signal": 2.01,
       "macd_hist": -3.03,
-      "pe_ratio": 24.89,
+      "pe_ratio": 25.7,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
