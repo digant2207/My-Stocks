@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "23-Oct-2026 04:45:59 PM IST (Indian Standard Time)",
+    "last_updated": "23-Oct-2026 07:51:59 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,600.00",
@@ -17,12 +17,12 @@
         "is_positive": false
       }
     },
-    "total_stocks_scanned": 140,
+    "total_stocks_scanned": 139,
     "swing_top_20_count": 20,
     "strong_buys_count": 5,
     "pattern_breakouts_count": 4,
-    "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 20.6
+    "upcoming_3d_events_count": 124,
+    "scan_time_seconds": 22.2
   },
   "top_20_swing": [
     {
@@ -7789,89 +7789,6 @@
       ]
     },
     {
-      "symbol": "ACMESOLAR.NS",
-      "clean_symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 371.85,
-      "prev_close": 385.4,
-      "day_change_pct": -3.52,
-      "day_high": 387.2,
-      "day_low": 368.0,
-      "volume": 1146496,
-      "vol_1m_avg": 1060236,
-      "vol_surge_ratio": 1.08,
-      "52w_high": 476.9,
-      "52w_low": 195.73,
-      "sma_20": 421.97,
-      "sma_50": 411.31,
-      "sma_200": 320.95,
-      "rsi_14": 31.7,
-      "macd_val": -6.89,
-      "macd_signal": -0.28,
-      "macd_hist": -6.61,
-      "pe_ratio": 38.37,
-      "roe": 0.0,
-      "debt_to_equity": 3.93,
-      "debt_status": "High Debt Warning",
-      "debt_score_penalty": 15,
-      "rev_growth_yoy": 46.8,
-      "earnings_growth_yoy": 71.5,
-      "dividend_yield": 5.0,
-      "promoter_holding": 71.6,
-      "institutional_holding": 20.9,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 459.45,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 459.91,
-      "sell_trigger_price": 366.27,
-      "buy_status": "\u26a1 BUY ABOVE \u20b9459.91 (23.7% away)",
-      "swing_target_1": 431.34,
-      "swing_target_2": 480.02,
-      "swing_stoploss": 366.27,
-      "breakout_proximity_pct": 23.6,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 37.0,
-      "composite_score": 25,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-10-23",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +71.5%)",
-          "summary": "Company declared strong YoY revenue growth of 46.8% and Net Profit growth of 71.5%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9459.91** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 1.08x. \u2022 **Sell/Stop Loss Trigger:** \u20b9366.27 \u2022 **Target 1:** \u20b9431.34 \u2022 **Target 2:** \u20b9480.02",
-      "strengths": [
-        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+71.5%) & Revenue (+46.8%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +71.5%)",
-        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
-      ],
-      "weaknesses": [
-        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Debt Ratio: 3.93"
-      ]
-    },
-    {
       "symbol": "INDRAMEDCO.NS",
       "clean_symbol": "INDRAMEDCO",
       "name": "Indraprastha Medical Corporation Ltd",
@@ -8881,7 +8798,7 @@
       "macd_val": -3.56,
       "macd_signal": -2.8,
       "macd_hist": -0.76,
-      "pe_ratio": 11.83,
+      "pe_ratio": 11.67,
       "roe": 0.0,
       "debt_to_equity": 0.81,
       "debt_status": "Moderate Debt",
@@ -10353,7 +10270,7 @@
       "macd_val": -2.56,
       "macd_signal": 33.84,
       "macd_hist": -36.4,
-      "pe_ratio": 88.99,
+      "pe_ratio": 84.56,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -10411,7 +10328,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 89.0x"
+        "\u26a0\ufe0f High Valuation P/E: 84.6x"
       ]
     },
     {
@@ -10682,7 +10599,7 @@
       "macd_val": -59.08,
       "macd_signal": -52.74,
       "macd_hist": -6.34,
-      "pe_ratio": 44.2,
+      "pe_ratio": 44.08,
       "roe": 0.0,
       "debt_to_equity": 0.28,
       "debt_status": "Low Debt (Healthy)",
@@ -11493,7 +11410,7 @@
       "macd_val": -21.1,
       "macd_signal": -15.58,
       "macd_hist": -5.53,
-      "pe_ratio": 1.13,
+      "pe_ratio": 1.11,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -14078,19 +13995,6 @@
       "symbol": "ANANTRAJ.NS",
       "clean_symbol": "ANANTRAJ",
       "name": "Anant Raj Ltd"
-    },
-    {
-      "date": "2026-10-23",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Quarterly Earnings Growth",
-      "title": "Strong Earnings Growth (YoY Profit +71.5%)",
-      "summary": "Company declared strong YoY revenue growth of 46.8% and Net Profit growth of 71.5%.",
-      "impact": "Bullish Re-rating \ud83d\ude80",
-      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
-      "symbol": "ACMESOLAR.NS",
-      "clean_symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Ltd"
     },
     {
       "date": "2026-10-23",
