@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "28-Oct-2026 03:46:01 PM IST (Indian Standard Time)",
+    "last_updated": "28-Oct-2026 03:58:47 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,698.85",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 7,
     "pattern_breakouts_count": 6,
     "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 19.2
+    "scan_time_seconds": 26.1
   },
   "top_20_swing": [
     {
@@ -7235,7 +7235,7 @@ window.stockData = {
       "debt_to_equity": 1.1,
       "debt_status": "High Debt Warning",
       "debt_score_penalty": 15,
-      "rev_growth_yoy": 33.1,
+      "rev_growth_yoy": 33.0,
       "earnings_growth_yoy": 45.9,
       "dividend_yield": 112.0,
       "promoter_holding": 76.1,
@@ -7273,14 +7273,14 @@ window.stockData = {
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
           "title": "Strong Earnings Growth (YoY Profit +45.9%)",
-          "summary": "Company declared strong YoY revenue growth of 33.1% and Net Profit growth of 45.9%.",
+          "summary": "Company declared strong YoY revenue growth of 33.0% and Net Profit growth of 45.9%.",
           "impact": "Bullish Re-rating \ud83d\ude80",
           "impact_reason": "Beating growth expectations provides positive fundamental momentum."
         }
       ],
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b95,867.36** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.58x. \u2022 **Sell/Stop Loss Trigger:** \u20b94,712.73 \u2022 **Target 1:** \u20b95,593.98 \u2022 **Target 2:** \u20b96,010.00",
       "strengths": [
-        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+45.9%) & Revenue (+33.1%)",
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+45.9%) & Revenue (+33.0%)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +45.9%)",
         "\ud83d\udcb0 High ROE: 22.8%"
       ],
@@ -14029,7 +14029,7 @@ window.stockData = {
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
       "title": "Strong Earnings Growth (YoY Profit +45.9%)",
-      "summary": "Company declared strong YoY revenue growth of 33.1% and Net Profit growth of 45.9%.",
+      "summary": "Company declared strong YoY revenue growth of 33.0% and Net Profit growth of 45.9%.",
       "impact": "Bullish Re-rating \ud83d\ude80",
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "LUMAXIND.NS",
