@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "29-Oct-2026 03:45:58 PM IST (Indian Standard Time)",
+    "last_updated": "29-Oct-2026 03:57:11 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "22,936.75",
@@ -21,8 +21,8 @@
     "swing_top_20_count": 20,
     "strong_buys_count": 9,
     "pattern_breakouts_count": 10,
-    "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 15.2
+    "upcoming_3d_events_count": 124,
+    "scan_time_seconds": 24.1
   },
   "top_20_swing": [
     {
@@ -829,7 +829,7 @@
       "macd_val": -18.48,
       "macd_signal": -42.11,
       "macd_hist": 23.63,
-      "pe_ratio": 18.76,
+      "pe_ratio": 17.04,
       "roe": 26.9,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -1162,7 +1162,7 @@
       "macd_val": -60.04,
       "macd_signal": -60.03,
       "macd_hist": -0.01,
-      "pe_ratio": 25.93,
+      "pe_ratio": 25.87,
       "roe": 16.2,
       "debt_to_equity": 0.33,
       "debt_status": "Low Debt (Healthy)",
@@ -2695,7 +2695,7 @@
       "macd_val": -18.48,
       "macd_signal": -42.11,
       "macd_hist": 23.63,
-      "pe_ratio": 18.76,
+      "pe_ratio": 17.04,
       "roe": 26.9,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -3446,7 +3446,7 @@
       "macd_val": 0.56,
       "macd_signal": 0.86,
       "macd_hist": -0.3,
-      "pe_ratio": 10.97,
+      "pe_ratio": 9.0,
       "roe": 9.5,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -3696,7 +3696,7 @@
       "macd_val": -60.04,
       "macd_signal": -60.03,
       "macd_hist": -0.01,
-      "pe_ratio": 25.93,
+      "pe_ratio": 25.87,
       "roe": 16.2,
       "debt_to_equity": 0.33,
       "debt_status": "Low Debt (Healthy)",
@@ -4122,7 +4122,7 @@
       "macd_val": -7.6,
       "macd_signal": -2.83,
       "macd_hist": -4.78,
-      "pe_ratio": 16.11,
+      "pe_ratio": 16.41,
       "roe": 0.0,
       "debt_to_equity": 0.27,
       "debt_status": "Low Debt (Healthy)",
@@ -4372,7 +4372,7 @@
       "macd_val": -42.99,
       "macd_signal": -25.8,
       "macd_hist": -17.19,
-      "pe_ratio": 27.61,
+      "pe_ratio": 27.98,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -4620,7 +4620,7 @@
       "macd_val": -2.18,
       "macd_signal": 0.48,
       "macd_hist": -2.66,
-      "pe_ratio": 40.21,
+      "pe_ratio": 40.1,
       "roe": 10.3,
       "debt_to_equity": 0.14,
       "debt_status": "Low Debt (Healthy)",
@@ -5032,7 +5032,7 @@
       "macd_val": -0.91,
       "macd_signal": -1.4,
       "macd_hist": 0.49,
-      "pe_ratio": 5.27,
+      "pe_ratio": 5.34,
       "roe": 0.0,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
@@ -5194,7 +5194,7 @@
       "macd_val": -0.8,
       "macd_signal": 0.31,
       "macd_hist": -1.11,
-      "pe_ratio": 14.05,
+      "pe_ratio": 14.06,
       "roe": 0.0,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -5845,7 +5845,7 @@
       "macd_val": -63.16,
       "macd_signal": -61.24,
       "macd_hist": -1.92,
-      "pe_ratio": 16.82,
+      "pe_ratio": 17.18,
       "roe": 0.0,
       "debt_to_equity": 0.05,
       "debt_status": "Low Debt (Healthy)",
@@ -5926,7 +5926,7 @@
       "macd_val": -6.26,
       "macd_signal": -2.14,
       "macd_hist": -4.12,
-      "pe_ratio": 22.51,
+      "pe_ratio": 22.89,
       "roe": 6.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -6008,7 +6008,7 @@
       "macd_val": -11.58,
       "macd_signal": -11.97,
       "macd_hist": 0.4,
-      "pe_ratio": 331.08,
+      "pe_ratio": 328.35,
       "roe": 0.0,
       "debt_to_equity": 0.15,
       "debt_status": "Low Debt (Healthy)",
@@ -6063,7 +6063,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -65.0% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 331.1x"
+        "\u26a0\ufe0f High Valuation P/E: 328.4x"
       ]
     },
     {
@@ -6421,7 +6421,7 @@
       "macd_val": -7.43,
       "macd_signal": 8.18,
       "macd_hist": -15.61,
-      "pe_ratio": 104.67,
+      "pe_ratio": 99.69,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -6476,7 +6476,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 104.7x"
+        "\u26a0\ufe0f High Valuation P/E: 99.7x"
       ]
     },
     {
@@ -6678,7 +6678,7 @@
       "debt_score_penalty": 5,
       "rev_growth_yoy": 18.3,
       "earnings_growth_yoy": 62.5,
-      "dividend_yield": 1.31,
+      "dividend_yield": 131.0,
       "promoter_holding": 70.8,
       "institutional_holding": 0.1,
       "pledged_pct": 0.0,
@@ -7082,7 +7082,7 @@
       "macd_val": -252.42,
       "macd_signal": -218.11,
       "macd_hist": -34.32,
-      "pe_ratio": 27.9,
+      "pe_ratio": 28.21,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -8389,7 +8389,7 @@
       "macd_val": -9.25,
       "macd_signal": -8.22,
       "macd_hist": -1.03,
-      "pe_ratio": 27.1,
+      "pe_ratio": 27.14,
       "roe": 0.0,
       "debt_to_equity": 0.11,
       "debt_status": "Low Debt (Healthy)",
@@ -9052,7 +9052,7 @@
       "macd_val": -49.23,
       "macd_signal": -35.65,
       "macd_hist": -13.58,
-      "pe_ratio": 67.65,
+      "pe_ratio": 67.81,
       "roe": 0.0,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -9107,7 +9107,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 67.7x"
+        "\u26a0\ufe0f High Valuation P/E: 67.8x"
       ]
     },
     {
@@ -9539,7 +9539,7 @@
       "macd_val": -71.15,
       "macd_signal": -72.67,
       "macd_hist": 1.52,
-      "pe_ratio": 27.07,
+      "pe_ratio": 27.47,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -9863,7 +9863,7 @@
       "macd_val": -20.06,
       "macd_signal": -19.25,
       "macd_hist": -0.81,
-      "pe_ratio": 1.2,
+      "pe_ratio": 1.16,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -10021,7 +10021,7 @@
       "52w_low": 8433.72,
       "sma_20": 10845.15,
       "sma_50": 11012.74,
-      "sma_200": 10528.85,
+      "sma_200": 10528.86,
       "rsi_14": 34.7,
       "macd_val": -77.88,
       "macd_signal": -15.77,
@@ -11573,7 +11573,7 @@
       "macd_val": -147.92,
       "macd_signal": -113.69,
       "macd_hist": -34.22,
-      "pe_ratio": 47.25,
+      "pe_ratio": 46.63,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -12708,7 +12708,7 @@
       "macd_val": -2.25,
       "macd_signal": -2.09,
       "macd_hist": -0.16,
-      "pe_ratio": 5.64,
+      "pe_ratio": 5.66,
       "roe": 0.0,
       "debt_to_equity": 0.51,
       "debt_status": "Moderate Debt",
@@ -13114,14 +13114,14 @@
       "macd_hist": -0.36,
       "pe_ratio": 91.03,
       "roe": 0.0,
-      "debt_to_equity": 0.0,
-      "debt_status": "Zero Debt",
+      "debt_to_equity": 0.23,
+      "debt_status": "Low Debt (Healthy)",
       "debt_score_penalty": 0,
-      "rev_growth_yoy": 0.0,
-      "earnings_growth_yoy": 0.0,
+      "rev_growth_yoy": -6.3,
+      "earnings_growth_yoy": -20.0,
       "dividend_yield": 0.0,
-      "promoter_holding": 50.0,
-      "institutional_holding": 30.0,
+      "promoter_holding": 73.1,
+      "institutional_holding": 3.6,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
@@ -13150,22 +13150,22 @@
       "swing_reason": "Stock trading in a sideways consolidation range.",
       "events": [
         {
-          "date": "2026-10-29",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Trading Monitoring",
-          "title": "Normal Volume & Price Watch",
-          "summary": "Stock trading smoothly at \u20b958.26.",
-          "impact": "Neutral \u2696\ufe0f",
-          "impact_reason": "Standard price discovery."
+          "date": "2026-10-28",
+          "date_tag": "Yesterday",
+          "is_upcoming_3_days": false,
+          "type": "Earnings Caution",
+          "title": "Earnings De-growth (YoY Profit Drop -20.0%)",
+          "summary": "Recent financial results show profit declining by 20.0%.",
+          "impact": "Bearish Caution \u26a0\ufe0f",
+          "impact_reason": "Margin pressure may trigger short-term profit booking."
         }
       ],
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b972.87** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.36x. \u2022 **Sell/Stop Loss Trigger:** \u20b956.97 \u2022 **Target 1:** \u20b973.20 \u2022 **Target 2:** \u20b985.43",
       "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Today): Trading Monitoring - Normal Volume & Price Watch",
-        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet"
+        "\ud83d\udcc5 Upcoming Event (Yesterday): Earnings Caution - Earnings De-growth (YoY Profit Drop -20.0%)"
       ],
       "weaknesses": [
+        "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.0% YoY)",
         "\u26a0\ufe0f High Valuation P/E: 91.0x"
       ]
     },
@@ -14853,19 +14853,6 @@
       "symbol": "SIMBHALS.NS",
       "clean_symbol": "SIMBHALS",
       "name": "Simbhaoli Sugars Ltd"
-    },
-    {
-      "date": "2026-10-29",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Trading Monitoring",
-      "title": "Normal Volume & Price Watch",
-      "summary": "Stock trading smoothly at \u20b958.26.",
-      "impact": "Neutral \u2696\ufe0f",
-      "impact_reason": "Standard price discovery.",
-      "symbol": "IFCI.NS",
-      "clean_symbol": "IFCI",
-      "name": "IFCI Ltd"
     },
     {
       "date": "2026-10-29",
