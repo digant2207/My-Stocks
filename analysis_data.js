@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "30-Oct-2026 04:31:10 PM IST (Indian Standard Time)",
+    "last_updated": "30-Oct-2026 04:46:04 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,053.10",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 11,
     "pattern_breakouts_count": 9,
     "upcoming_3d_events_count": 124,
-    "scan_time_seconds": 16.0
+    "scan_time_seconds": 20.5
   },
   "top_20_swing": [
     {
