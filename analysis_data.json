@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "30-Oct-2026 03:59:17 PM IST (Indian Standard Time)",
+    "last_updated": "30-Oct-2026 04:01:06 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,053.10",
@@ -22,7 +22,7 @@
     "strong_buys_count": 11,
     "pattern_breakouts_count": 9,
     "upcoming_3d_events_count": 124,
-    "scan_time_seconds": 24.8
+    "scan_time_seconds": 15.1
   },
   "top_20_swing": [
     {
@@ -914,7 +914,7 @@
       "macd_val": 0.47,
       "macd_signal": -0.17,
       "macd_hist": 0.64,
-      "pe_ratio": 64.79,
+      "pe_ratio": 65.55,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -972,7 +972,7 @@
         "\ud83c\udfaf RSI Bullish Momentum Zone: 63.2"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 64.8x"
+        "\u26a0\ufe0f High Valuation P/E: 65.5x"
       ]
     },
     {
@@ -1668,7 +1668,7 @@
       "macd_val": -0.84,
       "macd_signal": -1.29,
       "macd_hist": 0.45,
-      "pe_ratio": 5.33,
+      "pe_ratio": 5.26,
       "roe": 0.0,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
@@ -2270,7 +2270,7 @@
       "macd_val": 13.64,
       "macd_signal": 13.45,
       "macd_hist": 0.19,
-      "pe_ratio": 25.99,
+      "pe_ratio": 26.53,
       "roe": 14.3,
       "debt_to_equity": 0.23,
       "debt_status": "Low Debt (Healthy)",
@@ -2698,12 +2698,12 @@
       "macd_val": -16.57,
       "macd_signal": -37.01,
       "macd_hist": 20.44,
-      "pe_ratio": 17.24,
+      "pe_ratio": 18.99,
       "roe": 26.9,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
       "debt_score_penalty": 0,
-      "rev_growth_yoy": 24.2,
+      "rev_growth_yoy": 22.5,
       "earnings_growth_yoy": 42.2,
       "dividend_yield": 362.0,
       "promoter_holding": 37.2,
@@ -2741,14 +2741,14 @@
           "is_upcoming_3_days": true,
           "type": "Quarterly Earnings Growth",
           "title": "Strong Earnings Growth (YoY Profit +42.2%)",
-          "summary": "Company declared strong YoY revenue growth of 24.2% and Net Profit growth of 42.2%.",
+          "summary": "Company declared strong YoY revenue growth of 22.5% and Net Profit growth of 42.2%.",
           "impact": "Bullish Re-rating \ud83d\ude80",
           "impact_reason": "Beating growth expectations provides positive fundamental momentum."
         }
       ],
       "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b95,417.41** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 1.03x. \u2022 **Sell/Stop Loss Trigger:** \u20b95,025.86 \u2022 **Target 1:** \u20b95,412.00 \u2022 **Target 2:** \u20b96,388.50",
       "strengths": [
-        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+42.2%) & Revenue (+24.2%)",
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+42.2%) & Revenue (+22.5%)",
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +42.2%)",
         "\ud83d\udcb0 High ROE: 26.9%"
       ],
@@ -3117,7 +3117,7 @@
       "macd_val": 0.47,
       "macd_signal": -0.17,
       "macd_hist": 0.64,
-      "pe_ratio": 64.79,
+      "pe_ratio": 65.55,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -3175,7 +3175,7 @@
         "\ud83c\udfaf RSI Bullish Momentum Zone: 63.2"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 64.8x"
+        "\u26a0\ufe0f High Valuation P/E: 65.5x"
       ]
     },
     {
@@ -3787,7 +3787,7 @@
       "macd_val": -12.91,
       "macd_signal": -19.98,
       "macd_hist": 7.07,
-      "pe_ratio": 12.2,
+      "pe_ratio": 12.57,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -5285,7 +5285,7 @@
       "macd_val": -0.84,
       "macd_signal": -1.29,
       "macd_hist": 0.45,
-      "pe_ratio": 5.33,
+      "pe_ratio": 5.26,
       "roe": 0.0,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
@@ -5774,7 +5774,7 @@
       "macd_val": -7.28,
       "macd_signal": -3.17,
       "macd_hist": -4.11,
-      "pe_ratio": 22.31,
+      "pe_ratio": 22.23,
       "roe": 6.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -6019,7 +6019,7 @@
       "macd_val": -3.41,
       "macd_signal": -0.3,
       "macd_hist": -3.11,
-      "pe_ratio": 39.19,
+      "pe_ratio": 38.47,
       "roe": 10.3,
       "debt_to_equity": 0.14,
       "debt_status": "Low Debt (Healthy)",
@@ -6654,6 +6654,88 @@
       ]
     },
     {
+      "symbol": "ACMESOLAR.NS",
+      "clean_symbol": "ACMESOLAR",
+      "name": "Acme Solar Holdings Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 404.8,
+      "prev_close": 415.8,
+      "day_change_pct": -2.65,
+      "day_high": 421.0,
+      "day_low": 400.8,
+      "volume": 887080,
+      "vol_1m_avg": 1011831,
+      "vol_surge_ratio": 0.88,
+      "52w_high": 476.9,
+      "52w_low": 195.73,
+      "sma_20": 413.25,
+      "sma_50": 414.76,
+      "sma_200": 325.21,
+      "rsi_14": 47.4,
+      "macd_val": -4.43,
+      "macd_signal": -3.82,
+      "macd_hist": -0.62,
+      "pe_ratio": 35.02,
+      "roe": 11.5,
+      "debt_to_equity": 3.3,
+      "debt_status": "High Debt Warning",
+      "debt_score_penalty": 15,
+      "rev_growth_yoy": 115.3,
+      "earnings_growth_yoy": 99.5,
+      "dividend_yield": 5.0,
+      "promoter_holding": 71.6,
+      "institutional_holding": 20.9,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 453.65,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Moderate Buying Interest \ud83d\udfe2",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 454.1,
+      "sell_trigger_price": 372.42,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9454.10 (12.2% away)",
+      "swing_target_1": 451.75,
+      "swing_target_2": 490.16,
+      "swing_stoploss": 372.42,
+      "breakout_proximity_pct": 12.1,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 33.6,
+      "composite_score": 29,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-10-30",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +99.5%)",
+          "summary": "Company declared strong YoY revenue growth of 115.3% and Net Profit growth of 99.5%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9454.10** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.88x. \u2022 **Sell/Stop Loss Trigger:** \u20b9372.42 \u2022 **Target 1:** \u20b9451.75 \u2022 **Target 2:** \u20b9490.16",
+      "strengths": [
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+99.5%) & Revenue (+115.3%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +99.5%)",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f High Debt Ratio: 3.30"
+      ]
+    },
+    {
       "symbol": "GSFC.NS",
       "clean_symbol": "GSFC",
       "name": "Gujarat State Fertilizers & Chemicls Ltd",
@@ -7172,7 +7254,7 @@
       "macd_val": -7.55,
       "macd_signal": 5.03,
       "macd_hist": -12.58,
-      "pe_ratio": 98.19,
+      "pe_ratio": 96.39,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -7227,7 +7309,7 @@
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 98.2x"
+        "\u26a0\ufe0f High Valuation P/E: 96.4x"
       ]
     },
     {
@@ -7829,7 +7911,7 @@
       "macd_val": -52.7,
       "macd_signal": -39.06,
       "macd_hist": -13.64,
-      "pe_ratio": 66.06,
+      "pe_ratio": 66.27,
       "roe": 0.0,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -7885,7 +7967,7 @@
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 66.1x"
+        "\u26a0\ufe0f High Valuation P/E: 66.3x"
       ]
     },
     {
@@ -8130,88 +8212,6 @@
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
-    },
-    {
-      "symbol": "ACMESOLAR.NS",
-      "clean_symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 404.8,
-      "prev_close": 415.8,
-      "day_change_pct": -2.65,
-      "day_high": 421.0,
-      "day_low": 400.8,
-      "volume": 887080,
-      "vol_1m_avg": 1011831,
-      "vol_surge_ratio": 0.88,
-      "52w_high": 476.9,
-      "52w_low": 195.73,
-      "sma_20": 413.25,
-      "sma_50": 414.76,
-      "sma_200": 325.21,
-      "rsi_14": 47.4,
-      "macd_val": -4.43,
-      "macd_signal": -3.82,
-      "macd_hist": -0.62,
-      "pe_ratio": 35.02,
-      "roe": 0.0,
-      "debt_to_equity": 3.93,
-      "debt_status": "High Debt Warning",
-      "debt_score_penalty": 15,
-      "rev_growth_yoy": 46.8,
-      "earnings_growth_yoy": 71.5,
-      "dividend_yield": 5.0,
-      "promoter_holding": 71.6,
-      "institutional_holding": 20.9,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 453.65,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Moderate Buying Interest \ud83d\udfe2",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 454.1,
-      "sell_trigger_price": 372.42,
-      "buy_status": "\u26a1 BUY ABOVE \u20b9454.10 (12.2% away)",
-      "swing_target_1": 451.75,
-      "swing_target_2": 490.16,
-      "swing_stoploss": 372.42,
-      "breakout_proximity_pct": 12.1,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 32.0,
-      "composite_score": 25,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-10-30",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +71.5%)",
-          "summary": "Company declared strong YoY revenue growth of 46.8% and Net Profit growth of 71.5%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9454.10** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.88x. \u2022 **Sell/Stop Loss Trigger:** \u20b9372.42 \u2022 **Target 1:** \u20b9451.75 \u2022 **Target 2:** \u20b9490.16",
-      "strengths": [
-        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+71.5%) & Revenue (+46.8%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +71.5%)",
-        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
-      ],
-      "weaknesses": [
-        "\u26a0\ufe0f High Debt Ratio: 3.93"
       ]
     },
     {
@@ -9810,7 +9810,7 @@
       "macd_val": -66.85,
       "macd_signal": -71.51,
       "macd_hist": 4.65,
-      "pe_ratio": 27.34,
+      "pe_ratio": 26.94,
       "roe": 0.0,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -11526,7 +11526,7 @@
       "macd_val": -20.31,
       "macd_signal": -19.46,
       "macd_hist": -0.85,
-      "pe_ratio": 1.12,
+      "pe_ratio": 1.15,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -12184,7 +12184,7 @@
       "macd_val": -2.72,
       "macd_signal": -1.76,
       "macd_hist": -0.96,
-      "pe_ratio": 9.0,
+      "pe_ratio": 9.01,
       "roe": 0.0,
       "debt_to_equity": 0.76,
       "debt_status": "Moderate Debt",
@@ -12594,7 +12594,7 @@
       "macd_val": -154.35,
       "macd_signal": -121.83,
       "macd_hist": -32.53,
-      "pe_ratio": 45.49,
+      "pe_ratio": 47.41,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -13169,7 +13169,7 @@
       "macd_val": -0.12,
       "macd_signal": -0.11,
       "macd_hist": -0.01,
-      "pe_ratio": 3.33,
+      "pe_ratio": 3.5,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -13460,7 +13460,7 @@
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
       "title": "Strong Earnings Growth (YoY Profit +42.2%)",
-      "summary": "Company declared strong YoY revenue growth of 24.2% and Net Profit growth of 42.2%.",
+      "summary": "Company declared strong YoY revenue growth of 22.5% and Net Profit growth of 42.2%.",
       "impact": "Bullish Re-rating \ud83d\ude80",
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "HEROMOTOCO.NS",
@@ -14057,6 +14057,19 @@
       "date_tag": "Today",
       "is_upcoming_3_days": true,
       "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +99.5%)",
+      "summary": "Company declared strong YoY revenue growth of 115.3% and Net Profit growth of 99.5%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "ACMESOLAR.NS",
+      "clean_symbol": "ACMESOLAR",
+      "name": "Acme Solar Holdings Ltd"
+    },
+    {
+      "date": "2026-10-30",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
       "title": "Strong Earnings Growth (YoY Profit +14.4%)",
       "summary": "Company declared strong YoY revenue growth of 64.0% and Net Profit growth of 14.4%.",
       "impact": "Bullish Re-rating \ud83d\ude80",
@@ -14259,19 +14272,6 @@
       "symbol": "NMDC.NS",
       "clean_symbol": "NMDC",
       "name": "NMDC Ltd"
-    },
-    {
-      "date": "2026-10-30",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Quarterly Earnings Growth",
-      "title": "Strong Earnings Growth (YoY Profit +71.5%)",
-      "summary": "Company declared strong YoY revenue growth of 46.8% and Net Profit growth of 71.5%.",
-      "impact": "Bullish Re-rating \ud83d\ude80",
-      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
-      "symbol": "ACMESOLAR.NS",
-      "clean_symbol": "ACMESOLAR",
-      "name": "Acme Solar Holdings Ltd"
     },
     {
       "date": "2026-10-30",
