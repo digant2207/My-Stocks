@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "02-Nov-2026 05:12:52 PM IST (Indian Standard Time)",
+    "last_updated": "02-Nov-2026 05:42:00 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "23,440.80",
@@ -22,7 +22,7 @@
     "strong_buys_count": 15,
     "pattern_breakouts_count": 16,
     "upcoming_3d_events_count": 128,
-    "scan_time_seconds": 18.8
+    "scan_time_seconds": 30.9
   },
   "top_20_swing": [
     {
@@ -136,7 +136,7 @@
       "macd_val": -0.43,
       "macd_signal": -1.12,
       "macd_hist": 0.69,
-      "pe_ratio": 5.44,
+      "pe_ratio": 3.92,
       "roe": 22.6,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
@@ -1851,7 +1851,7 @@
       "macd_val": -0.43,
       "macd_signal": -1.12,
       "macd_hist": 0.69,
-      "pe_ratio": 5.44,
+      "pe_ratio": 3.92,
       "roe": 22.6,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
@@ -2973,7 +2973,7 @@
       "macd_val": -12.81,
       "macd_signal": -32.17,
       "macd_hist": 19.36,
-      "pe_ratio": 19.09,
+      "pe_ratio": 17.33,
       "roe": 26.9,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -9101,7 +9101,7 @@
       "macd_val": -56.11,
       "macd_signal": -42.47,
       "macd_hist": -13.64,
-      "pe_ratio": 65.69,
+      "pe_ratio": 65.85,
       "roe": 0.0,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -9157,7 +9157,7 @@
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -4.9% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 65.7x"
+        "\u26a0\ufe0f High Valuation P/E: 65.8x"
       ]
     },
     {
@@ -12713,7 +12713,7 @@
       "macd_val": -158.55,
       "macd_signal": -129.36,
       "macd_hist": -29.19,
-      "pe_ratio": 47.41,
+      "pe_ratio": 46.79,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
