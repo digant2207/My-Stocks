@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "05-Nov-2026 04:31:34 PM IST (Indian Standard Time)",
+    "last_updated": "05-Nov-2026 04:46:01 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "24,536.60",
@@ -17,12 +17,12 @@ window.stockData = {
         "is_positive": true
       }
     },
-    "total_stocks_scanned": 139,
+    "total_stocks_scanned": 140,
     "swing_top_20_count": 20,
     "strong_buys_count": 34,
     "pattern_breakouts_count": 31,
-    "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 36.3
+    "upcoming_3d_events_count": 126,
+    "scan_time_seconds": 20.5
   },
   "top_20_swing": [
     {
@@ -4799,6 +4799,89 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f High Debt Ratio: 4.23"
+      ]
+    },
+    {
+      "symbol": "ACE.NS",
+      "clean_symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 1127.65,
+      "prev_close": 1104.2,
+      "day_change_pct": 2.12,
+      "day_high": 1134.65,
+      "day_low": 1113.4,
+      "volume": 267550,
+      "vol_1m_avg": 290711,
+      "vol_surge_ratio": 0.92,
+      "52w_high": 1268.0,
+      "52w_low": 743.73,
+      "sma_20": 1093.63,
+      "sma_50": 1142.59,
+      "sma_200": 980.62,
+      "rsi_14": 54.0,
+      "macd_val": -28.05,
+      "macd_signal": -33.81,
+      "macd_hist": 5.75,
+      "pe_ratio": 30.73,
+      "roe": 0.0,
+      "debt_to_equity": 0.0,
+      "debt_status": "Zero Debt",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 20.5,
+      "earnings_growth_yoy": 22.3,
+      "dividend_yield": 18.0,
+      "promoter_holding": 66.8,
+      "institutional_holding": 8.1,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 1249.9,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Neutral Balance \u2696\ufe0f",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 1251.15,
+      "sell_trigger_price": 1077.23,
+      "buy_status": "\u26a1 BUY ABOVE \u20b91,251.15 (11.0% away)",
+      "swing_target_1": 1263.0,
+      "swing_target_2": 1368.37,
+      "swing_stoploss": 1077.23,
+      "breakout_proximity_pct": 10.8,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 45.8,
+      "composite_score": 57,
+      "long_term_signal": "HOLD",
+      "swing_signal": "MOMENTUM BUY \ud83d\udfe2",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-11-05",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +22.3%)",
+          "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,251.15** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.92x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,077.23 \u2022 **Target 1:** \u20b91,263.00 \u2022 **Target 2:** \u20b91,368.37",
+      "strengths": [
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+22.3%) & Revenue (+20.5%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +22.3%)",
+        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
+      ],
+      "weaknesses": [
+        "No major red flags detected"
       ]
     },
     {
@@ -13837,6 +13920,19 @@ window.stockData = {
       "symbol": "LTF.NS",
       "clean_symbol": "LTF",
       "name": "L&T Finance Ltd"
+    },
+    {
+      "date": "2026-11-05",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +22.3%)",
+      "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "ACE.NS",
+      "clean_symbol": "ACE",
+      "name": "Action Construction Equipment Ltd"
     },
     {
       "date": "2026-11-05",
