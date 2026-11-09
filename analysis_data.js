@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "09-Nov-2026 04:31:20 PM IST (Indian Standard Time)",
+    "last_updated": "09-Nov-2026 04:46:10 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,044.65",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 33,
     "pattern_breakouts_count": 27,
     "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 19.1
+    "scan_time_seconds": 23.1
   },
   "top_20_swing": [
     {
@@ -824,7 +824,7 @@ window.stockData = {
     {
       "symbol": "BBL.NS",
       "clean_symbol": "BBL",
-      "name": "BBL",
+      "name": "Bharat Bijlee Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -932,7 +932,7 @@ window.stockData = {
       "macd_val": 25.22,
       "macd_signal": 7.47,
       "macd_hist": 17.75,
-      "pe_ratio": 21.83,
+      "pe_ratio": 21.89,
       "roe": 8.8,
       "debt_to_equity": 0.44,
       "debt_status": "Low Debt (Healthy)",
@@ -1620,7 +1620,7 @@ window.stockData = {
     {
       "symbol": "LT.NS",
       "clean_symbol": "LT",
-      "name": "LT",
+      "name": "Larsen and Toubro Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1728,7 +1728,7 @@ window.stockData = {
       "macd_val": -10.1,
       "macd_signal": -15.75,
       "macd_hist": 5.65,
-      "pe_ratio": 31.28,
+      "pe_ratio": 32.06,
       "roe": 7.3,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -2590,7 +2590,7 @@ window.stockData = {
     {
       "symbol": "BBL.NS",
       "clean_symbol": "BBL",
-      "name": "BBL",
+      "name": "Bharat Bijlee Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2698,7 +2698,7 @@ window.stockData = {
       "macd_val": 25.22,
       "macd_signal": 7.47,
       "macd_hist": 17.75,
-      "pe_ratio": 21.83,
+      "pe_ratio": 21.89,
       "roe": 8.8,
       "debt_to_equity": 0.44,
       "debt_status": "Low Debt (Healthy)",
@@ -3556,7 +3556,7 @@ window.stockData = {
     {
       "symbol": "ACE.NS",
       "clean_symbol": "ACE",
-      "name": "ace",
+      "name": "Action Construction Equipment Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3640,7 +3640,7 @@ window.stockData = {
     {
       "symbol": "LT.NS",
       "clean_symbol": "LT",
-      "name": "LT",
+      "name": "Larsen and Toubro Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3748,7 +3748,7 @@ window.stockData = {
       "macd_val": -10.1,
       "macd_signal": -15.75,
       "macd_hist": 5.65,
-      "pe_ratio": 31.28,
+      "pe_ratio": 32.06,
       "roe": 7.3,
       "debt_to_equity": 0.12,
       "debt_status": "Low Debt (Healthy)",
@@ -4860,7 +4860,7 @@ window.stockData = {
       "macd_val": 22.68,
       "macd_signal": -42.69,
       "macd_hist": 65.36,
-      "pe_ratio": 9.55,
+      "pe_ratio": 9.6,
       "roe": 31.6,
       "debt_to_equity": 4.01,
       "debt_status": "High Debt Warning",
@@ -5030,7 +5030,7 @@ window.stockData = {
       "macd_val": 3.22,
       "macd_signal": -9.28,
       "macd_hist": 12.5,
-      "pe_ratio": 76.37,
+      "pe_ratio": 77.92,
       "roe": 15.6,
       "debt_to_equity": 0.44,
       "debt_status": "Low Debt (Healthy)",
@@ -5089,7 +5089,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -15.2% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 76.4x"
+        "\u26a0\ufe0f High Valuation P/E: 77.9x"
       ]
     },
     {
@@ -5116,7 +5116,7 @@ window.stockData = {
       "macd_val": -11.8,
       "macd_signal": -34.82,
       "macd_hist": 23.02,
-      "pe_ratio": 27.39,
+      "pe_ratio": 27.61,
       "roe": 16.2,
       "debt_to_equity": 0.33,
       "debt_status": "Low Debt (Healthy)",
@@ -5211,7 +5211,7 @@ window.stockData = {
       "macd_val": 0.08,
       "macd_signal": -2.87,
       "macd_hist": 2.95,
-      "pe_ratio": 162.23,
+      "pe_ratio": 168.79,
       "roe": 0.0,
       "debt_to_equity": 0.46,
       "debt_status": "Low Debt (Healthy)",
@@ -5269,7 +5269,7 @@ window.stockData = {
         "\ud83c\udfaf RSI Bullish Momentum Zone: 65.0"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 162.2x"
+        "\u26a0\ufe0f High Valuation P/E: 168.8x"
       ]
     },
     {
@@ -5296,7 +5296,7 @@ window.stockData = {
       "macd_val": -20.66,
       "macd_signal": -41.42,
       "macd_hist": 20.76,
-      "pe_ratio": 50.55,
+      "pe_ratio": 49.88,
       "roe": 0.0,
       "debt_to_equity": 0.28,
       "debt_status": "Low Debt (Healthy)",
@@ -5381,7 +5381,7 @@ window.stockData = {
       "macd_val": -1.85,
       "macd_signal": -4.12,
       "macd_hist": 2.27,
-      "pe_ratio": 47.02,
+      "pe_ratio": 46.8,
       "roe": 0.0,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -5953,7 +5953,7 @@ window.stockData = {
     {
       "symbol": "WAAREEENER.NS",
       "clean_symbol": "WAAREEENER",
-      "name": "waareeener",
+      "name": "Waaree Energies Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5974,7 +5974,7 @@ window.stockData = {
       "macd_val": -15.48,
       "macd_signal": -33.53,
       "macd_hist": 18.05,
-      "pe_ratio": 19.08,
+      "pe_ratio": 19.07,
       "roe": 26.7,
       "debt_to_equity": 0.31,
       "debt_status": "Low Debt (Healthy)",
@@ -6056,7 +6056,7 @@ window.stockData = {
       "macd_val": -0.9,
       "macd_signal": -1.29,
       "macd_hist": 0.39,
-      "pe_ratio": 23.73,
+      "pe_ratio": 23.87,
       "roe": 24.9,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -6479,7 +6479,7 @@ window.stockData = {
       "macd_val": -40.39,
       "macd_signal": -43.58,
       "macd_hist": 3.19,
-      "pe_ratio": 68.38,
+      "pe_ratio": 66.35,
       "roe": 23.6,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -6536,7 +6536,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 68.4x"
+        "\u26a0\ufe0f High Valuation P/E: 66.3x"
       ]
     },
     {
@@ -6563,7 +6563,7 @@ window.stockData = {
       "macd_val": -0.79,
       "macd_signal": -0.95,
       "macd_hist": 0.16,
-      "pe_ratio": 41.24,
+      "pe_ratio": 42.23,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -6645,7 +6645,7 @@ window.stockData = {
       "macd_val": -113.66,
       "macd_signal": -143.72,
       "macd_hist": 30.06,
-      "pe_ratio": 37.17,
+      "pe_ratio": 37.32,
       "roe": 26.8,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -6812,7 +6812,7 @@ window.stockData = {
       "macd_val": 2.03,
       "macd_signal": -4.57,
       "macd_hist": 6.6,
-      "pe_ratio": 178.99,
+      "pe_ratio": 179.73,
       "roe": 1.9,
       "debt_to_equity": 0.15,
       "debt_status": "Low Debt (Healthy)",
@@ -6868,7 +6868,7 @@ window.stockData = {
         "\ud83c\udfaf RSI Bullish Momentum Zone: 61.7"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 179.0x"
+        "\u26a0\ufe0f High Valuation P/E: 179.7x"
       ]
     },
     {
@@ -7061,7 +7061,7 @@ window.stockData = {
       "macd_val": 0.16,
       "macd_signal": 0.29,
       "macd_hist": -0.13,
-      "pe_ratio": 9.23,
+      "pe_ratio": 9.34,
       "roe": 9.5,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -7897,7 +7897,7 @@ window.stockData = {
       "macd_val": -137.54,
       "macd_signal": -189.04,
       "macd_hist": 51.5,
-      "pe_ratio": 30.16,
+      "pe_ratio": 30.86,
       "roe": 14.3,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -8970,7 +8970,7 @@ window.stockData = {
       "macd_val": -12.69,
       "macd_signal": -9.85,
       "macd_hist": -2.85,
-      "pe_ratio": 14.24,
+      "pe_ratio": 13.85,
       "roe": 15.5,
       "debt_to_equity": 0.58,
       "debt_status": "Moderate Debt",
@@ -9219,7 +9219,7 @@ window.stockData = {
       "macd_val": -0.41,
       "macd_signal": -1.08,
       "macd_hist": 0.67,
-      "pe_ratio": 8.75,
+      "pe_ratio": 8.81,
       "roe": 0.0,
       "debt_to_equity": 0.76,
       "debt_status": "Moderate Debt",
@@ -9954,7 +9954,7 @@ window.stockData = {
       "macd_val": -3.84,
       "macd_signal": -6.88,
       "macd_hist": 3.05,
-      "pe_ratio": 12.08,
+      "pe_ratio": 12.23,
       "roe": 0.0,
       "debt_to_equity": 1.04,
       "debt_status": "High Debt Warning",
@@ -10204,7 +10204,7 @@ window.stockData = {
       "macd_val": -1.78,
       "macd_signal": -2.84,
       "macd_hist": 1.06,
-      "pe_ratio": 12.84,
+      "pe_ratio": 12.73,
       "roe": 0.0,
       "debt_to_equity": 0.81,
       "debt_status": "Moderate Debt",
@@ -10452,7 +10452,7 @@ window.stockData = {
       "macd_val": -5.61,
       "macd_signal": -5.44,
       "macd_hist": -0.17,
-      "pe_ratio": 24.39,
+      "pe_ratio": 23.88,
       "roe": 6.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -10923,7 +10923,7 @@ window.stockData = {
     {
       "symbol": "UTKARSHBNK.NS",
       "clean_symbol": "UTKARSHBNK",
-      "name": "UTKARSHBNK",
+      "name": "Utkarsh Small Finance Bank Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -11186,7 +11186,7 @@ window.stockData = {
       "macd_val": -3.32,
       "macd_signal": -2.27,
       "macd_hist": -1.05,
-      "pe_ratio": 40.56,
+      "pe_ratio": 39.37,
       "roe": 10.3,
       "debt_to_equity": 0.14,
       "debt_status": "Low Debt (Healthy)",
@@ -11434,7 +11434,7 @@ window.stockData = {
       "macd_val": -6.86,
       "macd_signal": -13.23,
       "macd_hist": 6.37,
-      "pe_ratio": 1.22,
+      "pe_ratio": 1.21,
       "roe": 0.0,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -11998,7 +11998,7 @@ window.stockData = {
     {
       "symbol": "AWL.NS",
       "clean_symbol": "AWL",
-      "name": "AWL",
+      "name": "AWL Agri Business Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12164,7 +12164,7 @@ window.stockData = {
     {
       "symbol": "ZENITHEXPO.NS",
       "clean_symbol": "ZENITHEXPO",
-      "name": "ZENITHEXPO",
+      "name": "Zenith Exports Ltd",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12346,7 +12346,7 @@ window.stockData = {
       "macd_val": -0.52,
       "macd_signal": -0.36,
       "macd_hist": -0.16,
-      "pe_ratio": 3.66,
+      "pe_ratio": 3.75,
       "roe": 0.0,
       "debt_to_equity": 0.17,
       "debt_status": "Low Debt (Healthy)",
@@ -12673,7 +12673,7 @@ window.stockData = {
       "macd_val": -107.45,
       "macd_signal": -74.69,
       "macd_hist": -32.76,
-      "pe_ratio": 29.87,
+      "pe_ratio": 29.6,
       "roe": 7.9,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -13078,7 +13078,7 @@ window.stockData = {
       "macd_val": -3.04,
       "macd_signal": -3.48,
       "macd_hist": 0.44,
-      "pe_ratio": 13.37,
+      "pe_ratio": 13.3,
       "roe": 0.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -13158,7 +13158,7 @@ window.stockData = {
       "macd_val": -3.14,
       "macd_signal": -3.92,
       "macd_hist": 0.78,
-      "pe_ratio": 96.31,
+      "pe_ratio": 97.84,
       "roe": 0.0,
       "debt_to_equity": 0.23,
       "debt_status": "Low Debt (Healthy)",
@@ -13213,7 +13213,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -20.0% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 96.3x"
+        "\u26a0\ufe0f High Valuation P/E: 97.8x"
       ]
     },
     {
@@ -13684,7 +13684,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "BBL.NS",
       "clean_symbol": "BBL",
-      "name": "BBL"
+      "name": "Bharat Bijlee Ltd"
     },
     {
       "date": "2026-11-09",
@@ -13814,7 +13814,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ACE.NS",
       "clean_symbol": "ACE",
-      "name": "ace"
+      "name": "Action Construction Equipment Ltd"
     },
     {
       "date": "2026-11-09",
@@ -13827,7 +13827,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "LT.NS",
       "clean_symbol": "LT",
-      "name": "LT"
+      "name": "Larsen and Toubro Ltd"
     },
     {
       "date": "2026-11-09",
@@ -14165,7 +14165,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "WAAREEENER.NS",
       "clean_symbol": "WAAREEENER",
-      "name": "waareeener"
+      "name": "Waaree Energies Ltd"
     },
     {
       "date": "2026-11-09",
@@ -14854,7 +14854,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "UTKARSHBNK.NS",
       "clean_symbol": "UTKARSHBNK",
-      "name": "UTKARSHBNK"
+      "name": "Utkarsh Small Finance Bank Ltd"
     },
     {
       "date": "2026-11-09",
@@ -14997,7 +14997,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "AWL.NS",
       "clean_symbol": "AWL",
-      "name": "AWL"
+      "name": "AWL Agri Business Ltd"
     },
     {
       "date": "2026-11-09",
@@ -15023,7 +15023,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "ZENITHEXPO.NS",
       "clean_symbol": "ZENITHEXPO",
-      "name": "ZENITHEXPO"
+      "name": "Zenith Exports Ltd"
     },
     {
       "date": "2026-11-09",
