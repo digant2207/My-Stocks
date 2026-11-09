@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "09-Nov-2026 04:16:17 PM IST (Indian Standard Time)",
+    "last_updated": "09-Nov-2026 04:31:20 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,044.65",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 33,
     "pattern_breakouts_count": 27,
     "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 26.1
+    "scan_time_seconds": 19.1
   },
   "top_20_swing": [
     {
@@ -824,7 +824,7 @@ window.stockData = {
     {
       "symbol": "BBL.NS",
       "clean_symbol": "BBL",
-      "name": "Bharat Bijlee Ltd",
+      "name": "BBL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -1620,7 +1620,7 @@ window.stockData = {
     {
       "symbol": "LT.NS",
       "clean_symbol": "LT",
-      "name": "Larsen and Toubro Ltd",
+      "name": "LT",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2590,7 +2590,7 @@ window.stockData = {
     {
       "symbol": "BBL.NS",
       "clean_symbol": "BBL",
-      "name": "Bharat Bijlee Ltd",
+      "name": "BBL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3556,7 +3556,7 @@ window.stockData = {
     {
       "symbol": "ACE.NS",
       "clean_symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
+      "name": "ace",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3640,7 +3640,7 @@ window.stockData = {
     {
       "symbol": "LT.NS",
       "clean_symbol": "LT",
-      "name": "Larsen and Toubro Ltd",
+      "name": "LT",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -5953,7 +5953,7 @@ window.stockData = {
     {
       "symbol": "WAAREEENER.NS",
       "clean_symbol": "WAAREEENER",
-      "name": "Waaree Energies Ltd",
+      "name": "waareeener",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -10923,7 +10923,7 @@ window.stockData = {
     {
       "symbol": "UTKARSHBNK.NS",
       "clean_symbol": "UTKARSHBNK",
-      "name": "Utkarsh Small Finance Bank Ltd",
+      "name": "UTKARSHBNK",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -11998,7 +11998,7 @@ window.stockData = {
     {
       "symbol": "AWL.NS",
       "clean_symbol": "AWL",
-      "name": "AWL Agri Business Ltd",
+      "name": "AWL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -12164,7 +12164,7 @@ window.stockData = {
     {
       "symbol": "ZENITHEXPO.NS",
       "clean_symbol": "ZENITHEXPO",
-      "name": "Zenith Exports Ltd",
+      "name": "ZENITHEXPO",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13684,7 +13684,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "BBL.NS",
       "clean_symbol": "BBL",
-      "name": "Bharat Bijlee Ltd"
+      "name": "BBL"
     },
     {
       "date": "2026-11-09",
@@ -13814,7 +13814,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "ACE.NS",
       "clean_symbol": "ACE",
-      "name": "Action Construction Equipment Ltd"
+      "name": "ace"
     },
     {
       "date": "2026-11-09",
@@ -13827,7 +13827,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "LT.NS",
       "clean_symbol": "LT",
-      "name": "Larsen and Toubro Ltd"
+      "name": "LT"
     },
     {
       "date": "2026-11-09",
@@ -14165,7 +14165,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "WAAREEENER.NS",
       "clean_symbol": "WAAREEENER",
-      "name": "Waaree Energies Ltd"
+      "name": "waareeener"
     },
     {
       "date": "2026-11-09",
@@ -14854,7 +14854,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "UTKARSHBNK.NS",
       "clean_symbol": "UTKARSHBNK",
-      "name": "Utkarsh Small Finance Bank Ltd"
+      "name": "UTKARSHBNK"
     },
     {
       "date": "2026-11-09",
@@ -14997,7 +14997,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "AWL.NS",
       "clean_symbol": "AWL",
-      "name": "AWL Agri Business Ltd"
+      "name": "AWL"
     },
     {
       "date": "2026-11-09",
@@ -15023,7 +15023,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "ZENITHEXPO.NS",
       "clean_symbol": "ZENITHEXPO",
-      "name": "Zenith Exports Ltd"
+      "name": "ZENITHEXPO"
     },
     {
       "date": "2026-11-09",
