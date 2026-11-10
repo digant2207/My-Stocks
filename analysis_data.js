@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "10-Nov-2026 04:46:06 PM IST (Indian Standard Time)",
+    "last_updated": "10-Nov-2026 05:20:20 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,044.65",
@@ -17,12 +17,12 @@ window.stockData = {
         "is_positive": true
       }
     },
-    "total_stocks_scanned": 139,
+    "total_stocks_scanned": 140,
     "swing_top_20_count": 20,
-    "strong_buys_count": 30,
+    "strong_buys_count": 31,
     "pattern_breakouts_count": 18,
-    "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 24.2
+    "upcoming_3d_events_count": 126,
+    "scan_time_seconds": 23.7
   },
   "top_20_swing": [
     {
@@ -2886,6 +2886,90 @@ window.stockData = {
       ]
     },
     {
+      "symbol": "ACE.NS",
+      "clean_symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 1166.65,
+      "prev_close": 1167.7,
+      "day_change_pct": -0.09,
+      "day_high": 1177.05,
+      "day_low": 1150.0,
+      "volume": 155303,
+      "vol_1m_avg": 292340,
+      "vol_surge_ratio": 0.53,
+      "52w_high": 1268.0,
+      "52w_low": 743.73,
+      "sma_20": 1090.79,
+      "sma_50": 1143.74,
+      "sma_200": 985.16,
+      "rsi_14": 59.0,
+      "macd_val": -4.57,
+      "macd_signal": -22.29,
+      "macd_hist": 17.72,
+      "pe_ratio": 31.79,
+      "roe": 0.0,
+      "debt_to_equity": 0.0,
+      "debt_status": "Zero Debt",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 20.5,
+      "earnings_growth_yoy": 22.3,
+      "dividend_yield": 17.0,
+      "promoter_holding": 66.8,
+      "institutional_holding": 8.2,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 1215.9,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Neutral Balance \u2696\ufe0f",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 1217.12,
+      "sell_trigger_price": 1074.43,
+      "buy_status": "\u26a1 BUY ABOVE \u20b91,217.12 (4.3% away)",
+      "swing_target_1": 1215.9,
+      "swing_target_2": 1495.43,
+      "swing_stoploss": 1074.43,
+      "breakout_proximity_pct": 4.2,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 55.2,
+      "composite_score": 65,
+      "long_term_signal": "ACCUMULATE",
+      "swing_signal": "MOMENTUM BUY \ud83d\udfe2",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +22.3%)",
+          "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,217.12** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.53x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,074.43 \u2022 **Target 1:** \u20b91,215.90 \u2022 **Target 2:** \u20b91,495.43",
+      "strengths": [
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+22.3%) & Revenue (+20.5%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +22.3%)",
+        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)",
+        "\ud83c\udfaf RSI Bullish Momentum Zone: 59.0"
+      ],
+      "weaknesses": [
+        "No major red flags detected"
+      ]
+    },
+    {
       "symbol": "ATHERENERG.NS",
       "clean_symbol": "ATHERENERG",
       "name": "Ather Energy Ltd",
@@ -4542,7 +4626,7 @@ window.stockData = {
       "macd_val": 4.83,
       "macd_signal": -25.57,
       "macd_hist": 30.39,
-      "pe_ratio": 19.92,
+      "pe_ratio": 19.46,
       "roe": 0.0,
       "debt_to_equity": 0.05,
       "debt_status": "Low Debt (Healthy)",
@@ -6164,7 +6248,7 @@ window.stockData = {
       "macd_val": -38.78,
       "macd_signal": -42.62,
       "macd_hist": 3.84,
-      "pe_ratio": 65.39,
+      "pe_ratio": 66.35,
       "roe": 23.6,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -6221,7 +6305,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 65.4x"
+        "\u26a0\ufe0f High Valuation P/E: 66.3x"
       ]
     },
     {
@@ -6330,7 +6414,7 @@ window.stockData = {
       "macd_val": -107.27,
       "macd_signal": -136.43,
       "macd_hist": 29.16,
-      "pe_ratio": 37.29,
+      "pe_ratio": 37.32,
       "roe": 26.8,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -7829,7 +7913,7 @@ window.stockData = {
       "macd_val": 3.94,
       "macd_signal": 1.09,
       "macd_hist": 2.85,
-      "pe_ratio": 99.99,
+      "pe_ratio": 101.51,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -7884,7 +7968,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 100.0x"
+        "\u26a0\ufe0f High Valuation P/E: 101.5x"
       ]
     },
     {
@@ -8989,7 +9073,7 @@ window.stockData = {
       "macd_val": -5.17,
       "macd_signal": -5.38,
       "macd_hist": 0.22,
-      "pe_ratio": 23.91,
+      "pe_ratio": 23.88,
       "roe": 6.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -11038,7 +11122,7 @@ window.stockData = {
       "macd_val": -3.29,
       "macd_signal": -2.47,
       "macd_hist": -0.82,
-      "pe_ratio": 39.19,
+      "pe_ratio": 39.37,
       "roe": 10.3,
       "debt_to_equity": 0.14,
       "debt_status": "Low Debt (Healthy)",
@@ -11782,7 +11866,7 @@ window.stockData = {
       "macd_val": -134.26,
       "macd_signal": -143.56,
       "macd_hist": 9.29,
-      "pe_ratio": 48.2,
+      "pe_ratio": 47.41,
       "roe": 0.5,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -13566,6 +13650,19 @@ window.stockData = {
       "symbol": "SPARC.NS",
       "clean_symbol": "SPARC",
       "name": "Sun Pharma Advanced Research Co Ltd"
+    },
+    {
+      "date": "2026-11-10",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +22.3%)",
+      "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "ACE.NS",
+      "clean_symbol": "ACE",
+      "name": "Action Construction Equipment Ltd"
     },
     {
       "date": "2026-11-10",
