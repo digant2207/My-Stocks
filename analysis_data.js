@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "10-Nov-2026 11:45:58 AM IST (Indian Standard Time)",
+    "last_updated": "10-Nov-2026 12:01:09 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,044.65",
@@ -17,12 +17,12 @@ window.stockData = {
         "is_positive": true
       }
     },
-    "total_stocks_scanned": 139,
+    "total_stocks_scanned": 140,
     "swing_top_20_count": 20,
     "strong_buys_count": 31,
     "pattern_breakouts_count": 18,
-    "upcoming_3d_events_count": 125,
-    "scan_time_seconds": 19.2
+    "upcoming_3d_events_count": 126,
+    "scan_time_seconds": 17.1
   },
   "top_20_swing": [
     {
@@ -12575,6 +12575,88 @@ window.stockData = {
       ]
     },
     {
+      "symbol": "E2E.NS",
+      "clean_symbol": "E2E",
+      "name": "E2E Networks Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 490.5,
+      "prev_close": 486.9,
+      "day_change_pct": 0.74,
+      "day_high": 519.9,
+      "day_low": 483.35,
+      "volume": 1367043,
+      "vol_1m_avg": 1307935,
+      "vol_surge_ratio": 1.05,
+      "52w_high": 765.0,
+      "52w_low": 183.36,
+      "sma_20": 579.78,
+      "sma_50": 612.9,
+      "sma_200": 420.6,
+      "rsi_14": 32.2,
+      "macd_val": -42.36,
+      "macd_signal": -32.96,
+      "macd_hist": -9.4,
+      "pe_ratio": 87.43,
+      "roe": 6.9,
+      "debt_to_equity": 0.28,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 410.8,
+      "earnings_growth_yoy": 0.0,
+      "dividend_yield": 0.0,
+      "promoter_holding": 61.5,
+      "institutional_holding": 4.1,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 765.0,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 765.76,
+      "sell_trigger_price": 466.2,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9765.76 (56.1% away)",
+      "swing_target_1": 612.81,
+      "swing_target_2": 712.88,
+      "swing_stoploss": 466.2,
+      "breakout_proximity_pct": 56.0,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 35.0,
+      "composite_score": 22,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +0.0%)",
+          "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9765.76** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 1.05x. \u2022 **Sell/Stop Loss Trigger:** \u20b9466.20 \u2022 **Target 1:** \u20b9612.81 \u2022 **Target 2:** \u20b9712.88",
+      "strengths": [
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +0.0%)",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
+        "\u26a0\ufe0f High Valuation P/E: 87.4x"
+      ]
+    },
+    {
       "symbol": "PIIND.NS",
       "clean_symbol": "PIIND",
       "name": "PI Industries Ltd",
@@ -14959,6 +15041,19 @@ window.stockData = {
       "symbol": "HDIL.NS",
       "clean_symbol": "HDIL",
       "name": "Housing Development & Infrastructure"
+    },
+    {
+      "date": "2026-11-10",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +0.0%)",
+      "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "E2E.NS",
+      "clean_symbol": "E2E",
+      "name": "E2E Networks Ltd"
     },
     {
       "date": "2026-11-10",
