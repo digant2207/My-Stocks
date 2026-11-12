@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "12-Nov-2026 04:46:00 PM IST (Indian Standard Time)",
+    "last_updated": "12-Nov-2026 05:24:29 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,299.35",
@@ -17,12 +17,12 @@ window.stockData = {
         "is_positive": true
       }
     },
-    "total_stocks_scanned": 139,
+    "total_stocks_scanned": 140,
     "swing_top_20_count": 20,
-    "strong_buys_count": 36,
+    "strong_buys_count": 37,
     "pattern_breakouts_count": 25,
-    "upcoming_3d_events_count": 126,
-    "scan_time_seconds": 19.5
+    "upcoming_3d_events_count": 127,
+    "scan_time_seconds": 27.3
   },
   "top_20_swing": [
     {
@@ -3327,6 +3327,91 @@ window.stockData = {
         "\ud83d\udcb0 High ROE: 15.9%",
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)",
         "\ud83c\udfaf RSI Bullish Momentum Zone: 63.8"
+      ],
+      "weaknesses": [
+        "No major red flags detected"
+      ]
+    },
+    {
+      "symbol": "ACE.NS",
+      "clean_symbol": "ACE",
+      "name": "Action Construction Equipment Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 1179.65,
+      "prev_close": 1165.45,
+      "day_change_pct": 1.22,
+      "day_high": 1209.0,
+      "day_low": 1175.0,
+      "volume": 235755,
+      "vol_1m_avg": 298130,
+      "vol_surge_ratio": 0.79,
+      "52w_high": 1268.0,
+      "52w_low": 743.73,
+      "sma_20": 1090.07,
+      "sma_50": 1144.54,
+      "sma_200": 986.9,
+      "rsi_14": 60.7,
+      "macd_val": 1.26,
+      "macd_signal": -17.6,
+      "macd_hist": 18.86,
+      "pe_ratio": 32.14,
+      "roe": 0.0,
+      "debt_to_equity": 0.0,
+      "debt_status": "Zero Debt",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 20.5,
+      "earnings_growth_yoy": 22.3,
+      "dividend_yield": 17.0,
+      "promoter_holding": 66.8,
+      "institutional_holding": 8.3,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 1215.9,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Neutral Balance \u2696\ufe0f",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 1217.12,
+      "sell_trigger_price": 1085.28,
+      "buy_status": "\u26a1 BUY ABOVE \u20b91,217.12 (3.2% away)",
+      "swing_target_1": 1215.9,
+      "swing_target_2": 1539.63,
+      "swing_stoploss": 1085.28,
+      "breakout_proximity_pct": 3.1,
+      "is_near_breakout_zone": true,
+      "breakout_readiness_score": 83.8,
+      "composite_score": 65,
+      "long_term_signal": "ACCUMULATE",
+      "swing_signal": "NEAR BREAKOUT ZONE \u26a1",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-11-12",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +22.3%)",
+          "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,217.12** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.79x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,085.28 \u2022 **Target 1:** \u20b91,215.90 \u2022 **Target 2:** \u20b91,539.63",
+      "strengths": [
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+22.3%) & Revenue (+20.5%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +22.3%)",
+        "\u26a1 Breakout Zone: Only 3.1% away from breakout trigger (\u20b91,217.12)",
+        "\ud83d\udee1\ufe0f Zero Debt Balance Sheet",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)",
+        "\ud83c\udfaf RSI Bullish Momentum Zone: 60.7"
       ],
       "weaknesses": [
         "No major red flags detected"
@@ -12787,7 +12872,7 @@ window.stockData = {
       "macd_val": -0.53,
       "macd_signal": 0.57,
       "macd_hist": -1.1,
-      "pe_ratio": 73.33,
+      "pe_ratio": 74.57,
       "roe": 0.0,
       "debt_to_equity": 0.71,
       "debt_status": "Moderate Debt",
@@ -12842,7 +12927,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -89.1% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 73.3x"
+        "\u26a0\ufe0f High Valuation P/E: 74.6x"
       ]
     },
     {
@@ -13662,6 +13747,19 @@ window.stockData = {
       "symbol": "WIPRO.NS",
       "clean_symbol": "WIPRO",
       "name": "Wipro Ltd"
+    },
+    {
+      "date": "2026-11-12",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +22.3%)",
+      "summary": "Company declared strong YoY revenue growth of 20.5% and Net Profit growth of 22.3%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "ACE.NS",
+      "clean_symbol": "ACE",
+      "name": "Action Construction Equipment Ltd"
     },
     {
       "date": "2026-11-12",
