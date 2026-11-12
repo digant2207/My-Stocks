@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "12-Nov-2026 03:46:09 PM IST (Indian Standard Time)",
+    "last_updated": "12-Nov-2026 04:01:12 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,299.35",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 37,
     "pattern_breakouts_count": 25,
     "upcoming_3d_events_count": 127,
-    "scan_time_seconds": 24.5
+    "scan_time_seconds": 17.8
   },
   "top_20_swing": [
     {
@@ -3356,7 +3356,7 @@ window.stockData = {
       "macd_val": 1.26,
       "macd_signal": -17.6,
       "macd_hist": 18.86,
-      "pe_ratio": 32.11,
+      "pe_ratio": 32.14,
       "roe": 0.0,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -8427,7 +8427,7 @@ window.stockData = {
       "macd_val": -1.48,
       "macd_signal": -4.22,
       "macd_hist": 2.75,
-      "pe_ratio": 20.98,
+      "pe_ratio": 20.69,
       "roe": 13.5,
       "debt_to_equity": 0.93,
       "debt_status": "Moderate Debt",
@@ -11725,7 +11725,7 @@ window.stockData = {
       "macd_val": -2.19,
       "macd_signal": -3.09,
       "macd_hist": 0.9,
-      "pe_ratio": 13.84,
+      "pe_ratio": 13.66,
       "roe": 16.3,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
