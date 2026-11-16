@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "16-Nov-2026 04:16:03 PM IST (Indian Standard Time)",
+    "last_updated": "16-Nov-2026 04:31:21 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,291.10",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 35,
     "pattern_breakouts_count": 27,
     "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 20.3
+    "scan_time_seconds": 17.6
   },
   "top_20_swing": [
     {
@@ -309,7 +309,7 @@ window.stockData = {
       "macd_val": 1.56,
       "macd_signal": 0.66,
       "macd_hist": 0.9,
-      "pe_ratio": 12.0,
+      "pe_ratio": 11.58,
       "roe": 9.5,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -2050,7 +2050,7 @@ window.stockData = {
       "macd_val": 1.56,
       "macd_signal": 0.66,
       "macd_hist": 0.9,
-      "pe_ratio": 12.0,
+      "pe_ratio": 11.58,
       "roe": 9.5,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -7812,7 +7812,7 @@ window.stockData = {
       "macd_val": -7.87,
       "macd_signal": -2.26,
       "macd_hist": -5.61,
-      "pe_ratio": 74.39,
+      "pe_ratio": 78.32,
       "roe": 32.7,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -7871,7 +7871,7 @@ window.stockData = {
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 74.4x"
+        "\u26a0\ufe0f High Valuation P/E: 78.3x"
       ]
     },
     {
@@ -11679,7 +11679,7 @@ window.stockData = {
       "macd_val": -22.03,
       "macd_signal": -29.06,
       "macd_hist": 7.03,
-      "pe_ratio": 48.64,
+      "pe_ratio": 49.38,
       "roe": 10.7,
       "debt_to_equity": 0.39,
       "debt_status": "Low Debt (Healthy)",
