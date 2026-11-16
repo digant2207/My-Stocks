@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "16-Nov-2026 04:46:02 PM IST (Indian Standard Time)",
+    "last_updated": "16-Nov-2026 05:36:21 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,291.10",
@@ -17,12 +17,12 @@ window.stockData = {
         "is_positive": true
       }
     },
-    "total_stocks_scanned": 139,
+    "total_stocks_scanned": 140,
     "swing_top_20_count": 20,
     "strong_buys_count": 36,
     "pattern_breakouts_count": 27,
-    "upcoming_3d_events_count": 123,
-    "scan_time_seconds": 20.5
+    "upcoming_3d_events_count": 124,
+    "scan_time_seconds": 13.2
   },
   "top_20_swing": [
     {
@@ -11412,6 +11412,87 @@ window.stockData = {
       ]
     },
     {
+      "symbol": "E2E.NS",
+      "clean_symbol": "E2E",
+      "name": "E2E Networks Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 532.05,
+      "prev_close": 560.05,
+      "day_change_pct": -5.0,
+      "day_high": 566.0,
+      "day_low": 532.05,
+      "volume": 1286895,
+      "vol_1m_avg": 1521251,
+      "vol_surge_ratio": 0.85,
+      "52w_high": 765.0,
+      "52w_low": 183.36,
+      "sma_20": 552.9,
+      "sma_50": 608.93,
+      "sma_200": 425.66,
+      "rsi_14": 43.3,
+      "macd_val": -29.73,
+      "macd_signal": -32.38,
+      "macd_hist": 2.65,
+      "pe_ratio": 94.84,
+      "roe": 6.9,
+      "debt_to_equity": 0.28,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 410.8,
+      "earnings_growth_yoy": 0.0,
+      "dividend_yield": 0.0,
+      "promoter_holding": 61.5,
+      "institutional_holding": 4.1,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 745.0,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Neutral Balance \u2696\ufe0f",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 745.74,
+      "sell_trigger_price": 489.49,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9745.74 (40.2% away)",
+      "swing_target_1": 613.03,
+      "swing_target_2": 679.29,
+      "swing_stoploss": 489.49,
+      "breakout_proximity_pct": 40.0,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 33.6,
+      "composite_score": 31,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-11-16",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +0.0%)",
+          "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9745.74** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.85x. \u2022 **Sell/Stop Loss Trigger:** \u20b9489.49 \u2022 **Target 1:** \u20b9613.03 \u2022 **Target 2:** \u20b9679.29",
+      "strengths": [
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +0.0%)",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f High Valuation P/E: 94.8x"
+      ]
+    },
+    {
       "symbol": "STAR.NS",
       "clean_symbol": "STAR",
       "name": "Strides Pharma Science Ltd",
@@ -14788,6 +14869,19 @@ window.stockData = {
       "symbol": "TATAPOWER.NS",
       "clean_symbol": "TATAPOWER",
       "name": "Tata Power Company Ltd"
+    },
+    {
+      "date": "2026-11-16",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +0.0%)",
+      "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "E2E.NS",
+      "clean_symbol": "E2E",
+      "name": "E2E Networks Ltd"
     },
     {
       "date": "2026-11-16",
