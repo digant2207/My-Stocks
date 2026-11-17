@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "17-Nov-2026 04:15:58 PM IST (Indian Standard Time)",
+    "last_updated": "17-Nov-2026 04:31:20 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,387.40",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 37,
     "pattern_breakouts_count": 26,
     "upcoming_3d_events_count": 124,
-    "scan_time_seconds": 18.8
+    "scan_time_seconds": 15.4
   },
   "top_20_swing": [
     {
@@ -905,7 +905,7 @@ window.stockData = {
     {
       "symbol": "HDFCBANK.NS",
       "clean_symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
+      "name": "HDFCBANK",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -2646,7 +2646,7 @@ window.stockData = {
     {
       "symbol": "HDFCBANK.NS",
       "clean_symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd",
+      "name": "HDFCBANK",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -3686,7 +3686,7 @@ window.stockData = {
     {
       "symbol": "GPPL.NS",
       "clean_symbol": "GPPL",
-      "name": "Gujarat Pipavav Port Ltd",
+      "name": "GPPL",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -4106,7 +4106,7 @@ window.stockData = {
     {
       "symbol": "INDRAMEDCO.NS",
       "clean_symbol": "INDRAMEDCO",
-      "name": "Indraprastha Medical Corporation Ltd",
+      "name": "indramedco",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -6629,7 +6629,7 @@ window.stockData = {
     {
       "symbol": "DCW.NS",
       "clean_symbol": "DCW",
-      "name": "DCW Ltd",
+      "name": "DCW",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7289,7 +7289,7 @@ window.stockData = {
     {
       "symbol": "MUTHOOTFIN.NS",
       "clean_symbol": "MUTHOOTFIN",
-      "name": "Muthoot Finance Ltd",
+      "name": "MUTHOOTFIN",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7621,7 +7621,7 @@ window.stockData = {
     {
       "symbol": "SUMMITSEC.NS",
       "clean_symbol": "SUMMITSEC",
-      "name": "Summit Securities Ltd",
+      "name": "SUMMITSEC",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -7954,7 +7954,7 @@ window.stockData = {
     {
       "symbol": "JINDALSAW.NS",
       "clean_symbol": "JINDALSAW",
-      "name": "Jindal SAW Ltd",
+      "name": "JINDALSAW",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -8527,7 +8527,7 @@ window.stockData = {
     {
       "symbol": "SIGACHI.NS",
       "clean_symbol": "SIGACHI",
-      "name": "Sigachi Industries Ltd",
+      "name": "SIGACHI",
       "sector": "Spark Watchlist",
       "cap_type": "Equity",
       "tracking_notes": "Google Sheet Spark Stock List",
@@ -13573,7 +13573,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "HDFCBANK.NS",
       "clean_symbol": "HDFCBANK",
-      "name": "HDFC Bank Ltd"
+      "name": "HDFCBANK"
     },
     {
       "date": "2026-11-17",
@@ -13781,7 +13781,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "INDRAMEDCO.NS",
       "clean_symbol": "INDRAMEDCO",
-      "name": "Indraprastha Medical Corporation Ltd"
+      "name": "indramedco"
     },
     {
       "date": "2026-11-17",
@@ -14158,7 +14158,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "DCW.NS",
       "clean_symbol": "DCW",
-      "name": "DCW Ltd"
+      "name": "DCW"
     },
     {
       "date": "2026-11-17",
@@ -14262,7 +14262,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "MUTHOOTFIN.NS",
       "clean_symbol": "MUTHOOTFIN",
-      "name": "Muthoot Finance Ltd"
+      "name": "MUTHOOTFIN"
     },
     {
       "date": "2026-11-17",
@@ -14301,7 +14301,7 @@ window.stockData = {
       "impact_reason": "Standard price discovery.",
       "symbol": "SUMMITSEC.NS",
       "clean_symbol": "SUMMITSEC",
-      "name": "Summit Securities Ltd"
+      "name": "SUMMITSEC"
     },
     {
       "date": "2026-11-17",
@@ -14431,7 +14431,7 @@ window.stockData = {
       "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
       "symbol": "SIGACHI.NS",
       "clean_symbol": "SIGACHI",
-      "name": "Sigachi Industries Ltd"
+      "name": "SIGACHI"
     },
     {
       "date": "2026-11-17",
