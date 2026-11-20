@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "20-Nov-2026 04:01:04 PM IST (Indian Standard Time)",
+    "last_updated": "20-Nov-2026 04:15:54 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,800.60",
@@ -17,12 +17,12 @@
         "is_positive": true
       }
     },
-    "total_stocks_scanned": 140,
+    "total_stocks_scanned": 139,
     "swing_top_20_count": 20,
-    "strong_buys_count": 35,
+    "strong_buys_count": 34,
     "pattern_breakouts_count": 26,
-    "upcoming_3d_events_count": 129,
-    "scan_time_seconds": 16.9
+    "upcoming_3d_events_count": 128,
+    "scan_time_seconds": 18.9
   },
   "top_20_swing": [
     {
@@ -49,7 +49,7 @@
       "macd_val": 21.19,
       "macd_signal": 7.29,
       "macd_hist": 13.9,
-      "pe_ratio": 78.42,
+      "pe_ratio": 79.61,
       "roe": 21.2,
       "debt_to_equity": 0.48,
       "debt_status": "Low Debt (Healthy)",
@@ -111,7 +111,7 @@
         "\ud83c\udfaf RSI Bullish Momentum Zone: 65.1"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 78.4x"
+        "\u26a0\ufe0f High Valuation P/E: 79.6x"
       ]
     },
     {
@@ -1783,7 +1783,7 @@
       "macd_val": 21.19,
       "macd_signal": 7.29,
       "macd_hist": 13.9,
-      "pe_ratio": 78.42,
+      "pe_ratio": 79.61,
       "roe": 21.2,
       "debt_to_equity": 0.48,
       "debt_status": "Low Debt (Healthy)",
@@ -1845,7 +1845,7 @@
         "\ud83c\udfaf RSI Bullish Momentum Zone: 65.1"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 78.4x"
+        "\u26a0\ufe0f High Valuation P/E: 79.6x"
       ]
     },
     {
@@ -2465,91 +2465,6 @@
         "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +118.8%)",
         "\ud83d\udcb0 High ROE: 26.0%",
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
-      ],
-      "weaknesses": [
-        "No major red flags detected"
-      ]
-    },
-    {
-      "symbol": "ACE.NS",
-      "clean_symbol": "ACE",
-      "name": "Action Construction Equipment Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 1170.35,
-      "prev_close": 1185.9,
-      "day_change_pct": -1.31,
-      "day_high": 1192.65,
-      "day_low": 1165.0,
-      "volume": 128052,
-      "vol_1m_avg": 340396,
-      "vol_surge_ratio": 0.38,
-      "52w_high": 1268.0,
-      "52w_low": 743.73,
-      "sma_20": 1107.59,
-      "sma_50": 1152.58,
-      "sma_200": 998.14,
-      "rsi_14": 56.8,
-      "macd_val": 16.18,
-      "macd_signal": 5.36,
-      "macd_hist": 10.82,
-      "pe_ratio": 27.19,
-      "roe": 25.2,
-      "debt_to_equity": 0.07,
-      "debt_status": "Low Debt (Healthy)",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 19.1,
-      "earnings_growth_yoy": 82.3,
-      "dividend_yield": 17.0,
-      "promoter_holding": 66.8,
-      "institutional_holding": 8.4,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 1258.0,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Institutional Accumulation \ud83d\udd25",
-      "is_volume_dryup": true,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 1259.26,
-      "sell_trigger_price": 1090.98,
-      "buy_status": "\u26a1 BUY ABOVE \u20b91,259.26 (7.6% away)",
-      "swing_target_1": 1258.0,
-      "swing_target_2": 1436.34,
-      "swing_stoploss": 1090.98,
-      "breakout_proximity_pct": 7.5,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 40.7,
-      "composite_score": 78,
-      "long_term_signal": "STRONG BUY",
-      "swing_signal": "MOMENTUM BUY \ud83d\udfe2",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-11-20",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +82.3%)",
-          "summary": "Company declared strong YoY revenue growth of 19.1% and Net Profit growth of 82.3%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b91,259.26** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.38x. \u2022 **Sell/Stop Loss Trigger:** \u20b91,090.98 \u2022 **Target 1:** \u20b91,258.00 \u2022 **Target 2:** \u20b91,436.34",
-      "strengths": [
-        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+82.3%) & Revenue (+19.1%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +82.3%)",
-        "\ud83d\udca7 Volume Dynamics: Institutional Accumulation \ud83d\udd25",
-        "\ud83d\udcb0 High ROE: 25.2%",
-        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)",
-        "\ud83c\udfaf RSI Bullish Momentum Zone: 56.8"
       ],
       "weaknesses": [
         "No major red flags detected"
@@ -4129,7 +4044,7 @@
       "macd_val": 7.51,
       "macd_signal": 2.35,
       "macd_hist": 5.16,
-      "pe_ratio": 17.79,
+      "pe_ratio": 17.68,
       "roe": 26.1,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -7823,7 +7738,7 @@
       "macd_val": -2.31,
       "macd_signal": -1.62,
       "macd_hist": -0.68,
-      "pe_ratio": 11.42,
+      "pe_ratio": 11.65,
       "roe": 21.5,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -9148,7 +9063,7 @@
       "macd_val": -1.86,
       "macd_signal": -1.52,
       "macd_hist": -0.35,
-      "pe_ratio": 27.61,
+      "pe_ratio": 27.27,
       "roe": 28.8,
       "debt_to_equity": 0.02,
       "debt_status": "Low Debt (Healthy)",
@@ -9968,7 +9883,7 @@
       "macd_val": -3.94,
       "macd_signal": -9.13,
       "macd_hist": 5.2,
-      "pe_ratio": 15.51,
+      "pe_ratio": 14.85,
       "roe": 14.9,
       "debt_to_equity": 0.3,
       "debt_status": "Low Debt (Healthy)",
@@ -10377,7 +10292,7 @@
       "macd_val": -28.24,
       "macd_signal": -25.23,
       "macd_hist": -3.01,
-      "pe_ratio": 14.77,
+      "pe_ratio": 14.46,
       "roe": 20.3,
       "debt_to_equity": 0.55,
       "debt_status": "Moderate Debt",
@@ -12752,7 +12667,7 @@
       "macd_val": -0.1,
       "macd_signal": -0.08,
       "macd_hist": -0.02,
-      "pe_ratio": 8.02,
+      "pe_ratio": 7.99,
       "roe": 3.9,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -13578,19 +13493,6 @@
       "symbol": "GESHIP.NS",
       "clean_symbol": "GESHIP",
       "name": "Great Eastern Shipping Company Ltd"
-    },
-    {
-      "date": "2026-11-20",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Quarterly Earnings Growth",
-      "title": "Strong Earnings Growth (YoY Profit +82.3%)",
-      "summary": "Company declared strong YoY revenue growth of 19.1% and Net Profit growth of 82.3%.",
-      "impact": "Bullish Re-rating \ud83d\ude80",
-      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
-      "symbol": "ACE.NS",
-      "clean_symbol": "ACE",
-      "name": "Action Construction Equipment Ltd"
     },
     {
       "date": "2026-11-20",
