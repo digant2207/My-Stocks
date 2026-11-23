@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "23-Nov-2026 04:16:00 PM IST (Indian Standard Time)",
+    "last_updated": "23-Nov-2026 04:31:15 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,349.65",
@@ -17,12 +17,12 @@ window.stockData = {
         "is_positive": false
       }
     },
-    "total_stocks_scanned": 139,
+    "total_stocks_scanned": 140,
     "swing_top_20_count": 20,
     "strong_buys_count": 31,
     "pattern_breakouts_count": 22,
-    "upcoming_3d_events_count": 126,
-    "scan_time_seconds": 22.2
+    "upcoming_3d_events_count": 127,
+    "scan_time_seconds": 14.1
   },
   "top_20_swing": [
     {
@@ -11060,6 +11060,88 @@ window.stockData = {
       ]
     },
     {
+      "symbol": "E2E.NS",
+      "clean_symbol": "E2E",
+      "name": "E2E Networks Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 452.45,
+      "prev_close": 479.0,
+      "day_change_pct": -5.54,
+      "day_high": 467.05,
+      "day_low": 452.45,
+      "volume": 1580342,
+      "vol_1m_avg": 1807367,
+      "vol_surge_ratio": 0.87,
+      "52w_high": 765.0,
+      "52w_low": 183.36,
+      "sma_20": 518.76,
+      "sma_50": 597.14,
+      "sma_200": 432.83,
+      "rsi_14": 33.7,
+      "macd_val": -33.31,
+      "macd_signal": -31.09,
+      "macd_hist": -2.21,
+      "pe_ratio": 80.65,
+      "roe": 6.9,
+      "debt_to_equity": 0.28,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 410.8,
+      "earnings_growth_yoy": 0.0,
+      "dividend_yield": 0.0,
+      "promoter_holding": 60.5,
+      "institutional_holding": 2.9,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 594.35,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 594.94,
+      "sell_trigger_price": 445.66,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9594.94 (31.5% away)",
+      "swing_target_1": 540.56,
+      "swing_target_2": 612.65,
+      "swing_stoploss": 445.66,
+      "breakout_proximity_pct": 31.4,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 30.6,
+      "composite_score": 22,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-11-23",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +0.0%)",
+          "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9594.94** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.87x. \u2022 **Sell/Stop Loss Trigger:** \u20b9445.66 \u2022 **Target 1:** \u20b9540.56 \u2022 **Target 2:** \u20b9612.65",
+      "strengths": [
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +0.0%)",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
+        "\u26a0\ufe0f High Valuation P/E: 80.7x"
+      ]
+    },
+    {
       "symbol": "RAJOOENG.NS",
       "clean_symbol": "RAJOOENG",
       "name": "Rajoo Engineers Ltd",
@@ -14730,6 +14812,19 @@ window.stockData = {
       "symbol": "SJVN.NS",
       "clean_symbol": "SJVN",
       "name": "SJVN Ltd"
+    },
+    {
+      "date": "2026-11-23",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +0.0%)",
+      "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "E2E.NS",
+      "clean_symbol": "E2E",
+      "name": "E2E Networks Ltd"
     },
     {
       "date": "2026-11-23",
