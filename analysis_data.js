@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "24-Nov-2026 01:31:14 PM IST (Indian Standard Time)",
+    "last_updated": "24-Nov-2026 01:45:58 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,349.65",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 29,
     "pattern_breakouts_count": 22,
     "upcoming_3d_events_count": 127,
-    "scan_time_seconds": 17.6
+    "scan_time_seconds": 20.8
   },
   "top_20_swing": [
     {
@@ -7191,7 +7191,7 @@ window.stockData = {
       "debt_score_penalty": 15,
       "rev_growth_yoy": 10.1,
       "earnings_growth_yoy": 10.3,
-      "dividend_yield": 263.0,
+      "dividend_yield": 272.0,
       "promoter_holding": 82.9,
       "institutional_holding": 4.9,
       "pledged_pct": 0.0,
