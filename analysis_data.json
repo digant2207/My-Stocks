@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "24-Nov-2026 07:49:23 PM IST (Indian Standard Time)",
+    "last_updated": "24-Nov-2026 08:12:07 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,349.65",
@@ -17,12 +17,12 @@
         "is_positive": false
       }
     },
-    "total_stocks_scanned": 140,
+    "total_stocks_scanned": 139,
     "swing_top_20_count": 20,
     "strong_buys_count": 29,
     "pattern_breakouts_count": 22,
-    "upcoming_3d_events_count": 127,
-    "scan_time_seconds": 13.6
+    "upcoming_3d_events_count": 126,
+    "scan_time_seconds": 27.1
   },
   "top_20_swing": [
     {
@@ -569,7 +569,7 @@
       "macd_val": 5.41,
       "macd_signal": 4.61,
       "macd_hist": 0.79,
-      "pe_ratio": 40.92,
+      "pe_ratio": 41.1,
       "roe": 8.2,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -998,7 +998,7 @@
       "macd_val": 4.0,
       "macd_signal": 3.08,
       "macd_hist": 0.92,
-      "pe_ratio": 15.49,
+      "pe_ratio": 15.34,
       "roe": 22.7,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -2537,7 +2537,7 @@
       "macd_val": 6.3,
       "macd_signal": 1.61,
       "macd_hist": 4.69,
-      "pe_ratio": 82.4,
+      "pe_ratio": 79.95,
       "roe": 32.7,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -2594,7 +2594,7 @@
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 82.4x"
+        "\u26a0\ufe0f High Valuation P/E: 80.0x"
       ]
     },
     {
@@ -2621,7 +2621,7 @@
       "macd_val": 5.41,
       "macd_signal": 4.61,
       "macd_hist": 0.79,
-      "pe_ratio": 40.92,
+      "pe_ratio": 41.1,
       "roe": 8.2,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -3144,7 +3144,7 @@
       "macd_val": 4.0,
       "macd_signal": 3.08,
       "macd_hist": 0.92,
-      "pe_ratio": 15.49,
+      "pe_ratio": 15.34,
       "roe": 22.7,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -3486,7 +3486,7 @@
       "macd_val": 1.92,
       "macd_signal": 1.7,
       "macd_hist": 0.22,
-      "pe_ratio": 10.8,
+      "pe_ratio": 10.71,
       "roe": 9.5,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -4158,7 +4158,7 @@
       "macd_val": 15.76,
       "macd_signal": 15.18,
       "macd_hist": 0.58,
-      "pe_ratio": 48.87,
+      "pe_ratio": 48.36,
       "roe": 8.9,
       "debt_to_equity": 0.21,
       "debt_status": "Low Debt (Healthy)",
@@ -4580,7 +4580,7 @@
       "macd_val": 31.71,
       "macd_signal": -23.43,
       "macd_hist": 55.15,
-      "pe_ratio": 32.15,
+      "pe_ratio": 32.35,
       "roe": 14.3,
       "debt_to_equity": 0.03,
       "debt_status": "Low Debt (Healthy)",
@@ -4917,7 +4917,7 @@
       "macd_val": 180.72,
       "macd_signal": 107.9,
       "macd_hist": 72.81,
-      "pe_ratio": 13.67,
+      "pe_ratio": 13.82,
       "roe": 11.6,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -6182,7 +6182,7 @@
       "macd_val": -0.04,
       "macd_signal": -0.42,
       "macd_hist": 0.39,
-      "pe_ratio": 6.31,
+      "pe_ratio": 6.44,
       "roe": 12.7,
       "debt_to_equity": 0.33,
       "debt_status": "Low Debt (Healthy)",
@@ -8505,7 +8505,7 @@
       "macd_val": -1.11,
       "macd_signal": -1.15,
       "macd_hist": 0.04,
-      "pe_ratio": 7.97,
+      "pe_ratio": 7.85,
       "roe": 21.4,
       "debt_to_equity": 0.2,
       "debt_status": "Low Debt (Healthy)",
@@ -8995,7 +8995,7 @@
       "macd_val": -0.35,
       "macd_signal": -0.44,
       "macd_hist": 0.1,
-      "pe_ratio": 6.3,
+      "pe_ratio": 6.24,
       "roe": 13.9,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -10462,7 +10462,7 @@
       "macd_val": -5.12,
       "macd_signal": -4.11,
       "macd_hist": -1.02,
-      "pe_ratio": 21.62,
+      "pe_ratio": 22.15,
       "roe": 6.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -10924,88 +10924,6 @@
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -50.1% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure"
-      ]
-    },
-    {
-      "symbol": "E2E.NS",
-      "clean_symbol": "E2E",
-      "name": "E2E Networks Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 452.45,
-      "prev_close": 479.0,
-      "day_change_pct": -5.54,
-      "day_high": 467.05,
-      "day_low": 452.45,
-      "volume": 1580754,
-      "vol_1m_avg": 1783467,
-      "vol_surge_ratio": 0.89,
-      "52w_high": 765.0,
-      "52w_low": 183.36,
-      "sma_20": 511.67,
-      "sma_50": 594.1,
-      "sma_200": 434.03,
-      "rsi_14": 33.7,
-      "macd_val": -35.28,
-      "macd_signal": -31.93,
-      "macd_hist": -3.35,
-      "pe_ratio": 80.65,
-      "roe": 6.9,
-      "debt_to_equity": 0.28,
-      "debt_status": "Low Debt (Healthy)",
-      "debt_score_penalty": 0,
-      "rev_growth_yoy": 410.8,
-      "earnings_growth_yoy": 0.0,
-      "dividend_yield": 0.0,
-      "promoter_holding": 60.5,
-      "institutional_holding": 2.9,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 589.8,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Distribution / Selling Pressure \ud83d\udd34",
-      "is_volume_dryup": false,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 590.39,
-      "sell_trigger_price": 445.66,
-      "buy_status": "\u26a1 BUY ABOVE \u20b9590.39 (30.5% away)",
-      "swing_target_1": 552.11,
-      "swing_target_2": 633.64,
-      "swing_stoploss": 445.66,
-      "breakout_proximity_pct": 30.4,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 31.1,
-      "composite_score": 22,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-11-24",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +0.0%)",
-          "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9590.39** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.89x. \u2022 **Sell/Stop Loss Trigger:** \u20b9445.66 \u2022 **Target 1:** \u20b9552.11 \u2022 **Target 2:** \u20b9633.64",
-      "strengths": [
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +0.0%)",
-        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
-      ],
-      "weaknesses": [
-        "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 80.7x"
       ]
     },
     {
@@ -14714,19 +14632,6 @@
       "symbol": "SJVN.NS",
       "clean_symbol": "SJVN",
       "name": "SJVN Ltd"
-    },
-    {
-      "date": "2026-11-24",
-      "date_tag": "Today",
-      "is_upcoming_3_days": true,
-      "type": "Quarterly Earnings Growth",
-      "title": "Strong Earnings Growth (YoY Profit +0.0%)",
-      "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
-      "impact": "Bullish Re-rating \ud83d\ude80",
-      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
-      "symbol": "E2E.NS",
-      "clean_symbol": "E2E",
-      "name": "E2E Networks Ltd"
     },
     {
       "date": "2026-11-24",
