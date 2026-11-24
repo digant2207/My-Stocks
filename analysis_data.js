@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "24-Nov-2026 03:01:08 PM IST (Indian Standard Time)",
+    "last_updated": "24-Nov-2026 03:15:58 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,349.65",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 29,
     "pattern_breakouts_count": 22,
     "upcoming_3d_events_count": 127,
-    "scan_time_seconds": 16.6
+    "scan_time_seconds": 16.1
   },
   "top_20_swing": [
     {
@@ -7428,7 +7428,7 @@ window.stockData = {
       "macd_val": -4.17,
       "macd_signal": -2.41,
       "macd_hist": -1.76,
-      "pe_ratio": 10.63,
+      "pe_ratio": 11.0,
       "roe": 21.5,
       "debt_to_equity": 0.07,
       "debt_status": "Low Debt (Healthy)",
@@ -8261,7 +8261,7 @@ window.stockData = {
       "macd_val": -0.4,
       "macd_signal": -0.45,
       "macd_hist": 0.05,
-      "pe_ratio": 21.28,
+      "pe_ratio": 21.11,
       "roe": 10.7,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -8668,7 +8668,7 @@ window.stockData = {
       "macd_val": -19.53,
       "macd_signal": -22.33,
       "macd_hist": 2.8,
-      "pe_ratio": 25.71,
+      "pe_ratio": 26.24,
       "roe": 11.4,
       "debt_to_equity": 0.13,
       "debt_status": "Low Debt (Healthy)",
@@ -9402,7 +9402,7 @@ window.stockData = {
       "macd_val": -3.21,
       "macd_signal": -7.06,
       "macd_hist": 3.84,
-      "pe_ratio": 14.04,
+      "pe_ratio": 14.44,
       "roe": 14.9,
       "debt_to_equity": 0.3,
       "debt_status": "Low Debt (Healthy)",
@@ -9563,7 +9563,7 @@ window.stockData = {
       "macd_val": -2.35,
       "macd_signal": -3.22,
       "macd_hist": 0.87,
-      "pe_ratio": 317.86,
+      "pe_ratio": 329.63,
       "roe": -0.1,
       "debt_to_equity": 0.04,
       "debt_status": "Low Debt (Healthy)",
@@ -9619,7 +9619,7 @@ window.stockData = {
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -41.7% YoY)",
         "\u26a0\ufe0f Volume Dynamics: Institutional Distribution / Selling Pressure",
-        "\u26a0\ufe0f High Valuation P/E: 317.9x"
+        "\u26a0\ufe0f High Valuation P/E: 329.6x"
       ]
     },
     {
@@ -11032,7 +11032,7 @@ window.stockData = {
       "macd_val": -0.14,
       "macd_signal": -0.01,
       "macd_hist": -0.13,
-      "pe_ratio": 22.38,
+      "pe_ratio": 22.75,
       "roe": 12.5,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
