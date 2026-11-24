@@ -1,6 +1,6 @@
 {
   "summary": {
-    "last_updated": "24-Nov-2026 01:45:58 PM IST (Indian Standard Time)",
+    "last_updated": "24-Nov-2026 02:01:09 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,349.65",
@@ -22,7 +22,7 @@
     "strong_buys_count": 29,
     "pattern_breakouts_count": 22,
     "upcoming_3d_events_count": 127,
-    "scan_time_seconds": 20.8
+    "scan_time_seconds": 11.1
   },
   "top_20_swing": [
     {
@@ -10731,8 +10731,8 @@
       "rev_growth_yoy": -1.4,
       "earnings_growth_yoy": 11.1,
       "dividend_yield": 19.0,
-      "promoter_holding": 62.6,
-      "institutional_holding": 7.6,
+      "promoter_holding": 59.1,
+      "institutional_holding": 7.2,
       "pledged_pct": 0.0,
       "primary_pattern": "Range Consolidation",
       "pattern_bias": "Neutral",
