@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "24-Nov-2026 09:16:06 AM IST (Indian Standard Time)",
+    "last_updated": "24-Nov-2026 09:31:13 AM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,349.65",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 29,
     "pattern_breakouts_count": 22,
     "upcoming_3d_events_count": 127,
-    "scan_time_seconds": 22.9
+    "scan_time_seconds": 22.1
   },
   "top_20_swing": [
     {
@@ -1171,7 +1171,7 @@ window.stockData = {
       "macd_val": -2.98,
       "macd_signal": -7.19,
       "macd_hist": 4.21,
-      "pe_ratio": 43.89,
+      "pe_ratio": 43.73,
       "roe": 18.3,
       "debt_to_equity": 0.56,
       "debt_status": "Moderate Debt",
@@ -3824,7 +3824,7 @@ window.stockData = {
       "macd_val": -2.98,
       "macd_signal": -7.19,
       "macd_hist": 4.21,
-      "pe_ratio": 43.89,
+      "pe_ratio": 43.73,
       "roe": 18.3,
       "debt_to_equity": 0.56,
       "debt_status": "Moderate Debt",
@@ -8172,7 +8172,7 @@ window.stockData = {
       "macd_val": -5.98,
       "macd_signal": -4.99,
       "macd_hist": -0.99,
-      "pe_ratio": 7.44,
+      "pe_ratio": 7.61,
       "roe": 15.8,
       "debt_to_equity": 0.59,
       "debt_status": "Moderate Debt",
@@ -12855,7 +12855,7 @@ window.stockData = {
       "macd_val": -1.47,
       "macd_signal": 0.94,
       "macd_hist": -2.4,
-      "pe_ratio": 87.43,
+      "pe_ratio": 87.32,
       "roe": 2.5,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -12911,7 +12911,7 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -8.9% YoY)",
-        "\u26a0\ufe0f High Valuation P/E: 87.4x"
+        "\u26a0\ufe0f High Valuation P/E: 87.3x"
       ]
     },
     {
