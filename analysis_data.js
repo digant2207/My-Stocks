@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "25-Nov-2026 04:16:05 PM IST (Indian Standard Time)",
+    "last_updated": "25-Nov-2026 04:31:14 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,819.25",
@@ -17,12 +17,12 @@ window.stockData = {
         "is_positive": true
       }
     },
-    "total_stocks_scanned": 139,
+    "total_stocks_scanned": 140,
     "swing_top_20_count": 20,
     "strong_buys_count": 31,
     "pattern_breakouts_count": 24,
-    "upcoming_3d_events_count": 126,
-    "scan_time_seconds": 17.1
+    "upcoming_3d_events_count": 127,
+    "scan_time_seconds": 17.3
   },
   "top_20_swing": [
     {
@@ -136,7 +136,7 @@ window.stockData = {
       "macd_val": 5.6,
       "macd_signal": 4.65,
       "macd_hist": 0.95,
-      "pe_ratio": 41.44,
+      "pe_ratio": 41.63,
       "roe": 8.2,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -1260,7 +1260,7 @@ window.stockData = {
       "macd_val": 3.95,
       "macd_signal": 3.06,
       "macd_hist": 0.88,
-      "pe_ratio": 15.43,
+      "pe_ratio": 15.28,
       "roe": 22.7,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -1858,7 +1858,7 @@ window.stockData = {
       "macd_val": 5.6,
       "macd_signal": 4.65,
       "macd_hist": 0.95,
-      "pe_ratio": 41.44,
+      "pe_ratio": 41.63,
       "roe": 8.2,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -3418,7 +3418,7 @@ window.stockData = {
       "macd_val": 4.19,
       "macd_signal": 1.19,
       "macd_hist": 3.0,
-      "pe_ratio": 80.08,
+      "pe_ratio": 77.7,
       "roe": 32.7,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -3475,7 +3475,7 @@ window.stockData = {
         "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
       ],
       "weaknesses": [
-        "\u26a0\ufe0f High Valuation P/E: 80.1x"
+        "\u26a0\ufe0f High Valuation P/E: 77.7x"
       ]
     },
     {
@@ -3502,7 +3502,7 @@ window.stockData = {
       "macd_val": 3.95,
       "macd_signal": 3.06,
       "macd_hist": 0.88,
-      "pe_ratio": 15.43,
+      "pe_ratio": 15.28,
       "roe": 22.7,
       "debt_to_equity": 0.01,
       "debt_status": "Low Debt (Healthy)",
@@ -3841,7 +3841,7 @@ window.stockData = {
       "macd_val": 1.84,
       "macd_signal": 1.69,
       "macd_hist": 0.15,
-      "pe_ratio": 10.51,
+      "pe_ratio": 10.43,
       "roe": 9.5,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -4347,7 +4347,7 @@ window.stockData = {
       "macd_val": 15.22,
       "macd_signal": 15.07,
       "macd_hist": 0.14,
-      "pe_ratio": 47.84,
+      "pe_ratio": 47.34,
       "roe": 8.9,
       "debt_to_equity": 0.21,
       "debt_status": "Low Debt (Healthy)",
@@ -5106,7 +5106,7 @@ window.stockData = {
       "macd_val": 171.54,
       "macd_signal": 106.07,
       "macd_hist": 65.47,
-      "pe_ratio": 13.54,
+      "pe_ratio": 13.69,
       "roe": 11.6,
       "debt_to_equity": 0.0,
       "debt_status": "Zero Debt",
@@ -5440,7 +5440,7 @@ window.stockData = {
       "macd_val": 0.05,
       "macd_signal": -0.41,
       "macd_hist": 0.45,
-      "pe_ratio": 6.36,
+      "pe_ratio": 6.48,
       "roe": 12.7,
       "debt_to_equity": 0.33,
       "debt_status": "Low Debt (Healthy)",
@@ -9112,7 +9112,7 @@ window.stockData = {
       "macd_val": -0.37,
       "macd_signal": -0.45,
       "macd_hist": 0.08,
-      "pe_ratio": 6.28,
+      "pe_ratio": 6.22,
       "roe": 13.9,
       "debt_to_equity": 0.49,
       "debt_status": "Low Debt (Healthy)",
@@ -10504,7 +10504,7 @@ window.stockData = {
       "macd_val": -1.17,
       "macd_signal": -1.16,
       "macd_hist": -0.01,
-      "pe_ratio": 7.88,
+      "pe_ratio": 7.76,
       "roe": 21.4,
       "debt_to_equity": 0.2,
       "debt_status": "Low Debt (Healthy)",
@@ -10748,7 +10748,7 @@ window.stockData = {
       "macd_val": -5.33,
       "macd_signal": -4.15,
       "macd_hist": -1.18,
-      "pe_ratio": 21.31,
+      "pe_ratio": 21.83,
       "roe": 6.0,
       "debt_to_equity": 0.06,
       "debt_status": "Low Debt (Healthy)",
@@ -11292,6 +11292,87 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -38.3% YoY)"
+      ]
+    },
+    {
+      "symbol": "E2E.NS",
+      "clean_symbol": "E2E",
+      "name": "E2E Networks Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 453.25,
+      "prev_close": 452.45,
+      "day_change_pct": 0.18,
+      "day_high": 464.45,
+      "day_low": 443.05,
+      "volume": 2005136,
+      "vol_1m_avg": 1804686,
+      "vol_surge_ratio": 1.11,
+      "52w_high": 765.0,
+      "52w_low": 183.36,
+      "sma_20": 511.71,
+      "sma_50": 594.12,
+      "sma_200": 434.03,
+      "rsi_14": 33.9,
+      "macd_val": -35.22,
+      "macd_signal": -31.92,
+      "macd_hist": -3.3,
+      "pe_ratio": 80.79,
+      "roe": 6.9,
+      "debt_to_equity": 0.28,
+      "debt_status": "Low Debt (Healthy)",
+      "debt_score_penalty": 0,
+      "rev_growth_yoy": 410.8,
+      "earnings_growth_yoy": 0.0,
+      "dividend_yield": 0.0,
+      "promoter_holding": 60.5,
+      "institutional_holding": 2.9,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 589.8,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Neutral Balance \u2696\ufe0f",
+      "is_volume_dryup": false,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 590.39,
+      "sell_trigger_price": 445.66,
+      "buy_status": "\u26a1 BUY ABOVE \u20b9590.39 (30.3% away)",
+      "swing_target_1": 552.58,
+      "swing_target_2": 633.85,
+      "swing_stoploss": 445.66,
+      "breakout_proximity_pct": 30.1,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 36.6,
+      "composite_score": 22,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-11-25",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +0.0%)",
+          "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b9590.39** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 1.11x. \u2022 **Sell/Stop Loss Trigger:** \u20b9445.66 \u2022 **Target 1:** \u20b9552.58 \u2022 **Target 2:** \u20b9633.85",
+      "strengths": [
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +0.0%)",
+        "\ud83d\udcc8 Above 200-day EMA (Long-term Bull Trend)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f High Valuation P/E: 80.8x"
       ]
     },
     {
@@ -14717,6 +14798,19 @@ window.stockData = {
       "symbol": "GSFC.NS",
       "clean_symbol": "GSFC",
       "name": "Gujarat State Fertilizers & Chemicls Ltd"
+    },
+    {
+      "date": "2026-11-25",
+      "date_tag": "Today",
+      "is_upcoming_3_days": true,
+      "type": "Quarterly Earnings Growth",
+      "title": "Strong Earnings Growth (YoY Profit +0.0%)",
+      "summary": "Company declared strong YoY revenue growth of 410.8% and Net Profit growth of 0.0%.",
+      "impact": "Bullish Re-rating \ud83d\ude80",
+      "impact_reason": "Beating growth expectations provides positive fundamental momentum.",
+      "symbol": "E2E.NS",
+      "clean_symbol": "E2E",
+      "name": "E2E Networks Ltd"
     },
     {
       "date": "2026-11-25",
