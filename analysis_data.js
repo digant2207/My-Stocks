@@ -1,6 +1,6 @@
 window.stockData = {
   "summary": {
-    "last_updated": "27-Nov-2026 04:15:56 PM IST (Indian Standard Time)",
+    "last_updated": "27-Nov-2026 04:31:18 PM IST (Indian Standard Time)",
     "indices": {
       "nifty": {
         "price": "25,607.20",
@@ -22,7 +22,7 @@ window.stockData = {
     "strong_buys_count": 37,
     "pattern_breakouts_count": 39,
     "upcoming_3d_events_count": 133,
-    "scan_time_seconds": 19.8
+    "scan_time_seconds": 23.0
   },
   "top_20_swing": [
     {
@@ -10517,87 +10517,6 @@ window.stockData = {
       ]
     },
     {
-      "symbol": "NHPC.NS",
-      "clean_symbol": "NHPC",
-      "name": "NHPC Ltd",
-      "sector": "Spark Watchlist",
-      "cap_type": "Equity",
-      "tracking_notes": "Google Sheet Spark Stock List",
-      "current_price": 75.65,
-      "prev_close": 75.9,
-      "day_change_pct": -0.33,
-      "day_high": 76.46,
-      "day_low": 75.65,
-      "volume": 4170524,
-      "vol_1m_avg": 13411621,
-      "vol_surge_ratio": 0.31,
-      "52w_high": 86.83,
-      "52w_low": 68.79,
-      "sma_20": 77.25,
-      "sma_50": 75.05,
-      "sma_200": 76.82,
-      "rsi_14": 48.9,
-      "macd_val": 0.11,
-      "macd_signal": 0.38,
-      "macd_hist": -0.27,
-      "pe_ratio": 17.59,
-      "roe": 9.6,
-      "debt_to_equity": 1.18,
-      "debt_status": "High Debt Warning",
-      "debt_score_penalty": 15,
-      "rev_growth_yoy": 33.2,
-      "earnings_growth_yoy": 51.0,
-      "dividend_yield": 212.0,
-      "promoter_holding": 62.5,
-      "institutional_holding": 21.9,
-      "pledged_pct": 0.0,
-      "primary_pattern": "Range Consolidation",
-      "pattern_bias": "Neutral",
-      "pattern_confidence": 60,
-      "breakout_level": 83.53,
-      "pattern_description": "Stock trading in a sideways consolidation range.",
-      "accumulation_status": "Moderate Buying Interest \ud83d\udfe2",
-      "is_volume_dryup": true,
-      "breakout_summary": "Consolidation Range",
-      "is_20d_high_breakout": false,
-      "is_50d_box_breakout": false,
-      "is_nr7_expansion": false,
-      "is_52w_high_breakout": false,
-      "buy_trigger_price": 83.61,
-      "sell_trigger_price": 71.04,
-      "buy_status": "\u26a1 BUY ABOVE \u20b983.61 (10.5% away)",
-      "swing_target_1": 82.53,
-      "swing_target_2": 88.16,
-      "swing_stoploss": 71.04,
-      "breakout_proximity_pct": 10.4,
-      "is_near_breakout_zone": false,
-      "breakout_readiness_score": 19.8,
-      "composite_score": 30,
-      "long_term_signal": "REDUCE / AVOID",
-      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
-      "swing_reason": "Stock trading in a sideways consolidation range.",
-      "events": [
-        {
-          "date": "2026-11-27",
-          "date_tag": "Today",
-          "is_upcoming_3_days": true,
-          "type": "Quarterly Earnings Growth",
-          "title": "Strong Earnings Growth (YoY Profit +51.0%)",
-          "summary": "Company declared strong YoY revenue growth of 33.2% and Net Profit growth of 51.0%.",
-          "impact": "Bullish Re-rating \ud83d\ude80",
-          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
-        }
-      ],
-      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b983.61** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.31x. \u2022 **Sell/Stop Loss Trigger:** \u20b971.04 \u2022 **Target 1:** \u20b982.53 \u2022 **Target 2:** \u20b988.16",
-      "strengths": [
-        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+51.0%) & Revenue (+33.2%)",
-        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +51.0%)"
-      ],
-      "weaknesses": [
-        "\u26a0\ufe0f High Debt Ratio: 1.18"
-      ]
-    },
-    {
       "symbol": "NATCOPHARM.NS",
       "clean_symbol": "NATCOPHARM",
       "name": "Natco Pharma Ltd",
@@ -10678,6 +10597,87 @@ window.stockData = {
       ],
       "weaknesses": [
         "\ud83d\udcca Last Result: Profit De-growth (Net Profit Declined -60.9% YoY)"
+      ]
+    },
+    {
+      "symbol": "NHPC.NS",
+      "clean_symbol": "NHPC",
+      "name": "NHPC Ltd",
+      "sector": "Spark Watchlist",
+      "cap_type": "Equity",
+      "tracking_notes": "Google Sheet Spark Stock List",
+      "current_price": 75.65,
+      "prev_close": 75.9,
+      "day_change_pct": -0.33,
+      "day_high": 76.46,
+      "day_low": 75.65,
+      "volume": 4170524,
+      "vol_1m_avg": 13411621,
+      "vol_surge_ratio": 0.31,
+      "52w_high": 86.83,
+      "52w_low": 68.79,
+      "sma_20": 77.25,
+      "sma_50": 75.05,
+      "sma_200": 76.82,
+      "rsi_14": 48.9,
+      "macd_val": 0.11,
+      "macd_signal": 0.38,
+      "macd_hist": -0.27,
+      "pe_ratio": 17.59,
+      "roe": 9.6,
+      "debt_to_equity": 1.18,
+      "debt_status": "High Debt Warning",
+      "debt_score_penalty": 15,
+      "rev_growth_yoy": 33.2,
+      "earnings_growth_yoy": 51.0,
+      "dividend_yield": 212.0,
+      "promoter_holding": 62.5,
+      "institutional_holding": 21.9,
+      "pledged_pct": 0.0,
+      "primary_pattern": "Range Consolidation",
+      "pattern_bias": "Neutral",
+      "pattern_confidence": 60,
+      "breakout_level": 83.53,
+      "pattern_description": "Stock trading in a sideways consolidation range.",
+      "accumulation_status": "Moderate Buying Interest \ud83d\udfe2",
+      "is_volume_dryup": true,
+      "breakout_summary": "Consolidation Range",
+      "is_20d_high_breakout": false,
+      "is_50d_box_breakout": false,
+      "is_nr7_expansion": false,
+      "is_52w_high_breakout": false,
+      "buy_trigger_price": 83.61,
+      "sell_trigger_price": 71.04,
+      "buy_status": "\u26a1 BUY ABOVE \u20b983.61 (10.5% away)",
+      "swing_target_1": 82.53,
+      "swing_target_2": 88.16,
+      "swing_stoploss": 71.04,
+      "breakout_proximity_pct": 10.4,
+      "is_near_breakout_zone": false,
+      "breakout_readiness_score": 19.8,
+      "composite_score": 30,
+      "long_term_signal": "REDUCE / AVOID",
+      "swing_signal": "NEUTRAL / WATCH \u2696\ufe0f",
+      "swing_reason": "Stock trading in a sideways consolidation range.",
+      "events": [
+        {
+          "date": "2026-11-27",
+          "date_tag": "Today",
+          "is_upcoming_3_days": true,
+          "type": "Quarterly Earnings Growth",
+          "title": "Strong Earnings Growth (YoY Profit +51.0%)",
+          "summary": "Company declared strong YoY revenue growth of 33.2% and Net Profit growth of 51.0%.",
+          "impact": "Bullish Re-rating \ud83d\ude80",
+          "impact_reason": "Beating growth expectations provides positive fundamental momentum."
+        }
+      ],
+      "ai_suggestion": "**ACCUMULATE ON DIPS - BUY TRIGGER: \u20b983.61** \u2022 Consolidating in **Range Consolidation** base (Consolidation Range). Volume RVOL: 0.31x. \u2022 **Sell/Stop Loss Trigger:** \u20b971.04 \u2022 **Target 1:** \u20b982.53 \u2022 **Target 2:** \u20b988.16",
+      "strengths": [
+        "\ud83d\udcca Last Result: Outstanding YoY Net Profit Growth (+51.0%) & Revenue (+33.2%)",
+        "\ud83d\udcc5 Upcoming Event (Today): Quarterly Earnings Growth - Strong Earnings Growth (YoY Profit +51.0%)"
+      ],
+      "weaknesses": [
+        "\u26a0\ufe0f High Debt Ratio: 1.18"
       ]
     },
     {
